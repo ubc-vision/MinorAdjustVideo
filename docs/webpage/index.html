@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Making Video Models Adhere to User Intent with Minor Adjustments</title>
+    <meta property="og:title" content="Small Balanced Adjustments to User-Provided Bounding Boxes Help Your Video Model to Adhere to User Intent" />
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="has-text-centered">
+                    <h1 class="title is-2">Making Video Models Adhere to User Intent with Minor Adjustments</h1>
+                    <p class="subtitle is-6">TMLR 2026</p>
+                    <p class="authors">
+                        <a href="https://danielajisafe.github.io/" target="_blank" rel="noopener">Daniel Ajisafe</a><sup>1</sup>,
+                        <a href="https://ehedlin.github.io/" target="_blank" rel="noopener">Eric Hedlin</a><sup>1</sup>,
+                        <a href="https://helge.rhodin.de/" target="_blank" rel="noopener">Helge Rhodin</a><sup>2,1</sup>,
+                        <a href="https://www.cs.ubc.ca/~kmyi/" target="_blank" rel="noopener">Kwang Moo Yi</a><sup>1</sup>
+                    </p>
+                    <p class="affiliations" style="font-size: 0.9em; color: #555;">
+                        <sup>1</sup>The University of British Columbia &nbsp;
+                        <sup>2</sup>Bielefeld University
+                    </p>
+                    <p>
+                        <a href="#" class="paper-button">Paper</a>
+                        <a href="https://github.com/ubc-vision/MinorAdjustVideo" target="_blank" class="paper-button">Code</a>
+                        <a href="#" class="paper-button">Video</a>
+                        <a href="#" class="paper-button">Eval Data</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container is-max-desktop has-text-centered">
+        <hr>
+        <br>
+        <p style="width: 80%;">
+            <b>In short:</b>
+            Slightly adjusting user-provided boxes to align with internal attention maps significantly improve the quality of generations.
+        </p>
+        <br>
+        <img style="width: 90%;" src="resources/method_teaser.png" alt="Teaser figure." />
+       
+        <br><br><br>
+        <hr>
+        <h1>Abstract</h1>
+        <p style="width: 80%; text-align: justify;">
+            With the recent drastic advancements in text-to-video diffusion models, controlling their generations has drawn interest. A popular way for control is through bounding boxes or layouts. However, enforcing adherence to these control inputs is still an open problem. In this work, we show that by slightly adjusting user-provided bounding boxes we can improve both the quality of generations and the adherence to the control inputs. This is achieved by simply optimizing the bounding boxes to better align with the internal attention maps of the video diffusion model while carefully balancing the focus on foreground and background. In a sense, we are modifying the bounding boxes to be at places where the model is familiar with. Surprisingly, we find that even with small modifications, the quality of generations can vary significantly. To do so, we propose a smooth mask to make the bounding box position differentiable and an attention-maximization objective that we use to alter the bounding boxes. We conduct thorough experiments, including a user study to validate the effectiveness of our method.
+        </p>
+        <br><br>
+    </div>
+    <hr>
+    <h1>Qualitative video generations</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">T2V-Turbo Variants</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The jellyfish is swimming</td>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The turtle is swimming</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/jellyfish/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/jellyfish/optim/with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/turtle/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/turtle/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The surgeonfish is swimming</td>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The tiger is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/surgeonfish/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/surgeonfish/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/tiger/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/tiger/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 30px;"></td>
+        </tr>
+    </table>
+
+    <div class="tbl_video">
+        <table style="table-layout: fixed; width: 100%;">
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">Trailblazer Variants</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The firebrat insect is moving</td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/insect/peekaboo/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/insect/base/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/insect/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Peekaboo</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Trailblazer</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Our method</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 15px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The horse is running</td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/horse/peekaboo/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/horse/base/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/horse/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Peekaboo</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Trailblazer</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Our method</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 15px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The whooper swan is flying</td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/swan/peekaboo/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/swan/base/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/swan/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Peekaboo</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Trailblazer</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Our method</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 15px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The jellyfish is swimming</td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/jellyfish/peekaboo/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/jellyfish/base/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td style="width: 33.33%;">
+                    <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                        <source src="resources/videos/qualitative/jellyfish/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Peekaboo</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Trailblazer</td>
+                <td style="width: 33.33%; font-size: 18px; text-align: center;">Our method</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 15px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; font-size: 18px; padding-bottom: 10px;">User box in <span class="text-blue">blue</span> | Optimized box in <span class="text-orange">orange</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+    <br><br>
+    <hr>
+    <h1>Visualizing attention map evolution</h1>
+    
+    <div class="tbl_video">
+        <div class="slider-container">
+            <div class="slider-layout">
+              <div class="slider-left">
+                <div class="slider-stage">
+                  <img
+                    id="slider-image"
+                    class="media-visible"
+                    src="resources/images/optim/traj_evolution2/high_res/maps/up.2.2.0_maps_diff_map-attn_map_spatial_t_0000_opt_idx_0000.png"
+                    alt="Image Slider" />
+                </div>
+                <input type="range" id="slider" min="0" max="24" value="0" />
+              </div>
+              <div class="slider-right" style="display: none;">
+                <div class="video-stage">
+                  <video
+                    id="slider-video"
+                    class="media-hidden"
+                    muted
+                    playsinline
+                    webkit-playsinline
+                    preload="auto">
+                    <source src="resources/images/optim/traj_evolution2/video/video_disp.0000.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="slider-note">
+            The interactive slider for the 1st frame shows how internal attention maps evolve as we apply our differentiable editing and box optimization. Our method performs a smooth, differentiable edit.
+        </div> 
+        <div class="map-res-toggle">
+            <button id="btn-highres" class="map-res-btn is-active" type="button">Up‑sampling layer</button>
+            <button id="btn-lowres" class="map-res-btn" type="button">Down‑sampling layer</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+    <br><br>
+    <br><br>
+    <hr>
+    <h1>More qualitative video generations -- T2V-Turbo</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The hyena is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/hyena/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/hyena/diff_base/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/hyena/origin_refeed/video_with_original_and_opt_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/hyena/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method w/o Box Opt.</td>
+            <td width="25%" style="font-size: 18px;">Our boxes + Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The otter is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/otter/origin/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/otter/diff_base/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/otter/origin_refeed/video_with_original_and_opt_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/t2vturbo/otter/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method w/o Box Opt.</td>
+            <td width="25%" style="font-size: 18px;">Our boxes + Trailblazer on T2V-Turbo</td>
+            <td width="25%" style="font-size: 18px;">Our method on T2V-Turbo</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">User box in <span class="text-blue">blue</span> | Optimized box in <span class="text-orange">orange</span></td>
+        </tr>
+    </table>
+
+    <br><br>
+    <br><br>
+    <hr>
+    <h1>Morphing task</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td style="width: 50%;">
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/complex_motions/morphing/general_scale/TBL/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td style="width: 50%;">
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/complex_motions/morphing/general_scale/TBL_refeed_optim_box/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; font-size: 18px; text-align: center;">Trailblazer</td>
+            <td style="width: 50%; font-size: 18px; text-align: center;">Our boxes + Trailblazer</td>
+        </tr>
+    </table>
+    <div class="slider-note" style="margin-top: 15px;">
+        Our optimized boxes provide benefit for better control in the morphing task
+    </div>
+
+    <br><br>
+    <br><br>
+    <hr>
+    <h1>More qualitative video generations -- Trailblazer</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The big headed ant is moving</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/ant/origin/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/ant/diff_base/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/ant/origin_refeed/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/ant/optim/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method w/o Box Opt.</td>
+            <td width="25%" style="font-size: 18px;">Our boxes + Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The marine iguana is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/iguana/origin/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/iguana/diff_base/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/iguana/origin_refeed/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/iguana/optim/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method w/o Box Opt.</td>
+            <td width="25%" style="font-size: 18px;">Our boxes + Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The leopard is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/leopard/origin/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/leopard/diff_base/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/leopard/origin_refeed/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="50%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/leopard/optim/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="font-size: 18px;">Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method w/o Box Opt.</td>
+            <td width="25%" style="font-size: 18px;">Our boxes + Trailblazer</td>
+            <td width="25%" style="font-size: 18px;">Our method</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center; font-size: 18px; padding-bottom: 10px;">User box in <span class="text-blue">blue</span> | Optimized box in <span class="text-orange">orange</span></td>
+        </tr>
+    </table>
+
+    <br><br>
+    <br><br>
+    <hr>
+    <h1>Complex patterns</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td style="text-align: center; font-size: 18px; padding-bottom: 10px;">Stationary to move</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding: 10px;">
+                <video class="vid_demo" width="100%" max-width="800px" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/complex_motions/stationary_to_move/eval/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td style="text-align: center; font-size: 18px; padding-bottom: 10px;">U-turn</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding: 10px;">
+                <video class="vid_demo" width="100%" max-width="800px" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/complex_motions/uturn/eval/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td style="text-align: center; font-size: 18px; padding-bottom: 10px;">Zigzag</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; padding: 10px;">
+                <video class="vid_demo" width="100%" max-width="800px" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/complex_motions/small_OOD_box_zigzag/val/optim/video_with_bboxes.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+    <div class="slider-note" style="margin-top: 15px;">
+        Our method is able to preserve complex patterns and difficult motions.
+    </div>
+
+    <br><br>
+    <hr>
+    <h1>Failure cases</h1>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The orca is swimming</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="100%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/orca/origin/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="100%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/orca/optim/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" style="font-size: 18px;">Trailblazer</td>
+            <td width="50%" style="font-size: 18px;">Our Method</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">
+                <div style="text-align: center;">
+                    Both methods fail to generate the desired output for "orca" as the base video model likely has no knowledge of the target prompt
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <table class="tbl_video" style="table-layout: fixed; width: 100%;">
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">The eagle is walking</td>
+        </tr>
+        <tr>
+            <td>
+                <video class="vid_demo" width="100%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/eagle/origin/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td>
+                <video class="vid_demo" width="100%" preload="auto" playsinline webkit-playsinline loop autoplay muted>
+                    <source src="resources/videos/qualitative/eagle/optim/video_with_box.0000.mp4" type="video/mp4">
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" style="font-size: 18px;">Trailblazer</td>
+            <td width="50%" style="font-size: 18px;">Our Method</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 15px;"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center; font-size: 18px; padding-bottom: 10px;">
+                <div style="text-align: center;">
+                    We hypothesize a strong token relationship between an eagle and the US national flag. Our method emphasizes the latter.
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

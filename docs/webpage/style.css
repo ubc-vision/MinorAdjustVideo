@@ -1,0 +1,770 @@
+/* Nerfies-style: Google Sans + Noto Sans (loaded in index.html) */
+
+body {
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.01em;
+    background-color: #fff;
+}
+
+.more-research {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.research-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.research-link {
+    font-family: 'Noto Sans', sans-serif;
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 6px;
+    opacity: 0.7;
+}
+
+.research-link:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.dropdown-content a {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+    padding: 14px 18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:first-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.dropdown-content a:last-child {
+    border-radius: 0 0 6px 6px;
+}
+
+.dropdown-content a:hover {
+    background-color: #e9e9e9;
+    color: #333;
+}
+
+.research-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.research-dropdown .dropdown-content:hover {
+    display: block;
+}
+
+/* Add a small invisible area to prevent dropdown from disappearing */
+.dropdown-content::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.text-orange {
+    color: orange;
+}
+.text-blue {
+    color: blue;
+}
+
+.tbl_video,
+.tbl_video td {
+    font-family: 'Noto Sans', sans-serif;
+}
+.tbl_video {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tbl_video table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tbl_video td {
+    padding: 0.5rem;
+    vertical-align: top;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    display: block;
+}
+
+#visualization {
+    margin-top: -3em;
+}
+
+#canvas {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1f1f1f;
+}
+
+#load-warning {
+    position: relative;
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.lil-gui {
+    --width: 1000px;
+}
+
+.lil-gui>.title {
+    font-size: 1em;
+}
+
+.title {
+    font-family: inherit;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 90%;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+}
+
+.venue,
+.subtitle {
+    font-family: 'Noto Sans', sans-serif;
+}
+.venue {
+    font-size: 24px;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.paper-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.paper-button {
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+    background-color: #04376f;
+    color: white !important;
+    padding: 8px 20px;
+    margin: 0 4px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+.paper-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    color: white !important;
+    text-decoration: none;
+}
+
+.paper-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+/* Remove any browser-added icons from links */
+.paper-button::before,
+.paper-button::after {
+    content: none !important;
+}
+
+/* Remove EditSign icon from PDF links */
+a[href*=".pdf"]::before,
+a[href*=".pdf"]::after {
+    content: none !important;
+    display: none !important;
+}
+
+.author {
+    width: 95%;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+.affiliation {
+    font-size: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.points-label {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: -2px;
+    margin-right: 5px;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0px solid black;
+}
+
+.lines-label {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: -2px;
+    margin-right: 2px;
+    min-width: 15px;
+    min-height: 5px;
+    border-radius: 0%;
+    display: inline-block;
+    border: 0px solid black;
+}
+
+.line {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-left: -2px;
+    margin-right: 5px;
+    min-width: 70px;
+    min-height: 2px;
+    border-radius: 0%;
+    display: inline-block;
+    border: 0px solid black;
+}
+
+.links {
+    font-size: 22px;
+    width: 95%;
+    max-width: 150px;
+}
+
+.vid_demo {
+    width: 100%; /* Default width takes full container size */
+    max-width: 300px; /* Set a maximum width for any no of videos in a row */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center alignment works with margin */
+    margin: 0 auto; /* Center the video horizontally */
+    border-radius: 8px; /* Optional: rounded corners for a polished look */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 1200px) {
+    .vid_demo {
+      max-width: 70%; /* Adjust width for medium screens */
+    }
+    
+    .tbl_video table {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .vid_demo {
+      max-width: 90%; /* Adjust width for small screens (tablets/phones) */
+    }
+    
+    .tbl_video {
+      padding: 1.25rem;
+    }
+    
+    .tbl_video td {
+      padding: 0.4rem;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .vid_demo {
+      max-width: 100%; /* Full width for very small screens */
+    }
+    
+    .tbl_video {
+      padding: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .tbl_video td {
+      padding: 0.25rem;
+      font-size: 14px;
+    }
+    
+    .tbl_video td[colspan] {
+      font-size: 16px;
+    }
+  }
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .slider-stage {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .slider-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .slider-left {
+    flex: 1 1 70%;
+  }
+
+  .slider-right {
+    flex: 1 1 30%;
+  }
+
+  .video-stage {
+    position: relative;
+    width: min(280px, 45vw);
+    aspect-ratio: 1 / 1;
+    margin: 0 auto 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .media-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .media-visible {
+    opacity: 1;
+  }
+  
+  #slider-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #slider-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  @media (max-width: 900px) {
+    .slider-layout {
+      flex-direction: column;
+    }
+  }
+
+  .slider-note {
+    font-family: 'Noto Sans', sans-serif;
+    display: block;          /* override global `div { display: inline-block; }` */
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto 0;     /* centered */
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+}
+
+ .map-res-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 12px auto 0;
+ }
+
+ .map-res-btn {
+    font-family: 'Noto Sans', sans-serif;
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+
+ .map-res-btn.is-active {
+    border-color: #007bff;
+    background: #eaf2ff;
+ }
+  
+
+  #slider {
+    width: 90%; /* Wider slider */
+    height: 20px; /* Make the slider track larger */
+    margin: 20px auto;
+    border-radius: 10px; /* Rounded corners for the track */
+    background: #ddd; /* Light background for the track */
+    outline: none;
+    appearance: none; /* Remove default styling */
+  }
+
+  /* Styling the slider track */
+#slider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px; /* Same as slider height */
+    cursor: pointer;
+    background: #007bff; /* Blue color for the track */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Styling the slider thumb (button) */
+  #slider::-webkit-slider-thumb {
+    width: 36px; /* Large button width */
+    height: 36px; /* Large button height */
+    border-radius: 50%; /* Make it circular */
+    background: #ffffff; /* White color for the button */
+    border: 2px solid #007bff; /* Blue border for contrast */
+    cursor: pointer;
+    appearance: none; /* Remove default styling */
+    margin-top: -8px; /* Center the thumb vertically relative to the track */
+  }
+
+  
+  #slider-image {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slider-container img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #slider-image {
+    transition: opacity 0.5s ease-in-out; /* Smooth fade transition */
+    opacity: 1; /* Default opacity */
+  }
+  
+  #slider-image.fade-out {
+    opacity: 0; /* Make image invisible */
+  }
+
+.paper-thumbnail {
+    margin: 0 auto;
+    width: 40%;
+    max-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2% 10% 4% 0;
+}
+
+.paper-info {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 999px) {
+    .paper-thumbnail {
+        width: 60%;
+    }
+
+    .paper-info {
+        width: 80%;
+    }
+}
+
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+h3, h4, h5 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: left;
+}
+
+div {
+    display: inline-block;
+}
+
+/* Override global `div { display: inline-block; }` for the slider layout */
+.slider-container {
+    display: block;
+}
+.slider-layout {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider-left,
+.slider-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-stage {
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-stage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 90%;
+}
+
+pre {
+    overflow-x: auto;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #eeeeee;
+    padding: 5px 5px 5px 10px;
+    line-height: 1.2;
+    white-space: pre-wrap;
+}
+
+pre code {
+    text-align: left;
+    word-wrap: normal;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+a:link,
+a:visited {
+    color: #1367a7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #208799;
+}
+
+.layered-paper-big {
+    box-shadow:
+        0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The top layer shadow */
+        5px 5px 0 0px #fff,
+        /* The second layer */
+        5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The second layer shadow */
+        10px 10px 0 0px #fff,
+        /* The third layer */
+        10px 10px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The third layer shadow */
+        15px 15px 0 0px #fff,
+        /* The fourth layer */
+        15px 15px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fourth layer shadow */
+        20px 20px 0 0px #fff,
+        /* The fifth layer */
+        20px 20px 1px 1px rgba(0, 0, 0, 0.35),
+        /* The fifth layer shadow */
+        25px 25px 0 0px #fff,
+        /* The fifth layer */
+        25px 25px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+/* Center the Bulma hero header elements without affecting other sections */
+.hero .title {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Google Sans', sans-serif;
+}
+.hero .subtitle,
+.hero .authors,
+.hero .affiliations,
+.hero p {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center !important;
+}
+
+/* Increase hero heading/subtitle sizes and enlarge the Supplementary button */
+.hero .title {
+    font-size: 65px; /* larger main title */
+}
+.hero .subtitle {
+    font-size: 28px; /* venue e.g. TMLR 2026 */
+}
+.hero .button.is-link.is-light.is-small {
+    font-size: 20px;         /* bigger label */
+    padding: 12px 32px;      /* more padding */
+    min-width: 240px;        /* longer button */
+}
+
+/* Hero-specific: tight buttons */
+.hero .paper-button {
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .hero .title { font-size: 56px; }
+    .hero .subtitle { font-size: 26px; }
+}
+@media (max-width: 600px) {
+    .hero .title { font-size: 40px; }
+    .hero .subtitle { font-size: 24px; }
+    .hero .button.is-link.is-light.is-small {
+        font-size: 18px;
+        min-width: 200px;
+        padding: 10px 24px;
+    }
+}
+/* =========================
+   Global +2px font scaling
+   ========================= */
+html {
+    font-size: 18px; /* Bulma/rem-based sizes +2px from default 16px */
+}
+body {
+    font-size: 22px; /* +2px from previous 20px */
+}
+/* Override px-based components by +2px */
+.title {
+    font-size: 62px;
+}
+.venue {
+    font-size: 26px;
+}
+.author {
+    font-size: 22px;
+}
+.affiliation {
+    font-size: 22px;
+}
+.links {
+    font-size: 24px;
+}
+.paper-button {
+    font-size: 20px;
+}
+.research-link {
+    font-size: 20px;
+}
+.dropdown-arrow {
+    font-size: 14px;
+}
+.dropdown-content a {
+    font-size: 18px;
+}
+.slider-note {
+    font-size: 20px;
+}
+pre code {
+    font-size: 16px;
+}
+/* Responsive table text sizes (+2px) */
+@media (max-width: 768px) {
+    .tbl_video td {
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px) {
+    .tbl_video td {
+        font-size: 16px;
+    }
+    .tbl_video td[colspan] {
+        font-size: 18px;
+    }
+}
