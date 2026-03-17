@@ -10,7 +10,7 @@
 
 This repository is the official project page for **Making Video Models Adhere to User Intent with Minor Adjustments**. We show that slightly adjusting user-provided bounding boxes to align with a video diffusion model's internal attention maps improves generation quality and control adherence.
 
-[**Project Page**](https://ubc-vision.github.io/MinorAdjustVideo/) &nbsp;|&nbsp; [**Paper**](#) &nbsp;|&nbsp; [**Code**](https://github.com/ubc-vision/MinorAdjustVideo) &nbsp;|&nbsp; [**Video**](#)
+[**Project Page**](https://ubc-vision.github.io/MinorAdjustVideo/) &nbsp;|&nbsp; [**Paper**](#) &nbsp;|&nbsp; [**Video**](#)
 
 <!-- ---
 
