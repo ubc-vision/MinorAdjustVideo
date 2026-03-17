@@ -297,6 +297,12 @@ a[href*=".pdf"]::after {
     margin: 0 auto; /* Center the video horizontally */
     border-radius: 8px; /* Optional: rounded corners for a polished look */
   }
+
+  /* Complex patterns: keep videos consistent across devices */
+  video.vid_demo.complex-pattern {
+    max-width: 300px !important; /* match default cap */
+    width: 100%;
+  }
   
   /* Responsive adjustments for smaller screens */
   @media (max-width: 1200px) {
