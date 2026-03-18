@@ -26,6 +26,11 @@ Configs under `config/box_opt_teaser/leveltestD/`:
 
 Use the same command pattern as above; replace `--config ...` with the path above. For **box optim** add `--run_config config/run_opt_fwd.yaml --val_model_name "optim"` and the extra flags; for **TrailBlazer** use `--val_model_name "trailblazer_origin"` without `--run_config`.
 
+For example,
+```bash
+python3 -m bin.Fwd_CmdTrailBlazer --config config/box_opt_teaser/leveltestD/horse/motion_0035.yaml --validate --validate_dirname teaser --val_model_name "trailblazer_origin" --shared_config config/common_shared.yaml --output-path output --width 320 --height 320 --set_global_deterministic
+```
+
 ## Complex motions
 
 Configs under `config/box_opt_teaser/complex_motions/`:
@@ -37,6 +42,11 @@ Configs under `config/box_opt_teaser/complex_motions/`:
 | Zigzag (horse)     | `config/box_opt_teaser/complex_motions/zigzag_horse/motion_0000.yaml` |
 
 Same command pattern: swap in the desired `--config ...` path for box optim or TrailBlazer as above.
+
+For example,
+```bash
+python3 -m bin.Fwd_CmdTrailBlazer --config config/box_opt_teaser/complex_motions/stationary_to_move_ant/motion_0001.yaml --validate --validate_dirname teaser --val_model_name "trailblazer_origin" --shared_config config/common_shared.yaml --output-path output --width 320 --height 320 --set_global_deterministic
+```
 
 ## Config locations
 

@@ -21,22 +21,22 @@ This repository is the official project page for **Making Video Models Adhere to
 git clone https://github.com/ubc-vision/MinorAdjustVideo.git
 cd MinorAdjustVideo
 
-# 1) Python 3.10
+# 1) create conda environment
 conda create -n minor_adjust_video python=3.10
 conda activate minor_adjust_video
 
-# 2) Cache dir
+# 2) set a local cache directory
 mkdir .cache; export XDG_CACHE_HOME=.cache
 
 # 3) Install packages
 pip install -r requirements.txt
 
-# 4) Git LFS (for model pointer files)
+# 4) install Git LFS (for model pointer files)
 conda install -c conda-forge git-lfs
 git lfs install
 ```
 
-Download ZeroScope (Hugging Face account + token if gated):
+Download ZeroScope (create Hugging Face account + token if gated):
 
 ```bash
 export ZEROSCOPE_MODEL_ROOT="$(pwd)/.cache"
@@ -70,3 +70,5 @@ Evaluation (test set, configs, outputs) → [eval.md](docs/eval.md).
 - [x] Code release
 - [ ] Demo and usage instructions
 - [ ] Evaluation scripts and data
+
+
