@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5118
+  - 0.1705
+  - 0.7171
+  - 0.7491
+  frame: 0
+  global_frame: 465
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5116
+  - 0.1708
+  - 0.717
+  - 0.7483
+  frame: 1
+  global_frame: 466
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5114
+  - 0.1703
+  - 0.7172
+  - 0.7488
+  frame: 2
+  global_frame: 467
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5112
+  - 0.1703
+  - 0.7169
+  - 0.7489
+  frame: 3
+  global_frame: 468
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5114
+  - 0.1701
+  - 0.7171
+  - 0.7493
+  frame: 4
+  global_frame: 469
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5112
+  - 0.1703
+  - 0.7167
+  - 0.7497
+  frame: 5
+  global_frame: 470
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5111
+  - 0.1691
+  - 0.7169
+  - 0.7502
+  frame: 6
+  global_frame: 471
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5109
+  - 0.1686
+  - 0.7173
+  - 0.7503
+  frame: 7
+  global_frame: 472
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5113
+  - 0.1693
+  - 0.7171
+  - 0.7505
+  frame: 8
+  global_frame: 473
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5129
+  - 0.1708
+  - 0.7167
+  - 0.7494
+  frame: 9
+  global_frame: 474
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5128
+  - 0.1707
+  - 0.7165
+  - 0.7495
+  frame: 10
+  global_frame: 475
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5135
+  - 0.1706
+  - 0.7165
+  - 0.7479
+  frame: 11
+  global_frame: 476
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5127
+  - 0.1703
+  - 0.717
+  - 0.7493
+  frame: 12
+  global_frame: 477
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5125
+  - 0.1697
+  - 0.7158
+  - 0.75
+  frame: 13
+  global_frame: 478
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5124
+  - 0.17
+  - 0.715
+  - 0.7528
+  frame: 14
+  global_frame: 479
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5134
+  - 0.1652
+  - 0.712
+  - 0.7463
+  frame: 15
+  global_frame: 480
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5138
+  - 0.1656
+  - 0.7118
+  - 0.7461
+  frame: 16
+  global_frame: 481
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5153
+  - 0.1703
+  - 0.7175
+  - 0.7485
+  frame: 17
+  global_frame: 482
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5158
+  - 0.1687
+  - 0.7184
+  - 0.7538
+  frame: 18
+  global_frame: 483
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5178
+  - 0.169
+  - 0.7197
+  - 0.7544
+  frame: 19
+  global_frame: 484
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5163
+  - 0.1709
+  - 0.7182
+  - 0.7533
+  frame: 20
+  global_frame: 485
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5158
+  - 0.1707
+  - 0.7159
+  - 0.7541
+  frame: 21
+  global_frame: 486
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5158
+  - 0.1711
+  - 0.7159
+  - 0.7553
+  frame: 22
+  global_frame: 487
+  prompt: the kangaroo is moving
+- bbox_ratios:
+  - 0.5165
+  - 0.1708
+  - 0.7166
+  - 0.7547
+  frame: 23
+  global_frame: 488
+  prompt: the kangaroo is moving
+motion_id: 17
+motion_iter: 0
+num_inference_steps: null
+object_name: kangaroo
+seed: 4
+source_clip: GAHYWXGD_417_494
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

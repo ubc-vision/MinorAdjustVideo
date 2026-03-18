@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0019
+  - 0.3199
+  - 0.4612
+  - 0.7499
+  frame: 0
+  global_frame: 1242
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - -0.0046
+  - 0.3029
+  - 0.4439
+  - 0.8228
+  frame: 1
+  global_frame: 1243
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - -0.0034
+  - 0.3073
+  - 0.4422
+  - 0.8444
+  frame: 2
+  global_frame: 1244
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - -0.002
+  - 0.3153
+  - 0.4437
+  - 0.812
+  frame: 3
+  global_frame: 1245
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - -0.0026
+  - 0.3171
+  - 0.4427
+  - 0.7647
+  frame: 4
+  global_frame: 1246
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - -0.0011
+  - 0.3027
+  - 0.4263
+  - 0.7283
+  frame: 5
+  global_frame: 1247
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.0011
+  - 0.2962
+  - 0.4191
+  - 0.7306
+  frame: 6
+  global_frame: 1248
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.0039
+  - 0.2981
+  - 0.4125
+  - 0.7147
+  frame: 7
+  global_frame: 1249
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.0058
+  - 0.2883
+  - 0.4073
+  - 0.6842
+  frame: 8
+  global_frame: 1250
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.0166
+  - 0.2862
+  - 0.3959
+  - 0.6602
+  frame: 9
+  global_frame: 1251
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.0473
+  - 0.2943
+  - 0.3844
+  - 0.6632
+  frame: 10
+  global_frame: 1252
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.1121
+  - 0.3025
+  - 0.4258
+  - 0.671
+  frame: 11
+  global_frame: 1253
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.1768
+  - 0.3107
+  - 0.4672
+  - 0.6787
+  frame: 12
+  global_frame: 1254
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2415
+  - 0.3189
+  - 0.5085
+  - 0.6864
+  frame: 13
+  global_frame: 1255
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2512
+  - 0.3158
+  - 0.512
+  - 0.6842
+  frame: 14
+  global_frame: 1256
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2609
+  - 0.3126
+  - 0.5155
+  - 0.682
+  frame: 15
+  global_frame: 1257
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2705
+  - 0.3095
+  - 0.5189
+  - 0.6797
+  frame: 16
+  global_frame: 1258
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2802
+  - 0.3064
+  - 0.5224
+  - 0.6775
+  frame: 17
+  global_frame: 1259
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2899
+  - 0.3032
+  - 0.5259
+  - 0.6753
+  frame: 18
+  global_frame: 1260
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.2995
+  - 0.3001
+  - 0.5293
+  - 0.673
+  frame: 19
+  global_frame: 1261
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.3092
+  - 0.297
+  - 0.5328
+  - 0.6708
+  frame: 20
+  global_frame: 1262
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.3189
+  - 0.2938
+  - 0.5362
+  - 0.6686
+  frame: 21
+  global_frame: 1263
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.3285
+  - 0.2907
+  - 0.5397
+  - 0.6664
+  frame: 22
+  global_frame: 1264
+  prompt: the hippopotamus is running
+- bbox_ratios:
+  - 0.3382
+  - 0.2876
+  - 0.5432
+  - 0.6641
+  frame: 23
+  global_frame: 1265
+  prompt: the hippopotamus is running
+motion_id: 33
+motion_iter: 2
+num_inference_steps: null
+object_name: hippopotamus
+seed: 4
+source_clip: PRTEJXDO_1159_1298
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

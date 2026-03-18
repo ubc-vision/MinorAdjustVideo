@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1797
+  - 0.0655
+  - 0.736
+  - 0.9965
+  frame: 0
+  global_frame: 1085
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2067
+  - 0.0628
+  - 0.7322
+  - 1.0015
+  frame: 1
+  global_frame: 1086
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2066
+  - 0.0628
+  - 0.7323
+  - 1.0015
+  frame: 2
+  global_frame: 1087
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2172
+  - 0.0552
+  - 0.7331
+  - 1.004
+  frame: 3
+  global_frame: 1088
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.222
+  - 0.0289
+  - 0.7359
+  - 0.9995
+  frame: 4
+  global_frame: 1089
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2168
+  - 0.0157
+  - 0.7466
+  - 1.001
+  frame: 5
+  global_frame: 1090
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.225
+  - 0.0024
+  - 0.7399
+  - 0.9957
+  frame: 6
+  global_frame: 1091
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2261
+  - 0.0047
+  - 0.7439
+  - 1.0015
+  frame: 7
+  global_frame: 1092
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2262
+  - 0.0048
+  - 0.744
+  - 1.0016
+  frame: 8
+  global_frame: 1093
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2369
+  - 0.0021
+  - 0.7492
+  - 1.0
+  frame: 9
+  global_frame: 1094
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2344
+  - 0.0062
+  - 0.75
+  - 1.0042
+  frame: 10
+  global_frame: 1095
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2271
+  - 0.0039
+  - 0.7481
+  - 1.002
+  frame: 11
+  global_frame: 1096
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2173
+  - 0.0084
+  - 0.7437
+  - 1.0059
+  frame: 12
+  global_frame: 1097
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2304
+  - 0.0021
+  - 0.747
+  - 0.9997
+  frame: 13
+  global_frame: 1098
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2304
+  - 0.0021
+  - 0.7467
+  - 0.9996
+  frame: 14
+  global_frame: 1099
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2396
+  - -0.003
+  - 0.7526
+  - 0.9943
+  frame: 15
+  global_frame: 1100
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2364
+  - -0.0003
+  - 0.7604
+  - 0.9974
+  frame: 16
+  global_frame: 1101
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2375
+  - -0.0055
+  - 0.7755
+  - 0.9918
+  frame: 17
+  global_frame: 1102
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2513
+  - 0.0066
+  - 0.7649
+  - 1.0022
+  frame: 18
+  global_frame: 1103
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2668
+  - 0.0057
+  - 0.7799
+  - 0.9991
+  frame: 19
+  global_frame: 1104
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2668
+  - 0.0057
+  - 0.7799
+  - 0.9992
+  frame: 20
+  global_frame: 1105
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2704
+  - 0.0116
+  - 0.7919
+  - 1.0037
+  frame: 21
+  global_frame: 1106
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2798
+  - 0.0191
+  - 0.7993
+  - 1.0027
+  frame: 22
+  global_frame: 1107
+  prompt: the cheetah is walking
+- bbox_ratios:
+  - 0.2785
+  - 0.0223
+  - 0.8032
+  - 1.0019
+  frame: 23
+  global_frame: 1108
+  prompt: the cheetah is walking
+motion_id: 72
+motion_iter: 1
+num_inference_steps: null
+object_name: cheetah
+seed: 4
+source_clip: AVCJWDSN_806_1135
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0646
+  - 0.6344
+  - 0.4369
+  - 1.0019
+  frame: 0
+  global_frame: 340
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0577
+  - 0.6406
+  - 0.4266
+  - 0.9994
+  frame: 1
+  global_frame: 341
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.063
+  - 0.6365
+  - 0.4263
+  - 1.0012
+  frame: 2
+  global_frame: 342
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0624
+  - 0.6363
+  - 0.4262
+  - 1.0009
+  frame: 3
+  global_frame: 343
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0454
+  - 0.6192
+  - 0.4384
+  - 0.9995
+  frame: 4
+  global_frame: 344
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0466
+  - 0.6121
+  - 0.4382
+  - 1.0012
+  frame: 5
+  global_frame: 345
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0363
+  - 0.6215
+  - 0.4396
+  - 0.9996
+  frame: 6
+  global_frame: 346
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.004
+  - 0.5834
+  - 0.437
+  - 1.0057
+  frame: 7
+  global_frame: 347
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0317
+  - 0.6067
+  - 0.4326
+  - 1.0051
+  frame: 8
+  global_frame: 348
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0317
+  - 0.6065
+  - 0.4332
+  - 1.0052
+  frame: 9
+  global_frame: 349
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0303
+  - 0.5991
+  - 0.4413
+  - 1.0037
+  frame: 10
+  global_frame: 350
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0385
+  - 0.592
+  - 0.4465
+  - 1.0021
+  frame: 11
+  global_frame: 351
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.039
+  - 0.5931
+  - 0.4467
+  - 1.0018
+  frame: 12
+  global_frame: 352
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0128
+  - 0.605
+  - 0.4447
+  - 0.9997
+  frame: 13
+  global_frame: 353
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0193
+  - 0.6153
+  - 0.4423
+  - 0.9982
+  frame: 14
+  global_frame: 354
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0117
+  - 0.6181
+  - 0.4374
+  - 1.0032
+  frame: 15
+  global_frame: 355
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0098
+  - 0.6273
+  - 0.4365
+  - 1.0035
+  frame: 16
+  global_frame: 356
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0028
+  - 0.6267
+  - 0.4389
+  - 1.0007
+  frame: 17
+  global_frame: 357
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0027
+  - 0.628
+  - 0.4399
+  - 1.0007
+  frame: 18
+  global_frame: 358
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0015
+  - 0.6261
+  - 0.438
+  - 1.001
+  frame: 19
+  global_frame: 359
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0018
+  - 0.6289
+  - 0.4351
+  - 1.0011
+  frame: 20
+  global_frame: 360
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0018
+  - 0.6288
+  - 0.4346
+  - 1.001
+  frame: 21
+  global_frame: 361
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.0011
+  - 0.6313
+  - 0.4296
+  - 1.0017
+  frame: 22
+  global_frame: 362
+  prompt: the lion is walking
+- bbox_ratios:
+  - 0.001
+  - 0.6308
+  - 0.4247
+  - 1.0015
+  frame: 23
+  global_frame: 363
+  prompt: the lion is walking
+motion_id: 26
+motion_iter: 0
+num_inference_steps: null
+object_name: lion
+seed: 4
+source_clip: BJVSVGCS_314_376
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

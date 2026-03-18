@@ -1,0 +1,196 @@
+bbox_order:
+- left
+- top
+- right
+- bottom
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.02
+  - 0.28
+  - 0.38
+  - 0.72
+  frame: 0
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.1504
+  - 0.28
+  - 0.5104
+  - 0.72
+  frame: 1
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.2809
+  - 0.28
+  - 0.6409
+  - 0.72
+  frame: 2
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.4113
+  - 0.28
+  - 0.7713
+  - 0.72
+  frame: 3
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.5417
+  - 0.28
+  - 0.9017
+  - 0.72
+  frame: 4
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.5678
+  - 0.28
+  - 0.9278
+  - 0.72
+  frame: 5
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.4374
+  - 0.28
+  - 0.7974
+  - 0.72
+  frame: 6
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.307
+  - 0.28
+  - 0.667
+  - 0.72
+  frame: 7
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.1765
+  - 0.28
+  - 0.5365
+  - 0.72
+  frame: 8
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0461
+  - 0.28
+  - 0.4061
+  - 0.72
+  frame: 9
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.1243
+  - 0.28
+  - 0.4843
+  - 0.72
+  frame: 10
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.2548
+  - 0.28
+  - 0.6148
+  - 0.72
+  frame: 11
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.3852
+  - 0.28
+  - 0.7452
+  - 0.72
+  frame: 12
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.5157
+  - 0.28
+  - 0.8757
+  - 0.72
+  frame: 13
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.5939
+  - 0.28
+  - 0.9539
+  - 0.72
+  frame: 14
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.4635
+  - 0.28
+  - 0.8235
+  - 0.72
+  frame: 15
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.333
+  - 0.28
+  - 0.693
+  - 0.72
+  frame: 16
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.2026
+  - 0.28
+  - 0.5626
+  - 0.72
+  frame: 17
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0722
+  - 0.28
+  - 0.4322
+  - 0.72
+  frame: 18
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0983
+  - 0.28
+  - 0.4583
+  - 0.72
+  frame: 19
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.2287
+  - 0.28
+  - 0.5887
+  - 0.72
+  frame: 20
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.3591
+  - 0.28
+  - 0.7191
+  - 0.72
+  frame: 21
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.4896
+  - 0.28
+  - 0.8496
+  - 0.72
+  frame: 22
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.62
+  - 0.28
+  - 0.98
+  - 0.72
+  frame: 23
+  prompt: the horse is running
+motion_meta:
+  params:
+    num_turns: 5
+    scale_h: 2.0
+    scale_w: 2.0
+  split: eval
+  type: uturn
+  variant_id: 1
+num_inference_steps: null
+seed: 4
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

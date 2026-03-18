@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2022
+  - 0.1007
+  - 0.5227
+  - 0.6633
+  frame: 0
+  global_frame: 485
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2014
+  - 0.102
+  - 0.5227
+  - 0.6617
+  frame: 1
+  global_frame: 486
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2014
+  - 0.1018
+  - 0.5226
+  - 0.6621
+  frame: 2
+  global_frame: 487
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2013
+  - 0.1009
+  - 0.5234
+  - 0.6608
+  frame: 3
+  global_frame: 488
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1989
+  - 0.0984
+  - 0.519
+  - 0.6613
+  frame: 4
+  global_frame: 489
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2052
+  - 0.0992
+  - 0.5205
+  - 0.6572
+  frame: 5
+  global_frame: 490
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2005
+  - 0.098
+  - 0.5167
+  - 0.6552
+  frame: 6
+  global_frame: 491
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2018
+  - 0.0967
+  - 0.5179
+  - 0.6561
+  frame: 7
+  global_frame: 492
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2017
+  - 0.0967
+  - 0.5178
+  - 0.656
+  frame: 8
+  global_frame: 493
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1979
+  - 0.0955
+  - 0.5152
+  - 0.6559
+  frame: 9
+  global_frame: 494
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1964
+  - 0.0963
+  - 0.5136
+  - 0.6596
+  frame: 10
+  global_frame: 495
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1999
+  - 0.0943
+  - 0.5142
+  - 0.6644
+  frame: 11
+  global_frame: 496
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.198
+  - 0.0934
+  - 0.514
+  - 0.6621
+  frame: 12
+  global_frame: 497
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1991
+  - 0.0939
+  - 0.5145
+  - 0.6581
+  frame: 13
+  global_frame: 498
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.1986
+  - 0.0944
+  - 0.5142
+  - 0.6597
+  frame: 14
+  global_frame: 499
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2004
+  - 0.0939
+  - 0.5145
+  - 0.6525
+  frame: 15
+  global_frame: 500
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.201
+  - 0.0935
+  - 0.5138
+  - 0.655
+  frame: 16
+  global_frame: 501
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2037
+  - 0.0925
+  - 0.5164
+  - 0.6514
+  frame: 17
+  global_frame: 502
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2048
+  - 0.0876
+  - 0.5158
+  - 0.6488
+  frame: 18
+  global_frame: 503
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2115
+  - 0.0919
+  - 0.5176
+  - 0.6454
+  frame: 19
+  global_frame: 504
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2102
+  - 0.0884
+  - 0.5199
+  - 0.6417
+  frame: 20
+  global_frame: 505
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2064
+  - 0.0888
+  - 0.5174
+  - 0.6509
+  frame: 21
+  global_frame: 506
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2066
+  - 0.0886
+  - 0.5173
+  - 0.6553
+  frame: 22
+  global_frame: 507
+  prompt: the squirrel is walking
+- bbox_ratios:
+  - 0.2074
+  - 0.0915
+  - 0.5182
+  - 0.6549
+  frame: 23
+  global_frame: 508
+  prompt: the squirrel is walking
+motion_id: 1
+motion_iter: 1
+num_inference_steps: null
+object_name: squirrel
+seed: 4
+source_clip: BKHYWNPL_484_535
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3334
+  - 0.4544
+  - 0.531
+  - 0.9461
+  frame: 0
+  global_frame: 592
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3333
+  - 0.4555
+  - 0.5293
+  - 0.947
+  frame: 1
+  global_frame: 593
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3332
+  - 0.4566
+  - 0.5277
+  - 0.9479
+  frame: 2
+  global_frame: 594
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3306
+  - 0.4568
+  - 0.5272
+  - 0.9467
+  frame: 3
+  global_frame: 595
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3282
+  - 0.4577
+  - 0.5233
+  - 0.9455
+  frame: 4
+  global_frame: 596
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3259
+  - 0.4586
+  - 0.5193
+  - 0.9442
+  frame: 5
+  global_frame: 597
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.323
+  - 0.4577
+  - 0.5158
+  - 0.9445
+  frame: 6
+  global_frame: 598
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3203
+  - 0.4581
+  - 0.5132
+  - 0.9448
+  frame: 7
+  global_frame: 599
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3143
+  - 0.4591
+  - 0.5059
+  - 0.9403
+  frame: 8
+  global_frame: 600
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3113
+  - 0.4542
+  - 0.5046
+  - 0.9379
+  frame: 9
+  global_frame: 601
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3094
+  - 0.4539
+  - 0.5033
+  - 0.9373
+  frame: 10
+  global_frame: 602
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3092
+  - 0.4556
+  - 0.5015
+  - 0.938
+  frame: 11
+  global_frame: 603
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3079
+  - 0.4578
+  - 0.4971
+  - 0.9376
+  frame: 12
+  global_frame: 604
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3042
+  - 0.4587
+  - 0.494
+  - 0.9367
+  frame: 13
+  global_frame: 605
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3043
+  - 0.4568
+  - 0.4914
+  - 0.9373
+  frame: 14
+  global_frame: 606
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3028
+  - 0.4574
+  - 0.4909
+  - 0.9369
+  frame: 15
+  global_frame: 607
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3015
+  - 0.455
+  - 0.4901
+  - 0.9344
+  frame: 16
+  global_frame: 608
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.3
+  - 0.4559
+  - 0.4893
+  - 0.937
+  frame: 17
+  global_frame: 609
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2973
+  - 0.4564
+  - 0.4888
+  - 0.9359
+  frame: 18
+  global_frame: 610
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2963
+  - 0.4577
+  - 0.4865
+  - 0.9358
+  frame: 19
+  global_frame: 611
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2943
+  - 0.4566
+  - 0.4855
+  - 0.9363
+  frame: 20
+  global_frame: 612
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2922
+  - 0.4554
+  - 0.4845
+  - 0.9368
+  frame: 21
+  global_frame: 613
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2902
+  - 0.4525
+  - 0.4846
+  - 0.9369
+  frame: 22
+  global_frame: 614
+  prompt: the dumbo octopus is swimming
+- bbox_ratios:
+  - 0.2882
+  - 0.4496
+  - 0.4847
+  - 0.937
+  frame: 23
+  global_frame: 615
+  prompt: the dumbo octopus is swimming
+motion_id: 82
+motion_iter: 1
+num_inference_steps: null
+object_name: octopus
+seed: 4
+source_clip: CRVJZKGZ_472_1228
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

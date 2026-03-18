@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.018
+  - 0.4587
+  - 0.6784
+  - 0.9091
+  frame: 0
+  global_frame: 281
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0198
+  - 0.4586
+  - 0.6628
+  - 0.9113
+  frame: 1
+  global_frame: 282
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0167
+  - 0.4667
+  - 0.6592
+  - 0.9081
+  frame: 2
+  global_frame: 283
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0188
+  - 0.4621
+  - 0.6567
+  - 0.9102
+  frame: 3
+  global_frame: 284
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0208
+  - 0.4594
+  - 0.6774
+  - 0.9079
+  frame: 4
+  global_frame: 285
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0205
+  - 0.4325
+  - 0.6753
+  - 0.9138
+  frame: 5
+  global_frame: 286
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0235
+  - 0.4434
+  - 0.6611
+  - 0.9061
+  frame: 6
+  global_frame: 287
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0271
+  - 0.4525
+  - 0.7145
+  - 0.9032
+  frame: 7
+  global_frame: 288
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0302
+  - 0.4626
+  - 0.7015
+  - 0.8991
+  frame: 8
+  global_frame: 289
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0241
+  - 0.456
+  - 0.6737
+  - 0.8999
+  frame: 9
+  global_frame: 290
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0262
+  - 0.4618
+  - 0.6862
+  - 0.9027
+  frame: 10
+  global_frame: 291
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.033
+  - 0.4554
+  - 0.7168
+  - 0.8904
+  frame: 11
+  global_frame: 292
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0389
+  - 0.4534
+  - 0.7029
+  - 0.8776
+  frame: 12
+  global_frame: 293
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0378
+  - 0.4558
+  - 0.6901
+  - 0.8745
+  frame: 13
+  global_frame: 294
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0391
+  - 0.471
+  - 0.7082
+  - 0.8794
+  frame: 14
+  global_frame: 295
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0395
+  - 0.4725
+  - 0.6802
+  - 0.8621
+  frame: 15
+  global_frame: 296
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0363
+  - 0.4641
+  - 0.677
+  - 0.8684
+  frame: 16
+  global_frame: 297
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0373
+  - 0.4517
+  - 0.683
+  - 0.8665
+  frame: 17
+  global_frame: 298
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0427
+  - 0.4538
+  - 0.6906
+  - 0.8675
+  frame: 18
+  global_frame: 299
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0423
+  - 0.3895
+  - 0.7145
+  - 0.8663
+  frame: 19
+  global_frame: 300
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0504
+  - 0.4298
+  - 0.7042
+  - 0.8677
+  frame: 20
+  global_frame: 301
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0536
+  - 0.3329
+  - 0.7288
+  - 0.8649
+  frame: 21
+  global_frame: 302
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.057
+  - 0.2742
+  - 0.7431
+  - 0.8671
+  frame: 22
+  global_frame: 303
+  prompt: the xystocheir dissecta millipede is moving
+- bbox_ratios:
+  - 0.0602
+  - 0.2858
+  - 0.7408
+  - 0.8707
+  frame: 23
+  global_frame: 304
+  prompt: the xystocheir dissecta millipede is moving
+motion_id: 26
+motion_iter: 2
+num_inference_steps: null
+object_name: millipede
+seed: 4
+source_clip: DXHKBDUC_206_309
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

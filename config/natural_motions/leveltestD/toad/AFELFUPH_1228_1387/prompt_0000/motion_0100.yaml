@@ -1,0 +1,235 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2432
+  - 0.1457
+  - 0.946
+  - 0.9131
+  frame: 0
+  global_frame: 1331
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2322
+  - 0.1463
+  - 0.9446
+  - 0.9087
+  frame: 1
+  global_frame: 1332
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2278
+  - 0.1457
+  - 0.9424
+  - 0.91
+  frame: 2
+  global_frame: 1333
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2225
+  - 0.1433
+  - 0.9452
+  - 0.9071
+  frame: 3
+  global_frame: 1334
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2225
+  - 0.139
+  - 0.9465
+  - 0.9022
+  frame: 4
+  global_frame: 1335
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2227
+  - 0.139
+  - 0.9468
+  - 0.9022
+  frame: 5
+  global_frame: 1336
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2262
+  - 0.1342
+  - 0.9441
+  - 0.8949
+  frame: 6
+  global_frame: 1337
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2235
+  - 0.1355
+  - 0.9393
+  - 0.8891
+  frame: 7
+  global_frame: 1338
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2184
+  - 0.136
+  - 0.9364
+  - 0.867
+  frame: 8
+  global_frame: 1339
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2194
+  - 0.1381
+  - 0.9369
+  - 0.8613
+  frame: 9
+  global_frame: 1340
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2132
+  - 0.1339
+  - 0.9377
+  - 0.8673
+  frame: 10
+  global_frame: 1341
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2134
+  - 0.1339
+  - 0.9377
+  - 0.8672
+  frame: 11
+  global_frame: 1342
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2138
+  - 0.137
+  - 0.9355
+  - 0.8693
+  frame: 12
+  global_frame: 1343
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2142
+  - 0.1401
+  - 0.9333
+  - 0.8714
+  frame: 13
+  global_frame: 1344
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2146
+  - 0.1432
+  - 0.9312
+  - 0.8735
+  frame: 14
+  global_frame: 1345
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2227
+  - 0.142
+  - 0.9314
+  - 0.8641
+  frame: 15
+  global_frame: 1346
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2255
+  - 0.1452
+  - 0.9317
+  - 0.8375
+  frame: 16
+  global_frame: 1347
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2255
+  - 0.1453
+  - 0.9314
+  - 0.8371
+  frame: 17
+  global_frame: 1348
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2265
+  - 0.1384
+  - 0.9328
+  - 0.804
+  frame: 18
+  global_frame: 1349
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2262
+  - 0.1382
+  - 0.931
+  - 0.7902
+  frame: 19
+  global_frame: 1350
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2258
+  - 0.138
+  - 0.9291
+  - 0.7764
+  frame: 20
+  global_frame: 1351
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2304
+  - 0.1352
+  - 0.9347
+  - 0.7798
+  frame: 21
+  global_frame: 1352
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2265
+  - 0.1395
+  - 0.9434
+  - 0.7917
+  frame: 22
+  global_frame: 1353
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+- bbox_ratios:
+  - 0.2265
+  - 0.1393
+  - 0.9432
+  - 0.7917
+  frame: 23
+  global_frame: 1354
+  prompt: the toad is walking and navigating its path on ice, while carrying its partner
+    on its back
+motion_id: 100
+motion_iter: 0
+num_inference_steps: null
+object_name: toad
+seed: 4
+source_clip: AFELFUPH_1228_1387
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

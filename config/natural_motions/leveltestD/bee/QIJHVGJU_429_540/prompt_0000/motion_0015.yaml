@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1832
+  - 0.6139
+  - 0.5575
+  - 1.005
+  frame: 0
+  global_frame: 474
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.1835
+  - 0.6184
+  - 0.553
+  - 1.0058
+  frame: 1
+  global_frame: 475
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2002
+  - 0.6116
+  - 0.5558
+  - 1.0028
+  frame: 2
+  global_frame: 476
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2265
+  - 0.6528
+  - 0.5558
+  - 1.0054
+  frame: 3
+  global_frame: 477
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2386
+  - 0.6158
+  - 0.5713
+  - 1.0036
+  frame: 4
+  global_frame: 478
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2738
+  - 0.6153
+  - 0.5919
+  - 1.0033
+  frame: 5
+  global_frame: 479
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3086
+  - 0.6579
+  - 0.5874
+  - 1.0053
+  frame: 6
+  global_frame: 480
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3081
+  - 0.6569
+  - 0.5883
+  - 1.0052
+  frame: 7
+  global_frame: 481
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3169
+  - 0.6314
+  - 0.5925
+  - 1.005
+  frame: 8
+  global_frame: 482
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2965
+  - 0.6134
+  - 0.62
+  - 1.0054
+  frame: 9
+  global_frame: 483
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2961
+  - 0.6224
+  - 0.6087
+  - 1.0046
+  frame: 10
+  global_frame: 484
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2793
+  - 0.6066
+  - 0.6084
+  - 1.0044
+  frame: 11
+  global_frame: 485
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2942
+  - 0.5918
+  - 0.6142
+  - 1.0058
+  frame: 12
+  global_frame: 486
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2943
+  - 0.5919
+  - 0.6143
+  - 1.0058
+  frame: 13
+  global_frame: 487
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3136
+  - 0.5842
+  - 0.605
+  - 1.0046
+  frame: 14
+  global_frame: 488
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3225
+  - 0.5364
+  - 0.6169
+  - 1.0011
+  frame: 15
+  global_frame: 489
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2925
+  - 0.5026
+  - 0.6186
+  - 0.9965
+  frame: 16
+  global_frame: 490
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2905
+  - 0.4747
+  - 0.5952
+  - 0.9616
+  frame: 17
+  global_frame: 491
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3069
+  - 0.4608
+  - 0.6024
+  - 0.9424
+  frame: 18
+  global_frame: 492
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2697
+  - 0.4339
+  - 0.6034
+  - 0.9408
+  frame: 19
+  global_frame: 493
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2703
+  - 0.4135
+  - 0.6022
+  - 0.9078
+  frame: 20
+  global_frame: 494
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.3092
+  - 0.4005
+  - 0.6027
+  - 0.8781
+  frame: 21
+  global_frame: 495
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2908
+  - 0.3761
+  - 0.6083
+  - 0.87
+  frame: 22
+  global_frame: 496
+  prompt: the bee is moving
+- bbox_ratios:
+  - 0.2969
+  - 0.3633
+  - 0.6084
+  - 0.859
+  frame: 23
+  global_frame: 497
+  prompt: the bee is moving
+motion_id: 15
+motion_iter: 2
+num_inference_steps: null
+object_name: bee
+seed: 4
+source_clip: QIJHVGJU_429_540
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

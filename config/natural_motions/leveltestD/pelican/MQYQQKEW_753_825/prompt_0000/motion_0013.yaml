@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0098
+  - 0.018
+  - 0.9996
+  - 1.0037
+  frame: 0
+  global_frame: 766
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.011
+  - 0.0049
+  - 0.9993
+  - 0.999
+  frame: 1
+  global_frame: 767
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.004
+  - -0.0023
+  - 0.9954
+  - 0.9907
+  frame: 2
+  global_frame: 768
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0039
+  - -0.0022
+  - 0.995
+  - 0.9908
+  frame: 3
+  global_frame: 769
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.3532
+  - -0.0017
+  - 0.9903
+  - 0.9897
+  frame: 4
+  global_frame: 770
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.3186
+  - 0.0012
+  - 0.9991
+  - 0.9961
+  frame: 5
+  global_frame: 771
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.268
+  - -0.0
+  - 0.9988
+  - 0.9954
+  frame: 6
+  global_frame: 772
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0001
+  - -0.0026
+  - 0.9962
+  - 0.9878
+  frame: 7
+  global_frame: 773
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.3009
+  - 0.0026
+  - 0.998
+  - 0.9951
+  frame: 8
+  global_frame: 774
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.3071
+  - 0.0031
+  - 0.9986
+  - 0.9951
+  frame: 9
+  global_frame: 775
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0015
+  - -0.0006
+  - 0.9886
+  - 0.9962
+  frame: 10
+  global_frame: 776
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0136
+  - -0.0019
+  - 0.9924
+  - 0.9924
+  frame: 11
+  global_frame: 777
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0223
+  - 0.0006
+  - 0.9958
+  - 0.9946
+  frame: 12
+  global_frame: 778
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0573
+  - -0.006
+  - 1.0022
+  - 0.9902
+  frame: 13
+  global_frame: 779
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0554
+  - -0.0012
+  - 1.0076
+  - 0.9872
+  frame: 14
+  global_frame: 780
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.056
+  - -0.0012
+  - 1.0076
+  - 0.9873
+  frame: 15
+  global_frame: 781
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0502
+  - 0.0022
+  - 0.9967
+  - 0.9989
+  frame: 16
+  global_frame: 782
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0487
+  - 0.0061
+  - 0.9983
+  - 0.9965
+  frame: 17
+  global_frame: 783
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0053
+  - 0.0152
+  - 0.9951
+  - 0.999
+  frame: 18
+  global_frame: 784
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.0937
+  - 0.0028
+  - 0.9936
+  - 0.9918
+  frame: 19
+  global_frame: 785
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.1008
+  - 0.1243
+  - 0.9953
+  - 0.9997
+  frame: 20
+  global_frame: 786
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.1004
+  - 0.1237
+  - 0.9953
+  - 0.9996
+  frame: 21
+  global_frame: 787
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.1055
+  - 0.3323
+  - 1.0046
+  - 0.9964
+  frame: 22
+  global_frame: 788
+  prompt: the pelican is flying
+- bbox_ratios:
+  - 0.087
+  - 0.3322
+  - 0.9916
+  - 0.9933
+  frame: 23
+  global_frame: 789
+  prompt: the pelican is flying
+motion_id: 13
+motion_iter: 2
+num_inference_steps: null
+object_name: pelican
+seed: 4
+source_clip: MQYQQKEW_753_825
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

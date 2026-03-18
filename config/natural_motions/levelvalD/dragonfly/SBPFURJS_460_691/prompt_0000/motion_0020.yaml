@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2254
+  - 0.7142
+  - 0.5586
+  - 0.9405
+  frame: 0
+  global_frame: 480
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2258
+  - 0.7139
+  - 0.5586
+  - 0.9399
+  frame: 1
+  global_frame: 481
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2247
+  - 0.7148
+  - 0.5581
+  - 0.9404
+  frame: 2
+  global_frame: 482
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2245
+  - 0.7158
+  - 0.5577
+  - 0.9404
+  frame: 3
+  global_frame: 483
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2247
+  - 0.7162
+  - 0.5583
+  - 0.9406
+  frame: 4
+  global_frame: 484
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.224
+  - 0.7166
+  - 0.5588
+  - 0.9405
+  frame: 5
+  global_frame: 485
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2239
+  - 0.7165
+  - 0.5588
+  - 0.9406
+  frame: 6
+  global_frame: 486
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2225
+  - 0.7165
+  - 0.5586
+  - 0.9412
+  frame: 7
+  global_frame: 487
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2227
+  - 0.7164
+  - 0.5582
+  - 0.9411
+  frame: 8
+  global_frame: 488
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.223
+  - 0.7163
+  - 0.5584
+  - 0.9409
+  frame: 9
+  global_frame: 489
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2236
+  - 0.7162
+  - 0.5583
+  - 0.9407
+  frame: 10
+  global_frame: 490
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2237
+  - 0.7163
+  - 0.5582
+  - 0.9404
+  frame: 11
+  global_frame: 491
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2238
+  - 0.7164
+  - 0.5582
+  - 0.9406
+  frame: 12
+  global_frame: 492
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2244
+  - 0.7164
+  - 0.5585
+  - 0.9404
+  frame: 13
+  global_frame: 493
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2245
+  - 0.7164
+  - 0.5585
+  - 0.9409
+  frame: 14
+  global_frame: 494
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2245
+  - 0.7165
+  - 0.5583
+  - 0.9406
+  frame: 15
+  global_frame: 495
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2253
+  - 0.7166
+  - 0.5585
+  - 0.9409
+  frame: 16
+  global_frame: 496
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2262
+  - 0.7167
+  - 0.5582
+  - 0.9409
+  frame: 17
+  global_frame: 497
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.228
+  - 0.7172
+  - 0.5579
+  - 0.9407
+  frame: 18
+  global_frame: 498
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2267
+  - 0.7184
+  - 0.5581
+  - 0.9408
+  frame: 19
+  global_frame: 499
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2267
+  - 0.7189
+  - 0.5582
+  - 0.9407
+  frame: 20
+  global_frame: 500
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.225
+  - 0.7195
+  - 0.5573
+  - 0.9413
+  frame: 21
+  global_frame: 501
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.2271
+  - 0.7193
+  - 0.5576
+  - 0.941
+  frame: 22
+  global_frame: 502
+  prompt: the dragonfly is flying
+- bbox_ratios:
+  - 0.229
+  - 0.7193
+  - 0.5585
+  - 0.9406
+  frame: 23
+  global_frame: 503
+  prompt: the dragonfly is flying
+motion_id: 20
+motion_iter: 2
+num_inference_steps: null
+object_name: dragonfly
+seed: 4
+source_clip: SBPFURJS_460_691
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

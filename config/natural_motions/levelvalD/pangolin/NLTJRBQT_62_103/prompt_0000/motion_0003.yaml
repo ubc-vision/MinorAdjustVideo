@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2555
+  - 0.0038
+  - 0.9627
+  - 0.7838
+  frame: 0
+  global_frame: 78
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2691
+  - 0.0037
+  - 0.9521
+  - 0.7791
+  frame: 1
+  global_frame: 79
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2655
+  - 0.0009
+  - 0.9575
+  - 0.7879
+  frame: 2
+  global_frame: 80
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2682
+  - 0.0019
+  - 0.9487
+  - 0.7853
+  frame: 3
+  global_frame: 81
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2663
+  - 0.0019
+  - 0.9485
+  - 0.7855
+  frame: 4
+  global_frame: 82
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2547
+  - 0.0056
+  - 0.9558
+  - 0.7753
+  frame: 5
+  global_frame: 83
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2444
+  - 0.0073
+  - 0.9537
+  - 0.7773
+  frame: 6
+  global_frame: 84
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2635
+  - -0.0008
+  - 0.9575
+  - 0.7743
+  frame: 7
+  global_frame: 85
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2766
+  - 0.0004
+  - 0.956
+  - 0.7761
+  frame: 8
+  global_frame: 86
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2797
+  - 0.0005
+  - 0.9451
+  - 0.7668
+  frame: 9
+  global_frame: 87
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2796
+  - 0.0005
+  - 0.9455
+  - 0.7672
+  frame: 10
+  global_frame: 88
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.284
+  - 0.0061
+  - 0.9441
+  - 0.7786
+  frame: 11
+  global_frame: 89
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2804
+  - 0.008
+  - 0.9445
+  - 0.783
+  frame: 12
+  global_frame: 90
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2656
+  - 0.0061
+  - 0.9439
+  - 0.7806
+  frame: 13
+  global_frame: 91
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2634
+  - 0.009
+  - 0.9507
+  - 0.7924
+  frame: 14
+  global_frame: 92
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2552
+  - 0.0103
+  - 0.9511
+  - 0.7898
+  frame: 15
+  global_frame: 93
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2563
+  - 0.0106
+  - 0.9506
+  - 0.7896
+  frame: 16
+  global_frame: 94
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2546
+  - 0.0002
+  - 0.9543
+  - 0.7671
+  frame: 17
+  global_frame: 95
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.245
+  - 0.0059
+  - 0.9416
+  - 0.7747
+  frame: 18
+  global_frame: 96
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2482
+  - 0.0063
+  - 0.9419
+  - 0.7732
+  frame: 19
+  global_frame: 97
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2515
+  - 0.0066
+  - 0.9423
+  - 0.7717
+  frame: 20
+  global_frame: 98
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2547
+  - 0.007
+  - 0.9427
+  - 0.7701
+  frame: 21
+  global_frame: 99
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.255
+  - 0.0069
+  - 0.9427
+  - 0.7704
+  frame: 22
+  global_frame: 100
+  prompt: the pangolin is walking
+- bbox_ratios:
+  - 0.2501
+  - 0.0068
+  - 0.9465
+  - 0.7677
+  frame: 23
+  global_frame: 101
+  prompt: the pangolin is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: pangolin
+seed: 4
+source_clip: NLTJRBQT_62_103
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

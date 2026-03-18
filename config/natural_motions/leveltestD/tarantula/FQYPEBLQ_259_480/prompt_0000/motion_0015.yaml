@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1309
+  - 0.3939
+  - 0.7511
+  - 0.8539
+  frame: 0
+  global_frame: 399
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.1747
+  - 0.3941
+  - 0.7615
+  - 0.8514
+  frame: 1
+  global_frame: 400
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.1985
+  - 0.3898
+  - 0.7565
+  - 0.8484
+  frame: 2
+  global_frame: 401
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2326
+  - 0.3779
+  - 0.758
+  - 0.8455
+  frame: 3
+  global_frame: 402
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.233
+  - 0.3777
+  - 0.7582
+  - 0.8454
+  frame: 4
+  global_frame: 403
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2397
+  - 0.3747
+  - 0.751
+  - 0.8462
+  frame: 5
+  global_frame: 404
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2563
+  - 0.3673
+  - 0.7511
+  - 0.8472
+  frame: 6
+  global_frame: 405
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.26
+  - 0.3647
+  - 0.7651
+  - 0.8434
+  frame: 7
+  global_frame: 406
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2484
+  - 0.3668
+  - 0.8004
+  - 0.8417
+  frame: 8
+  global_frame: 407
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2484
+  - 0.3668
+  - 0.8006
+  - 0.8416
+  frame: 9
+  global_frame: 408
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2563
+  - 0.368
+  - 0.836
+  - 0.8399
+  frame: 10
+  global_frame: 409
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2641
+  - 0.3713
+  - 0.858
+  - 0.8384
+  frame: 11
+  global_frame: 410
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2616
+  - 0.3769
+  - 0.8681
+  - 0.8495
+  frame: 12
+  global_frame: 411
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2613
+  - 0.3825
+  - 0.8952
+  - 0.8546
+  frame: 13
+  global_frame: 412
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2615
+  - 0.3826
+  - 0.8952
+  - 0.8546
+  frame: 14
+  global_frame: 413
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2611
+  - 0.3846
+  - 0.905
+  - 0.8576
+  frame: 15
+  global_frame: 414
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2646
+  - 0.3948
+  - 0.934
+  - 0.8633
+  frame: 16
+  global_frame: 415
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.2806
+  - 0.3927
+  - 0.9586
+  - 0.8493
+  frame: 17
+  global_frame: 416
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.3143
+  - 0.3893
+  - 0.9844
+  - 0.8517
+  frame: 18
+  global_frame: 417
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.3146
+  - 0.389
+  - 0.9842
+  - 0.8515
+  frame: 19
+  global_frame: 418
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.3408
+  - 0.3702
+  - 0.9803
+  - 0.8516
+  frame: 20
+  global_frame: 419
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.3489
+  - 0.3712
+  - 1.0061
+  - 0.845
+  frame: 21
+  global_frame: 420
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.4558
+  - 0.3809
+  - 1.0019
+  - 0.8363
+  frame: 22
+  global_frame: 421
+  prompt: the texas brown tarantula is moving
+- bbox_ratios:
+  - 0.6439
+  - 0.3524
+  - 1.0016
+  - 0.8386
+  frame: 23
+  global_frame: 422
+  prompt: the texas brown tarantula is moving
+motion_id: 15
+motion_iter: 1
+num_inference_steps: null
+object_name: tarantula
+seed: 4
+source_clip: FQYPEBLQ_259_480
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

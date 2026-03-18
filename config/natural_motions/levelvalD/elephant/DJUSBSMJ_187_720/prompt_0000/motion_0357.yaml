@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.006
+  - 0.0575
+  - 0.5436
+  - 0.804
+  frame: 0
+  global_frame: 636
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0052
+  - 0.0564
+  - 0.5366
+  - 0.8042
+  frame: 1
+  global_frame: 637
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0006
+  - 0.0514
+  - 0.5274
+  - 0.8065
+  frame: 2
+  global_frame: 638
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0042
+  - 0.0553
+  - 0.5174
+  - 0.8064
+  frame: 3
+  global_frame: 639
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0031
+  - 0.0548
+  - 0.519
+  - 0.8121
+  frame: 4
+  global_frame: 640
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0062
+  - 0.0526
+  - 0.5231
+  - 0.8386
+  frame: 5
+  global_frame: 641
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0059
+  - 0.0564
+  - 0.5167
+  - 0.8223
+  frame: 6
+  global_frame: 642
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0026
+  - 0.0508
+  - 0.5187
+  - 0.8085
+  frame: 7
+  global_frame: 643
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0017
+  - 0.0531
+  - 0.4895
+  - 0.8253
+  frame: 8
+  global_frame: 644
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0009
+  - 0.0515
+  - 0.4907
+  - 0.8059
+  frame: 9
+  global_frame: 645
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0033
+  - 0.0529
+  - 0.4981
+  - 0.8007
+  frame: 10
+  global_frame: 646
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0034
+  - 0.0573
+  - 0.4823
+  - 0.7946
+  frame: 11
+  global_frame: 647
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0046
+  - 0.057
+  - 0.4796
+  - 0.7879
+  frame: 12
+  global_frame: 648
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0036
+  - 0.0561
+  - 0.4684
+  - 0.7824
+  frame: 13
+  global_frame: 649
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0037
+  - 0.0574
+  - 0.4678
+  - 0.7895
+  frame: 14
+  global_frame: 650
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0069
+  - 0.0588
+  - 0.4885
+  - 0.7915
+  frame: 15
+  global_frame: 651
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0048
+  - 0.0605
+  - 0.4911
+  - 0.806
+  frame: 16
+  global_frame: 652
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0006
+  - 0.0554
+  - 0.4784
+  - 0.8027
+  frame: 17
+  global_frame: 653
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0013
+  - 0.0508
+  - 0.4714
+  - 0.8042
+  frame: 18
+  global_frame: 654
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0011
+  - 0.0587
+  - 0.4861
+  - 0.8278
+  frame: 19
+  global_frame: 655
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0027
+  - 0.0593
+  - 0.4821
+  - 0.8117
+  frame: 20
+  global_frame: 656
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0006
+  - 0.0576
+  - 0.4836
+  - 0.8359
+  frame: 21
+  global_frame: 657
+  prompt: the elephant is walking
+- bbox_ratios:
+  - -0.0019
+  - 0.0627
+  - 0.4707
+  - 0.8105
+  frame: 22
+  global_frame: 658
+  prompt: the elephant is walking
+- bbox_ratios:
+  - 0.0006
+  - 0.0666
+  - 0.4613
+  - 0.7982
+  frame: 23
+  global_frame: 659
+  prompt: the elephant is walking
+motion_id: 357
+motion_iter: 2
+num_inference_steps: null
+object_name: elephant
+seed: 4
+source_clip: DJUSBSMJ_187_720
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

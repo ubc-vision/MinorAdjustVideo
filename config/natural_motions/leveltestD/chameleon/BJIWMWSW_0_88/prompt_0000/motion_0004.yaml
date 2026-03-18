@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2842
+  - 0.4305
+  - 0.5693
+  - 0.9121
+  frame: 0
+  global_frame: 53
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3176
+  - 0.4273
+  - 0.5778
+  - 0.9143
+  frame: 1
+  global_frame: 54
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3209
+  - 0.4319
+  - 0.5752
+  - 0.9136
+  frame: 2
+  global_frame: 55
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3092
+  - 0.4296
+  - 0.576
+  - 0.921
+  frame: 3
+  global_frame: 56
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3093
+  - 0.4297
+  - 0.576
+  - 0.9208
+  frame: 4
+  global_frame: 57
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.313
+  - 0.4281
+  - 0.5787
+  - 0.9175
+  frame: 5
+  global_frame: 58
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.323
+  - 0.431
+  - 0.5797
+  - 0.9155
+  frame: 6
+  global_frame: 59
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.313
+  - 0.438
+  - 0.5768
+  - 0.9166
+  frame: 7
+  global_frame: 60
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3257
+  - 0.4331
+  - 0.5827
+  - 0.9143
+  frame: 8
+  global_frame: 61
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3232
+  - 0.4327
+  - 0.5827
+  - 0.9149
+  frame: 9
+  global_frame: 62
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3193
+  - 0.4356
+  - 0.5817
+  - 0.9173
+  frame: 10
+  global_frame: 63
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3171
+  - 0.4332
+  - 0.582
+  - 0.9135
+  frame: 11
+  global_frame: 64
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3272
+  - 0.4267
+  - 0.5839
+  - 0.9122
+  frame: 12
+  global_frame: 65
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3236
+  - 0.4264
+  - 0.5861
+  - 0.9121
+  frame: 13
+  global_frame: 66
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3238
+  - 0.4264
+  - 0.586
+  - 0.9121
+  frame: 14
+  global_frame: 67
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3218
+  - 0.4233
+  - 0.5902
+  - 0.9096
+  frame: 15
+  global_frame: 68
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3273
+  - 0.4178
+  - 0.5938
+  - 0.9068
+  frame: 16
+  global_frame: 69
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3162
+  - 0.4258
+  - 0.5932
+  - 0.9064
+  frame: 17
+  global_frame: 70
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3264
+  - 0.4105
+  - 0.5979
+  - 0.9072
+  frame: 18
+  global_frame: 71
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3253
+  - 0.4101
+  - 0.5983
+  - 0.9045
+  frame: 19
+  global_frame: 72
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3218
+  - 0.4114
+  - 0.5976
+  - 0.908
+  frame: 20
+  global_frame: 73
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3232
+  - 0.4125
+  - 0.5972
+  - 0.9047
+  frame: 21
+  global_frame: 74
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.3216
+  - 0.4055
+  - 0.6027
+  - 0.9071
+  frame: 22
+  global_frame: 75
+  prompt: the chameleon is walking
+- bbox_ratios:
+  - 0.33
+  - 0.4076
+  - 0.6029
+  - 0.8999
+  frame: 23
+  global_frame: 76
+  prompt: the chameleon is walking
+motion_id: 4
+motion_iter: 0
+num_inference_steps: null
+object_name: chameleon
+seed: 4
+source_clip: BJIWMWSW_0_88
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

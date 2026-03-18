@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0631
+  - 0.5554
+  - 0.3283
+  - 0.92
+  frame: 0
+  global_frame: 559
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.062
+  - 0.5561
+  - 0.3285
+  - 0.9204
+  frame: 1
+  global_frame: 560
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0594
+  - 0.5579
+  - 0.3282
+  - 0.9199
+  frame: 2
+  global_frame: 561
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0618
+  - 0.5578
+  - 0.3281
+  - 0.9206
+  frame: 3
+  global_frame: 562
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0583
+  - 0.5579
+  - 0.3275
+  - 0.9214
+  frame: 4
+  global_frame: 563
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0593
+  - 0.5581
+  - 0.3278
+  - 0.9217
+  frame: 5
+  global_frame: 564
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0593
+  - 0.5578
+  - 0.3279
+  - 0.9215
+  frame: 6
+  global_frame: 565
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0607
+  - 0.5578
+  - 0.3274
+  - 0.9211
+  frame: 7
+  global_frame: 566
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0555
+  - 0.5578
+  - 0.328
+  - 0.9207
+  frame: 8
+  global_frame: 567
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0588
+  - 0.5566
+  - 0.3279
+  - 0.9204
+  frame: 9
+  global_frame: 568
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0601
+  - 0.5571
+  - 0.327
+  - 0.9212
+  frame: 10
+  global_frame: 569
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0587
+  - 0.5559
+  - 0.3273
+  - 0.9204
+  frame: 11
+  global_frame: 570
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0584
+  - 0.5568
+  - 0.3275
+  - 0.9208
+  frame: 12
+  global_frame: 571
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0601
+  - 0.5562
+  - 0.3274
+  - 0.9216
+  frame: 13
+  global_frame: 572
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0596
+  - 0.5599
+  - 0.3267
+  - 0.9254
+  frame: 14
+  global_frame: 573
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.058
+  - 0.5589
+  - 0.3273
+  - 0.9259
+  frame: 15
+  global_frame: 574
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0594
+  - 0.5573
+  - 0.3272
+  - 0.926
+  frame: 16
+  global_frame: 575
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0605
+  - 0.5572
+  - 0.3269
+  - 0.9256
+  frame: 17
+  global_frame: 576
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0604
+  - 0.5572
+  - 0.327
+  - 0.9256
+  frame: 18
+  global_frame: 577
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0594
+  - 0.5567
+  - 0.3271
+  - 0.9259
+  frame: 19
+  global_frame: 578
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0615
+  - 0.5525
+  - 0.3277
+  - 0.9209
+  frame: 20
+  global_frame: 579
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0612
+  - 0.5552
+  - 0.3268
+  - 0.9257
+  frame: 21
+  global_frame: 580
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0606
+  - 0.5539
+  - 0.3268
+  - 0.9253
+  frame: 22
+  global_frame: 581
+  prompt: the raven is walking
+- bbox_ratios:
+  - 0.0639
+  - 0.5504
+  - 0.3273
+  - 0.9208
+  frame: 23
+  global_frame: 582
+  prompt: the raven is walking
+motion_id: 31
+motion_iter: 2
+num_inference_steps: null
+object_name: raven
+seed: 4
+source_clip: BQFASZJZ_528_600
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

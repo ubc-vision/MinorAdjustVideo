@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5212
+  - 0.0046
+  - 0.9984
+  - 0.9996
+  frame: 0
+  global_frame: 423
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5222
+  - 0.005
+  - 0.9992
+  - 0.9999
+  frame: 1
+  global_frame: 424
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5231
+  - 0.0053
+  - 1.0
+  - 1.0002
+  frame: 2
+  global_frame: 425
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5244
+  - 0.0048
+  - 0.9989
+  - 0.9983
+  frame: 3
+  global_frame: 426
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5272
+  - 0.0062
+  - 1.0007
+  - 0.9998
+  frame: 4
+  global_frame: 427
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5264
+  - 0.0073
+  - 1.0007
+  - 1.0033
+  frame: 5
+  global_frame: 428
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5175
+  - 0.0003
+  - 0.995
+  - 0.9926
+  frame: 6
+  global_frame: 429
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5169
+  - -0.0
+  - 0.9951
+  - 0.9926
+  frame: 7
+  global_frame: 430
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5183
+  - 0.0071
+  - 0.9966
+  - 0.998
+  frame: 8
+  global_frame: 431
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5191
+  - 0.0071
+  - 0.9963
+  - 0.998
+  frame: 9
+  global_frame: 432
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5175
+  - 0.0064
+  - 0.9959
+  - 0.9973
+  frame: 10
+  global_frame: 433
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5169
+  - 0.0077
+  - 0.9951
+  - 0.9982
+  frame: 11
+  global_frame: 434
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5161
+  - 0.0057
+  - 0.9968
+  - 0.995
+  frame: 12
+  global_frame: 435
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5168
+  - 0.007
+  - 0.9965
+  - 0.996
+  frame: 13
+  global_frame: 436
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5194
+  - 0.0102
+  - 0.998
+  - 0.9962
+  frame: 14
+  global_frame: 437
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5219
+  - 0.0134
+  - 0.9995
+  - 0.9965
+  frame: 15
+  global_frame: 438
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5213
+  - 0.0184
+  - 0.9995
+  - 0.9973
+  frame: 16
+  global_frame: 439
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5207
+  - 0.0234
+  - 0.9996
+  - 0.9981
+  frame: 17
+  global_frame: 440
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5219
+  - 0.0188
+  - 1.0
+  - 0.9971
+  frame: 18
+  global_frame: 441
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.522
+  - 0.0187
+  - 1.0002
+  - 0.997
+  frame: 19
+  global_frame: 442
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5226
+  - 0.0222
+  - 1.0004
+  - 1.0055
+  frame: 20
+  global_frame: 443
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.521
+  - 0.0212
+  - 0.9985
+  - 1.0063
+  frame: 21
+  global_frame: 444
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5221
+  - 0.0299
+  - 0.9988
+  - 1.0055
+  frame: 22
+  global_frame: 445
+  prompt: the hyena is walking
+- bbox_ratios:
+  - 0.5212
+  - 0.0289
+  - 0.9983
+  - 1.0039
+  frame: 23
+  global_frame: 446
+  prompt: the hyena is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: hyena
+seed: 4
+source_clip: DMMXYNPO_388_448
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

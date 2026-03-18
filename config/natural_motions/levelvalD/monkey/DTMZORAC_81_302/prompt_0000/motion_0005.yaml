@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5572
+  - 0.6791
+  - 0.7099
+  - 0.9307
+  frame: 0
+  global_frame: 214
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5588
+  - 0.6778
+  - 0.7099
+  - 0.9318
+  frame: 1
+  global_frame: 215
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.559
+  - 0.6767
+  - 0.7092
+  - 0.9315
+  frame: 2
+  global_frame: 216
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5594
+  - 0.6766
+  - 0.7091
+  - 0.9306
+  frame: 3
+  global_frame: 217
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5588
+  - 0.6749
+  - 0.71
+  - 0.9295
+  frame: 4
+  global_frame: 218
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5598
+  - 0.6756
+  - 0.7057
+  - 0.9316
+  frame: 5
+  global_frame: 219
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5581
+  - 0.6735
+  - 0.7094
+  - 0.9341
+  frame: 6
+  global_frame: 220
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5576
+  - 0.671
+  - 0.7096
+  - 0.9327
+  frame: 7
+  global_frame: 221
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5486
+  - 0.6498
+  - 0.7065
+  - 0.9329
+  frame: 8
+  global_frame: 222
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5397
+  - 0.6285
+  - 0.7033
+  - 0.9332
+  frame: 9
+  global_frame: 223
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5307
+  - 0.6072
+  - 0.7002
+  - 0.9334
+  frame: 10
+  global_frame: 224
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5218
+  - 0.5859
+  - 0.6971
+  - 0.9337
+  frame: 11
+  global_frame: 225
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5128
+  - 0.5647
+  - 0.694
+  - 0.9339
+  frame: 12
+  global_frame: 226
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.5039
+  - 0.5434
+  - 0.6909
+  - 0.9342
+  frame: 13
+  global_frame: 227
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.495
+  - 0.5221
+  - 0.6877
+  - 0.9344
+  frame: 14
+  global_frame: 228
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.486
+  - 0.5008
+  - 0.6846
+  - 0.9346
+  frame: 15
+  global_frame: 229
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4771
+  - 0.4796
+  - 0.6815
+  - 0.9349
+  frame: 16
+  global_frame: 230
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4681
+  - 0.4583
+  - 0.6784
+  - 0.9351
+  frame: 17
+  global_frame: 231
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4823
+  - 0.4635
+  - 0.6537
+  - 0.9326
+  frame: 18
+  global_frame: 232
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4658
+  - 0.4713
+  - 0.6408
+  - 0.9266
+  frame: 19
+  global_frame: 233
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4637
+  - 0.4716
+  - 0.6393
+  - 0.926
+  frame: 20
+  global_frame: 234
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4617
+  - 0.4718
+  - 0.6378
+  - 0.9255
+  frame: 21
+  global_frame: 235
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4597
+  - 0.472
+  - 0.6364
+  - 0.9249
+  frame: 22
+  global_frame: 236
+  prompt: the capuchin monkey is walking
+- bbox_ratios:
+  - 0.4577
+  - 0.4722
+  - 0.6349
+  - 0.9243
+  frame: 23
+  global_frame: 237
+  prompt: the capuchin monkey is walking
+motion_id: 5
+motion_iter: 2
+num_inference_steps: null
+object_name: monkey
+seed: 4
+source_clip: DTMZORAC_81_302
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4637
+  - 0.1826
+  - 0.9394
+  - 0.7787
+  frame: 0
+  global_frame: 505
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4622
+  - 0.1847
+  - 0.9332
+  - 0.7784
+  frame: 1
+  global_frame: 506
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4624
+  - 0.1889
+  - 0.9326
+  - 0.7815
+  frame: 2
+  global_frame: 507
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4591
+  - 0.1856
+  - 0.9324
+  - 0.7784
+  frame: 3
+  global_frame: 508
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4548
+  - 0.1864
+  - 0.922
+  - 0.7763
+  frame: 4
+  global_frame: 509
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4504
+  - 0.1819
+  - 0.9256
+  - 0.7748
+  frame: 5
+  global_frame: 510
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4633
+  - 0.1778
+  - 0.9453
+  - 0.7706
+  frame: 6
+  global_frame: 511
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.46
+  - 0.1799
+  - 0.9231
+  - 0.7706
+  frame: 7
+  global_frame: 512
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4598
+  - 0.1786
+  - 0.915
+  - 0.7743
+  frame: 8
+  global_frame: 513
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4616
+  - 0.1827
+  - 0.9057
+  - 0.7685
+  frame: 9
+  global_frame: 514
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4551
+  - 0.1799
+  - 0.9066
+  - 0.7722
+  frame: 10
+  global_frame: 515
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4533
+  - 0.1774
+  - 0.9232
+  - 0.7737
+  frame: 11
+  global_frame: 516
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4477
+  - 0.1818
+  - 0.9127
+  - 0.7756
+  frame: 12
+  global_frame: 517
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4492
+  - 0.1833
+  - 0.899
+  - 0.7756
+  frame: 13
+  global_frame: 518
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4474
+  - 0.1826
+  - 0.9031
+  - 0.7721
+  frame: 14
+  global_frame: 519
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.441
+  - 0.1887
+  - 0.8871
+  - 0.7793
+  frame: 15
+  global_frame: 520
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4485
+  - 0.1848
+  - 0.9116
+  - 0.7682
+  frame: 16
+  global_frame: 521
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4448
+  - 0.1883
+  - 0.9136
+  - 0.7659
+  frame: 17
+  global_frame: 522
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4321
+  - 0.1879
+  - 0.9057
+  - 0.768
+  frame: 18
+  global_frame: 523
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.434
+  - 0.1891
+  - 0.9327
+  - 0.7717
+  frame: 19
+  global_frame: 524
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.429
+  - 0.1832
+  - 0.9327
+  - 0.766
+  frame: 20
+  global_frame: 525
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4187
+  - 0.1838
+  - 0.8747
+  - 0.7668
+  frame: 21
+  global_frame: 526
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4152
+  - 0.1832
+  - 0.881
+  - 0.775
+  frame: 22
+  global_frame: 527
+  prompt: the hedgehog is exploring
+- bbox_ratios:
+  - 0.4125
+  - 0.1839
+  - 0.8847
+  - 0.7748
+  frame: 23
+  global_frame: 528
+  prompt: the hedgehog is exploring
+motion_id: 504
+motion_iter: 0
+num_inference_steps: null
+object_name: hedgehog
+seed: 4
+source_clip: GSLGLQYT_0_552
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

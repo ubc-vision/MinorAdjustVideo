@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1101
+  - 0.1875
+  - 0.9847
+  - 0.9848
+  frame: 0
+  global_frame: 433
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1129
+  - 0.1875
+  - 0.9847
+  - 0.9838
+  frame: 1
+  global_frame: 434
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.0174
+  - 0.1819
+  - 0.9988
+  - 1.0009
+  frame: 2
+  global_frame: 435
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1364
+  - 0.1802
+  - 1.0045
+  - 0.9847
+  frame: 3
+  global_frame: 436
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1365
+  - 0.1747
+  - 1.0049
+  - 0.9914
+  frame: 4
+  global_frame: 437
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1532
+  - 0.178
+  - 0.9953
+  - 0.9789
+  frame: 5
+  global_frame: 438
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.119
+  - 0.17
+  - 0.9978
+  - 0.994
+  frame: 6
+  global_frame: 439
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1187
+  - 0.17
+  - 0.9978
+  - 0.9938
+  frame: 7
+  global_frame: 440
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.0815
+  - 0.1622
+  - 1.0021
+  - 0.9941
+  frame: 8
+  global_frame: 441
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1255
+  - 0.1586
+  - 0.9936
+  - 0.9448
+  frame: 9
+  global_frame: 442
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.0806
+  - 0.15
+  - 0.9849
+  - 0.99
+  frame: 10
+  global_frame: 443
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1471
+  - 0.1551
+  - 0.9858
+  - 0.8567
+  frame: 11
+  global_frame: 444
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1676
+  - 0.1562
+  - 0.9836
+  - 0.7856
+  frame: 12
+  global_frame: 445
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1678
+  - 0.1564
+  - 0.9837
+  - 0.7856
+  frame: 13
+  global_frame: 446
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1615
+  - 0.1556
+  - 0.9917
+  - 0.8526
+  frame: 14
+  global_frame: 447
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1705
+  - 0.1511
+  - 0.9963
+  - 0.8387
+  frame: 15
+  global_frame: 448
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1382
+  - 0.1585
+  - 0.9675
+  - 0.8116
+  frame: 16
+  global_frame: 449
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1606
+  - 0.1456
+  - 0.9941
+  - 0.8336
+  frame: 17
+  global_frame: 450
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1684
+  - 0.142
+  - 0.9926
+  - 0.8289
+  frame: 18
+  global_frame: 451
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1693
+  - 0.1422
+  - 0.9928
+  - 0.8275
+  frame: 19
+  global_frame: 452
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.0847
+  - 0.1342
+  - 0.9966
+  - 0.9976
+  frame: 20
+  global_frame: 453
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.127
+  - 0.1237
+  - 0.9992
+  - 0.9951
+  frame: 21
+  global_frame: 454
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.0419
+  - 0.1214
+  - 1.001
+  - 0.9993
+  frame: 22
+  global_frame: 455
+  prompt: the yellow cuttlefish is moving
+- bbox_ratios:
+  - 0.1644
+  - 0.1229
+  - 0.9951
+  - 0.9694
+  frame: 23
+  global_frame: 456
+  prompt: the yellow cuttlefish is moving
+motion_id: 122
+motion_iter: 1
+num_inference_steps: null
+object_name: cuttlefish
+seed: 4
+source_clip: LAQWPFFP_247_492
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

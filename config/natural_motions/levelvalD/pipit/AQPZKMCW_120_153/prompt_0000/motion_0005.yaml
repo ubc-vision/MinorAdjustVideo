@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3668
+  - 0.2696
+  - 0.6999
+  - 0.75
+  frame: 0
+  global_frame: 125
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3663
+  - 0.2676
+  - 0.7006
+  - 0.7473
+  frame: 1
+  global_frame: 126
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3664
+  - 0.2676
+  - 0.7004
+  - 0.7474
+  frame: 2
+  global_frame: 127
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3665
+  - 0.2628
+  - 0.6974
+  - 0.746
+  frame: 3
+  global_frame: 128
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3589
+  - 0.258
+  - 0.6995
+  - 0.7467
+  frame: 4
+  global_frame: 129
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3513
+  - 0.2532
+  - 0.7015
+  - 0.7473
+  frame: 5
+  global_frame: 130
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3436
+  - 0.2484
+  - 0.7036
+  - 0.748
+  frame: 6
+  global_frame: 131
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.336
+  - 0.2436
+  - 0.7057
+  - 0.7487
+  frame: 7
+  global_frame: 132
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3284
+  - 0.2388
+  - 0.7078
+  - 0.7494
+  frame: 8
+  global_frame: 133
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3208
+  - 0.2339
+  - 0.7099
+  - 0.75
+  frame: 9
+  global_frame: 134
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3132
+  - 0.2291
+  - 0.7119
+  - 0.7507
+  frame: 10
+  global_frame: 135
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.3056
+  - 0.2243
+  - 0.714
+  - 0.7514
+  frame: 11
+  global_frame: 136
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.298
+  - 0.2195
+  - 0.7161
+  - 0.752
+  frame: 12
+  global_frame: 137
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2904
+  - 0.2147
+  - 0.7182
+  - 0.7527
+  frame: 13
+  global_frame: 138
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2827
+  - 0.2099
+  - 0.7203
+  - 0.7534
+  frame: 14
+  global_frame: 139
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2751
+  - 0.2051
+  - 0.7224
+  - 0.754
+  frame: 15
+  global_frame: 140
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2675
+  - 0.2003
+  - 0.7244
+  - 0.7547
+  frame: 16
+  global_frame: 141
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2665
+  - 0.2058
+  - 0.7081
+  - 0.7533
+  frame: 17
+  global_frame: 142
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2623
+  - 0.2126
+  - 0.7097
+  - 0.754
+  frame: 18
+  global_frame: 143
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.258
+  - 0.2194
+  - 0.7112
+  - 0.7547
+  frame: 19
+  global_frame: 144
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2538
+  - 0.2262
+  - 0.7127
+  - 0.7554
+  frame: 20
+  global_frame: 145
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2495
+  - 0.233
+  - 0.7143
+  - 0.7561
+  frame: 21
+  global_frame: 146
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.2453
+  - 0.2398
+  - 0.7158
+  - 0.7568
+  frame: 22
+  global_frame: 147
+  prompt: the red-throated pipit is exploring
+- bbox_ratios:
+  - 0.241
+  - 0.2467
+  - 0.7173
+  - 0.7575
+  frame: 23
+  global_frame: 148
+  prompt: the red-throated pipit is exploring
+motion_id: 5
+motion_iter: 0
+num_inference_steps: null
+object_name: pipit
+seed: 4
+source_clip: AQPZKMCW_120_153
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0041
+  - 0.4915
+  - 0.9559
+  - 0.7909
+  frame: 0
+  global_frame: 587
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0049
+  - 0.4908
+  - 0.9642
+  - 0.7971
+  frame: 1
+  global_frame: 588
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0045
+  - 0.4919
+  - 0.9645
+  - 0.7978
+  frame: 2
+  global_frame: 589
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0049
+  - 0.4936
+  - 0.9715
+  - 0.7949
+  frame: 3
+  global_frame: 590
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0064
+  - 0.4881
+  - 0.9739
+  - 0.795
+  frame: 4
+  global_frame: 591
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.004
+  - 0.4865
+  - 0.9845
+  - 0.792
+  frame: 5
+  global_frame: 592
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0037
+  - 0.4877
+  - 0.9872
+  - 0.7924
+  frame: 6
+  global_frame: 593
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0025
+  - 0.4874
+  - 0.9926
+  - 0.7942
+  frame: 7
+  global_frame: 594
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0022
+  - 0.4874
+  - 0.9924
+  - 0.794
+  frame: 8
+  global_frame: 595
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0036
+  - 0.4857
+  - 0.9979
+  - 0.793
+  frame: 9
+  global_frame: 596
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0036
+  - 0.4802
+  - 0.9993
+  - 0.7879
+  frame: 10
+  global_frame: 597
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.004
+  - 0.4722
+  - 0.9978
+  - 0.7824
+  frame: 11
+  global_frame: 598
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0044
+  - 0.4646
+  - 1.0011
+  - 0.791
+  frame: 12
+  global_frame: 599
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0044
+  - 0.4579
+  - 1.0007
+  - 0.7888
+  frame: 13
+  global_frame: 600
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0052
+  - 0.4579
+  - 1.0012
+  - 0.7876
+  frame: 14
+  global_frame: 601
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0011
+  - 0.463
+  - 0.9966
+  - 0.7902
+  frame: 15
+  global_frame: 602
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0035
+  - 0.4544
+  - 0.9986
+  - 0.7876
+  frame: 16
+  global_frame: 603
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0005
+  - 0.443
+  - 0.9968
+  - 0.7887
+  frame: 17
+  global_frame: 604
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - -0.0007
+  - 0.4488
+  - 0.9952
+  - 0.8067
+  frame: 18
+  global_frame: 605
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - -0.0008
+  - 0.4487
+  - 0.9949
+  - 0.7986
+  frame: 19
+  global_frame: 606
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - -0.0008
+  - 0.449
+  - 0.995
+  - 0.7987
+  frame: 20
+  global_frame: 607
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - -0.002
+  - 0.4481
+  - 0.9939
+  - 0.803
+  frame: 21
+  global_frame: 608
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0022
+  - 0.4351
+  - 0.9992
+  - 0.7892
+  frame: 22
+  global_frame: 609
+  prompt: the dendroaspis polylepis black mamba is moving
+- bbox_ratios:
+  - 0.0016
+  - 0.4335
+  - 0.9986
+  - 0.7919
+  frame: 23
+  global_frame: 610
+  prompt: the dendroaspis polylepis black mamba is moving
+motion_id: 11
+motion_iter: 2
+num_inference_steps: null
+object_name: mamba
+seed: 4
+source_clip: KCLLRHXM_400_648
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

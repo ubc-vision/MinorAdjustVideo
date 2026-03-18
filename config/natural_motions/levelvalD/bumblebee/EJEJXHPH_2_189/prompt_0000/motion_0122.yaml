@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1327
+  - 0.0013
+  - 0.9022
+  - 0.9947
+  frame: 0
+  global_frame: 125
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1334
+  - 0.0017
+  - 0.8716
+  - 0.9943
+  frame: 1
+  global_frame: 126
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1304
+  - 0.0027
+  - 0.8532
+  - 0.9945
+  frame: 2
+  global_frame: 127
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1217
+  - 0.0027
+  - 0.8349
+  - 0.99
+  frame: 3
+  global_frame: 128
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1187
+  - 0.008
+  - 0.8492
+  - 0.9961
+  frame: 4
+  global_frame: 129
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1238
+  - 0.0097
+  - 0.8401
+  - 0.997
+  frame: 5
+  global_frame: 130
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1306
+  - 0.0067
+  - 0.832
+  - 0.9917
+  frame: 6
+  global_frame: 131
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1342
+  - 0.0084
+  - 0.856
+  - 0.9902
+  frame: 7
+  global_frame: 132
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1318
+  - 0.0087
+  - 0.8557
+  - 0.9985
+  frame: 8
+  global_frame: 133
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1339
+  - 0.0072
+  - 0.8819
+  - 0.9981
+  frame: 9
+  global_frame: 134
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1312
+  - 0.0082
+  - 0.9298
+  - 0.9982
+  frame: 10
+  global_frame: 135
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1218
+  - 0.0028
+  - 0.9612
+  - 0.993
+  frame: 11
+  global_frame: 136
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1218
+  - 0.0024
+  - 0.9319
+  - 0.9932
+  frame: 12
+  global_frame: 137
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1236
+  - 0.0038
+  - 0.9617
+  - 0.9955
+  frame: 13
+  global_frame: 138
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1207
+  - 0.0017
+  - 0.9659
+  - 0.9936
+  frame: 14
+  global_frame: 139
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.125
+  - 0.0002
+  - 0.9671
+  - 0.9939
+  frame: 15
+  global_frame: 140
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1242
+  - 0.0023
+  - 0.9581
+  - 0.9962
+  frame: 16
+  global_frame: 141
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1234
+  - 0.0044
+  - 0.9491
+  - 0.9984
+  frame: 17
+  global_frame: 142
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1194
+  - 0.0029
+  - 0.935
+  - 0.9961
+  frame: 18
+  global_frame: 143
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1213
+  - 0.0033
+  - 0.9325
+  - 0.9971
+  frame: 19
+  global_frame: 144
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1176
+  - 0.0019
+  - 0.9348
+  - 0.996
+  frame: 20
+  global_frame: 145
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1242
+  - 0.002
+  - 0.8931
+  - 0.996
+  frame: 21
+  global_frame: 146
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1205
+  - 0.0003
+  - 0.9259
+  - 0.9943
+  frame: 22
+  global_frame: 147
+  prompt: the bumblebee is flying
+- bbox_ratios:
+  - 0.1177
+  - 0.003
+  - 0.9025
+  - 0.9966
+  frame: 23
+  global_frame: 148
+  prompt: the bumblebee is flying
+motion_id: 122
+motion_iter: 0
+num_inference_steps: null
+object_name: bumblebee
+seed: 4
+source_clip: EJEJXHPH_2_189
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

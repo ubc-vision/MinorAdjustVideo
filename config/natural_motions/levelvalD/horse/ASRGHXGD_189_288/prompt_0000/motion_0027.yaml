@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0893
+  - 0.1976
+  - 0.9967
+  - 0.9999
+  frame: 0
+  global_frame: 263
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0917
+  - 0.1961
+  - 0.9976
+  - 1.0009
+  frame: 1
+  global_frame: 264
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0847
+  - 0.1971
+  - 0.9909
+  - 0.9988
+  frame: 2
+  global_frame: 265
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0835
+  - 0.1994
+  - 0.9911
+  - 0.9987
+  frame: 3
+  global_frame: 266
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0852
+  - 0.1927
+  - 0.9958
+  - 1.0021
+  frame: 4
+  global_frame: 267
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0865
+  - 0.1953
+  - 0.993
+  - 0.998
+  frame: 5
+  global_frame: 268
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0864
+  - 0.2019
+  - 0.994
+  - 0.9994
+  frame: 6
+  global_frame: 269
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0846
+  - 0.1988
+  - 0.9941
+  - 0.9964
+  frame: 7
+  global_frame: 270
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0802
+  - 0.2068
+  - 0.9937
+  - 0.9982
+  frame: 8
+  global_frame: 271
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0841
+  - 0.1996
+  - 0.997
+  - 0.9919
+  frame: 9
+  global_frame: 272
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.087
+  - 0.1868
+  - 0.995
+  - 0.9946
+  frame: 10
+  global_frame: 273
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0866
+  - 0.1795
+  - 0.9948
+  - 0.996
+  frame: 11
+  global_frame: 274
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0843
+  - 0.1828
+  - 0.9947
+  - 0.9998
+  frame: 12
+  global_frame: 275
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0858
+  - 0.1837
+  - 0.998
+  - 1.0032
+  frame: 13
+  global_frame: 276
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0863
+  - 0.1848
+  - 0.9979
+  - 1.0032
+  frame: 14
+  global_frame: 277
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0883
+  - 0.176
+  - 0.9975
+  - 0.9966
+  frame: 15
+  global_frame: 278
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0856
+  - 0.1709
+  - 0.9978
+  - 0.9987
+  frame: 16
+  global_frame: 279
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0871
+  - 0.1653
+  - 0.999
+  - 0.9993
+  frame: 17
+  global_frame: 280
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.085
+  - 0.1597
+  - 1.0002
+  - 0.9998
+  frame: 18
+  global_frame: 281
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0859
+  - 0.1472
+  - 0.9998
+  - 1.0023
+  frame: 19
+  global_frame: 282
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.086
+  - 0.1475
+  - 1.0
+  - 1.0025
+  frame: 20
+  global_frame: 283
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0827
+  - 0.1469
+  - 1.0053
+  - 1.0007
+  frame: 21
+  global_frame: 284
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0782
+  - 0.148
+  - 0.9987
+  - 1.0022
+  frame: 22
+  global_frame: 285
+  prompt: the horse is walking
+- bbox_ratios:
+  - 0.0769
+  - 0.153
+  - 0.9861
+  - 1.0074
+  frame: 23
+  global_frame: 286
+  prompt: the horse is walking
+motion_id: 27
+motion_iter: 0
+num_inference_steps: null
+object_name: horse
+seed: 4
+source_clip: ASRGHXGD_189_288
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

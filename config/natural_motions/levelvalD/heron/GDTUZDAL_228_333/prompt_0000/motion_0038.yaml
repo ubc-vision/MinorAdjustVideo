@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4057
+  - 0.1827
+  - 1.0014
+  - 0.9964
+  frame: 0
+  global_frame: 278
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4037
+  - 0.179
+  - 1.0
+  - 0.9951
+  frame: 1
+  global_frame: 279
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4072
+  - 0.1754
+  - 1.0038
+  - 0.9917
+  frame: 2
+  global_frame: 280
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4073
+  - 0.1758
+  - 1.0036
+  - 0.9912
+  frame: 3
+  global_frame: 281
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4074
+  - 0.1762
+  - 1.0034
+  - 0.9908
+  frame: 4
+  global_frame: 282
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4088
+  - 0.1757
+  - 1.0015
+  - 0.9924
+  frame: 5
+  global_frame: 283
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4073
+  - 0.1803
+  - 1.0014
+  - 0.9947
+  frame: 6
+  global_frame: 284
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4048
+  - 0.1794
+  - 1.0028
+  - 0.9946
+  frame: 7
+  global_frame: 285
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.4022
+  - 0.1785
+  - 1.0043
+  - 0.9945
+  frame: 8
+  global_frame: 286
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3991
+  - 0.1811
+  - 1.0009
+  - 0.9979
+  frame: 9
+  global_frame: 287
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3965
+  - 0.1819
+  - 0.9999
+  - 0.999
+  frame: 10
+  global_frame: 288
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3912
+  - 0.1781
+  - 1.0004
+  - 0.9952
+  frame: 11
+  global_frame: 289
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3858
+  - 0.1744
+  - 1.001
+  - 0.9915
+  frame: 12
+  global_frame: 290
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.378
+  - 0.1828
+  - 0.9978
+  - 0.9973
+  frame: 13
+  global_frame: 291
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3733
+  - 0.1783
+  - 0.9984
+  - 0.9969
+  frame: 14
+  global_frame: 292
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3686
+  - 0.1737
+  - 0.9991
+  - 0.9965
+  frame: 15
+  global_frame: 293
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3639
+  - 0.1691
+  - 0.9997
+  - 0.996
+  frame: 16
+  global_frame: 294
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3591
+  - 0.1645
+  - 1.0004
+  - 0.9956
+  frame: 17
+  global_frame: 295
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3542
+  - 0.1602
+  - 0.9983
+  - 0.9962
+  frame: 18
+  global_frame: 296
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3506
+  - 0.1594
+  - 1.0008
+  - 0.9991
+  frame: 19
+  global_frame: 297
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.347
+  - 0.1586
+  - 1.0032
+  - 1.0021
+  frame: 20
+  global_frame: 298
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3425
+  - 0.1603
+  - 1.0052
+  - 1.0035
+  frame: 21
+  global_frame: 299
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.341
+  - 0.1563
+  - 1.0001
+  - 1.0002
+  frame: 22
+  global_frame: 300
+  prompt: the grey heron is walking
+- bbox_ratios:
+  - 0.3395
+  - 0.1523
+  - 0.995
+  - 0.9968
+  frame: 23
+  global_frame: 301
+  prompt: the grey heron is walking
+motion_id: 38
+motion_iter: 0
+num_inference_steps: null
+object_name: heron
+seed: 4
+source_clip: GDTUZDAL_228_333
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

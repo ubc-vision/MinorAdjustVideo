@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4986
+  - 0.1924
+  - 0.8072
+  - 0.8231
+  frame: 0
+  global_frame: 1358
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4978
+  - 0.1914
+  - 0.8071
+  - 0.8234
+  frame: 1
+  global_frame: 1359
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4977
+  - 0.1915
+  - 0.807
+  - 0.8273
+  frame: 2
+  global_frame: 1360
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4977
+  - 0.1913
+  - 0.8066
+  - 0.8274
+  frame: 3
+  global_frame: 1361
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4977
+  - 0.1912
+  - 0.8072
+  - 0.8214
+  frame: 4
+  global_frame: 1362
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4977
+  - 0.1913
+  - 0.8072
+  - 0.8206
+  frame: 5
+  global_frame: 1363
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4972
+  - 0.1912
+  - 0.808
+  - 0.8263
+  frame: 6
+  global_frame: 1364
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4973
+  - 0.19
+  - 0.8081
+  - 0.8299
+  frame: 7
+  global_frame: 1365
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4981
+  - 0.1887
+  - 0.8095
+  - 0.8196
+  frame: 8
+  global_frame: 1366
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4986
+  - 0.1852
+  - 0.8056
+  - 0.8136
+  frame: 9
+  global_frame: 1367
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4921
+  - 0.1856
+  - 0.8002
+  - 0.8223
+  frame: 10
+  global_frame: 1368
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4984
+  - 0.185
+  - 0.8078
+  - 0.8122
+  frame: 11
+  global_frame: 1369
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4919
+  - 0.1848
+  - 0.7996
+  - 0.8172
+  frame: 12
+  global_frame: 1370
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4914
+  - 0.1798
+  - 0.7959
+  - 0.8014
+  frame: 13
+  global_frame: 1371
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5029
+  - 0.1881
+  - 0.804
+  - 0.814
+  frame: 14
+  global_frame: 1372
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5034
+  - 0.186
+  - 0.8045
+  - 0.8178
+  frame: 15
+  global_frame: 1373
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5063
+  - 0.1892
+  - 0.8081
+  - 0.8213
+  frame: 16
+  global_frame: 1374
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5064
+  - 0.1891
+  - 0.8082
+  - 0.8209
+  frame: 17
+  global_frame: 1375
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5058
+  - 0.1887
+  - 0.8054
+  - 0.8198
+  frame: 18
+  global_frame: 1376
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.4926
+  - 0.188
+  - 0.7973
+  - 0.8474
+  frame: 19
+  global_frame: 1377
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5123
+  - 0.1947
+  - 0.8065
+  - 0.8369
+  frame: 20
+  global_frame: 1378
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5101
+  - 0.1856
+  - 0.8027
+  - 0.8141
+  frame: 21
+  global_frame: 1379
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5061
+  - 0.1866
+  - 0.8017
+  - 0.8342
+  frame: 22
+  global_frame: 1380
+  prompt: the gorilla is walking
+- bbox_ratios:
+  - 0.5058
+  - 0.1864
+  - 0.8032
+  - 0.8345
+  frame: 23
+  global_frame: 1381
+  prompt: the gorilla is walking
+motion_id: 53
+motion_iter: 2
+num_inference_steps: null
+object_name: gorilla
+seed: 4
+source_clip: QETWAMYV_1305_1394
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

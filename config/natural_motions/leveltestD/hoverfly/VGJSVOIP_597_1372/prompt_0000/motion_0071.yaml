@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3321
+  - 0.2779
+  - 0.5158
+  - 0.4004
+  frame: 0
+  global_frame: 1336
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3353
+  - 0.2808
+  - 0.5153
+  - 0.4038
+  frame: 1
+  global_frame: 1337
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3353
+  - 0.2816
+  - 0.5167
+  - 0.4041
+  frame: 2
+  global_frame: 1338
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3378
+  - 0.2873
+  - 0.5183
+  - 0.4085
+  frame: 3
+  global_frame: 1339
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3393
+  - 0.2886
+  - 0.5214
+  - 0.4112
+  frame: 4
+  global_frame: 1340
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3409
+  - 0.2906
+  - 0.5242
+  - 0.4114
+  frame: 5
+  global_frame: 1341
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3408
+  - 0.2906
+  - 0.5243
+  - 0.4114
+  frame: 6
+  global_frame: 1342
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3399
+  - 0.2937
+  - 0.5258
+  - 0.4134
+  frame: 7
+  global_frame: 1343
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3403
+  - 0.2949
+  - 0.5269
+  - 0.4163
+  frame: 8
+  global_frame: 1344
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3441
+  - 0.3015
+  - 0.5305
+  - 0.421
+  frame: 9
+  global_frame: 1345
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.35
+  - 0.3038
+  - 0.5347
+  - 0.4223
+  frame: 10
+  global_frame: 1346
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3501
+  - 0.3092
+  - 0.5363
+  - 0.4286
+  frame: 11
+  global_frame: 1347
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3501
+  - 0.3092
+  - 0.5363
+  - 0.4286
+  frame: 12
+  global_frame: 1348
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3489
+  - 0.3139
+  - 0.5377
+  - 0.4316
+  frame: 13
+  global_frame: 1349
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3605
+  - 0.3213
+  - 0.5389
+  - 0.4412
+  frame: 14
+  global_frame: 1350
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3633
+  - 0.3283
+  - 0.5451
+  - 0.4474
+  frame: 15
+  global_frame: 1351
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3666
+  - 0.3369
+  - 0.5518
+  - 0.4584
+  frame: 16
+  global_frame: 1352
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3689
+  - 0.3487
+  - 0.5593
+  - 0.4714
+  frame: 17
+  global_frame: 1353
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3689
+  - 0.3487
+  - 0.5593
+  - 0.4713
+  frame: 18
+  global_frame: 1354
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3702
+  - 0.3569
+  - 0.5658
+  - 0.4739
+  frame: 19
+  global_frame: 1355
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3908
+  - 0.3712
+  - 0.5669
+  - 0.4824
+  frame: 20
+  global_frame: 1356
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.3989
+  - 0.3754
+  - 0.5758
+  - 0.5153
+  frame: 21
+  global_frame: 1357
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.4068
+  - 0.3641
+  - 0.5845
+  - 0.5198
+  frame: 22
+  global_frame: 1358
+  prompt: the hoverfly is flying
+- bbox_ratios:
+  - 0.4184
+  - 0.4165
+  - 0.5917
+  - 0.5297
+  frame: 23
+  global_frame: 1359
+  prompt: the hoverfly is flying
+motion_id: 71
+motion_iter: 1
+num_inference_steps: null
+object_name: hoverfly
+seed: 4
+source_clip: VGJSVOIP_597_1372
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

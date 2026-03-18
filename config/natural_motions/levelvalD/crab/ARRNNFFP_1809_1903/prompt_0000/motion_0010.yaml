@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1908
+  - 0.3051
+  - 0.9042
+  - 0.912
+  frame: 0
+  global_frame: 1877
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.188
+  - 0.307
+  - 0.9117
+  - 0.9236
+  frame: 1
+  global_frame: 1878
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.193
+  - 0.2916
+  - 0.9197
+  - 0.9037
+  frame: 2
+  global_frame: 1879
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1907
+  - 0.3037
+  - 0.9085
+  - 0.9043
+  frame: 3
+  global_frame: 1880
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1951
+  - 0.2898
+  - 0.9207
+  - 0.9494
+  frame: 4
+  global_frame: 1881
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1953
+  - 0.2899
+  - 0.9212
+  - 0.9493
+  frame: 5
+  global_frame: 1882
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1916
+  - 0.2865
+  - 0.9194
+  - 0.9214
+  frame: 6
+  global_frame: 1883
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1804
+  - 0.3047
+  - 0.9129
+  - 0.9083
+  frame: 7
+  global_frame: 1884
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.191
+  - 0.2874
+  - 0.9175
+  - 0.9455
+  frame: 8
+  global_frame: 1885
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.188
+  - 0.2866
+  - 0.9142
+  - 0.9113
+  frame: 9
+  global_frame: 1886
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.2005
+  - 0.3018
+  - 0.91
+  - 0.9254
+  frame: 10
+  global_frame: 1887
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1999
+  - 0.3021
+  - 0.9097
+  - 0.9252
+  frame: 11
+  global_frame: 1888
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1938
+  - 0.3092
+  - 0.9029
+  - 0.9229
+  frame: 12
+  global_frame: 1889
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1978
+  - 0.302
+  - 0.9064
+  - 0.927
+  frame: 13
+  global_frame: 1890
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1884
+  - 0.3047
+  - 0.8978
+  - 0.9062
+  frame: 14
+  global_frame: 1891
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.196
+  - 0.2996
+  - 0.9031
+  - 0.9243
+  frame: 15
+  global_frame: 1892
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1863
+  - 0.3009
+  - 0.896
+  - 0.9054
+  frame: 16
+  global_frame: 1893
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1825
+  - 0.2971
+  - 0.8965
+  - 0.9098
+  frame: 17
+  global_frame: 1894
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1923
+  - 0.3038
+  - 0.902
+  - 0.9158
+  frame: 18
+  global_frame: 1895
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.191
+  - 0.2999
+  - 0.9007
+  - 0.9259
+  frame: 19
+  global_frame: 1896
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1985
+  - 0.303
+  - 0.9027
+  - 0.9415
+  frame: 20
+  global_frame: 1897
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.2042
+  - 0.3029
+  - 0.901
+  - 0.9256
+  frame: 21
+  global_frame: 1898
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1976
+  - 0.3032
+  - 0.8863
+  - 0.9219
+  frame: 22
+  global_frame: 1899
+  prompt: the sand bubbler crab is moving
+- bbox_ratios:
+  - 0.1977
+  - 0.3024
+  - 0.8841
+  - 0.9203
+  frame: 23
+  global_frame: 1900
+  prompt: the sand bubbler crab is moving
+motion_id: 10
+motion_iter: 0
+num_inference_steps: null
+object_name: crab
+seed: 4
+source_clip: ARRNNFFP_1809_1903
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

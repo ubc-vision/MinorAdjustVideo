@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1575
+  - 0.2678
+  - 0.6245
+  - 0.8956
+  frame: 0
+  global_frame: 709
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.156
+  - 0.2644
+  - 0.6237
+  - 0.9029
+  frame: 1
+  global_frame: 710
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1582
+  - 0.2664
+  - 0.6406
+  - 0.9157
+  frame: 2
+  global_frame: 711
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1543
+  - 0.2687
+  - 0.6405
+  - 0.9136
+  frame: 3
+  global_frame: 712
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1508
+  - 0.2659
+  - 0.6403
+  - 0.9132
+  frame: 4
+  global_frame: 713
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1502
+  - 0.2651
+  - 0.6376
+  - 0.9152
+  frame: 5
+  global_frame: 714
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1495
+  - 0.2653
+  - 0.6372
+  - 0.9157
+  frame: 6
+  global_frame: 715
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1556
+  - 0.2531
+  - 0.6347
+  - 0.9142
+  frame: 7
+  global_frame: 716
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1603
+  - 0.2585
+  - 0.6382
+  - 0.9252
+  frame: 8
+  global_frame: 717
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1606
+  - 0.2611
+  - 0.6432
+  - 0.9287
+  frame: 9
+  global_frame: 718
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.161
+  - 0.262
+  - 0.6426
+  - 0.9436
+  frame: 10
+  global_frame: 719
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1651
+  - 0.253
+  - 0.6413
+  - 0.9425
+  frame: 11
+  global_frame: 720
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1648
+  - 0.2532
+  - 0.6414
+  - 0.943
+  frame: 12
+  global_frame: 721
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1705
+  - 0.254
+  - 0.6416
+  - 0.9488
+  frame: 13
+  global_frame: 722
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1655
+  - 0.2584
+  - 0.6366
+  - 0.9599
+  frame: 14
+  global_frame: 723
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1721
+  - 0.2603
+  - 0.6428
+  - 0.9546
+  frame: 15
+  global_frame: 724
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1632
+  - 0.2335
+  - 0.6463
+  - 0.9513
+  frame: 16
+  global_frame: 725
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1632
+  - 0.2313
+  - 0.642
+  - 0.9419
+  frame: 17
+  global_frame: 726
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.164
+  - 0.2317
+  - 0.6428
+  - 0.9402
+  frame: 18
+  global_frame: 727
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1704
+  - 0.2477
+  - 0.6437
+  - 0.9238
+  frame: 19
+  global_frame: 728
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1764
+  - 0.2426
+  - 0.6595
+  - 0.9256
+  frame: 20
+  global_frame: 729
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1794
+  - 0.2436
+  - 0.6621
+  - 0.9243
+  frame: 21
+  global_frame: 730
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1794
+  - 0.2327
+  - 0.6691
+  - 0.9198
+  frame: 22
+  global_frame: 731
+  prompt: the fiddler crab is moving
+- bbox_ratios:
+  - 0.1826
+  - 0.2371
+  - 0.6728
+  - 0.9148
+  frame: 23
+  global_frame: 732
+  prompt: the fiddler crab is moving
+motion_id: 9
+motion_iter: 0
+num_inference_steps: null
+object_name: crab
+seed: 4
+source_clip: LNTWSZQJ_700_741
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

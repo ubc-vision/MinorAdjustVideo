@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2955
+  - 0.0515
+  - 0.5388
+  - 0.7355
+  frame: 0
+  global_frame: 428
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2941
+  - 0.0487
+  - 0.5481
+  - 0.749
+  frame: 1
+  global_frame: 429
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2927
+  - 0.0458
+  - 0.5574
+  - 0.7625
+  frame: 2
+  global_frame: 430
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2914
+  - 0.043
+  - 0.5667
+  - 0.7761
+  frame: 3
+  global_frame: 431
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.29
+  - 0.0401
+  - 0.5761
+  - 0.7896
+  frame: 4
+  global_frame: 432
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2886
+  - 0.0373
+  - 0.5854
+  - 0.8031
+  frame: 5
+  global_frame: 433
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2872
+  - 0.0345
+  - 0.5947
+  - 0.8167
+  frame: 6
+  global_frame: 434
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2858
+  - 0.0316
+  - 0.6041
+  - 0.8302
+  frame: 7
+  global_frame: 435
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2844
+  - 0.0288
+  - 0.6134
+  - 0.8437
+  frame: 8
+  global_frame: 436
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.283
+  - 0.0259
+  - 0.6227
+  - 0.8573
+  frame: 9
+  global_frame: 437
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2817
+  - 0.0231
+  - 0.632
+  - 0.8708
+  frame: 10
+  global_frame: 438
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2803
+  - 0.0203
+  - 0.6414
+  - 0.8843
+  frame: 11
+  global_frame: 439
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2789
+  - 0.0174
+  - 0.6507
+  - 0.8979
+  frame: 12
+  global_frame: 440
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2775
+  - 0.0146
+  - 0.66
+  - 0.9114
+  frame: 13
+  global_frame: 441
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2761
+  - 0.0117
+  - 0.6694
+  - 0.9249
+  frame: 14
+  global_frame: 442
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2747
+  - 0.0089
+  - 0.6787
+  - 0.9385
+  frame: 15
+  global_frame: 443
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2733
+  - 0.0061
+  - 0.688
+  - 0.952
+  frame: 16
+  global_frame: 444
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2719
+  - 0.0032
+  - 0.6973
+  - 0.9655
+  frame: 17
+  global_frame: 445
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2706
+  - 0.0004
+  - 0.7067
+  - 0.9791
+  frame: 18
+  global_frame: 446
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.1036
+  - -0.0039
+  - 0.7076
+  - 0.9925
+  frame: 19
+  global_frame: 447
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.1582
+  - 0.0373
+  - 0.6693
+  - 0.8789
+  frame: 20
+  global_frame: 448
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2127
+  - 0.0784
+  - 0.631
+  - 0.7654
+  frame: 21
+  global_frame: 449
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.2673
+  - 0.1196
+  - 0.5927
+  - 0.6518
+  frame: 22
+  global_frame: 450
+  prompt: the seahorse is moving
+- bbox_ratios:
+  - 0.3219
+  - 0.1607
+  - 0.5544
+  - 0.5382
+  frame: 23
+  global_frame: 451
+  prompt: the seahorse is moving
+motion_id: 7
+motion_iter: 0
+num_inference_steps: null
+object_name: seahorse
+seed: 4
+source_clip: RFQZCFFP_340_468
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

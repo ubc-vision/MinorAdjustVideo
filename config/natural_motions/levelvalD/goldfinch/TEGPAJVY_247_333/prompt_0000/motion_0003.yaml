@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5881
+  - 0.2997
+  - 0.7127
+  - 0.5588
+  frame: 0
+  global_frame: 308
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5858
+  - 0.3
+  - 0.7136
+  - 0.559
+  frame: 1
+  global_frame: 309
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.587
+  - 0.3016
+  - 0.7125
+  - 0.5594
+  frame: 2
+  global_frame: 310
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5877
+  - 0.3004
+  - 0.7108
+  - 0.5581
+  frame: 3
+  global_frame: 311
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5871
+  - 0.3005
+  - 0.7101
+  - 0.5581
+  frame: 4
+  global_frame: 312
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5871
+  - 0.3004
+  - 0.7101
+  - 0.5583
+  frame: 5
+  global_frame: 313
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5864
+  - 0.3011
+  - 0.7096
+  - 0.5599
+  frame: 6
+  global_frame: 314
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5952
+  - 0.3013
+  - 0.71
+  - 0.5502
+  frame: 7
+  global_frame: 315
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5955
+  - 0.3007
+  - 0.7129
+  - 0.5547
+  frame: 8
+  global_frame: 316
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5957
+  - 0.3008
+  - 0.7152
+  - 0.565
+  frame: 9
+  global_frame: 317
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5953
+  - 0.2986
+  - 0.7182
+  - 0.5653
+  frame: 10
+  global_frame: 318
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5954
+  - 0.2985
+  - 0.7183
+  - 0.5651
+  frame: 11
+  global_frame: 319
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5959
+  - 0.2983
+  - 0.7201
+  - 0.5713
+  frame: 12
+  global_frame: 320
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5976
+  - 0.2969
+  - 0.7203
+  - 0.5645
+  frame: 13
+  global_frame: 321
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5988
+  - 0.2975
+  - 0.7201
+  - 0.5521
+  frame: 14
+  global_frame: 322
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.601
+  - 0.2973
+  - 0.7189
+  - 0.5582
+  frame: 15
+  global_frame: 323
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5989
+  - 0.2982
+  - 0.716
+  - 0.5645
+  frame: 16
+  global_frame: 324
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5996
+  - 0.2982
+  - 0.7163
+  - 0.5659
+  frame: 17
+  global_frame: 325
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5998
+  - 0.2983
+  - 0.7144
+  - 0.56
+  frame: 18
+  global_frame: 326
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.6021
+  - 0.3005
+  - 0.7168
+  - 0.5529
+  frame: 19
+  global_frame: 327
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5935
+  - 0.3121
+  - 0.7185
+  - 0.5491
+  frame: 20
+  global_frame: 328
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5868
+  - 0.3185
+  - 0.7216
+  - 0.5535
+  frame: 21
+  global_frame: 329
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5861
+  - 0.3176
+  - 0.7181
+  - 0.5511
+  frame: 22
+  global_frame: 330
+  prompt: the goldfinch is walking
+- bbox_ratios:
+  - 0.5863
+  - 0.3182
+  - 0.7184
+  - 0.5513
+  frame: 23
+  global_frame: 331
+  prompt: the goldfinch is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: goldfinch
+seed: 4
+source_clip: TEGPAJVY_247_333
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2774
+  - 0.4717
+  - 0.722
+  - 0.6921
+  frame: 0
+  global_frame: 449
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2752
+  - 0.4724
+  - 0.7142
+  - 0.6969
+  frame: 1
+  global_frame: 450
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2785
+  - 0.4679
+  - 0.7113
+  - 0.696
+  frame: 2
+  global_frame: 451
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2804
+  - 0.4693
+  - 0.7233
+  - 0.6926
+  frame: 3
+  global_frame: 452
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2833
+  - 0.4829
+  - 0.7343
+  - 0.6882
+  frame: 4
+  global_frame: 453
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2831
+  - 0.4828
+  - 0.7338
+  - 0.6877
+  frame: 5
+  global_frame: 454
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2725
+  - 0.4675
+  - 0.6959
+  - 0.6884
+  frame: 6
+  global_frame: 455
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2751
+  - 0.4691
+  - 0.6994
+  - 0.6828
+  frame: 7
+  global_frame: 456
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2863
+  - 0.4612
+  - 0.6801
+  - 0.6668
+  frame: 8
+  global_frame: 457
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2807
+  - 0.4522
+  - 0.6956
+  - 0.6574
+  frame: 9
+  global_frame: 458
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2796
+  - 0.4386
+  - 0.704
+  - 0.6539
+  frame: 10
+  global_frame: 459
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2789
+  - 0.4373
+  - 0.7039
+  - 0.6538
+  frame: 11
+  global_frame: 460
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2799
+  - 0.438
+  - 0.7167
+  - 0.6351
+  frame: 12
+  global_frame: 461
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2786
+  - 0.4226
+  - 0.7243
+  - 0.6246
+  frame: 13
+  global_frame: 462
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2736
+  - 0.4105
+  - 0.7027
+  - 0.6239
+  frame: 14
+  global_frame: 463
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2704
+  - 0.4023
+  - 0.7119
+  - 0.6197
+  frame: 15
+  global_frame: 464
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2655
+  - 0.3944
+  - 0.6991
+  - 0.6042
+  frame: 16
+  global_frame: 465
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2657
+  - 0.3946
+  - 0.699
+  - 0.6043
+  frame: 17
+  global_frame: 466
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2577
+  - 0.3801
+  - 0.6752
+  - 0.5916
+  frame: 18
+  global_frame: 467
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.252
+  - 0.3824
+  - 0.6772
+  - 0.5768
+  frame: 19
+  global_frame: 468
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2523
+  - 0.377
+  - 0.6993
+  - 0.5817
+  frame: 20
+  global_frame: 469
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2469
+  - 0.3676
+  - 0.7022
+  - 0.5639
+  frame: 21
+  global_frame: 470
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.245
+  - 0.359
+  - 0.7069
+  - 0.5834
+  frame: 22
+  global_frame: 471
+  prompt: the hawk is flying
+- bbox_ratios:
+  - 0.2446
+  - 0.3586
+  - 0.7094
+  - 0.5847
+  frame: 23
+  global_frame: 472
+  prompt: the hawk is flying
+motion_id: 32
+motion_iter: 2
+num_inference_steps: null
+object_name: hawk
+seed: 4
+source_clip: QUZPJDSN_336_484
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

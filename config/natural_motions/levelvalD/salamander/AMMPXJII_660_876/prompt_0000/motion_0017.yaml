@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.003
+  - 0.3947
+  - 0.9257
+  - 0.793
+  frame: 0
+  global_frame: 841
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.007
+  - 0.3927
+  - 0.923
+  - 0.782
+  frame: 1
+  global_frame: 842
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0072
+  - 0.393
+  - 0.9228
+  - 0.7817
+  frame: 2
+  global_frame: 843
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0056
+  - 0.3944
+  - 0.9296
+  - 0.783
+  frame: 3
+  global_frame: 844
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0134
+  - 0.3763
+  - 0.9397
+  - 0.7686
+  frame: 4
+  global_frame: 845
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0023
+  - 0.3744
+  - 0.9213
+  - 0.7617
+  frame: 5
+  global_frame: 846
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0103
+  - 0.3788
+  - 0.9471
+  - 0.9712
+  frame: 6
+  global_frame: 847
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0103
+  - 0.3789
+  - 0.9469
+  - 0.9708
+  frame: 7
+  global_frame: 848
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - 0.003
+  - 0.3656
+  - 0.9498
+  - 0.7579
+  frame: 8
+  global_frame: 849
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0059
+  - 0.3578
+  - 0.9402
+  - 0.7544
+  frame: 9
+  global_frame: 850
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0059
+  - 0.3625
+  - 0.925
+  - 0.7386
+  frame: 10
+  global_frame: 851
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0095
+  - 0.3628
+  - 0.8992
+  - 0.7543
+  frame: 11
+  global_frame: 852
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0095
+  - 0.3625
+  - 0.9001
+  - 0.7548
+  frame: 12
+  global_frame: 853
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0062
+  - 0.359
+  - 0.91
+  - 0.7669
+  frame: 13
+  global_frame: 854
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0033
+  - 0.3547
+  - 0.9265
+  - 0.7638
+  frame: 14
+  global_frame: 855
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0037
+  - 0.3502
+  - 0.9496
+  - 0.7579
+  frame: 15
+  global_frame: 856
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0036
+  - 0.35
+  - 0.9498
+  - 0.7577
+  frame: 16
+  global_frame: 857
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0085
+  - 0.3573
+  - 0.931
+  - 0.7862
+  frame: 17
+  global_frame: 858
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0053
+  - 0.3601
+  - 0.9561
+  - 0.7714
+  frame: 18
+  global_frame: 859
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0093
+  - 0.3701
+  - 0.9554
+  - 0.761
+  frame: 19
+  global_frame: 860
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0063
+  - 0.3748
+  - 0.9609
+  - 0.7642
+  frame: 20
+  global_frame: 861
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0063
+  - 0.3748
+  - 0.9608
+  - 0.7642
+  frame: 21
+  global_frame: 862
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0036
+  - 0.3658
+  - 0.9551
+  - 0.7748
+  frame: 22
+  global_frame: 863
+  prompt: the giant salamander is walking
+- bbox_ratios:
+  - -0.0065
+  - 0.3707
+  - 0.9575
+  - 0.805
+  frame: 23
+  global_frame: 864
+  prompt: the giant salamander is walking
+motion_id: 17
+motion_iter: 0
+num_inference_steps: null
+object_name: salamander
+seed: 4
+source_clip: AMMPXJII_660_876
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

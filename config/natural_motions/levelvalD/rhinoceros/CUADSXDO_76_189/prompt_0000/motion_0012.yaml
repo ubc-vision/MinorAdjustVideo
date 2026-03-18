@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.529
+  - 0.6423
+  - 0.6964
+  - 0.8152
+  frame: 0
+  global_frame: 146
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5303
+  - 0.6442
+  - 0.6965
+  - 0.8157
+  frame: 1
+  global_frame: 147
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5314
+  - 0.6447
+  - 0.6964
+  - 0.8156
+  frame: 2
+  global_frame: 148
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.533
+  - 0.6455
+  - 0.6964
+  - 0.8156
+  frame: 3
+  global_frame: 149
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5318
+  - 0.6461
+  - 0.6965
+  - 0.8163
+  frame: 4
+  global_frame: 150
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5316
+  - 0.6457
+  - 0.6964
+  - 0.8152
+  frame: 5
+  global_frame: 151
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5248
+  - 0.6445
+  - 0.697
+  - 0.8153
+  frame: 6
+  global_frame: 152
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5228
+  - 0.6442
+  - 0.6969
+  - 0.8152
+  frame: 7
+  global_frame: 153
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5171
+  - 0.6417
+  - 0.697
+  - 0.8156
+  frame: 8
+  global_frame: 154
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5175
+  - 0.6416
+  - 0.6975
+  - 0.8149
+  frame: 9
+  global_frame: 155
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5178
+  - 0.6401
+  - 0.6969
+  - 0.8149
+  frame: 10
+  global_frame: 156
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5181
+  - 0.6402
+  - 0.6968
+  - 0.815
+  frame: 11
+  global_frame: 157
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5169
+  - 0.6399
+  - 0.6965
+  - 0.8154
+  frame: 12
+  global_frame: 158
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5189
+  - 0.6411
+  - 0.6965
+  - 0.8138
+  frame: 13
+  global_frame: 159
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5189
+  - 0.6403
+  - 0.6961
+  - 0.8125
+  frame: 14
+  global_frame: 160
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.52
+  - 0.6408
+  - 0.6964
+  - 0.8123
+  frame: 15
+  global_frame: 161
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.518
+  - 0.6395
+  - 0.6965
+  - 0.8119
+  frame: 16
+  global_frame: 162
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5179
+  - 0.6395
+  - 0.6964
+  - 0.812
+  frame: 17
+  global_frame: 163
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5146
+  - 0.6386
+  - 0.6964
+  - 0.8137
+  frame: 18
+  global_frame: 164
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5161
+  - 0.6373
+  - 0.6968
+  - 0.8135
+  frame: 19
+  global_frame: 165
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5201
+  - 0.6356
+  - 0.6975
+  - 0.8123
+  frame: 20
+  global_frame: 166
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5147
+  - 0.6264
+  - 0.6972
+  - 0.8108
+  frame: 21
+  global_frame: 167
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.51
+  - 0.6258
+  - 0.6957
+  - 0.8122
+  frame: 22
+  global_frame: 168
+  prompt: the rhinoceros is walking
+- bbox_ratios:
+  - 0.5081
+  - 0.6254
+  - 0.6921
+  - 0.8162
+  frame: 23
+  global_frame: 169
+  prompt: the rhinoceros is walking
+motion_id: 12
+motion_iter: 1
+num_inference_steps: null
+object_name: rhinoceros
+seed: 4
+source_clip: CUADSXDO_76_189
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

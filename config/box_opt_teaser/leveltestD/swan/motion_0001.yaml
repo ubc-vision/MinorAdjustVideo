@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0056
+  - 0.0803
+  - 0.5314
+  - 0.7925
+  frame: 0
+  global_frame: 700
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0043
+  - 0.1022
+  - 0.5916
+  - 0.785
+  frame: 1
+  global_frame: 701
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.006
+  - 0.1629
+  - 0.6326
+  - 0.777
+  frame: 2
+  global_frame: 702
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0032
+  - 0.2545
+  - 0.6665
+  - 0.7795
+  frame: 3
+  global_frame: 703
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0101
+  - 0.3622
+  - 0.6686
+  - 0.7808
+  frame: 4
+  global_frame: 704
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0119
+  - 0.5
+  - 0.6871
+  - 0.797
+  frame: 5
+  global_frame: 705
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0005
+  - 0.5096
+  - 0.6183
+  - 0.7751
+  frame: 6
+  global_frame: 706
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0008
+  - 0.51
+  - 0.5223
+  - 0.8215
+  frame: 7
+  global_frame: 707
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0049
+  - 0.5119
+  - 0.532
+  - 0.8284
+  frame: 8
+  global_frame: 708
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0138
+  - 0.4746
+  - 0.4945
+  - 0.8083
+  frame: 9
+  global_frame: 709
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0092
+  - 0.4194
+  - 0.445
+  - 0.7979
+  frame: 10
+  global_frame: 710
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0012
+  - 0.3632
+  - 0.4428
+  - 0.7955
+  frame: 11
+  global_frame: 711
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0044
+  - 0.3215
+  - 0.3863
+  - 0.7999
+  frame: 12
+  global_frame: 712
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0013
+  - 0.1813
+  - 0.4182
+  - 0.8133
+  frame: 13
+  global_frame: 713
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0006
+  - 0.0759
+  - 0.4527
+  - 0.8051
+  frame: 14
+  global_frame: 714
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0032
+  - 0.0799
+  - 0.4976
+  - 0.7967
+  frame: 15
+  global_frame: 715
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0015
+  - 0.1018
+  - 0.5679
+  - 0.8132
+  frame: 16
+  global_frame: 716
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0077
+  - 0.1911
+  - 0.6048
+  - 0.817
+  frame: 17
+  global_frame: 717
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0057
+  - 0.2786
+  - 0.6525
+  - 0.7981
+  frame: 18
+  global_frame: 718
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0032
+  - 0.3877
+  - 0.662
+  - 0.7792
+  frame: 19
+  global_frame: 719
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.011
+  - 0.5074
+  - 0.6647
+  - 0.7932
+  frame: 20
+  global_frame: 720
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0194
+  - 0.5118
+  - 0.6247
+  - 0.8167
+  frame: 21
+  global_frame: 721
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - 0.0014
+  - 0.5062
+  - 0.5601
+  - 0.8124
+  frame: 22
+  global_frame: 722
+  prompt: the whooper swan is flying
+- bbox_ratios:
+  - -0.0018
+  - 0.4983
+  - 0.5355
+  - 0.8107
+  frame: 23
+  global_frame: 723
+  prompt: the whooper swan is flying
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: swan
+seed: 4
+source_clip: ABASTCVX_556_765
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

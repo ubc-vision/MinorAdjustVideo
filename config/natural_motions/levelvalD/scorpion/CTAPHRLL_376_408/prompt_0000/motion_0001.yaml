@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3824
+  - -0.0055
+  - 1.0004
+  - 0.6834
+  frame: 0
+  global_frame: 380
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3913
+  - -0.0057
+  - 1.0002
+  - 0.6749
+  frame: 1
+  global_frame: 381
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3919
+  - -0.0074
+  - 0.9989
+  - 0.6808
+  frame: 2
+  global_frame: 382
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3949
+  - -0.0072
+  - 0.9981
+  - 0.686
+  frame: 3
+  global_frame: 383
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.4204
+  - -0.005
+  - 0.9995
+  - 0.67
+  frame: 4
+  global_frame: 384
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3985
+  - -0.0073
+  - 1.0008
+  - 0.6812
+  frame: 5
+  global_frame: 385
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3968
+  - -0.0057
+  - 1.0043
+  - 0.6745
+  frame: 6
+  global_frame: 386
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3951
+  - -0.004
+  - 1.0078
+  - 0.6677
+  frame: 7
+  global_frame: 387
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3989
+  - -0.0026
+  - 1.0075
+  - 0.6593
+  frame: 8
+  global_frame: 388
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.4026
+  - -0.0013
+  - 1.0073
+  - 0.6509
+  frame: 9
+  global_frame: 389
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.4041
+  - -0.0046
+  - 0.9917
+  - 0.657
+  frame: 10
+  global_frame: 390
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.4073
+  - -0.0066
+  - 1.0028
+  - 0.6681
+  frame: 11
+  global_frame: 391
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.4089
+  - 0.0014
+  - 1.0
+  - 0.6877
+  frame: 12
+  global_frame: 392
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3942
+  - -0.0016
+  - 1.001
+  - 0.6832
+  frame: 13
+  global_frame: 393
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3795
+  - -0.0045
+  - 1.0021
+  - 0.6787
+  frame: 14
+  global_frame: 394
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3648
+  - -0.0074
+  - 1.0032
+  - 0.6741
+  frame: 15
+  global_frame: 395
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3665
+  - -0.0073
+  - 1.0019
+  - 0.6769
+  frame: 16
+  global_frame: 396
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3711
+  - -0.0048
+  - 0.9998
+  - 0.6807
+  frame: 17
+  global_frame: 397
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3438
+  - -0.0054
+  - 1.0005
+  - 0.6833
+  frame: 18
+  global_frame: 398
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.3015
+  - -0.0035
+  - 0.9949
+  - 0.672
+  frame: 19
+  global_frame: 399
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.2962
+  - -0.0053
+  - 0.9967
+  - 0.6641
+  frame: 20
+  global_frame: 400
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.2908
+  - -0.0071
+  - 0.9985
+  - 0.6561
+  frame: 21
+  global_frame: 401
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.2855
+  - -0.0088
+  - 1.0004
+  - 0.6481
+  frame: 22
+  global_frame: 402
+  prompt: the arizona bark scorpion is moving
+- bbox_ratios:
+  - 0.2933
+  - -0.011
+  - 1.0047
+  - 0.6263
+  frame: 23
+  global_frame: 403
+  prompt: the arizona bark scorpion is moving
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: scorpion
+seed: 4
+source_clip: CTAPHRLL_376_408
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3612
+  - 0.1326
+  - 0.6409
+  - 0.6007
+  frame: 0
+  global_frame: 774
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3624
+  - 0.1306
+  - 0.6419
+  - 0.5979
+  frame: 1
+  global_frame: 775
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3637
+  - 0.1285
+  - 0.6429
+  - 0.595
+  frame: 2
+  global_frame: 776
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.365
+  - 0.1265
+  - 0.6439
+  - 0.5921
+  frame: 3
+  global_frame: 777
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3663
+  - 0.1244
+  - 0.6449
+  - 0.5892
+  frame: 4
+  global_frame: 778
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3675
+  - 0.1224
+  - 0.6459
+  - 0.5863
+  frame: 5
+  global_frame: 779
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3688
+  - 0.1204
+  - 0.6469
+  - 0.5834
+  frame: 6
+  global_frame: 780
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3701
+  - 0.1183
+  - 0.6479
+  - 0.5806
+  frame: 7
+  global_frame: 781
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3714
+  - 0.1163
+  - 0.6488
+  - 0.5777
+  frame: 8
+  global_frame: 782
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3727
+  - 0.1143
+  - 0.6498
+  - 0.5748
+  frame: 9
+  global_frame: 783
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3739
+  - 0.1122
+  - 0.6508
+  - 0.5719
+  frame: 10
+  global_frame: 784
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3752
+  - 0.1102
+  - 0.6518
+  - 0.569
+  frame: 11
+  global_frame: 785
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3765
+  - 0.1081
+  - 0.6528
+  - 0.5661
+  frame: 12
+  global_frame: 786
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3778
+  - 0.1061
+  - 0.6538
+  - 0.5633
+  frame: 13
+  global_frame: 787
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.379
+  - 0.1041
+  - 0.6548
+  - 0.5604
+  frame: 14
+  global_frame: 788
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3803
+  - 0.102
+  - 0.6558
+  - 0.5575
+  frame: 15
+  global_frame: 789
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3816
+  - 0.1
+  - 0.6568
+  - 0.5546
+  frame: 16
+  global_frame: 790
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3829
+  - 0.098
+  - 0.6578
+  - 0.5517
+  frame: 17
+  global_frame: 791
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3841
+  - 0.0959
+  - 0.6588
+  - 0.5488
+  frame: 18
+  global_frame: 792
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3854
+  - 0.0939
+  - 0.6598
+  - 0.546
+  frame: 19
+  global_frame: 793
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3867
+  - 0.0918
+  - 0.6607
+  - 0.5431
+  frame: 20
+  global_frame: 794
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.388
+  - 0.0898
+  - 0.6617
+  - 0.5402
+  frame: 21
+  global_frame: 795
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3893
+  - 0.0878
+  - 0.6627
+  - 0.5373
+  frame: 22
+  global_frame: 796
+  prompt: the drosophila melanogaster fruit fly is moving
+- bbox_ratios:
+  - 0.3905
+  - 0.0857
+  - 0.6637
+  - 0.5344
+  frame: 23
+  global_frame: 797
+  prompt: the drosophila melanogaster fruit fly is moving
+motion_id: 23
+motion_iter: 0
+num_inference_steps: null
+object_name: fly
+seed: 4
+source_clip: DPAUEKZB_746_840
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

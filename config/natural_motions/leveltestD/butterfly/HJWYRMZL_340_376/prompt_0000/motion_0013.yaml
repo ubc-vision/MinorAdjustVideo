@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2423
+  - 0.0475
+  - 0.8436
+  - 0.9202
+  frame: 0
+  global_frame: 353
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2223
+  - 0.046
+  - 0.8438
+  - 0.9202
+  frame: 1
+  global_frame: 354
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2267
+  - 0.0441
+  - 0.8438
+  - 0.9209
+  frame: 2
+  global_frame: 355
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.22
+  - 0.0433
+  - 0.8475
+  - 0.9223
+  frame: 3
+  global_frame: 356
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2107
+  - 0.0419
+  - 0.847
+  - 0.9171
+  frame: 4
+  global_frame: 357
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2327
+  - 0.0537
+  - 0.8436
+  - 0.9246
+  frame: 5
+  global_frame: 358
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2452
+  - 0.0543
+  - 0.8463
+  - 0.9259
+  frame: 6
+  global_frame: 359
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2162
+  - 0.0512
+  - 0.8451
+  - 0.9164
+  frame: 7
+  global_frame: 360
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2109
+  - 0.0586
+  - 0.8334
+  - 0.9281
+  frame: 8
+  global_frame: 361
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.265
+  - 0.0604
+  - 0.8373
+  - 0.9217
+  frame: 9
+  global_frame: 362
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2777
+  - 0.058
+  - 0.837
+  - 0.9209
+  frame: 10
+  global_frame: 363
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2837
+  - 0.058
+  - 0.8431
+  - 0.9178
+  frame: 11
+  global_frame: 364
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2687
+  - 0.0579
+  - 0.8385
+  - 0.9138
+  frame: 12
+  global_frame: 365
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.281
+  - 0.0577
+  - 0.8375
+  - 0.9136
+  frame: 13
+  global_frame: 366
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2685
+  - 0.0613
+  - 0.8375
+  - 0.915
+  frame: 14
+  global_frame: 367
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2741
+  - 0.0607
+  - 0.8366
+  - 0.9135
+  frame: 15
+  global_frame: 368
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2879
+  - 0.0631
+  - 0.8362
+  - 0.9146
+  frame: 16
+  global_frame: 369
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2942
+  - 0.0664
+  - 0.8366
+  - 0.9145
+  frame: 17
+  global_frame: 370
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2932
+  - 0.0698
+  - 0.8379
+  - 0.9156
+  frame: 18
+  global_frame: 371
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2956
+  - 0.0762
+  - 0.8421
+  - 0.9195
+  frame: 19
+  global_frame: 372
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.3012
+  - 0.0811
+  - 0.8447
+  - 0.9208
+  frame: 20
+  global_frame: 373
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.2982
+  - 0.0879
+  - 0.8471
+  - 0.9237
+  frame: 21
+  global_frame: 374
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.3001
+  - 0.1014
+  - 0.8498
+  - 0.9272
+  frame: 22
+  global_frame: 375
+  prompt: the greta oto glasswing butterfly is flying
+- bbox_ratios:
+  - 0.3032
+  - 0.1115
+  - 0.8563
+  - 0.9274
+  frame: 23
+  global_frame: 376
+  prompt: the greta oto glasswing butterfly is flying
+motion_id: 13
+motion_iter: 0
+num_inference_steps: null
+object_name: butterfly
+seed: 4
+source_clip: HJWYRMZL_340_376
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.003
+  - 0.0673
+  - 0.8167
+  - 0.9909
+  frame: 0
+  global_frame: 675
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0014
+  - 0.0693
+  - 0.7935
+  - 0.9905
+  frame: 1
+  global_frame: 676
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.015
+  - 0.079
+  - 0.9075
+  - 1.0027
+  frame: 2
+  global_frame: 677
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.009
+  - 0.0817
+  - 0.8243
+  - 1.0048
+  frame: 3
+  global_frame: 678
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0091
+  - 0.0817
+  - 0.8242
+  - 1.0049
+  frame: 4
+  global_frame: 679
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0081
+  - 0.0827
+  - 0.8166
+  - 1.0047
+  frame: 5
+  global_frame: 680
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - -0.0016
+  - 0.0723
+  - 0.8299
+  - 1.0044
+  frame: 6
+  global_frame: 681
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0016
+  - 0.0734
+  - 0.7407
+  - 0.9973
+  frame: 7
+  global_frame: 682
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0009
+  - 0.0725
+  - 0.8241
+  - 0.9985
+  frame: 8
+  global_frame: 683
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0056
+  - 0.0747
+  - 0.9379
+  - 1.0026
+  frame: 9
+  global_frame: 684
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0057
+  - 0.0747
+  - 0.934
+  - 1.0025
+  frame: 10
+  global_frame: 685
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - -0.0031
+  - 0.0732
+  - 0.7473
+  - 0.9977
+  frame: 11
+  global_frame: 686
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0088
+  - 0.0743
+  - 0.8516
+  - 0.9977
+  frame: 12
+  global_frame: 687
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0036
+  - 0.0751
+  - 0.697
+  - 0.9993
+  frame: 13
+  global_frame: 688
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0097
+  - 0.0774
+  - 1.0006
+  - 0.9934
+  frame: 14
+  global_frame: 689
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0036
+  - 0.0831
+  - 0.7018
+  - 0.9998
+  frame: 15
+  global_frame: 690
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0035
+  - 0.0831
+  - 0.703
+  - 0.9994
+  frame: 16
+  global_frame: 691
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.004
+  - 0.0786
+  - 0.7827
+  - 1.0092
+  frame: 17
+  global_frame: 692
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.001
+  - 0.0789
+  - 0.8364
+  - 0.9936
+  frame: 18
+  global_frame: 693
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - -0.0104
+  - 0.0761
+  - 0.8394
+  - 0.9937
+  frame: 19
+  global_frame: 694
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0017
+  - 0.0837
+  - 0.7834
+  - 0.9888
+  frame: 20
+  global_frame: 695
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0065
+  - 0.0889
+  - 0.7265
+  - 1.0017
+  frame: 21
+  global_frame: 696
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0069
+  - 0.0875
+  - 0.7241
+  - 1.0019
+  frame: 22
+  global_frame: 697
+  prompt: the cryptic mantis is moving
+- bbox_ratios:
+  - 0.0034
+  - 0.0887
+  - 0.7277
+  - 0.9919
+  frame: 23
+  global_frame: 698
+  prompt: the cryptic mantis is moving
+motion_id: 54
+motion_iter: 2
+num_inference_steps: null
+object_name: mantis
+seed: 4
+source_clip: JCHGDXTD_621_722
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

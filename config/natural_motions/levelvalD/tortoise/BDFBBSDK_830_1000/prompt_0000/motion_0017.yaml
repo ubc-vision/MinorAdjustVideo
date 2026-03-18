@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4043
+  - 0.3609
+  - 0.5777
+  - 0.5141
+  frame: 0
+  global_frame: 948
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.4043
+  - 0.3609
+  - 0.5777
+  - 0.5142
+  frame: 1
+  global_frame: 949
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.4029
+  - 0.3585
+  - 0.5802
+  - 0.508
+  frame: 2
+  global_frame: 950
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.4018
+  - 0.356
+  - 0.5751
+  - 0.5064
+  frame: 3
+  global_frame: 951
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.4008
+  - 0.3534
+  - 0.57
+  - 0.5049
+  frame: 4
+  global_frame: 952
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3998
+  - 0.3509
+  - 0.5649
+  - 0.5033
+  frame: 5
+  global_frame: 953
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3988
+  - 0.3484
+  - 0.5599
+  - 0.5017
+  frame: 6
+  global_frame: 954
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3978
+  - 0.3458
+  - 0.5548
+  - 0.5002
+  frame: 7
+  global_frame: 955
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3968
+  - 0.3433
+  - 0.5497
+  - 0.4986
+  frame: 8
+  global_frame: 956
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3957
+  - 0.3407
+  - 0.5446
+  - 0.497
+  frame: 9
+  global_frame: 957
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3959
+  - 0.3378
+  - 0.5468
+  - 0.4938
+  frame: 10
+  global_frame: 958
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3976
+  - 0.3343
+  - 0.5495
+  - 0.4882
+  frame: 11
+  global_frame: 959
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3986
+  - 0.334
+  - 0.5528
+  - 0.4893
+  frame: 12
+  global_frame: 960
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3989
+  - 0.3342
+  - 0.5528
+  - 0.4894
+  frame: 13
+  global_frame: 961
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3992
+  - 0.336
+  - 0.541
+  - 0.4931
+  frame: 14
+  global_frame: 962
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3976
+  - 0.3342
+  - 0.54
+  - 0.4912
+  frame: 15
+  global_frame: 963
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.396
+  - 0.3325
+  - 0.5389
+  - 0.4893
+  frame: 16
+  global_frame: 964
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3944
+  - 0.3307
+  - 0.5379
+  - 0.4874
+  frame: 17
+  global_frame: 965
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3928
+  - 0.3289
+  - 0.5368
+  - 0.4855
+  frame: 18
+  global_frame: 966
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3913
+  - 0.3271
+  - 0.5358
+  - 0.4835
+  frame: 19
+  global_frame: 967
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3897
+  - 0.3254
+  - 0.5347
+  - 0.4816
+  frame: 20
+  global_frame: 968
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3881
+  - 0.3236
+  - 0.5337
+  - 0.4797
+  frame: 21
+  global_frame: 969
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.3865
+  - 0.3218
+  - 0.5326
+  - 0.4778
+  frame: 22
+  global_frame: 970
+  prompt: the giant galapagos tortoise is walking
+- bbox_ratios:
+  - 0.385
+  - 0.3201
+  - 0.5316
+  - 0.4759
+  frame: 23
+  global_frame: 971
+  prompt: the giant galapagos tortoise is walking
+motion_id: 17
+motion_iter: 1
+num_inference_steps: null
+object_name: tortoise
+seed: 4
+source_clip: BDFBBSDK_830_1000
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

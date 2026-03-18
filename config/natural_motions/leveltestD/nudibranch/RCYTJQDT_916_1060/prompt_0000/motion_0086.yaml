@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4828
+  - 0.1204
+  - 0.7797
+  - 0.8502
+  frame: 0
+  global_frame: 1036
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4806
+  - 0.1194
+  - 0.7789
+  - 0.8478
+  frame: 1
+  global_frame: 1037
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4825
+  - 0.1201
+  - 0.7795
+  - 0.8477
+  frame: 2
+  global_frame: 1038
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4812
+  - 0.1241
+  - 0.7761
+  - 0.8439
+  frame: 3
+  global_frame: 1039
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4816
+  - 0.1279
+  - 0.7753
+  - 0.845
+  frame: 4
+  global_frame: 1040
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4845
+  - 0.1302
+  - 0.7763
+  - 0.8473
+  frame: 5
+  global_frame: 1041
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4857
+  - 0.1279
+  - 0.7768
+  - 0.8442
+  frame: 6
+  global_frame: 1042
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4864
+  - 0.1277
+  - 0.7748
+  - 0.8427
+  frame: 7
+  global_frame: 1043
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4884
+  - 0.1274
+  - 0.7743
+  - 0.8434
+  frame: 8
+  global_frame: 1044
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4907
+  - 0.1273
+  - 0.7736
+  - 0.843
+  frame: 9
+  global_frame: 1045
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4895
+  - 0.1254
+  - 0.7733
+  - 0.8436
+  frame: 10
+  global_frame: 1046
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.491
+  - 0.1254
+  - 0.7747
+  - 0.8431
+  frame: 11
+  global_frame: 1047
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4935
+  - 0.1247
+  - 0.7751
+  - 0.841
+  frame: 12
+  global_frame: 1048
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4963
+  - 0.1241
+  - 0.7762
+  - 0.8417
+  frame: 13
+  global_frame: 1049
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.4986
+  - 0.124
+  - 0.7777
+  - 0.8427
+  frame: 14
+  global_frame: 1050
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.518
+  - 0.1273
+  - 0.7927
+  - 0.8288
+  frame: 15
+  global_frame: 1051
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5183
+  - 0.1281
+  - 0.7942
+  - 0.8278
+  frame: 16
+  global_frame: 1052
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5179
+  - 0.1268
+  - 0.794
+  - 0.8276
+  frame: 17
+  global_frame: 1053
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5145
+  - 0.1283
+  - 0.7939
+  - 0.8279
+  frame: 18
+  global_frame: 1054
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5178
+  - 0.1284
+  - 0.7926
+  - 0.8268
+  frame: 19
+  global_frame: 1055
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5033
+  - 0.1265
+  - 0.7859
+  - 0.8338
+  frame: 20
+  global_frame: 1056
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5061
+  - 0.134
+  - 0.7797
+  - 0.8436
+  frame: 21
+  global_frame: 1057
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.506
+  - 0.1317
+  - 0.7819
+  - 0.8447
+  frame: 22
+  global_frame: 1058
+  prompt: the nudibranch is moving
+- bbox_ratios:
+  - 0.5075
+  - 0.1328
+  - 0.7819
+  - 0.8448
+  frame: 23
+  global_frame: 1059
+  prompt: the nudibranch is moving
+motion_id: 86
+motion_iter: 0
+num_inference_steps: null
+object_name: nudibranch
+seed: 4
+source_clip: RCYTJQDT_916_1060
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

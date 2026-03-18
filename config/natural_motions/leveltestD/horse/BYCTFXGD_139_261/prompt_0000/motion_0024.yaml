@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0001
+  - 0.0605
+  - 0.7264
+  - 1.0062
+  frame: 0
+  global_frame: 225
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0007
+  - 0.0599
+  - 0.7256
+  - 1.0052
+  frame: 1
+  global_frame: 226
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0034
+  - 0.1012
+  - 0.7159
+  - 1.0079
+  frame: 2
+  global_frame: 227
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0044
+  - 0.1456
+  - 0.7084
+  - 1.0034
+  frame: 3
+  global_frame: 228
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0009
+  - 0.1284
+  - 0.7065
+  - 1.0002
+  frame: 4
+  global_frame: 229
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0016
+  - 0.07
+  - 0.7059
+  - 0.9969
+  frame: 5
+  global_frame: 230
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0013
+  - 0.0475
+  - 0.6994
+  - 0.9942
+  frame: 6
+  global_frame: 231
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0012
+  - 0.0471
+  - 0.6995
+  - 0.9943
+  frame: 7
+  global_frame: 232
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0011
+  - 0.0162
+  - 0.6781
+  - 0.9911
+  frame: 8
+  global_frame: 233
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.005
+  - 0.0135
+  - 0.6706
+  - 1.0029
+  frame: 9
+  global_frame: 234
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0079
+  - 0.0191
+  - 0.6599
+  - 1.0014
+  frame: 10
+  global_frame: 235
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0054
+  - 0.0283
+  - 0.6447
+  - 1.0013
+  frame: 11
+  global_frame: 236
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0
+  - 0.0321
+  - 0.6381
+  - 1.0022
+  frame: 12
+  global_frame: 237
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0
+  - 0.0321
+  - 0.6381
+  - 1.0022
+  frame: 13
+  global_frame: 238
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0003
+  - 0.0529
+  - 0.6346
+  - 1.002
+  frame: 14
+  global_frame: 239
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0007
+  - 0.0738
+  - 0.6311
+  - 1.0018
+  frame: 15
+  global_frame: 240
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0019
+  - 0.0811
+  - 0.6321
+  - 0.9989
+  frame: 16
+  global_frame: 241
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0014
+  - 0.0828
+  - 0.6467
+  - 0.9983
+  frame: 17
+  global_frame: 242
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0018
+  - 0.0947
+  - 0.6258
+  - 1.0045
+  frame: 18
+  global_frame: 243
+  prompt: the horse is running
+- bbox_ratios:
+  - 0.0018
+  - 0.0949
+  - 0.6258
+  - 1.0045
+  frame: 19
+  global_frame: 244
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0015
+  - 0.1251
+  - 0.6216
+  - 1.0043
+  frame: 20
+  global_frame: 245
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0049
+  - 0.1553
+  - 0.6174
+  - 1.0042
+  frame: 21
+  global_frame: 246
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0001
+  - 0.1822
+  - 0.6145
+  - 0.9948
+  frame: 22
+  global_frame: 247
+  prompt: the horse is running
+- bbox_ratios:
+  - -0.0009
+  - 0.2127
+  - 0.6375
+  - 1.0008
+  frame: 23
+  global_frame: 248
+  prompt: the horse is running
+motion_id: 24
+motion_iter: 0
+num_inference_steps: null
+object_name: horse
+seed: 4
+source_clip: BYCTFXGD_139_261
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0057
+  - 0.0515
+  - 0.608
+  - 0.8187
+  frame: 0
+  global_frame: 479
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0062
+  - 0.029
+  - 0.6011
+  - 0.8124
+  frame: 1
+  global_frame: 480
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0066
+  - 0.0064
+  - 0.5941
+  - 0.806
+  frame: 2
+  global_frame: 481
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0046
+  - 0.0017
+  - 0.6124
+  - 0.8108
+  frame: 3
+  global_frame: 482
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0026
+  - -0.0029
+  - 0.6306
+  - 0.8155
+  frame: 4
+  global_frame: 483
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.002
+  - -0.0025
+  - 0.6322
+  - 0.8171
+  frame: 5
+  global_frame: 484
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0088
+  - 0.0003
+  - 0.6346
+  - 0.81
+  frame: 6
+  global_frame: 485
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0156
+  - 0.0031
+  - 0.637
+  - 0.8029
+  frame: 7
+  global_frame: 486
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0225
+  - 0.0059
+  - 0.6394
+  - 0.7959
+  frame: 8
+  global_frame: 487
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0321
+  - 0.01
+  - 0.6367
+  - 0.7937
+  frame: 9
+  global_frame: 488
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0418
+  - 0.0141
+  - 0.634
+  - 0.7915
+  frame: 10
+  global_frame: 489
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0433
+  - 0.0157
+  - 0.6341
+  - 0.7931
+  frame: 11
+  global_frame: 490
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0412
+  - 0.0164
+  - 0.6374
+  - 0.8012
+  frame: 12
+  global_frame: 491
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.039
+  - 0.0172
+  - 0.6406
+  - 0.8092
+  frame: 13
+  global_frame: 492
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0368
+  - 0.018
+  - 0.6439
+  - 0.8173
+  frame: 14
+  global_frame: 493
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0347
+  - 0.0188
+  - 0.6471
+  - 0.8253
+  frame: 15
+  global_frame: 494
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.1511
+  - 0.0446
+  - 0.6532
+  - 0.7879
+  frame: 16
+  global_frame: 495
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.1467
+  - 0.0435
+  - 0.6532
+  - 0.7894
+  frame: 17
+  global_frame: 496
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.3228
+  - 0.0562
+  - 0.6582
+  - 0.7022
+  frame: 18
+  global_frame: 497
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.2935
+  - 0.0621
+  - 0.6585
+  - 0.7262
+  frame: 19
+  global_frame: 498
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.2679
+  - 0.063
+  - 0.6591
+  - 0.7389
+  frame: 20
+  global_frame: 499
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.2856
+  - 0.0738
+  - 0.6643
+  - 0.7303
+  frame: 21
+  global_frame: 500
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0669
+  - 0.0678
+  - 0.6688
+  - 0.8196
+  frame: 22
+  global_frame: 501
+  prompt: the desert fox is exploring
+- bbox_ratios:
+  - 0.0627
+  - 0.0679
+  - 0.6681
+  - 0.8194
+  frame: 23
+  global_frame: 502
+  prompt: the desert fox is exploring
+motion_id: 130
+motion_iter: 0
+num_inference_steps: null
+object_name: fox
+seed: 4
+source_clip: DMUQPDSN_280_535
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

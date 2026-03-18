@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1165
+  - 0.158
+  - 0.7344
+  - 0.9889
+  frame: 0
+  global_frame: 710
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1289
+  - 0.1613
+  - 0.7313
+  - 1.0008
+  frame: 1
+  global_frame: 711
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1289
+  - 0.1588
+  - 0.7314
+  - 1.001
+  frame: 2
+  global_frame: 712
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1161
+  - 0.161
+  - 0.7187
+  - 1.0011
+  frame: 3
+  global_frame: 713
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1292
+  - 0.1599
+  - 0.7332
+  - 1.0019
+  frame: 4
+  global_frame: 714
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1173
+  - 0.1645
+  - 0.7215
+  - 1.0009
+  frame: 5
+  global_frame: 715
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1224
+  - 0.1647
+  - 0.7395
+  - 0.9889
+  frame: 6
+  global_frame: 716
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1247
+  - 0.1477
+  - 0.7394
+  - 1.0024
+  frame: 7
+  global_frame: 717
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1246
+  - 0.1484
+  - 0.7393
+  - 1.0022
+  frame: 8
+  global_frame: 718
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1218
+  - 0.1522
+  - 0.7382
+  - 1.0021
+  frame: 9
+  global_frame: 719
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1221
+  - 0.1507
+  - 0.7416
+  - 1.0025
+  frame: 10
+  global_frame: 720
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1185
+  - 0.1485
+  - 0.7286
+  - 0.9976
+  frame: 11
+  global_frame: 721
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1174
+  - 0.1451
+  - 0.7327
+  - 0.9953
+  frame: 12
+  global_frame: 722
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.117
+  - 0.1406
+  - 0.7411
+  - 0.9958
+  frame: 13
+  global_frame: 723
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.117
+  - 0.1406
+  - 0.7413
+  - 0.9961
+  frame: 14
+  global_frame: 724
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1153
+  - 0.1509
+  - 0.7373
+  - 0.9975
+  frame: 15
+  global_frame: 725
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1072
+  - 0.1584
+  - 0.7542
+  - 0.9932
+  frame: 16
+  global_frame: 726
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1168
+  - 0.1515
+  - 0.7461
+  - 0.9993
+  frame: 17
+  global_frame: 727
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1045
+  - 0.1539
+  - 0.7557
+  - 0.9919
+  frame: 18
+  global_frame: 728
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.104
+  - 0.1608
+  - 0.7605
+  - 0.9916
+  frame: 19
+  global_frame: 729
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1041
+  - 0.1611
+  - 0.7611
+  - 0.9918
+  frame: 20
+  global_frame: 730
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1048
+  - 0.1536
+  - 0.7716
+  - 0.9916
+  frame: 21
+  global_frame: 731
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.099
+  - 0.1459
+  - 0.7613
+  - 0.9982
+  frame: 22
+  global_frame: 732
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+- bbox_ratios:
+  - 0.1
+  - 0.1482
+  - 0.7637
+  - 0.9988
+  frame: 23
+  global_frame: 733
+  prompt: the caterpillar is exploring the yellow mass on the green leaf
+motion_id: 107
+motion_iter: 2
+num_inference_steps: null
+object_name: caterpillar
+seed: 4
+source_clip: AEBGXWPM_276_792
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

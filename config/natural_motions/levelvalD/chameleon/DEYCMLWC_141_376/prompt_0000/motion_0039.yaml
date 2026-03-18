@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1433
+  - 0.2265
+  - 0.4618
+  - 0.5318
+  frame: 0
+  global_frame: 215
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1457
+  - 0.2336
+  - 0.4696
+  - 0.5294
+  frame: 1
+  global_frame: 216
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1454
+  - 0.2334
+  - 0.4692
+  - 0.5293
+  frame: 2
+  global_frame: 217
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1443
+  - 0.2316
+  - 0.467
+  - 0.5251
+  frame: 3
+  global_frame: 218
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1468
+  - 0.2354
+  - 0.4698
+  - 0.5259
+  frame: 4
+  global_frame: 219
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.145
+  - 0.2442
+  - 0.4626
+  - 0.5347
+  frame: 5
+  global_frame: 220
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1471
+  - 0.2435
+  - 0.4633
+  - 0.5322
+  frame: 6
+  global_frame: 221
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1478
+  - 0.2471
+  - 0.4632
+  - 0.5392
+  frame: 7
+  global_frame: 222
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1477
+  - 0.2466
+  - 0.4631
+  - 0.5396
+  frame: 8
+  global_frame: 223
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1452
+  - 0.2429
+  - 0.4625
+  - 0.5409
+  frame: 9
+  global_frame: 224
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1461
+  - 0.2552
+  - 0.4639
+  - 0.5395
+  frame: 10
+  global_frame: 225
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1445
+  - 0.2536
+  - 0.465
+  - 0.5449
+  frame: 11
+  global_frame: 226
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.142
+  - 0.238
+  - 0.4632
+  - 0.5484
+  frame: 12
+  global_frame: 227
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1416
+  - 0.2374
+  - 0.4642
+  - 0.5493
+  frame: 13
+  global_frame: 228
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1417
+  - 0.2382
+  - 0.4642
+  - 0.5493
+  frame: 14
+  global_frame: 229
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1432
+  - 0.2502
+  - 0.4672
+  - 0.5514
+  frame: 15
+  global_frame: 230
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1413
+  - 0.2434
+  - 0.4671
+  - 0.5521
+  frame: 16
+  global_frame: 231
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1433
+  - 0.2486
+  - 0.468
+  - 0.552
+  frame: 17
+  global_frame: 232
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1449
+  - 0.2518
+  - 0.4688
+  - 0.5539
+  frame: 18
+  global_frame: 233
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1449
+  - 0.2465
+  - 0.4669
+  - 0.5547
+  frame: 19
+  global_frame: 234
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1455
+  - 0.2477
+  - 0.4669
+  - 0.5546
+  frame: 20
+  global_frame: 235
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1472
+  - 0.2609
+  - 0.4668
+  - 0.5544
+  frame: 21
+  global_frame: 236
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.1476
+  - 0.2576
+  - 0.4673
+  - 0.5537
+  frame: 22
+  global_frame: 237
+  prompt: the strange-horned chameleon is walking
+- bbox_ratios:
+  - 0.148
+  - 0.256
+  - 0.467
+  - 0.5544
+  frame: 23
+  global_frame: 238
+  prompt: the strange-horned chameleon is walking
+motion_id: 39
+motion_iter: 1
+num_inference_steps: null
+object_name: chameleon
+seed: 4
+source_clip: DEYCMLWC_141_376
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

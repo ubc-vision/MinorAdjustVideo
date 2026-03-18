@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2177
+  - 0.4366
+  - 0.7056
+  - 0.821
+  frame: 0
+  global_frame: 1072
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2207
+  - 0.4268
+  - 0.7053
+  - 0.8118
+  frame: 1
+  global_frame: 1073
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2236
+  - 0.417
+  - 0.705
+  - 0.8027
+  frame: 2
+  global_frame: 1074
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2266
+  - 0.4072
+  - 0.7048
+  - 0.7935
+  frame: 3
+  global_frame: 1075
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2296
+  - 0.3974
+  - 0.7045
+  - 0.7843
+  frame: 4
+  global_frame: 1076
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2325
+  - 0.3875
+  - 0.7043
+  - 0.7751
+  frame: 5
+  global_frame: 1077
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2355
+  - 0.3777
+  - 0.704
+  - 0.7659
+  frame: 6
+  global_frame: 1078
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2384
+  - 0.3679
+  - 0.7037
+  - 0.7567
+  frame: 7
+  global_frame: 1079
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2414
+  - 0.3581
+  - 0.7035
+  - 0.7475
+  frame: 8
+  global_frame: 1080
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2443
+  - 0.3483
+  - 0.7032
+  - 0.7384
+  frame: 9
+  global_frame: 1081
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2473
+  - 0.3385
+  - 0.703
+  - 0.7292
+  frame: 10
+  global_frame: 1082
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2502
+  - 0.3287
+  - 0.7027
+  - 0.72
+  frame: 11
+  global_frame: 1083
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2532
+  - 0.3189
+  - 0.7024
+  - 0.7108
+  frame: 12
+  global_frame: 1084
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2561
+  - 0.309
+  - 0.7022
+  - 0.7016
+  frame: 13
+  global_frame: 1085
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2591
+  - 0.2992
+  - 0.7019
+  - 0.6924
+  frame: 14
+  global_frame: 1086
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.262
+  - 0.2894
+  - 0.7017
+  - 0.6832
+  frame: 15
+  global_frame: 1087
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.265
+  - 0.2796
+  - 0.7014
+  - 0.6741
+  frame: 16
+  global_frame: 1088
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.268
+  - 0.2698
+  - 0.7011
+  - 0.6649
+  frame: 17
+  global_frame: 1089
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2709
+  - 0.26
+  - 0.7009
+  - 0.6557
+  frame: 18
+  global_frame: 1090
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2739
+  - 0.2502
+  - 0.7006
+  - 0.6465
+  frame: 19
+  global_frame: 1091
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2768
+  - 0.2404
+  - 0.7004
+  - 0.6373
+  frame: 20
+  global_frame: 1092
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2798
+  - 0.2305
+  - 0.7001
+  - 0.6281
+  frame: 21
+  global_frame: 1093
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2827
+  - 0.2207
+  - 0.6998
+  - 0.6189
+  frame: 22
+  global_frame: 1094
+  prompt: the earthworm is moving
+- bbox_ratios:
+  - 0.2857
+  - 0.2109
+  - 0.6996
+  - 0.6098
+  frame: 23
+  global_frame: 1095
+  prompt: the earthworm is moving
+motion_id: 1
+motion_iter: 2
+num_inference_steps: null
+object_name: earthworm
+seed: 4
+source_clip: ERXBFUNV_991_1116
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

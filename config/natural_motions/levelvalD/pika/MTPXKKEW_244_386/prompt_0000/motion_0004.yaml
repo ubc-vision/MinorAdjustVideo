@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1812
+  - 0.1138
+  - 1.0074
+  - 1.0109
+  frame: 0
+  global_frame: 251
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1816
+  - 0.1132
+  - 1.0077
+  - 1.01
+  frame: 1
+  global_frame: 252
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1819
+  - 0.1125
+  - 1.008
+  - 1.0091
+  frame: 2
+  global_frame: 253
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1822
+  - 0.1118
+  - 1.0083
+  - 1.0082
+  frame: 3
+  global_frame: 254
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1825
+  - 0.1111
+  - 1.0086
+  - 1.0073
+  frame: 4
+  global_frame: 255
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1828
+  - 0.1104
+  - 1.0089
+  - 1.0064
+  frame: 5
+  global_frame: 256
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1831
+  - 0.1097
+  - 1.0092
+  - 1.0055
+  frame: 6
+  global_frame: 257
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1834
+  - 0.109
+  - 1.0095
+  - 1.0046
+  frame: 7
+  global_frame: 258
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1837
+  - 0.1083
+  - 1.0098
+  - 1.0037
+  frame: 8
+  global_frame: 259
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.184
+  - 0.1076
+  - 1.0101
+  - 1.0028
+  frame: 9
+  global_frame: 260
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1844
+  - 0.1069
+  - 1.0103
+  - 1.0019
+  frame: 10
+  global_frame: 261
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1847
+  - 0.1062
+  - 1.0106
+  - 1.001
+  frame: 11
+  global_frame: 262
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.185
+  - 0.1055
+  - 1.0109
+  - 1.0001
+  frame: 12
+  global_frame: 263
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1853
+  - 0.1048
+  - 1.0112
+  - 0.9992
+  frame: 13
+  global_frame: 264
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1856
+  - 0.1041
+  - 1.0115
+  - 0.9983
+  frame: 14
+  global_frame: 265
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1859
+  - 0.1034
+  - 1.0118
+  - 0.9974
+  frame: 15
+  global_frame: 266
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1762
+  - 0.1238
+  - 0.9991
+  - 0.9972
+  frame: 16
+  global_frame: 267
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1754
+  - 0.1227
+  - 0.9989
+  - 0.997
+  frame: 17
+  global_frame: 268
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1761
+  - 0.1242
+  - 0.9986
+  - 0.9971
+  frame: 18
+  global_frame: 269
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.1198
+  - 0.103
+  - 0.9981
+  - 0.9974
+  frame: 19
+  global_frame: 270
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.0635
+  - 0.0817
+  - 0.9977
+  - 0.9977
+  frame: 20
+  global_frame: 271
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.0072
+  - 0.0605
+  - 0.9972
+  - 0.998
+  frame: 21
+  global_frame: 272
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.0056
+  - 0.0568
+  - 0.9969
+  - 0.9983
+  frame: 22
+  global_frame: 273
+  prompt: the pika is running
+- bbox_ratios:
+  - 0.0062
+  - 0.0578
+  - 0.9971
+  - 0.9982
+  frame: 23
+  global_frame: 274
+  prompt: the pika is running
+motion_id: 4
+motion_iter: 0
+num_inference_steps: null
+object_name: pika
+seed: 4
+source_clip: MTPXKKEW_244_386
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

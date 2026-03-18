@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0219
+  - 0.2094
+  - 0.3794
+  - 0.7339
+  frame: 0
+  global_frame: 314
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.0229
+  - 0.2608
+  - 0.3817
+  - 0.7244
+  frame: 1
+  global_frame: 315
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.0317
+  - 0.2212
+  - 0.3682
+  - 0.7256
+  frame: 2
+  global_frame: 316
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.0324
+  - 0.2687
+  - 0.3877
+  - 0.7126
+  frame: 3
+  global_frame: 317
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.034
+  - 0.2651
+  - 0.4096
+  - 0.6967
+  frame: 4
+  global_frame: 318
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.0599
+  - 0.2381
+  - 0.4171
+  - 0.677
+  frame: 5
+  global_frame: 319
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.073
+  - 0.2388
+  - 0.4191
+  - 0.6583
+  frame: 6
+  global_frame: 320
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.0933
+  - 0.2618
+  - 0.4471
+  - 0.6491
+  frame: 7
+  global_frame: 321
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.1046
+  - 0.2455
+  - 0.4469
+  - 0.627
+  frame: 8
+  global_frame: 322
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.1379
+  - 0.2093
+  - 0.4798
+  - 0.6124
+  frame: 9
+  global_frame: 323
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.1572
+  - 0.1798
+  - 0.4956
+  - 0.6084
+  frame: 10
+  global_frame: 324
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.1832
+  - 0.2054
+  - 0.5308
+  - 0.5818
+  frame: 11
+  global_frame: 325
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.2007
+  - 0.1692
+  - 0.5623
+  - 0.5787
+  frame: 12
+  global_frame: 326
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.2311
+  - 0.1771
+  - 0.5806
+  - 0.5507
+  frame: 13
+  global_frame: 327
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.2642
+  - 0.139
+  - 0.6
+  - 0.5334
+  frame: 14
+  global_frame: 328
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.2796
+  - 0.1553
+  - 0.584
+  - 0.5186
+  frame: 15
+  global_frame: 329
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.3045
+  - 0.0645
+  - 0.6485
+  - 0.5006
+  frame: 16
+  global_frame: 330
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.3321
+  - 0.0686
+  - 0.67
+  - 0.4927
+  frame: 17
+  global_frame: 331
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.3594
+  - 0.0434
+  - 0.6504
+  - 0.4666
+  frame: 18
+  global_frame: 332
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.393
+  - 0.0258
+  - 0.6861
+  - 0.4401
+  frame: 19
+  global_frame: 333
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.4266
+  - 0.0083
+  - 0.7217
+  - 0.4137
+  frame: 20
+  global_frame: 334
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.4096
+  - 0.021
+  - 0.7094
+  - 0.4316
+  frame: 21
+  global_frame: 335
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.3927
+  - 0.0338
+  - 0.6971
+  - 0.4495
+  frame: 22
+  global_frame: 336
+  prompt: the house centipede is moving
+- bbox_ratios:
+  - 0.3757
+  - 0.0466
+  - 0.6848
+  - 0.4675
+  frame: 23
+  global_frame: 337
+  prompt: the house centipede is moving
+motion_id: 19
+motion_iter: 1
+num_inference_steps: null
+object_name: centipede
+seed: 4
+source_clip: MDTCILKI_288_381
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

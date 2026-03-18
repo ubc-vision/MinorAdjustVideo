@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.7027
+  - 0.5093
+  - 0.9308
+  - 0.8557
+  frame: 0
+  global_frame: 216
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.7002
+  - 0.5067
+  - 0.9282
+  - 0.864
+  frame: 1
+  global_frame: 217
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.7009
+  - 0.5057
+  - 0.9269
+  - 0.8675
+  frame: 2
+  global_frame: 218
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.7047
+  - 0.484
+  - 0.945
+  - 0.866
+  frame: 3
+  global_frame: 219
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.7048
+  - 0.4844
+  - 0.9436
+  - 0.8654
+  frame: 4
+  global_frame: 220
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6974
+  - 0.502
+  - 0.9154
+  - 0.8722
+  frame: 5
+  global_frame: 221
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.7008
+  - 0.5146
+  - 0.9103
+  - 0.8743
+  frame: 6
+  global_frame: 222
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6978
+  - 0.5088
+  - 0.9101
+  - 0.8771
+  frame: 7
+  global_frame: 223
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6976
+  - 0.5094
+  - 0.9095
+  - 0.8726
+  frame: 8
+  global_frame: 224
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6853
+  - 0.5125
+  - 0.9266
+  - 0.8722
+  frame: 9
+  global_frame: 225
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6814
+  - 0.5158
+  - 0.9084
+  - 0.8818
+  frame: 10
+  global_frame: 226
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6817
+  - 0.5161
+  - 0.9084
+  - 0.8815
+  frame: 11
+  global_frame: 227
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6594
+  - 0.5213
+  - 0.9166
+  - 0.8627
+  frame: 12
+  global_frame: 228
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6442
+  - 0.5216
+  - 0.9091
+  - 0.8696
+  frame: 13
+  global_frame: 229
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6337
+  - 0.5198
+  - 0.9012
+  - 0.8684
+  frame: 14
+  global_frame: 230
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6339
+  - 0.5189
+  - 0.9014
+  - 0.8682
+  frame: 15
+  global_frame: 231
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6245
+  - 0.5311
+  - 0.8862
+  - 0.8672
+  frame: 16
+  global_frame: 232
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6144
+  - 0.5251
+  - 0.9091
+  - 0.8717
+  frame: 17
+  global_frame: 233
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6005
+  - 0.5336
+  - 0.8755
+  - 0.8664
+  frame: 18
+  global_frame: 234
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.6004
+  - 0.534
+  - 0.8749
+  - 0.8656
+  frame: 19
+  global_frame: 235
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.5981
+  - 0.5368
+  - 0.8713
+  - 0.8619
+  frame: 20
+  global_frame: 236
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.5958
+  - 0.5388
+  - 0.8721
+  - 0.864
+  frame: 21
+  global_frame: 237
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.5876
+  - 0.5392
+  - 0.868
+  - 0.8662
+  frame: 22
+  global_frame: 238
+  prompt: the zebra-duiker is exploring
+- bbox_ratios:
+  - 0.5882
+  - 0.5357
+  - 0.8687
+  - 0.863
+  frame: 23
+  global_frame: 239
+  prompt: the zebra-duiker is exploring
+motion_id: 82
+motion_iter: 2
+num_inference_steps: null
+object_name: duiker
+seed: 4
+source_clip: ATKXQTHG_108_417
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

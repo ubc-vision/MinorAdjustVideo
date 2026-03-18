@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2657
+  - 0.6784
+  - 0.6155
+  - 0.8532
+  frame: 0
+  global_frame: 1385
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2647
+  - 0.671
+  - 0.619
+  - 0.8524
+  frame: 1
+  global_frame: 1386
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2577
+  - 0.6755
+  - 0.6242
+  - 0.8525
+  frame: 2
+  global_frame: 1387
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2539
+  - 0.6738
+  - 0.6227
+  - 0.851
+  frame: 3
+  global_frame: 1388
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2458
+  - 0.6811
+  - 0.6309
+  - 0.8584
+  frame: 4
+  global_frame: 1389
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2457
+  - 0.681
+  - 0.6311
+  - 0.8584
+  frame: 5
+  global_frame: 1390
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2395
+  - 0.6832
+  - 0.6344
+  - 0.8616
+  frame: 6
+  global_frame: 1391
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.233
+  - 0.6833
+  - 0.6389
+  - 0.8605
+  frame: 7
+  global_frame: 1392
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2275
+  - 0.6819
+  - 0.6221
+  - 0.8627
+  frame: 8
+  global_frame: 1393
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2248
+  - 0.6866
+  - 0.6352
+  - 0.8609
+  frame: 9
+  global_frame: 1394
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2147
+  - 0.6842
+  - 0.6526
+  - 0.8634
+  frame: 10
+  global_frame: 1395
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2147
+  - 0.6842
+  - 0.6526
+  - 0.8635
+  frame: 11
+  global_frame: 1396
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.2096
+  - 0.693
+  - 0.6436
+  - 0.8624
+  frame: 12
+  global_frame: 1397
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.204
+  - 0.6957
+  - 0.6492
+  - 0.8647
+  frame: 13
+  global_frame: 1398
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1926
+  - 0.6916
+  - 0.6451
+  - 0.8621
+  frame: 14
+  global_frame: 1399
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1933
+  - 0.6919
+  - 0.6455
+  - 0.867
+  frame: 15
+  global_frame: 1400
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1914
+  - 0.6909
+  - 0.6459
+  - 0.8671
+  frame: 16
+  global_frame: 1401
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1915
+  - 0.6909
+  - 0.6459
+  - 0.8671
+  frame: 17
+  global_frame: 1402
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1869
+  - 0.6881
+  - 0.6655
+  - 0.8635
+  frame: 18
+  global_frame: 1403
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1818
+  - 0.6944
+  - 0.6732
+  - 0.8639
+  frame: 19
+  global_frame: 1404
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1736
+  - 0.6968
+  - 0.6803
+  - 0.8646
+  frame: 20
+  global_frame: 1405
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1677
+  - 0.6997
+  - 0.6754
+  - 0.8684
+  frame: 21
+  global_frame: 1406
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1505
+  - 0.7071
+  - 0.5918
+  - 0.871
+  frame: 22
+  global_frame: 1407
+  prompt: the sidewinder rattlesnake is moving
+- bbox_ratios:
+  - 0.1506
+  - 0.7071
+  - 0.5926
+  - 0.871
+  frame: 23
+  global_frame: 1408
+  prompt: the sidewinder rattlesnake is moving
+motion_id: 161
+motion_iter: 1
+num_inference_steps: null
+object_name: rattlesnake
+seed: 4
+source_clip: BFPFQOIM_146_1761
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

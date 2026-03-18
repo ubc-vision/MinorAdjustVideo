@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5596
+  - 0.3464
+  - 0.9984
+  - 0.9909
+  frame: 0
+  global_frame: 1369
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5752
+  - 0.3403
+  - 0.9959
+  - 0.9964
+  frame: 1
+  global_frame: 1370
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5891
+  - 0.3239
+  - 0.997
+  - 1.0006
+  frame: 2
+  global_frame: 1371
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5851
+  - 0.319
+  - 1.0004
+  - 1.0009
+  frame: 3
+  global_frame: 1372
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.584
+  - 0.3188
+  - 1.0004
+  - 1.0004
+  frame: 4
+  global_frame: 1373
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.589
+  - 0.3256
+  - 1.0017
+  - 1.0009
+  frame: 5
+  global_frame: 1374
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5718
+  - 0.3478
+  - 0.9976
+  - 1.0012
+  frame: 6
+  global_frame: 1375
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5804
+  - 0.3528
+  - 0.9323
+  - 1.0031
+  frame: 7
+  global_frame: 1376
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5716
+  - 0.3535
+  - 0.9406
+  - 1.0026
+  frame: 8
+  global_frame: 1377
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5628
+  - 0.3542
+  - 0.949
+  - 1.002
+  frame: 9
+  global_frame: 1378
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.554
+  - 0.3548
+  - 0.9573
+  - 1.0015
+  frame: 10
+  global_frame: 1379
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.4982
+  - 0.3517
+  - 0.9849
+  - 1.0031
+  frame: 11
+  global_frame: 1380
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.3879
+  - 0.3427
+  - 1.0012
+  - 1.0056
+  frame: 12
+  global_frame: 1381
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.2889
+  - 0.1439
+  - 1.0044
+  - 1.0026
+  frame: 13
+  global_frame: 1382
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.294
+  - 0.1644
+  - 1.0049
+  - 1.0027
+  frame: 14
+  global_frame: 1383
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.2992
+  - 0.3443
+  - 1.0064
+  - 0.9992
+  frame: 15
+  global_frame: 1384
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.3046
+  - 0.3455
+  - 1.0015
+  - 0.9958
+  frame: 16
+  global_frame: 1385
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.3479
+  - 0.3497
+  - 1.0111
+  - 0.9927
+  frame: 17
+  global_frame: 1386
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.409
+  - 0.3537
+  - 1.0122
+  - 0.9946
+  frame: 18
+  global_frame: 1387
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.4113
+  - 0.3533
+  - 1.0127
+  - 0.994
+  frame: 19
+  global_frame: 1388
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.4669
+  - 0.3601
+  - 1.005
+  - 0.9926
+  frame: 20
+  global_frame: 1389
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5206
+  - 0.3618
+  - 1.006
+  - 0.9952
+  frame: 21
+  global_frame: 1390
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5648
+  - 0.3661
+  - 1.0077
+  - 0.9935
+  frame: 22
+  global_frame: 1391
+  prompt: the hummingbird is flying
+- bbox_ratios:
+  - 0.5716
+  - 0.3633
+  - 1.0142
+  - 0.9885
+  frame: 23
+  global_frame: 1392
+  prompt: the hummingbird is flying
+motion_id: 12
+motion_iter: 2
+num_inference_steps: null
+object_name: hummingbird
+seed: 4
+source_clip: EORURUDX_1048_1394
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

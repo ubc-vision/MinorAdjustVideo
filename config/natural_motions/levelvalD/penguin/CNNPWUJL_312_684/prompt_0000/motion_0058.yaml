@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4059
+  - 0.3399
+  - 0.7229
+  - 0.6123
+  frame: 0
+  global_frame: 597
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4171
+  - 0.352
+  - 0.7307
+  - 0.622
+  frame: 1
+  global_frame: 598
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.418
+  - 0.3455
+  - 0.7233
+  - 0.608
+  frame: 2
+  global_frame: 599
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4192
+  - 0.3373
+  - 0.7218
+  - 0.6206
+  frame: 3
+  global_frame: 600
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4195
+  - 0.3376
+  - 0.7217
+  - 0.6205
+  frame: 4
+  global_frame: 601
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4182
+  - 0.3307
+  - 0.7123
+  - 0.6204
+  frame: 5
+  global_frame: 602
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4304
+  - 0.3164
+  - 0.7019
+  - 0.6112
+  frame: 6
+  global_frame: 603
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4244
+  - 0.3078
+  - 0.6952
+  - 0.622
+  frame: 7
+  global_frame: 604
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.413
+  - 0.3189
+  - 0.6937
+  - 0.6422
+  frame: 8
+  global_frame: 605
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4128
+  - 0.3289
+  - 0.6828
+  - 0.6268
+  frame: 9
+  global_frame: 606
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.4128
+  - 0.3288
+  - 0.6828
+  - 0.6267
+  frame: 10
+  global_frame: 607
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3956
+  - 0.3439
+  - 0.6701
+  - 0.6397
+  frame: 11
+  global_frame: 608
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3711
+  - 0.368
+  - 0.6654
+  - 0.6608
+  frame: 12
+  global_frame: 609
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3696
+  - 0.3827
+  - 0.6487
+  - 0.6434
+  frame: 13
+  global_frame: 610
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3566
+  - 0.3943
+  - 0.6399
+  - 0.6421
+  frame: 14
+  global_frame: 611
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3392
+  - 0.4062
+  - 0.6307
+  - 0.6603
+  frame: 15
+  global_frame: 612
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3393
+  - 0.4063
+  - 0.6307
+  - 0.6603
+  frame: 16
+  global_frame: 613
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3187
+  - 0.4238
+  - 0.6127
+  - 0.7007
+  frame: 17
+  global_frame: 614
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3093
+  - 0.4333
+  - 0.5996
+  - 0.7023
+  frame: 18
+  global_frame: 615
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3045
+  - 0.449
+  - 0.5956
+  - 0.728
+  frame: 19
+  global_frame: 616
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3249
+  - 0.4668
+  - 0.5943
+  - 0.7092
+  frame: 20
+  global_frame: 617
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.3161
+  - 0.468
+  - 0.5908
+  - 0.7391
+  frame: 21
+  global_frame: 618
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.316
+  - 0.4681
+  - 0.5907
+  - 0.7391
+  frame: 22
+  global_frame: 619
+  prompt: the penguin is swimming
+- bbox_ratios:
+  - 0.2929
+  - 0.4751
+  - 0.5706
+  - 0.7513
+  frame: 23
+  global_frame: 620
+  prompt: the penguin is swimming
+motion_id: 58
+motion_iter: 1
+num_inference_steps: null
+object_name: penguin
+seed: 4
+source_clip: CNNPWUJL_312_684
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

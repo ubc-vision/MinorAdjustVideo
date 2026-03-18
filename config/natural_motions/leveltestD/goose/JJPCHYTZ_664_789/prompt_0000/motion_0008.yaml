@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5996
+  - 0.7449
+  - 0.6853
+  - 0.8886
+  frame: 0
+  global_frame: 765
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5996
+  - 0.7454
+  - 0.6852
+  - 0.8884
+  frame: 1
+  global_frame: 766
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5992
+  - 0.7452
+  - 0.685
+  - 0.8882
+  frame: 2
+  global_frame: 767
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.599
+  - 0.7452
+  - 0.6847
+  - 0.8882
+  frame: 3
+  global_frame: 768
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5991
+  - 0.745
+  - 0.6849
+  - 0.8887
+  frame: 4
+  global_frame: 769
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5989
+  - 0.7448
+  - 0.6846
+  - 0.8884
+  frame: 5
+  global_frame: 770
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.599
+  - 0.7439
+  - 0.6847
+  - 0.8884
+  frame: 6
+  global_frame: 771
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5989
+  - 0.7435
+  - 0.6848
+  - 0.8887
+  frame: 7
+  global_frame: 772
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5992
+  - 0.743
+  - 0.6847
+  - 0.8888
+  frame: 8
+  global_frame: 773
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5993
+  - 0.7443
+  - 0.6849
+  - 0.8891
+  frame: 9
+  global_frame: 774
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5994
+  - 0.7442
+  - 0.6848
+  - 0.8888
+  frame: 10
+  global_frame: 775
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5991
+  - 0.744
+  - 0.6848
+  - 0.889
+  frame: 11
+  global_frame: 776
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5992
+  - 0.7444
+  - 0.6848
+  - 0.8889
+  frame: 12
+  global_frame: 777
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5993
+  - 0.7445
+  - 0.6847
+  - 0.8888
+  frame: 13
+  global_frame: 778
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5994
+  - 0.7445
+  - 0.6847
+  - 0.8892
+  frame: 14
+  global_frame: 779
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5995
+  - 0.7438
+  - 0.6847
+  - 0.8887
+  frame: 15
+  global_frame: 780
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5992
+  - 0.7441
+  - 0.6846
+  - 0.889
+  frame: 16
+  global_frame: 781
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5994
+  - 0.7451
+  - 0.6847
+  - 0.8889
+  frame: 17
+  global_frame: 782
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5997
+  - 0.7457
+  - 0.6848
+  - 0.8887
+  frame: 18
+  global_frame: 783
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5998
+  - 0.7454
+  - 0.6849
+  - 0.8889
+  frame: 19
+  global_frame: 784
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5998
+  - 0.7447
+  - 0.685
+  - 0.8887
+  frame: 20
+  global_frame: 785
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.5997
+  - 0.7436
+  - 0.6853
+  - 0.8887
+  frame: 21
+  global_frame: 786
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.6001
+  - 0.7442
+  - 0.6857
+  - 0.8888
+  frame: 22
+  global_frame: 787
+  prompt: the greylag goose is walking
+- bbox_ratios:
+  - 0.6002
+  - 0.7438
+  - 0.6856
+  - 0.8893
+  frame: 23
+  global_frame: 788
+  prompt: the greylag goose is walking
+motion_id: 8
+motion_iter: 0
+num_inference_steps: null
+object_name: goose
+seed: 4
+source_clip: JJPCHYTZ_664_789
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

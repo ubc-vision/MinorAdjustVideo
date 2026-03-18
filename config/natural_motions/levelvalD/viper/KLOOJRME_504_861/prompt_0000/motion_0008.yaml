@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5397
+  - 0.1433
+  - 1.0018
+  - 0.7761
+  frame: 0
+  global_frame: 805
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5369
+  - 0.1411
+  - 1.0008
+  - 0.7775
+  frame: 1
+  global_frame: 806
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.55
+  - 0.1447
+  - 1.0022
+  - 0.7775
+  frame: 2
+  global_frame: 807
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5507
+  - 0.1456
+  - 1.003
+  - 0.7761
+  frame: 3
+  global_frame: 808
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5431
+  - 0.1422
+  - 0.9991
+  - 0.7753
+  frame: 4
+  global_frame: 809
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5391
+  - 0.1404
+  - 0.9992
+  - 0.7766
+  frame: 5
+  global_frame: 810
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5546
+  - 0.1426
+  - 1.0003
+  - 0.7769
+  frame: 6
+  global_frame: 811
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5437
+  - 0.1417
+  - 0.9995
+  - 0.7795
+  frame: 7
+  global_frame: 812
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5466
+  - 0.1461
+  - 1.0043
+  - 0.7793
+  frame: 8
+  global_frame: 813
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.528
+  - 0.1413
+  - 0.9986
+  - 0.7785
+  frame: 9
+  global_frame: 814
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5354
+  - 0.1427
+  - 0.9983
+  - 0.7802
+  frame: 10
+  global_frame: 815
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5453
+  - 0.1442
+  - 1.0038
+  - 0.7799
+  frame: 11
+  global_frame: 816
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5491
+  - 0.144
+  - 1.0038
+  - 0.7811
+  frame: 12
+  global_frame: 817
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5482
+  - 0.1438
+  - 1.003
+  - 0.7818
+  frame: 13
+  global_frame: 818
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5532
+  - 0.1436
+  - 1.0029
+  - 0.7815
+  frame: 14
+  global_frame: 819
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5534
+  - 0.1432
+  - 1.0029
+  - 0.7815
+  frame: 15
+  global_frame: 820
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.554
+  - 0.1427
+  - 1.0033
+  - 0.7825
+  frame: 16
+  global_frame: 821
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5526
+  - 0.144
+  - 1.0035
+  - 0.7831
+  frame: 17
+  global_frame: 822
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5516
+  - 0.1423
+  - 1.0036
+  - 0.7836
+  frame: 18
+  global_frame: 823
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5507
+  - 0.1407
+  - 1.0037
+  - 0.7842
+  frame: 19
+  global_frame: 824
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5519
+  - 0.1403
+  - 1.0035
+  - 0.7837
+  frame: 20
+  global_frame: 825
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5525
+  - 0.1407
+  - 1.0038
+  - 0.784
+  frame: 21
+  global_frame: 826
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.552
+  - 0.1385
+  - 1.0042
+  - 0.7842
+  frame: 22
+  global_frame: 827
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+- bbox_ratios:
+  - 0.5525
+  - 0.1381
+  - 1.0042
+  - 0.7844
+  frame: 23
+  global_frame: 828
+  prompt: the metlapilcoatlus mexicanus jumping pit viper is attending
+motion_id: 8
+motion_iter: 0
+num_inference_steps: null
+object_name: viper
+seed: 4
+source_clip: KLOOJRME_504_861
+token_inds:
+- 6
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5398
+  - 0.0056
+  - 1.0044
+  - 0.8227
+  frame: 0
+  global_frame: 146
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5338
+  - 0.0045
+  - 1.0025
+  - 0.8602
+  frame: 1
+  global_frame: 147
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5225
+  - 0.0045
+  - 1.0048
+  - 0.8826
+  frame: 2
+  global_frame: 148
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5244
+  - 0.0047
+  - 1.005
+  - 0.8816
+  frame: 3
+  global_frame: 149
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5165
+  - 0.014
+  - 1.0021
+  - 0.9011
+  frame: 4
+  global_frame: 150
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5201
+  - 0.0161
+  - 1.0032
+  - 0.9025
+  frame: 5
+  global_frame: 151
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.518
+  - 0.0185
+  - 1.0024
+  - 0.9053
+  frame: 6
+  global_frame: 152
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5099
+  - 0.0247
+  - 1.0011
+  - 0.9187
+  frame: 7
+  global_frame: 153
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5043
+  - 0.0286
+  - 1.0008
+  - 0.9035
+  frame: 8
+  global_frame: 154
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5044
+  - 0.0285
+  - 1.001
+  - 0.9034
+  frame: 9
+  global_frame: 155
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.505
+  - 0.0292
+  - 1.0031
+  - 0.9042
+  frame: 10
+  global_frame: 156
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5007
+  - 0.0306
+  - 1.0052
+  - 0.9084
+  frame: 11
+  global_frame: 157
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.503
+  - 0.0372
+  - 1.0047
+  - 0.9106
+  frame: 12
+  global_frame: 158
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.4955
+  - 0.0445
+  - 0.998
+  - 0.9298
+  frame: 13
+  global_frame: 159
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5011
+  - 0.0452
+  - 1.0022
+  - 0.9226
+  frame: 14
+  global_frame: 160
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5011
+  - 0.0452
+  - 1.0024
+  - 0.9206
+  frame: 15
+  global_frame: 161
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.4964
+  - 0.0559
+  - 0.9975
+  - 0.9284
+  frame: 16
+  global_frame: 162
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5063
+  - 0.0601
+  - 1.0
+  - 0.9376
+  frame: 17
+  global_frame: 163
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5127
+  - 0.0727
+  - 1.0017
+  - 0.945
+  frame: 18
+  global_frame: 164
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.52
+  - 0.0852
+  - 1.003
+  - 0.9326
+  frame: 19
+  global_frame: 165
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.523
+  - 0.0934
+  - 1.001
+  - 0.9293
+  frame: 20
+  global_frame: 166
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5229
+  - 0.0937
+  - 1.0009
+  - 0.9296
+  frame: 21
+  global_frame: 167
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5197
+  - 0.1226
+  - 0.997
+  - 0.9363
+  frame: 22
+  global_frame: 168
+  prompt: the frilled neck lizard is running
+- bbox_ratios:
+  - 0.5275
+  - 0.14
+  - 0.9992
+  - 0.9381
+  frame: 23
+  global_frame: 169
+  prompt: the frilled neck lizard is running
+motion_id: 31
+motion_iter: 0
+num_inference_steps: null
+object_name: lizard
+seed: 4
+source_clip: AMCWMKBS_115_187
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

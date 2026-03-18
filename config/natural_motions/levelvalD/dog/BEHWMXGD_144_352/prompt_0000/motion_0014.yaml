@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1149
+  - 0.2269
+  - 0.6696
+  - 0.8416
+  frame: 0
+  global_frame: 270
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.1149
+  - 0.2269
+  - 0.6696
+  - 0.8416
+  frame: 1
+  global_frame: 271
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.1064
+  - 0.2289
+  - 0.6798
+  - 0.8483
+  frame: 2
+  global_frame: 272
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0979
+  - 0.2309
+  - 0.6899
+  - 0.8551
+  frame: 3
+  global_frame: 273
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0894
+  - 0.2329
+  - 0.7001
+  - 0.8618
+  frame: 4
+  global_frame: 274
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0809
+  - 0.2349
+  - 0.7102
+  - 0.8685
+  frame: 5
+  global_frame: 275
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0724
+  - 0.2369
+  - 0.7203
+  - 0.8753
+  frame: 6
+  global_frame: 276
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0638
+  - 0.2389
+  - 0.7305
+  - 0.882
+  frame: 7
+  global_frame: 277
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0553
+  - 0.2408
+  - 0.7406
+  - 0.8888
+  frame: 8
+  global_frame: 278
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0468
+  - 0.2428
+  - 0.7508
+  - 0.8955
+  frame: 9
+  global_frame: 279
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0383
+  - 0.2448
+  - 0.7609
+  - 0.9022
+  frame: 10
+  global_frame: 280
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0298
+  - 0.2468
+  - 0.771
+  - 0.909
+  frame: 11
+  global_frame: 281
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0213
+  - 0.2488
+  - 0.7812
+  - 0.9157
+  frame: 12
+  global_frame: 282
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.021
+  - 0.2488
+  - 0.7814
+  - 0.9159
+  frame: 13
+  global_frame: 283
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0059
+  - 0.244
+  - 0.7816
+  - 0.9159
+  frame: 14
+  global_frame: 284
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0045
+  - 0.2367
+  - 0.7584
+  - 0.8814
+  frame: 15
+  global_frame: 285
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0031
+  - 0.2295
+  - 0.7352
+  - 0.8469
+  frame: 16
+  global_frame: 286
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0017
+  - 0.2223
+  - 0.712
+  - 0.8124
+  frame: 17
+  global_frame: 287
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0009
+  - 0.2201
+  - 0.6936
+  - 0.8304
+  frame: 18
+  global_frame: 288
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0009
+  - 0.2201
+  - 0.6938
+  - 0.8301
+  frame: 19
+  global_frame: 289
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0028
+  - 0.244
+  - 0.6715
+  - 0.8875
+  frame: 20
+  global_frame: 290
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0001
+  - 0.2701
+  - 0.6658
+  - 0.8731
+  frame: 21
+  global_frame: 291
+  prompt: the dog is running
+- bbox_ratios:
+  - 0.0018
+  - 0.2954
+  - 0.6472
+  - 0.87
+  frame: 22
+  global_frame: 292
+  prompt: the dog is running
+- bbox_ratios:
+  - -0.0019
+  - 0.2892
+  - 0.6461
+  - 0.9472
+  frame: 23
+  global_frame: 293
+  prompt: the dog is running
+motion_id: 14
+motion_iter: 0
+num_inference_steps: null
+object_name: dog
+seed: 4
+source_clip: BEHWMXGD_144_352
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

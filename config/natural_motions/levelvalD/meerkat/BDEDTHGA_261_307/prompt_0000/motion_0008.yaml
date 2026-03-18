@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.6154
+  - 0.0014
+  - 0.8875
+  - 0.43
+  frame: 0
+  global_frame: 269
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6157
+  - -0.0006
+  - 0.8894
+  - 0.4282
+  frame: 1
+  global_frame: 270
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6137
+  - 0.0031
+  - 0.8814
+  - 0.4303
+  frame: 2
+  global_frame: 271
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6093
+  - 0.0033
+  - 0.8807
+  - 0.4396
+  frame: 3
+  global_frame: 272
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6087
+  - 0.003
+  - 0.8808
+  - 0.4393
+  frame: 4
+  global_frame: 273
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6082
+  - 0.0027
+  - 0.8809
+  - 0.439
+  frame: 5
+  global_frame: 274
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6076
+  - 0.0024
+  - 0.8809
+  - 0.4387
+  frame: 6
+  global_frame: 275
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6071
+  - 0.002
+  - 0.881
+  - 0.4383
+  frame: 7
+  global_frame: 276
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6065
+  - 0.0017
+  - 0.8811
+  - 0.438
+  frame: 8
+  global_frame: 277
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.606
+  - 0.0014
+  - 0.8812
+  - 0.4377
+  frame: 9
+  global_frame: 278
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6055
+  - 0.0011
+  - 0.8813
+  - 0.4373
+  frame: 10
+  global_frame: 279
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6049
+  - 0.0007
+  - 0.8814
+  - 0.437
+  frame: 11
+  global_frame: 280
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6044
+  - 0.0004
+  - 0.8814
+  - 0.4367
+  frame: 12
+  global_frame: 281
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6038
+  - 0.0001
+  - 0.8815
+  - 0.4364
+  frame: 13
+  global_frame: 282
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6033
+  - -0.0002
+  - 0.8816
+  - 0.436
+  frame: 14
+  global_frame: 283
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6027
+  - -0.0005
+  - 0.8817
+  - 0.4357
+  frame: 15
+  global_frame: 284
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6053
+  - -0.0016
+  - 0.8833
+  - 0.4354
+  frame: 16
+  global_frame: 285
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6077
+  - -0.0
+  - 0.8807
+  - 0.4319
+  frame: 17
+  global_frame: 286
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6091
+  - -0.0003
+  - 0.8874
+  - 0.4336
+  frame: 18
+  global_frame: 287
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6087
+  - 0.0015
+  - 0.8813
+  - 0.4374
+  frame: 19
+  global_frame: 288
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6182
+  - 0.0027
+  - 0.8834
+  - 0.4343
+  frame: 20
+  global_frame: 289
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6278
+  - 0.0038
+  - 0.8854
+  - 0.4311
+  frame: 21
+  global_frame: 290
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6373
+  - 0.005
+  - 0.8875
+  - 0.428
+  frame: 22
+  global_frame: 291
+  prompt: the meerkat is walking
+- bbox_ratios:
+  - 0.6368
+  - 0.0048
+  - 0.8874
+  - 0.4282
+  frame: 23
+  global_frame: 292
+  prompt: the meerkat is walking
+motion_id: 8
+motion_iter: 0
+num_inference_steps: null
+object_name: meerkat
+seed: 4
+source_clip: BDEDTHGA_261_307
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

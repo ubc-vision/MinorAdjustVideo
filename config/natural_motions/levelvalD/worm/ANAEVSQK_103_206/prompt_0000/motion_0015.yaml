@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4946
+  - 0.0001
+  - 0.9881
+  - 0.2663
+  frame: 0
+  global_frame: 118
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4928
+  - 0.0006
+  - 0.9885
+  - 0.2661
+  frame: 1
+  global_frame: 119
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4845
+  - 0.0
+  - 0.9901
+  - 0.2647
+  frame: 2
+  global_frame: 120
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.475
+  - 0.0009
+  - 0.9911
+  - 0.2663
+  frame: 3
+  global_frame: 121
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.462
+  - -0.0013
+  - 0.9921
+  - 0.2608
+  frame: 4
+  global_frame: 122
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4641
+  - -0.0015
+  - 0.9927
+  - 0.2609
+  frame: 5
+  global_frame: 123
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.457
+  - 0.0003
+  - 0.9899
+  - 0.2678
+  frame: 6
+  global_frame: 124
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4474
+  - -0.0009
+  - 0.9899
+  - 0.2702
+  frame: 7
+  global_frame: 125
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4387
+  - -0.0006
+  - 0.9902
+  - 0.2707
+  frame: 8
+  global_frame: 126
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.422
+  - -0.0001
+  - 0.9953
+  - 0.2779
+  frame: 9
+  global_frame: 127
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4221
+  - -0.0001
+  - 0.9953
+  - 0.2775
+  frame: 10
+  global_frame: 128
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.4083
+  - -0.0005
+  - 0.9945
+  - 0.282
+  frame: 11
+  global_frame: 129
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3962
+  - -0.0019
+  - 0.9945
+  - 0.2825
+  frame: 12
+  global_frame: 130
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3874
+  - -0.0031
+  - 0.9946
+  - 0.2886
+  frame: 13
+  global_frame: 131
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3754
+  - -0.0038
+  - 0.9951
+  - 0.2909
+  frame: 14
+  global_frame: 132
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3752
+  - -0.0036
+  - 0.9946
+  - 0.2917
+  frame: 15
+  global_frame: 133
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3629
+  - -0.0057
+  - 0.9981
+  - 0.2968
+  frame: 16
+  global_frame: 134
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3405
+  - -0.0046
+  - 0.9966
+  - 0.2992
+  frame: 17
+  global_frame: 135
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3209
+  - -0.0047
+  - 0.9898
+  - 0.3012
+  frame: 18
+  global_frame: 136
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3031
+  - -0.0047
+  - 0.9947
+  - 0.3126
+  frame: 19
+  global_frame: 137
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.3035
+  - -0.0046
+  - 0.9947
+  - 0.3124
+  frame: 20
+  global_frame: 138
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.2928
+  - -0.0051
+  - 0.9964
+  - 0.3087
+  frame: 21
+  global_frame: 139
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.275
+  - -0.0032
+  - 0.9908
+  - 0.3203
+  frame: 22
+  global_frame: 140
+  prompt: the worm is moving
+- bbox_ratios:
+  - 0.2666
+  - -0.0028
+  - 0.9935
+  - 0.3245
+  frame: 23
+  global_frame: 141
+  prompt: the worm is moving
+motion_id: 15
+motion_iter: 0
+num_inference_steps: null
+object_name: worm
+seed: 4
+source_clip: ANAEVSQK_103_206
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

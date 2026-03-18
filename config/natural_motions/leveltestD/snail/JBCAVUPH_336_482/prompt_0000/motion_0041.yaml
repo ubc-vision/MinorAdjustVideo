@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2877
+  - 0.1003
+  - 0.875
+  - 0.8185
+  frame: 0
+  global_frame: 459
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2959
+  - 0.0989
+  - 0.8717
+  - 0.8312
+  frame: 1
+  global_frame: 460
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.3089
+  - 0.1082
+  - 0.8713
+  - 0.8308
+  frame: 2
+  global_frame: 461
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2898
+  - 0.1121
+  - 0.866
+  - 0.83
+  frame: 3
+  global_frame: 462
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2899
+  - 0.1126
+  - 0.8658
+  - 0.83
+  frame: 4
+  global_frame: 463
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.289
+  - 0.1142
+  - 0.8816
+  - 0.8317
+  frame: 5
+  global_frame: 464
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2663
+  - 0.1372
+  - 0.8674
+  - 0.8336
+  frame: 6
+  global_frame: 465
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2655
+  - 0.1451
+  - 0.8772
+  - 0.8392
+  frame: 7
+  global_frame: 466
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2802
+  - 0.154
+  - 0.8785
+  - 0.8415
+  frame: 8
+  global_frame: 467
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2628
+  - 0.1635
+  - 0.8751
+  - 0.8413
+  frame: 9
+  global_frame: 468
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2643
+  - 0.1629
+  - 0.8764
+  - 0.841
+  frame: 10
+  global_frame: 469
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2703
+  - 0.1658
+  - 0.8765
+  - 0.8456
+  frame: 11
+  global_frame: 470
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2516
+  - 0.155
+  - 0.8884
+  - 0.8482
+  frame: 12
+  global_frame: 471
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2605
+  - 0.1659
+  - 0.8897
+  - 0.8493
+  frame: 13
+  global_frame: 472
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2552
+  - 0.1766
+  - 0.8901
+  - 0.8507
+  frame: 14
+  global_frame: 473
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2469
+  - 0.1851
+  - 0.8963
+  - 0.8498
+  frame: 15
+  global_frame: 474
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2478
+  - 0.1839
+  - 0.8975
+  - 0.8503
+  frame: 16
+  global_frame: 475
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2512
+  - 0.1949
+  - 0.8948
+  - 0.8531
+  frame: 17
+  global_frame: 476
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2416
+  - 0.2034
+  - 0.8906
+  - 0.8508
+  frame: 18
+  global_frame: 477
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2277
+  - 0.1983
+  - 0.9103
+  - 0.8525
+  frame: 19
+  global_frame: 478
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2248
+  - 0.201
+  - 0.912
+  - 0.8516
+  frame: 20
+  global_frame: 479
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2216
+  - 0.2076
+  - 0.9125
+  - 0.8548
+  frame: 21
+  global_frame: 480
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2213
+  - 0.2068
+  - 0.9127
+  - 0.8553
+  frame: 22
+  global_frame: 481
+  prompt: the great ramshorn snail is moving
+- bbox_ratios:
+  - 0.2539
+  - 0.1994
+  - 0.9275
+  - 0.8625
+  frame: 23
+  global_frame: 482
+  prompt: the great ramshorn snail is moving
+motion_id: 41
+motion_iter: 0
+num_inference_steps: null
+object_name: snail
+seed: 4
+source_clip: JBCAVUPH_336_482
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

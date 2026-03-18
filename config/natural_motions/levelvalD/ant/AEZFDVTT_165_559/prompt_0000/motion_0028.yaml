@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2933
+  - 0.3341
+  - 0.5589
+  - 0.6599
+  frame: 0
+  global_frame: 226
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2892
+  - 0.3288
+  - 0.5585
+  - 0.6597
+  frame: 1
+  global_frame: 227
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2852
+  - 0.3236
+  - 0.5582
+  - 0.6595
+  frame: 2
+  global_frame: 228
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2811
+  - 0.3184
+  - 0.5579
+  - 0.6592
+  frame: 3
+  global_frame: 229
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2771
+  - 0.3132
+  - 0.5575
+  - 0.659
+  frame: 4
+  global_frame: 230
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.273
+  - 0.308
+  - 0.5572
+  - 0.6588
+  frame: 5
+  global_frame: 231
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2725
+  - 0.3081
+  - 0.5577
+  - 0.6585
+  frame: 6
+  global_frame: 232
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.2971
+  - 0.3225
+  - 0.5869
+  - 0.6769
+  frame: 7
+  global_frame: 233
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.3217
+  - 0.337
+  - 0.6161
+  - 0.6954
+  frame: 8
+  global_frame: 234
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.3463
+  - 0.3514
+  - 0.6453
+  - 0.7138
+  frame: 9
+  global_frame: 235
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.3709
+  - 0.3659
+  - 0.6745
+  - 0.7322
+  frame: 10
+  global_frame: 236
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.3955
+  - 0.3803
+  - 0.7037
+  - 0.7506
+  frame: 11
+  global_frame: 237
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.3958
+  - 0.3802
+  - 0.7036
+  - 0.7505
+  frame: 12
+  global_frame: 238
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.4247
+  - 0.3966
+  - 0.7252
+  - 0.7699
+  frame: 13
+  global_frame: 239
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.4537
+  - 0.4131
+  - 0.7467
+  - 0.7893
+  frame: 14
+  global_frame: 240
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.4826
+  - 0.4295
+  - 0.7683
+  - 0.8086
+  frame: 15
+  global_frame: 241
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.5115
+  - 0.4459
+  - 0.7899
+  - 0.828
+  frame: 16
+  global_frame: 242
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.5311
+  - 0.4625
+  - 0.8092
+  - 0.8372
+  frame: 17
+  global_frame: 243
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.5507
+  - 0.4791
+  - 0.8285
+  - 0.8464
+  frame: 18
+  global_frame: 244
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.5703
+  - 0.4957
+  - 0.8478
+  - 0.8557
+  frame: 19
+  global_frame: 245
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.5898
+  - 0.5122
+  - 0.867
+  - 0.8649
+  frame: 20
+  global_frame: 246
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.6094
+  - 0.5288
+  - 0.8863
+  - 0.8741
+  frame: 21
+  global_frame: 247
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.629
+  - 0.5454
+  - 0.9056
+  - 0.8833
+  frame: 22
+  global_frame: 248
+  prompt: the leafcutter ant is moving
+- bbox_ratios:
+  - 0.6486
+  - 0.5619
+  - 0.9249
+  - 0.8925
+  frame: 23
+  global_frame: 249
+  prompt: the leafcutter ant is moving
+motion_id: 28
+motion_iter: 1
+num_inference_steps: null
+object_name: ant
+seed: 4
+source_clip: AEZFDVTT_165_559
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

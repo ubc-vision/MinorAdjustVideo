@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3323
+  - 0.2084
+  - 0.616
+  - 0.8904
+  frame: 0
+  global_frame: 670
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3031
+  - 0.1682
+  - 0.611
+  - 0.8208
+  frame: 1
+  global_frame: 671
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3039
+  - 0.2024
+  - 0.6156
+  - 0.8778
+  frame: 2
+  global_frame: 672
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3005
+  - 0.1743
+  - 0.6124
+  - 0.8616
+  frame: 3
+  global_frame: 673
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3005
+  - 0.1749
+  - 0.6114
+  - 0.8535
+  frame: 4
+  global_frame: 674
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.2979
+  - 0.1721
+  - 0.6144
+  - 0.8998
+  frame: 5
+  global_frame: 675
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.303
+  - 0.1735
+  - 0.6155
+  - 0.891
+  frame: 6
+  global_frame: 676
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3028
+  - 0.1607
+  - 0.6104
+  - 0.9309
+  frame: 7
+  global_frame: 677
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3037
+  - 0.1574
+  - 0.6132
+  - 0.967
+  frame: 8
+  global_frame: 678
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.297
+  - 0.1624
+  - 0.6013
+  - 1.0042
+  frame: 9
+  global_frame: 679
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.2963
+  - 0.163
+  - 0.603
+  - 1.0026
+  frame: 10
+  global_frame: 680
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.2979
+  - 0.1638
+  - 0.6031
+  - 1.0013
+  frame: 11
+  global_frame: 681
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3021
+  - 0.1621
+  - 0.6066
+  - 0.9978
+  frame: 12
+  global_frame: 682
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.2997
+  - 0.1653
+  - 0.6074
+  - 0.9968
+  frame: 13
+  global_frame: 683
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3002
+  - 0.1674
+  - 0.6016
+  - 0.9966
+  frame: 14
+  global_frame: 684
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3014
+  - 0.1705
+  - 0.6052
+  - 0.9967
+  frame: 15
+  global_frame: 685
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.301
+  - 0.17
+  - 0.6055
+  - 0.9955
+  frame: 16
+  global_frame: 686
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3028
+  - 0.1678
+  - 0.6014
+  - 0.8847
+  frame: 17
+  global_frame: 687
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3103
+  - 0.1702
+  - 0.6087
+  - 0.982
+  frame: 18
+  global_frame: 688
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3092
+  - 0.1604
+  - 0.6028
+  - 0.957
+  frame: 19
+  global_frame: 689
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3095
+  - 0.1672
+  - 0.5957
+  - 0.993
+  frame: 20
+  global_frame: 690
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3075
+  - 0.1672
+  - 0.5876
+  - 0.9887
+  frame: 21
+  global_frame: 691
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3075
+  - 0.1673
+  - 0.5888
+  - 0.9896
+  frame: 22
+  global_frame: 692
+  prompt: the maroon macaque is running
+- bbox_ratios:
+  - 0.3083
+  - 0.1628
+  - 0.5819
+  - 0.974
+  frame: 23
+  global_frame: 693
+  prompt: the maroon macaque is running
+motion_id: 3
+motion_iter: 2
+num_inference_steps: null
+object_name: macaque
+seed: 4
+source_clip: AWQXRFFP_667_729
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

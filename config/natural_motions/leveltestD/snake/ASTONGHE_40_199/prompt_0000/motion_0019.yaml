@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.248
+  - 0.0913
+  - 0.7591
+  - 0.9328
+  frame: 0
+  global_frame: 118
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2557
+  - 0.0836
+  - 0.7557
+  - 0.9351
+  frame: 1
+  global_frame: 119
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2484
+  - 0.0769
+  - 0.7555
+  - 0.9369
+  frame: 2
+  global_frame: 120
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2517
+  - 0.0776
+  - 0.753
+  - 0.9336
+  frame: 3
+  global_frame: 121
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2821
+  - 0.0773
+  - 0.7507
+  - 0.9293
+  frame: 4
+  global_frame: 122
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2602
+  - 0.0728
+  - 0.7568
+  - 0.9417
+  frame: 5
+  global_frame: 123
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.27
+  - 0.0794
+  - 0.7603
+  - 0.9328
+  frame: 6
+  global_frame: 124
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2764
+  - 0.0701
+  - 0.7806
+  - 0.9413
+  frame: 7
+  global_frame: 125
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2771
+  - 0.0722
+  - 0.7746
+  - 0.9269
+  frame: 8
+  global_frame: 126
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.2877
+  - 0.0869
+  - 0.788
+  - 0.9349
+  frame: 9
+  global_frame: 127
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3147
+  - 0.0996
+  - 0.7932
+  - 0.9291
+  frame: 10
+  global_frame: 128
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3389
+  - 0.1261
+  - 0.8167
+  - 0.9603
+  frame: 11
+  global_frame: 129
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3221
+  - 0.1219
+  - 0.8214
+  - 0.9695
+  frame: 12
+  global_frame: 130
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3373
+  - 0.139
+  - 0.8246
+  - 0.961
+  frame: 13
+  global_frame: 131
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3388
+  - 0.1281
+  - 0.8243
+  - 0.961
+  frame: 14
+  global_frame: 132
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3372
+  - 0.1287
+  - 0.8239
+  - 0.9713
+  frame: 15
+  global_frame: 133
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.347
+  - 0.143
+  - 0.8215
+  - 0.9666
+  frame: 16
+  global_frame: 134
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3463
+  - 0.1482
+  - 0.8233
+  - 0.98
+  frame: 17
+  global_frame: 135
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3512
+  - 0.1473
+  - 0.8087
+  - 0.9753
+  frame: 18
+  global_frame: 136
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3451
+  - 0.1394
+  - 0.8078
+  - 0.9608
+  frame: 19
+  global_frame: 137
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3369
+  - 0.1435
+  - 0.7997
+  - 0.9812
+  frame: 20
+  global_frame: 138
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3244
+  - 0.1454
+  - 0.7949
+  - 0.9769
+  frame: 21
+  global_frame: 139
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.318
+  - 0.1509
+  - 0.7823
+  - 0.981
+  frame: 22
+  global_frame: 140
+  prompt: the snake is moving
+- bbox_ratios:
+  - 0.3208
+  - 0.1441
+  - 0.7832
+  - 0.968
+  frame: 23
+  global_frame: 141
+  prompt: the snake is moving
+motion_id: 19
+motion_iter: 1
+num_inference_steps: null
+object_name: snake
+seed: 4
+source_clip: ASTONGHE_40_199
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

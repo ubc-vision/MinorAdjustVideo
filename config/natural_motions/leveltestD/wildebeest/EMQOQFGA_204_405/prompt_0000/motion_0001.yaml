@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1294
+  - 0.4806
+  - 0.593
+  - 0.9716
+  frame: 0
+  global_frame: 345
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1484
+  - 0.456
+  - 0.6077
+  - 0.9531
+  frame: 1
+  global_frame: 346
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1712
+  - 0.463
+  - 0.632
+  - 0.9734
+  frame: 2
+  global_frame: 347
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1712
+  - 0.4627
+  - 0.6318
+  - 0.973
+  frame: 3
+  global_frame: 348
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.199
+  - 0.4671
+  - 0.641
+  - 0.9609
+  frame: 4
+  global_frame: 349
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.212
+  - 0.447
+  - 0.6625
+  - 0.9574
+  frame: 5
+  global_frame: 350
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2159
+  - 0.4316
+  - 0.6687
+  - 0.9663
+  frame: 6
+  global_frame: 351
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2198
+  - 0.4162
+  - 0.6749
+  - 0.9751
+  frame: 7
+  global_frame: 352
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.22
+  - 0.416
+  - 0.6748
+  - 0.9752
+  frame: 8
+  global_frame: 353
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2365
+  - 0.4197
+  - 0.6908
+  - 0.9979
+  frame: 9
+  global_frame: 354
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.25
+  - 0.4058
+  - 0.7113
+  - 0.9932
+  frame: 10
+  global_frame: 355
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2629
+  - 0.4031
+  - 0.7199
+  - 0.9976
+  frame: 11
+  global_frame: 356
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2691
+  - 0.3989
+  - 0.7416
+  - 0.9948
+  frame: 12
+  global_frame: 357
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2684
+  - 0.3985
+  - 0.7419
+  - 0.9948
+  frame: 13
+  global_frame: 358
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2614
+  - 0.4099
+  - 0.7597
+  - 0.999
+  frame: 14
+  global_frame: 359
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2476
+  - 0.4168
+  - 0.7704
+  - 0.9933
+  frame: 15
+  global_frame: 360
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2337
+  - 0.4237
+  - 0.7812
+  - 0.9877
+  frame: 16
+  global_frame: 361
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2198
+  - 0.4305
+  - 0.792
+  - 0.982
+  frame: 17
+  global_frame: 362
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.2059
+  - 0.4374
+  - 0.8028
+  - 0.9763
+  frame: 18
+  global_frame: 363
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1921
+  - 0.4442
+  - 0.8135
+  - 0.9706
+  frame: 19
+  global_frame: 364
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1694
+  - 0.4474
+  - 0.8112
+  - 0.9541
+  frame: 20
+  global_frame: 365
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1821
+  - 0.4546
+  - 0.8036
+  - 0.9429
+  frame: 21
+  global_frame: 366
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1951
+  - 0.443
+  - 0.7938
+  - 0.9748
+  frame: 22
+  global_frame: 367
+  prompt: the wildebeest is running
+- bbox_ratios:
+  - 0.1949
+  - 0.4434
+  - 0.7936
+  - 0.9748
+  frame: 23
+  global_frame: 368
+  prompt: the wildebeest is running
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: wildebeest
+seed: 4
+source_clip: EMQOQFGA_204_405
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

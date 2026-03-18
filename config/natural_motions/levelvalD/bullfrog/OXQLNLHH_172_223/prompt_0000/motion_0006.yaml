@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1593
+  - 0.1019
+  - 0.9036
+  - 0.9882
+  frame: 0
+  global_frame: 178
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1585
+  - 0.1084
+  - 0.905
+  - 0.9989
+  frame: 1
+  global_frame: 179
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1552
+  - 0.1074
+  - 0.9091
+  - 0.991
+  frame: 2
+  global_frame: 180
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1556
+  - 0.1075
+  - 0.909
+  - 0.9911
+  frame: 3
+  global_frame: 181
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1424
+  - 0.1239
+  - 0.9066
+  - 0.9996
+  frame: 4
+  global_frame: 182
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1289
+  - 0.1349
+  - 0.9071
+  - 0.9992
+  frame: 5
+  global_frame: 183
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1289
+  - 0.1567
+  - 0.9011
+  - 0.9978
+  frame: 6
+  global_frame: 184
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1331
+  - 0.1691
+  - 0.9226
+  - 0.9992
+  frame: 7
+  global_frame: 185
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1392
+  - 0.177
+  - 0.9112
+  - 0.993
+  frame: 8
+  global_frame: 186
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1393
+  - 0.1768
+  - 0.9112
+  - 0.9929
+  frame: 9
+  global_frame: 187
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1506
+  - 0.1771
+  - 0.9223
+  - 0.9965
+  frame: 10
+  global_frame: 188
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1521
+  - 0.1823
+  - 0.9253
+  - 0.9966
+  frame: 11
+  global_frame: 189
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1536
+  - 0.1874
+  - 0.9283
+  - 0.9967
+  frame: 12
+  global_frame: 190
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1552
+  - 0.1926
+  - 0.9313
+  - 0.9968
+  frame: 13
+  global_frame: 191
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1567
+  - 0.1978
+  - 0.9343
+  - 0.9969
+  frame: 14
+  global_frame: 192
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1582
+  - 0.2029
+  - 0.9373
+  - 0.9971
+  frame: 15
+  global_frame: 193
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1597
+  - 0.2081
+  - 0.9403
+  - 0.9972
+  frame: 16
+  global_frame: 194
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1598
+  - 0.2091
+  - 0.9422
+  - 0.9953
+  frame: 17
+  global_frame: 195
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1598
+  - 0.2102
+  - 0.9441
+  - 0.9935
+  frame: 18
+  global_frame: 196
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1526
+  - 0.1998
+  - 0.9458
+  - 1.0019
+  frame: 19
+  global_frame: 197
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1446
+  - 0.2003
+  - 0.9321
+  - 0.9974
+  frame: 20
+  global_frame: 198
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1441
+  - 0.201
+  - 0.9321
+  - 0.9975
+  frame: 21
+  global_frame: 199
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1461
+  - 0.2071
+  - 0.9316
+  - 1.0022
+  frame: 22
+  global_frame: 200
+  prompt: the bullfrog is walking
+- bbox_ratios:
+  - 0.1438
+  - 0.2058
+  - 0.9302
+  - 1.0012
+  frame: 23
+  global_frame: 201
+  prompt: the bullfrog is walking
+motion_id: 6
+motion_iter: 2
+num_inference_steps: null
+object_name: bullfrog
+seed: 4
+source_clip: OXQLNLHH_172_223
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

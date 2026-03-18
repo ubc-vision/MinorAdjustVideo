@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4088
+  - 0.4728
+  - 0.7129
+  - 0.8385
+  frame: 0
+  global_frame: 1242
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4608
+  - 0.5207
+  - 0.7131
+  - 0.8503
+  frame: 1
+  global_frame: 1243
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4615
+  - 0.5213
+  - 0.7132
+  - 0.8503
+  frame: 2
+  global_frame: 1244
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4451
+  - 0.523
+  - 0.6945
+  - 0.8512
+  frame: 3
+  global_frame: 1245
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4969
+  - 0.5847
+  - 0.702
+  - 0.8588
+  frame: 4
+  global_frame: 1246
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4558
+  - 0.528
+  - 0.6685
+  - 0.8568
+  frame: 5
+  global_frame: 1247
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.456
+  - 0.5569
+  - 0.6539
+  - 0.8492
+  frame: 6
+  global_frame: 1248
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4692
+  - 0.5439
+  - 0.6477
+  - 0.842
+  frame: 7
+  global_frame: 1249
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4686
+  - 0.5436
+  - 0.6479
+  - 0.842
+  frame: 8
+  global_frame: 1250
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4657
+  - 0.5371
+  - 0.668
+  - 0.8357
+  frame: 9
+  global_frame: 1251
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4687
+  - 0.501
+  - 0.6875
+  - 0.8116
+  frame: 10
+  global_frame: 1252
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4786
+  - 0.4686
+  - 0.6958
+  - 0.7938
+  frame: 11
+  global_frame: 1253
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4763
+  - 0.4389
+  - 0.6912
+  - 0.7721
+  frame: 12
+  global_frame: 1254
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4828
+  - 0.416
+  - 0.6677
+  - 0.7576
+  frame: 13
+  global_frame: 1255
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4826
+  - 0.416
+  - 0.6676
+  - 0.7576
+  frame: 14
+  global_frame: 1256
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4681
+  - 0.4002
+  - 0.6583
+  - 0.7409
+  frame: 15
+  global_frame: 1257
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4622
+  - 0.3871
+  - 0.6688
+  - 0.7283
+  frame: 16
+  global_frame: 1258
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4617
+  - 0.3799
+  - 0.6761
+  - 0.7077
+  frame: 17
+  global_frame: 1259
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4681
+  - 0.365
+  - 0.6803
+  - 0.7036
+  frame: 18
+  global_frame: 1260
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4648
+  - 0.3469
+  - 0.6921
+  - 0.6863
+  frame: 19
+  global_frame: 1261
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4643
+  - 0.3475
+  - 0.692
+  - 0.6862
+  frame: 20
+  global_frame: 1262
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4634
+  - 0.3437
+  - 0.6971
+  - 0.6704
+  frame: 21
+  global_frame: 1263
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4466
+  - 0.3297
+  - 0.7002
+  - 0.6775
+  frame: 22
+  global_frame: 1264
+  prompt: a clownfish is swimming and sensing along the sea anemone
+- bbox_ratios:
+  - 0.4593
+  - 0.3315
+  - 0.6974
+  - 0.6788
+  frame: 23
+  global_frame: 1265
+  prompt: a clownfish is swimming and sensing along the sea anemone
+motion_id: 14
+motion_iter: 2
+num_inference_steps: null
+object_name: clownfish
+seed: 4
+source_clip: GJUMPFFP_1075_1269
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

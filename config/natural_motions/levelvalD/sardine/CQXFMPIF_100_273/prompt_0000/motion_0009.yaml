@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3475
+  - 0.0316
+  - 0.8902
+  - 0.995
+  frame: 0
+  global_frame: 246
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.343
+  - 0.0345
+  - 0.8858
+  - 0.9958
+  frame: 1
+  global_frame: 247
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3385
+  - 0.0375
+  - 0.8814
+  - 0.9966
+  frame: 2
+  global_frame: 248
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3341
+  - 0.0404
+  - 0.877
+  - 0.9975
+  frame: 3
+  global_frame: 249
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3296
+  - 0.0434
+  - 0.8726
+  - 0.9983
+  frame: 4
+  global_frame: 250
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3251
+  - 0.0463
+  - 0.8682
+  - 0.9992
+  frame: 5
+  global_frame: 251
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3206
+  - 0.0493
+  - 0.8638
+  - 1.0
+  frame: 6
+  global_frame: 252
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3162
+  - 0.0522
+  - 0.8594
+  - 1.0008
+  frame: 7
+  global_frame: 253
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3117
+  - 0.0552
+  - 0.855
+  - 1.0017
+  frame: 8
+  global_frame: 254
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3095
+  - 0.066
+  - 0.8595
+  - 1.0018
+  frame: 9
+  global_frame: 255
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3073
+  - 0.0769
+  - 0.864
+  - 1.002
+  frame: 10
+  global_frame: 256
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3051
+  - 0.0877
+  - 0.8685
+  - 1.0022
+  frame: 11
+  global_frame: 257
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.303
+  - 0.0986
+  - 0.873
+  - 1.0023
+  frame: 12
+  global_frame: 258
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.3008
+  - 0.1095
+  - 0.8774
+  - 1.0025
+  frame: 13
+  global_frame: 259
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2986
+  - 0.1203
+  - 0.8819
+  - 1.0027
+  frame: 14
+  global_frame: 260
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2964
+  - 0.1312
+  - 0.8864
+  - 1.0028
+  frame: 15
+  global_frame: 261
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2942
+  - 0.142
+  - 0.8909
+  - 1.003
+  frame: 16
+  global_frame: 262
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.292
+  - 0.1529
+  - 0.8954
+  - 1.0032
+  frame: 17
+  global_frame: 263
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2898
+  - 0.1638
+  - 0.8999
+  - 1.0033
+  frame: 18
+  global_frame: 264
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2877
+  - 0.1746
+  - 0.9044
+  - 1.0035
+  frame: 19
+  global_frame: 265
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2855
+  - 0.1855
+  - 0.9088
+  - 1.0037
+  frame: 20
+  global_frame: 266
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2833
+  - 0.1963
+  - 0.9133
+  - 1.0038
+  frame: 21
+  global_frame: 267
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2811
+  - 0.2072
+  - 0.9178
+  - 1.004
+  frame: 22
+  global_frame: 268
+  prompt: the sardine is swimming
+- bbox_ratios:
+  - 0.2789
+  - 0.2181
+  - 0.9223
+  - 1.0042
+  frame: 23
+  global_frame: 269
+  prompt: the sardine is swimming
+motion_id: 9
+motion_iter: 0
+num_inference_steps: null
+object_name: sardine
+seed: 4
+source_clip: CQXFMPIF_100_273
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

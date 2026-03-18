@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3809
+  - 0.3091
+  - 0.7436
+  - 0.688
+  frame: 0
+  global_frame: 788
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4183
+  - 0.3075
+  - 0.7455
+  - 0.6392
+  frame: 1
+  global_frame: 789
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4184
+  - 0.3075
+  - 0.7456
+  - 0.6391
+  frame: 2
+  global_frame: 790
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3916
+  - 0.3066
+  - 0.7727
+  - 0.6705
+  frame: 3
+  global_frame: 791
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3929
+  - 0.3031
+  - 0.7479
+  - 0.6483
+  frame: 4
+  global_frame: 792
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3931
+  - 0.3032
+  - 0.746
+  - 0.6493
+  frame: 5
+  global_frame: 793
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3927
+  - 0.303
+  - 0.7475
+  - 0.6497
+  frame: 6
+  global_frame: 794
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3942
+  - 0.3059
+  - 0.716
+  - 0.6793
+  frame: 7
+  global_frame: 795
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3962
+  - 0.2998
+  - 0.7264
+  - 0.6649
+  frame: 8
+  global_frame: 796
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3955
+  - 0.2998
+  - 0.7288
+  - 0.6671
+  frame: 9
+  global_frame: 797
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4013
+  - 0.2965
+  - 0.7749
+  - 0.6573
+  frame: 10
+  global_frame: 798
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3991
+  - 0.2963
+  - 0.7786
+  - 0.6643
+  frame: 11
+  global_frame: 799
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3966
+  - 0.2944
+  - 0.7572
+  - 0.6682
+  frame: 12
+  global_frame: 800
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3965
+  - 0.2947
+  - 0.7563
+  - 0.6659
+  frame: 13
+  global_frame: 801
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3893
+  - 0.3113
+  - 0.7796
+  - 0.7398
+  frame: 14
+  global_frame: 802
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3924
+  - 0.3024
+  - 0.7851
+  - 0.7023
+  frame: 15
+  global_frame: 803
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3926
+  - 0.3024
+  - 0.785
+  - 0.7014
+  frame: 16
+  global_frame: 804
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3926
+  - 0.3024
+  - 0.7848
+  - 0.7011
+  frame: 17
+  global_frame: 805
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3953
+  - 0.2981
+  - 0.7779
+  - 0.6911
+  frame: 18
+  global_frame: 806
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3948
+  - 0.307
+  - 0.7866
+  - 0.7163
+  frame: 19
+  global_frame: 807
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.3948
+  - 0.307
+  - 0.7867
+  - 0.7164
+  frame: 20
+  global_frame: 808
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4012
+  - 0.2968
+  - 0.7895
+  - 0.7066
+  frame: 21
+  global_frame: 809
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4078
+  - 0.2983
+  - 0.786
+  - 0.7045
+  frame: 22
+  global_frame: 810
+  prompt: the ring-tailed lemur is moving
+- bbox_ratios:
+  - 0.4077
+  - 0.2985
+  - 0.785
+  - 0.703
+  frame: 23
+  global_frame: 811
+  prompt: the ring-tailed lemur is moving
+motion_id: 26
+motion_iter: 0
+num_inference_steps: null
+object_name: lemur
+seed: 4
+source_clip: GLGGEQRY_252_816
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

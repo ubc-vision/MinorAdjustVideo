@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2184
+  - 0.0212
+  - 0.9666
+  - 0.8301
+  frame: 0
+  global_frame: 1379
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2152
+  - 0.0209
+  - 0.9678
+  - 0.8312
+  frame: 1
+  global_frame: 1380
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2223
+  - 0.0198
+  - 0.9678
+  - 0.8294
+  frame: 2
+  global_frame: 1381
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2313
+  - 0.0199
+  - 0.9675
+  - 0.8283
+  frame: 3
+  global_frame: 1382
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2378
+  - 0.0233
+  - 0.9673
+  - 0.8257
+  frame: 4
+  global_frame: 1383
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2415
+  - 0.0225
+  - 0.9672
+  - 0.8254
+  frame: 5
+  global_frame: 1384
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2529
+  - 0.022
+  - 0.9667
+  - 0.823
+  frame: 6
+  global_frame: 1385
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1362
+  - 0.0247
+  - 0.9659
+  - 0.8489
+  frame: 7
+  global_frame: 1386
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2498
+  - 0.0227
+  - 0.968
+  - 0.8263
+  frame: 8
+  global_frame: 1387
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1512
+  - 0.0187
+  - 0.9697
+  - 0.8443
+  frame: 9
+  global_frame: 1388
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1481
+  - 0.0198
+  - 0.97
+  - 0.8473
+  frame: 10
+  global_frame: 1389
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1488
+  - 0.0199
+  - 0.9703
+  - 0.8473
+  frame: 11
+  global_frame: 1390
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2404
+  - 0.0163
+  - 0.9648
+  - 0.8282
+  frame: 12
+  global_frame: 1391
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.248
+  - 0.017
+  - 0.9645
+  - 0.8258
+  frame: 13
+  global_frame: 1392
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2263
+  - 0.0165
+  - 0.9665
+  - 0.8302
+  frame: 14
+  global_frame: 1393
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2306
+  - 0.0184
+  - 0.9672
+  - 0.8319
+  frame: 15
+  global_frame: 1394
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.24
+  - 0.0182
+  - 0.965
+  - 0.8273
+  frame: 16
+  global_frame: 1395
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.2431
+  - 0.0179
+  - 0.9643
+  - 0.8266
+  frame: 17
+  global_frame: 1396
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1543
+  - 0.021
+  - 0.9711
+  - 0.8475
+  frame: 18
+  global_frame: 1397
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1546
+  - 0.0209
+  - 0.9711
+  - 0.8485
+  frame: 19
+  global_frame: 1398
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.154
+  - 0.0219
+  - 0.971
+  - 0.8473
+  frame: 20
+  global_frame: 1399
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1539
+  - 0.0216
+  - 0.9715
+  - 0.8475
+  frame: 21
+  global_frame: 1400
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1526
+  - 0.0228
+  - 0.9713
+  - 0.8497
+  frame: 22
+  global_frame: 1401
+  prompt: the otter is swimming
+- bbox_ratios:
+  - 0.1522
+  - 0.0221
+  - 0.9712
+  - 0.8498
+  frame: 23
+  global_frame: 1402
+  prompt: the otter is swimming
+motion_id: 6
+motion_iter: 1
+num_inference_steps: null
+object_name: otter
+seed: 4
+source_clip: AMQNDBQT_1365_1461
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

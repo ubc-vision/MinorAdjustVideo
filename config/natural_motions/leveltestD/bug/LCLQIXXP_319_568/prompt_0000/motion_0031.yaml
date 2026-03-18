@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2233
+  - 0.005
+  - 0.7492
+  - 0.733
+  frame: 0
+  global_frame: 526
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2227
+  - 0.0037
+  - 0.7551
+  - 0.7401
+  frame: 1
+  global_frame: 527
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2205
+  - 0.0083
+  - 0.7752
+  - 0.7452
+  frame: 2
+  global_frame: 528
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2267
+  - 0.0061
+  - 0.7972
+  - 0.7484
+  frame: 3
+  global_frame: 529
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2177
+  - -0.007
+  - 0.8216
+  - 0.8227
+  frame: 4
+  global_frame: 530
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2116
+  - 0.0066
+  - 0.8343
+  - 0.7729
+  frame: 5
+  global_frame: 531
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2077
+  - 0.0078
+  - 0.8624
+  - 0.7828
+  frame: 6
+  global_frame: 532
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2059
+  - 0.0054
+  - 0.8927
+  - 0.8169
+  frame: 7
+  global_frame: 533
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2065
+  - 0.0062
+  - 0.9199
+  - 0.8117
+  frame: 8
+  global_frame: 534
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2027
+  - 0.0034
+  - 0.936
+  - 0.8616
+  frame: 9
+  global_frame: 535
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2119
+  - 0.0274
+  - 0.9412
+  - 0.769
+  frame: 10
+  global_frame: 536
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2077
+  - 0.0077
+  - 0.9352
+  - 0.7831
+  frame: 11
+  global_frame: 537
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2119
+  - 0.0134
+  - 0.8803
+  - 0.779
+  frame: 12
+  global_frame: 538
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2105
+  - 0.0159
+  - 0.8682
+  - 0.7743
+  frame: 13
+  global_frame: 539
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2181
+  - 0.0622
+  - 0.7867
+  - 0.7653
+  frame: 14
+  global_frame: 540
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2085
+  - 0.0232
+  - 0.796
+  - 0.7844
+  frame: 15
+  global_frame: 541
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2101
+  - 0.0244
+  - 0.8185
+  - 0.7909
+  frame: 16
+  global_frame: 542
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2215
+  - 0.0102
+  - 0.8366
+  - 0.7801
+  frame: 17
+  global_frame: 543
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2159
+  - 0.0103
+  - 0.8378
+  - 0.796
+  frame: 18
+  global_frame: 544
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2103
+  - 0.0104
+  - 0.839
+  - 0.8118
+  frame: 19
+  global_frame: 545
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2052
+  - 0.0086
+  - 0.8296
+  - 0.8499
+  frame: 20
+  global_frame: 546
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2098
+  - 0.0058
+  - 0.8179
+  - 0.8945
+  frame: 21
+  global_frame: 547
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.2116
+  - 0.0093
+  - 0.8131
+  - 0.9704
+  frame: 22
+  global_frame: 548
+  prompt: the pill bug is moving
+- bbox_ratios:
+  - 0.224
+  - 0.0082
+  - 0.8048
+  - 0.8182
+  frame: 23
+  global_frame: 549
+  prompt: the pill bug is moving
+motion_id: 31
+motion_iter: 0
+num_inference_steps: null
+object_name: bug
+seed: 4
+source_clip: LCLQIXXP_319_568
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

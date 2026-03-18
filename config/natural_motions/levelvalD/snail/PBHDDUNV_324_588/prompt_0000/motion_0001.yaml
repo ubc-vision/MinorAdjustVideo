@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2677
+  - 0.3585
+  - 0.6764
+  - 0.7932
+  frame: 0
+  global_frame: 538
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.271
+  - 0.3574
+  - 0.6762
+  - 0.7915
+  frame: 1
+  global_frame: 539
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2724
+  - 0.3561
+  - 0.6743
+  - 0.789
+  frame: 2
+  global_frame: 540
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2745
+  - 0.3573
+  - 0.6728
+  - 0.7892
+  frame: 3
+  global_frame: 541
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2737
+  - 0.3552
+  - 0.6723
+  - 0.7912
+  frame: 4
+  global_frame: 542
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2722
+  - 0.356
+  - 0.672
+  - 0.7901
+  frame: 5
+  global_frame: 543
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2726
+  - 0.3552
+  - 0.6693
+  - 0.7885
+  frame: 6
+  global_frame: 544
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2739
+  - 0.3559
+  - 0.6689
+  - 0.7873
+  frame: 7
+  global_frame: 545
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2754
+  - 0.3546
+  - 0.6694
+  - 0.783
+  frame: 8
+  global_frame: 546
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2752
+  - 0.3556
+  - 0.6707
+  - 0.7842
+  frame: 9
+  global_frame: 547
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2743
+  - 0.3548
+  - 0.67
+  - 0.7817
+  frame: 10
+  global_frame: 548
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.275
+  - 0.3548
+  - 0.6706
+  - 0.7812
+  frame: 11
+  global_frame: 549
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2652
+  - 0.3535
+  - 0.6707
+  - 0.7845
+  frame: 12
+  global_frame: 550
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2715
+  - 0.3553
+  - 0.6666
+  - 0.7815
+  frame: 13
+  global_frame: 551
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2722
+  - 0.3539
+  - 0.6669
+  - 0.7803
+  frame: 14
+  global_frame: 552
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2697
+  - 0.354
+  - 0.6672
+  - 0.7817
+  frame: 15
+  global_frame: 553
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.272
+  - 0.3531
+  - 0.6673
+  - 0.7808
+  frame: 16
+  global_frame: 554
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2711
+  - 0.3527
+  - 0.6667
+  - 0.7814
+  frame: 17
+  global_frame: 555
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2736
+  - 0.353
+  - 0.6669
+  - 0.7805
+  frame: 18
+  global_frame: 556
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2715
+  - 0.3542
+  - 0.6662
+  - 0.7782
+  frame: 19
+  global_frame: 557
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2707
+  - 0.354
+  - 0.6664
+  - 0.7781
+  frame: 20
+  global_frame: 558
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2705
+  - 0.353
+  - 0.6662
+  - 0.7788
+  frame: 21
+  global_frame: 559
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2706
+  - 0.353
+  - 0.666
+  - 0.7767
+  frame: 22
+  global_frame: 560
+  prompt: the sea snail is moving
+- bbox_ratios:
+  - 0.2721
+  - 0.353
+  - 0.6664
+  - 0.7782
+  frame: 23
+  global_frame: 561
+  prompt: the sea snail is moving
+motion_id: 1
+motion_iter: 1
+num_inference_steps: null
+object_name: snail
+seed: 4
+source_clip: PBHDDUNV_324_588
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

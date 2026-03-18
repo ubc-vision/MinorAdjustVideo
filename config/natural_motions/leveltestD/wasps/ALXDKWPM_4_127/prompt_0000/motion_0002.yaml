@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2247
+  - -0.0043
+  - 0.5213
+  - 0.6803
+  frame: 0
+  global_frame: 13
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2261
+  - -0.0032
+  - 0.6059
+  - 0.7763
+  frame: 1
+  global_frame: 14
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2274
+  - -0.002
+  - 0.6904
+  - 0.8724
+  frame: 2
+  global_frame: 15
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2288
+  - -0.0008
+  - 0.775
+  - 0.9684
+  frame: 3
+  global_frame: 16
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2287
+  - -0.006
+  - 0.7908
+  - 0.9852
+  frame: 4
+  global_frame: 17
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2283
+  - -0.0063
+  - 0.8023
+  - 0.9852
+  frame: 5
+  global_frame: 18
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2261
+  - -0.0073
+  - 0.7919
+  - 0.9856
+  frame: 6
+  global_frame: 19
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2304
+  - -0.001
+  - 0.7943
+  - 0.9944
+  frame: 7
+  global_frame: 20
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2235
+  - -0.0079
+  - 0.7985
+  - 0.9858
+  frame: 8
+  global_frame: 21
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2254
+  - -0.0039
+  - 0.8125
+  - 0.982
+  frame: 9
+  global_frame: 22
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2273
+  - 0.0002
+  - 0.8264
+  - 0.9781
+  frame: 10
+  global_frame: 23
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2273
+  - 0.0002
+  - 0.8265
+  - 0.9779
+  frame: 11
+  global_frame: 24
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2266
+  - -0.0051
+  - 0.819
+  - 0.9866
+  frame: 12
+  global_frame: 25
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2226
+  - -0.0055
+  - 0.7825
+  - 0.9888
+  frame: 13
+  global_frame: 26
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2222
+  - -0.002
+  - 0.779
+  - 0.9931
+  frame: 14
+  global_frame: 27
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2217
+  - 0.0015
+  - 0.7754
+  - 0.9973
+  frame: 15
+  global_frame: 28
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2213
+  - 0.005
+  - 0.7719
+  - 1.0016
+  frame: 16
+  global_frame: 29
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2214
+  - 0.0048
+  - 0.7716
+  - 1.0015
+  frame: 17
+  global_frame: 30
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2241
+  - -0.0035
+  - 0.7593
+  - 0.9891
+  frame: 18
+  global_frame: 31
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2224
+  - -0.0042
+  - 0.7669
+  - 0.9875
+  frame: 19
+  global_frame: 32
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2238
+  - -0.0019
+  - 0.7757
+  - 0.9942
+  frame: 20
+  global_frame: 33
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.22
+  - -0.0028
+  - 0.7895
+  - 0.9939
+  frame: 21
+  global_frame: 34
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2212
+  - -0.0031
+  - 0.7885
+  - 0.9932
+  frame: 22
+  global_frame: 35
+  prompt: the wasps are exploring as they move
+- bbox_ratios:
+  - 0.2213
+  - -0.003
+  - 0.79
+  - 0.993
+  frame: 23
+  global_frame: 36
+  prompt: the wasps are exploring as they move
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: wasps
+seed: 4
+source_clip: ALXDKWPM_4_127
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

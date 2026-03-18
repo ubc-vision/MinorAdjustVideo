@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2148
+  - 0.4412
+  - 0.8189
+  - 0.7832
+  frame: 0
+  global_frame: 307
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2148
+  - 0.4413
+  - 0.8198
+  - 0.7837
+  frame: 1
+  global_frame: 308
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2167
+  - 0.4409
+  - 0.8186
+  - 0.7831
+  frame: 2
+  global_frame: 309
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2166
+  - 0.441
+  - 0.8184
+  - 0.7831
+  frame: 3
+  global_frame: 310
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2171
+  - 0.4408
+  - 0.8256
+  - 0.7831
+  frame: 4
+  global_frame: 311
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2187
+  - 0.4411
+  - 0.8249
+  - 0.7831
+  frame: 5
+  global_frame: 312
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2172
+  - 0.4414
+  - 0.828
+  - 0.7829
+  frame: 6
+  global_frame: 313
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2189
+  - 0.4415
+  - 0.8181
+  - 0.7833
+  frame: 7
+  global_frame: 314
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2187
+  - 0.441
+  - 0.8174
+  - 0.7838
+  frame: 8
+  global_frame: 315
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2186
+  - 0.441
+  - 0.8169
+  - 0.7836
+  frame: 9
+  global_frame: 316
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2192
+  - 0.441
+  - 0.8179
+  - 0.7835
+  frame: 10
+  global_frame: 317
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2194
+  - 0.4412
+  - 0.8183
+  - 0.7834
+  frame: 11
+  global_frame: 318
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2203
+  - 0.4403
+  - 0.8189
+  - 0.7834
+  frame: 12
+  global_frame: 319
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2207
+  - 0.4407
+  - 0.8214
+  - 0.7833
+  frame: 13
+  global_frame: 320
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2208
+  - 0.44
+  - 0.8168
+  - 0.7839
+  frame: 14
+  global_frame: 321
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2203
+  - 0.4403
+  - 0.8206
+  - 0.7838
+  frame: 15
+  global_frame: 322
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2197
+  - 0.4412
+  - 0.8196
+  - 0.7839
+  frame: 16
+  global_frame: 323
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2188
+  - 0.4413
+  - 0.8192
+  - 0.7832
+  frame: 17
+  global_frame: 324
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2182
+  - 0.4415
+  - 0.8167
+  - 0.7829
+  frame: 18
+  global_frame: 325
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2183
+  - 0.4417
+  - 0.8167
+  - 0.783
+  frame: 19
+  global_frame: 326
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2171
+  - 0.4409
+  - 0.8142
+  - 0.7823
+  frame: 20
+  global_frame: 327
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.218
+  - 0.4412
+  - 0.8159
+  - 0.7822
+  frame: 21
+  global_frame: 328
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.216
+  - 0.4411
+  - 0.8196
+  - 0.7825
+  frame: 22
+  global_frame: 329
+  prompt: the red spitting cobra is moving
+- bbox_ratios:
+  - 0.2157
+  - 0.441
+  - 0.8205
+  - 0.7823
+  frame: 23
+  global_frame: 330
+  prompt: the red spitting cobra is moving
+motion_id: 26
+motion_iter: 1
+num_inference_steps: null
+object_name: cobra
+seed: 4
+source_clip: AUXPZLVZ_280_979
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

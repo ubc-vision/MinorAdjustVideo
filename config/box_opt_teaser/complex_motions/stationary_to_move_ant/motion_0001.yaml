@@ -1,0 +1,196 @@
+bbox_order:
+- left
+- top
+- right
+- bottom
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 0
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 1
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 2
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 3
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 4
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 5
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 6
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 7
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 8
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 9
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 10
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 11
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 12
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 13
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 14
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 15
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.11
+  - 0.49
+  - 0.29
+  - 0.71
+  frame: 16
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.1886
+  - 0.4614
+  - 0.3686
+  - 0.6814
+  frame: 17
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.2671
+  - 0.4329
+  - 0.4471
+  - 0.6529
+  frame: 18
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.3457
+  - 0.4043
+  - 0.5257
+  - 0.6243
+  frame: 19
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4243
+  - 0.3757
+  - 0.6043
+  - 0.5957
+  frame: 20
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5029
+  - 0.3471
+  - 0.6829
+  - 0.5671
+  frame: 21
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5814
+  - 0.3186
+  - 0.7614
+  - 0.5386
+  frame: 22
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.66
+  - 0.29
+  - 0.84
+  - 0.51
+  frame: 23
+  prompt: the big headed ant is moving
+motion_meta:
+  params:
+    scale_h: 1.0
+    scale_w: 1.0
+    stationary_frac: 0.7
+  split: eval
+  type: stationary_to_move
+  variant_id: 1
+num_inference_steps: null
+seed: 4
+token_inds:
+- 15
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

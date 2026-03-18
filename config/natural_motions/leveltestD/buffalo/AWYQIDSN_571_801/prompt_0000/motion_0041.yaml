@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0257
+  - 0.5395
+  - 0.3871
+  - 0.9405
+  frame: 0
+  global_frame: 720
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0268
+  - 0.5391
+  - 0.3868
+  - 0.9396
+  frame: 1
+  global_frame: 721
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0279
+  - 0.5387
+  - 0.3864
+  - 0.9387
+  frame: 2
+  global_frame: 722
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.029
+  - 0.5383
+  - 0.386
+  - 0.9378
+  frame: 3
+  global_frame: 723
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.03
+  - 0.5379
+  - 0.3856
+  - 0.9368
+  frame: 4
+  global_frame: 724
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0311
+  - 0.5374
+  - 0.3852
+  - 0.9359
+  frame: 5
+  global_frame: 725
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0322
+  - 0.537
+  - 0.3848
+  - 0.935
+  frame: 6
+  global_frame: 726
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0333
+  - 0.5366
+  - 0.3845
+  - 0.9341
+  frame: 7
+  global_frame: 727
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0344
+  - 0.5362
+  - 0.3841
+  - 0.9332
+  frame: 8
+  global_frame: 728
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0355
+  - 0.5358
+  - 0.3837
+  - 0.9323
+  frame: 9
+  global_frame: 729
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0366
+  - 0.5354
+  - 0.3833
+  - 0.9314
+  frame: 10
+  global_frame: 730
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0376
+  - 0.535
+  - 0.3829
+  - 0.9305
+  frame: 11
+  global_frame: 731
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0387
+  - 0.5346
+  - 0.3825
+  - 0.9296
+  frame: 12
+  global_frame: 732
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0398
+  - 0.5342
+  - 0.3822
+  - 0.9287
+  frame: 13
+  global_frame: 733
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0409
+  - 0.5337
+  - 0.3818
+  - 0.9278
+  frame: 14
+  global_frame: 734
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0607
+  - 0.5355
+  - 0.4633
+  - 0.943
+  frame: 15
+  global_frame: 735
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.0805
+  - 0.5372
+  - 0.5448
+  - 0.9581
+  frame: 16
+  global_frame: 736
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1003
+  - 0.5389
+  - 0.6263
+  - 0.9733
+  frame: 17
+  global_frame: 737
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1201
+  - 0.5406
+  - 0.7078
+  - 0.9885
+  frame: 18
+  global_frame: 738
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1206
+  - 0.5408
+  - 0.7097
+  - 0.989
+  frame: 19
+  global_frame: 739
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1602
+  - 0.5422
+  - 0.72
+  - 0.9934
+  frame: 20
+  global_frame: 740
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1425
+  - 0.5421
+  - 0.6966
+  - 0.9939
+  frame: 21
+  global_frame: 741
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1577
+  - 0.5376
+  - 0.7029
+  - 0.9885
+  frame: 22
+  global_frame: 742
+  prompt: the buffalo is walking
+- bbox_ratios:
+  - 0.1729
+  - 0.5331
+  - 0.7092
+  - 0.9831
+  frame: 23
+  global_frame: 743
+  prompt: the buffalo is walking
+motion_id: 41
+motion_iter: 2
+num_inference_steps: null
+object_name: buffalo
+seed: 4
+source_clip: AWYQIDSN_571_801
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

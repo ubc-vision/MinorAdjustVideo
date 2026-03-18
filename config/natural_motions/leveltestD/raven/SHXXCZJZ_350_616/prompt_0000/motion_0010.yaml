@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.081
+  - 0.3263
+  - 0.2339
+  - 0.5215
+  frame: 0
+  global_frame: 578
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0826
+  - 0.3257
+  - 0.2338
+  - 0.5187
+  frame: 1
+  global_frame: 579
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0847
+  - 0.3256
+  - 0.2339
+  - 0.5162
+  frame: 2
+  global_frame: 580
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0827
+  - 0.3243
+  - 0.2321
+  - 0.5192
+  frame: 3
+  global_frame: 581
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0841
+  - 0.3251
+  - 0.2318
+  - 0.5132
+  frame: 4
+  global_frame: 582
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.084
+  - 0.325
+  - 0.2319
+  - 0.5133
+  frame: 5
+  global_frame: 583
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.085
+  - 0.3233
+  - 0.2362
+  - 0.5114
+  frame: 6
+  global_frame: 584
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0858
+  - 0.3256
+  - 0.2291
+  - 0.5135
+  frame: 7
+  global_frame: 585
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.096
+  - 0.326
+  - 0.2437
+  - 0.5101
+  frame: 8
+  global_frame: 586
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0927
+  - 0.3262
+  - 0.2463
+  - 0.5108
+  frame: 9
+  global_frame: 587
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0933
+  - 0.3263
+  - 0.2462
+  - 0.5094
+  frame: 10
+  global_frame: 588
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0932
+  - 0.3263
+  - 0.2461
+  - 0.5094
+  frame: 11
+  global_frame: 589
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.096
+  - 0.325
+  - 0.2462
+  - 0.5052
+  frame: 12
+  global_frame: 590
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0903
+  - 0.3257
+  - 0.2458
+  - 0.5095
+  frame: 13
+  global_frame: 591
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0911
+  - 0.3247
+  - 0.245
+  - 0.5082
+  frame: 14
+  global_frame: 592
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0918
+  - 0.3247
+  - 0.2452
+  - 0.5087
+  frame: 15
+  global_frame: 593
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0911
+  - 0.3256
+  - 0.2443
+  - 0.5105
+  frame: 16
+  global_frame: 594
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0914
+  - 0.3261
+  - 0.2443
+  - 0.5105
+  frame: 17
+  global_frame: 595
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0919
+  - 0.3257
+  - 0.244
+  - 0.5136
+  frame: 18
+  global_frame: 596
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0908
+  - 0.3257
+  - 0.2423
+  - 0.5166
+  frame: 19
+  global_frame: 597
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0906
+  - 0.3263
+  - 0.2425
+  - 0.5173
+  frame: 20
+  global_frame: 598
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0763
+  - 0.3281
+  - 0.23
+  - 0.5258
+  frame: 21
+  global_frame: 599
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.076
+  - 0.3272
+  - 0.232
+  - 0.5248
+  frame: 22
+  global_frame: 600
+  prompt: the raven is flying
+- bbox_ratios:
+  - 0.0759
+  - 0.3276
+  - 0.2318
+  - 0.5244
+  frame: 23
+  global_frame: 601
+  prompt: the raven is flying
+motion_id: 10
+motion_iter: 0
+num_inference_steps: null
+object_name: raven
+seed: 4
+source_clip: SHXXCZJZ_350_616
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.0018
+  - 0.0122
+  - 0.7957
+  - 0.9313
+  frame: 0
+  global_frame: 583
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0041
+  - 0.0142
+  - 0.7986
+  - 0.938
+  frame: 1
+  global_frame: 584
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.003
+  - 0.0239
+  - 0.8146
+  - 0.8403
+  frame: 2
+  global_frame: 585
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0027
+  - 0.0237
+  - 0.8142
+  - 0.8443
+  frame: 3
+  global_frame: 586
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0
+  - 0.0456
+  - 0.8322
+  - 0.8887
+  frame: 4
+  global_frame: 587
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0007
+  - 0.0492
+  - 0.8285
+  - 0.9409
+  frame: 5
+  global_frame: 588
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0069
+  - 0.081
+  - 0.8221
+  - 1.0068
+  frame: 6
+  global_frame: 589
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0005
+  - 0.0999
+  - 0.82
+  - 1.0082
+  frame: 7
+  global_frame: 590
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0014
+  - 0.1246
+  - 0.8194
+  - 1.0024
+  frame: 8
+  global_frame: 591
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0013
+  - 0.1254
+  - 0.8194
+  - 1.0025
+  frame: 9
+  global_frame: 592
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0069
+  - 0.16
+  - 0.8296
+  - 0.9994
+  frame: 10
+  global_frame: 593
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0045
+  - 0.1909
+  - 0.8206
+  - 0.9996
+  frame: 11
+  global_frame: 594
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0049
+  - 0.2057
+  - 0.8135
+  - 0.9944
+  frame: 12
+  global_frame: 595
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.005
+  - 0.2245
+  - 0.8177
+  - 1.0016
+  frame: 13
+  global_frame: 596
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0051
+  - 0.2245
+  - 0.8177
+  - 1.0016
+  frame: 14
+  global_frame: 597
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0056
+  - 0.2238
+  - 0.8182
+  - 1.0006
+  frame: 15
+  global_frame: 598
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0022
+  - 0.2475
+  - 0.8052
+  - 1.0017
+  frame: 16
+  global_frame: 599
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0037
+  - 0.258
+  - 0.8104
+  - 1.0045
+  frame: 17
+  global_frame: 600
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - -0.0022
+  - 0.2522
+  - 0.8058
+  - 0.9982
+  frame: 18
+  global_frame: 601
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.001
+  - 0.2562
+  - 0.817
+  - 0.9966
+  frame: 19
+  global_frame: 602
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0021
+  - 0.2697
+  - 0.8164
+  - 1.0041
+  frame: 20
+  global_frame: 603
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0018
+  - 0.2624
+  - 0.8092
+  - 1.0014
+  frame: 21
+  global_frame: 604
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0048
+  - 0.258
+  - 0.8058
+  - 0.9944
+  frame: 22
+  global_frame: 605
+  prompt: the hammerhead shark is swimming
+- bbox_ratios:
+  - 0.0027
+  - 0.2536
+  - 0.8114
+  - 0.9986
+  frame: 23
+  global_frame: 606
+  prompt: the hammerhead shark is swimming
+motion_id: 118
+motion_iter: 2
+num_inference_steps: null
+object_name: shark
+seed: 4
+source_clip: GROKUNOT_374_607
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

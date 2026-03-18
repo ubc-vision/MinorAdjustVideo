@@ -1,0 +1,72 @@
+
+
+no_opt: False
+automatic_grad: True
+opt_box: True # co-pair
+init_bbox_coords_loss: True # co-pair
+init_bbox_area_loss: False # co-pair
+
+opt_str_scale: False
+opt_wk_scale: False
+opt_latents: False # + manual grad
+wandb_log: False
+wandb_name: ""
+vis_maps: True # goes to wandb log if ON
+vis_opt_and_denoise_maps: False 
+overlay_maps: True
+vis_opt_bboxes: False
+aggregate_str: 'add' # [add, mul, mul+add]
+chosen_temp_block: transformer_in # TODO: ablation [mid_block_temp, None, transformer_in]
+temp_edit_at_low_res: False  # use the command flag to override
+use_bkgd_zero: True # TODO: drop flag?
+minimize_bkgd: True  # primarily used for creating weaken map
+out_in_loss: False
+bb_deviate_lambda: 0.1
+outside_bbox_loss_scale: 10 # [1,5,10] applied to output attn map, EDITED input map has weak and strength applied
+inside_bbox_attn_loss_scale: 1.0
+
+bkwd_guidance: False
+use_diff_loss: False
+max_cross_loss: True # NOT used with "add +", TODO: scale gaussian as paper
+box_flip_thresh: 0.1 # small boxes must be minimum 10% of image HW apart, else penalize
+box_flip_thresh_scale: 10
+box_temp_smooth_loss: False
+box_temp_smooth_scale: 1.0
+fwd_edit_map: True
+scheduler: 'DPMSolver' # 'DPMSolver' 'LMSDiscrete'
+guidance_scale: 9.0
+proj_grad_descent: True
+set_global_deterministic: false # can be turned ON to full backend deterministic results, but slower
+
+use_mean: True
+use_trg_unscaled: True
+normalize_gauss: True # note, MUST be True here # TODO: ablation
+normalize_mask: False # can also be turned OFF via override
+use_high_box_only: False # TODO: drop too? seems sinilar to `not gauss_only`
+sigma_strength: 0.03
+clip_box_values: False # note, MUST be FALSE here - TBL usage - this rounds off box values in valid 0-1 regions
+scale_local_foreground: False # note, MUST be FALSE here
+box_with_gauss: False # TODO: drop flag?
+gauss_only: True # TODO: drop flag? as its default
+allow_edge_margin: False
+skip_bkgd_layers: False # TODO: ablation
+specific_layers: [] # TODO: ablation
+single_layer: False
+use_grad_chkpt: True
+# requires extra memory, hence run once to pre-verify/have a reference
+verify_grad_chkpt: False # uses the `latent` gradients to verify
+use_reentrant: True
+
+lr: 1e-2 # TODO: ablation
+latent_lr: 1e-2 # TODO: ablation
+n_opt_iterations: 5 # TODO: ablation
+time_bf_motion: False
+focus_1channel_only: True # for timestep-motion video creation
+viz_orient2d: False
+save_video: True
+save_frames: False
+# generate_data: False
+debug: False
+wandb_project_name: diff_box_diff
+x: ""
+

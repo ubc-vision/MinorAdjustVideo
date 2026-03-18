@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0008
+  - 0.3018
+  - 0.4873
+  - 1.0118
+  frame: 0
+  global_frame: 780
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0008
+  - 0.3023
+  - 0.4873
+  - 1.0116
+  frame: 1
+  global_frame: 781
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0015
+  - 0.2883
+  - 0.4852
+  - 1.0053
+  frame: 2
+  global_frame: 782
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0022
+  - 0.2708
+  - 0.4916
+  - 1.0029
+  frame: 3
+  global_frame: 783
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0011
+  - 0.2505
+  - 0.4963
+  - 1.0073
+  frame: 4
+  global_frame: 784
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0008
+  - 0.222
+  - 0.495
+  - 0.9999
+  frame: 5
+  global_frame: 785
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0019
+  - 0.2032
+  - 0.502
+  - 1.0028
+  frame: 6
+  global_frame: 786
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0018
+  - 0.2032
+  - 0.5014
+  - 1.003
+  frame: 7
+  global_frame: 787
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0029
+  - 0.187
+  - 0.511
+  - 1.0015
+  frame: 8
+  global_frame: 788
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0003
+  - 0.1527
+  - 0.5087
+  - 1.0015
+  frame: 9
+  global_frame: 789
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0023
+  - 0.1266
+  - 0.5125
+  - 0.9998
+  frame: 10
+  global_frame: 790
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0043
+  - 0.1004
+  - 0.5164
+  - 0.9981
+  frame: 11
+  global_frame: 791
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0015
+  - 0.0876
+  - 0.5101
+  - 0.999
+  frame: 12
+  global_frame: 792
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0026
+  - 0.0868
+  - 0.5123
+  - 1.0005
+  frame: 13
+  global_frame: 793
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0044
+  - 0.0678
+  - 0.5247
+  - 0.9957
+  frame: 14
+  global_frame: 794
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.006
+  - 0.047
+  - 0.5278
+  - 0.9963
+  frame: 15
+  global_frame: 795
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0023
+  - 0.0188
+  - 0.5352
+  - 0.9933
+  frame: 16
+  global_frame: 796
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - -0.0037
+  - 0.0138
+  - 0.5224
+  - 1.0076
+  frame: 17
+  global_frame: 797
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0017
+  - 0.0025
+  - 0.5311
+  - 0.9956
+  frame: 18
+  global_frame: 798
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - -0.0021
+  - 0.0008
+  - 0.5232
+  - 0.9926
+  frame: 19
+  global_frame: 799
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - -0.0033
+  - 0.0057
+  - 0.5377
+  - 0.9969
+  frame: 20
+  global_frame: 800
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - 0.0026
+  - 0.0039
+  - 0.5457
+  - 0.9993
+  frame: 21
+  global_frame: 801
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - -0.0026
+  - 0.0026
+  - 0.5453
+  - 0.9985
+  frame: 22
+  global_frame: 802
+  prompt: the bottlenose dolphin is swimming
+- bbox_ratios:
+  - -0.0049
+  - -0.0005
+  - 0.5341
+  - 0.9921
+  frame: 23
+  global_frame: 803
+  prompt: the bottlenose dolphin is swimming
+motion_id: 22
+motion_iter: 0
+num_inference_steps: null
+object_name: dolphin
+seed: 4
+source_clip: LYHOONPL_410_1010
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

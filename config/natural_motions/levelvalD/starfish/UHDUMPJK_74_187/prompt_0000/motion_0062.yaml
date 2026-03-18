@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1531
+  - 0.4315
+  - 1.0057
+  - 0.8772
+  frame: 0
+  global_frame: 152
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1784
+  - 0.4362
+  - 1.0015
+  - 0.8789
+  frame: 1
+  global_frame: 153
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.19
+  - 0.428
+  - 1.0094
+  - 0.8674
+  frame: 2
+  global_frame: 154
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1874
+  - 0.4334
+  - 1.0022
+  - 0.8733
+  frame: 3
+  global_frame: 155
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1684
+  - 0.4426
+  - 1.0075
+  - 0.8808
+  frame: 4
+  global_frame: 156
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1893
+  - 0.4431
+  - 1.0053
+  - 0.8779
+  frame: 5
+  global_frame: 157
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1984
+  - 0.4367
+  - 1.0079
+  - 0.8746
+  frame: 6
+  global_frame: 158
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1947
+  - 0.445
+  - 1.0077
+  - 0.8773
+  frame: 7
+  global_frame: 159
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2006
+  - 0.4444
+  - 1.0068
+  - 0.8767
+  frame: 8
+  global_frame: 160
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2011
+  - 0.4428
+  - 1.0039
+  - 0.877
+  frame: 9
+  global_frame: 161
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.1995
+  - 0.4398
+  - 1.0024
+  - 0.8767
+  frame: 10
+  global_frame: 162
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2041
+  - 0.4409
+  - 1.0019
+  - 0.8757
+  frame: 11
+  global_frame: 163
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2132
+  - 0.4202
+  - 1.0066
+  - 0.8568
+  frame: 12
+  global_frame: 164
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2118
+  - 0.4222
+  - 1.0065
+  - 0.8587
+  frame: 13
+  global_frame: 165
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2127
+  - 0.412
+  - 1.0069
+  - 0.8478
+  frame: 14
+  global_frame: 166
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2224
+  - 0.4195
+  - 1.0081
+  - 0.8405
+  frame: 15
+  global_frame: 167
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2207
+  - 0.4216
+  - 1.0079
+  - 0.8402
+  frame: 16
+  global_frame: 168
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2253
+  - 0.4216
+  - 1.012
+  - 0.833
+  frame: 17
+  global_frame: 169
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2319
+  - 0.428
+  - 1.0092
+  - 0.8237
+  frame: 18
+  global_frame: 170
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2383
+  - 0.428
+  - 1.0082
+  - 0.8224
+  frame: 19
+  global_frame: 171
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2299
+  - 0.397
+  - 1.0033
+  - 0.8151
+  frame: 20
+  global_frame: 172
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2521
+  - 0.4133
+  - 1.0137
+  - 0.8178
+  frame: 21
+  global_frame: 173
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2579
+  - 0.4127
+  - 1.0121
+  - 0.8203
+  frame: 22
+  global_frame: 174
+  prompt: the starfish is moving
+- bbox_ratios:
+  - 0.2605
+  - 0.4135
+  - 1.0127
+  - 0.8223
+  frame: 23
+  global_frame: 175
+  prompt: the starfish is moving
+motion_id: 62
+motion_iter: 0
+num_inference_steps: null
+object_name: starfish
+seed: 4
+source_clip: UHDUMPJK_74_187
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

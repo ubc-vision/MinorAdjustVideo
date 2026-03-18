@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2284
+  - 0.145
+  - 0.8128
+  - 0.7241
+  frame: 0
+  global_frame: 13
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.113
+  - 0.1443
+  - 0.8188
+  - 0.7579
+  frame: 1
+  global_frame: 14
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1887
+  - 0.1485
+  - 0.8318
+  - 0.746
+  frame: 2
+  global_frame: 15
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1726
+  - 0.1491
+  - 0.8633
+  - 0.7514
+  frame: 3
+  global_frame: 16
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1808
+  - 0.1491
+  - 0.87
+  - 0.7508
+  frame: 4
+  global_frame: 17
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.2126
+  - 0.1483
+  - 0.9157
+  - 0.7489
+  frame: 5
+  global_frame: 18
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.191
+  - 0.1486
+  - 0.8748
+  - 0.7499
+  frame: 6
+  global_frame: 19
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1843
+  - 0.1469
+  - 0.8687
+  - 0.7494
+  frame: 7
+  global_frame: 20
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1677
+  - 0.1464
+  - 0.8412
+  - 0.754
+  frame: 8
+  global_frame: 21
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1474
+  - 0.1456
+  - 0.8698
+  - 0.7547
+  frame: 9
+  global_frame: 22
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1406
+  - 0.1451
+  - 0.8703
+  - 0.755
+  frame: 10
+  global_frame: 23
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1482
+  - 0.1458
+  - 0.8787
+  - 0.7588
+  frame: 11
+  global_frame: 24
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1433
+  - 0.1483
+  - 0.8643
+  - 0.7586
+  frame: 12
+  global_frame: 25
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1451
+  - 0.1499
+  - 0.8581
+  - 0.7572
+  frame: 13
+  global_frame: 26
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1491
+  - 0.1519
+  - 0.8645
+  - 0.7576
+  frame: 14
+  global_frame: 27
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1511
+  - 0.1543
+  - 0.8663
+  - 0.759
+  frame: 15
+  global_frame: 28
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1515
+  - 0.1543
+  - 0.8662
+  - 0.7584
+  frame: 16
+  global_frame: 29
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1545
+  - 0.1562
+  - 0.867
+  - 0.7573
+  frame: 17
+  global_frame: 30
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1514
+  - 0.1589
+  - 0.8615
+  - 0.7585
+  frame: 18
+  global_frame: 31
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1497
+  - 0.161
+  - 0.8593
+  - 0.76
+  frame: 19
+  global_frame: 32
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1414
+  - 0.1649
+  - 0.8582
+  - 0.7593
+  frame: 20
+  global_frame: 33
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1492
+  - 0.1572
+  - 0.8481
+  - 0.7493
+  frame: 21
+  global_frame: 34
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.149
+  - 0.1572
+  - 0.848
+  - 0.7486
+  frame: 22
+  global_frame: 35
+  prompt: the bull shark is swimming
+- bbox_ratios:
+  - 0.1496
+  - 0.1589
+  - 0.8508
+  - 0.7514
+  frame: 23
+  global_frame: 36
+  prompt: the bull shark is swimming
+motion_id: 12
+motion_iter: 2
+num_inference_steps: null
+object_name: shark
+seed: 4
+source_clip: BHEYGPIK_0_48
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

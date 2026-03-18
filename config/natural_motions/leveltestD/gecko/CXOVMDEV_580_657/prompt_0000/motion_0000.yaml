@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.0004
+  - -0.0038
+  - 0.9937
+  - 0.9758
+  frame: 0
+  global_frame: 629
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0065
+  - 0.0063
+  - 0.9866
+  - 0.9855
+  frame: 1
+  global_frame: 630
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0161
+  - 0.0141
+  - 0.9776
+  - 0.9928
+  frame: 2
+  global_frame: 631
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0151
+  - 0.0126
+  - 0.9789
+  - 0.9926
+  frame: 3
+  global_frame: 632
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0142
+  - 0.0136
+  - 0.9794
+  - 0.9923
+  frame: 4
+  global_frame: 633
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0143
+  - 0.0124
+  - 0.9795
+  - 0.9906
+  frame: 5
+  global_frame: 634
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0141
+  - 0.0124
+  - 0.9796
+  - 0.9911
+  frame: 6
+  global_frame: 635
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0137
+  - 0.0126
+  - 0.9799
+  - 0.9912
+  frame: 7
+  global_frame: 636
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0143
+  - 0.0119
+  - 0.9802
+  - 0.9928
+  frame: 8
+  global_frame: 637
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - 0.0043
+  - 0.0072
+  - 0.998
+  - 0.9853
+  frame: 9
+  global_frame: 638
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - 0.001
+  - 0.0103
+  - 0.9946
+  - 0.9887
+  frame: 10
+  global_frame: 639
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0016
+  - 0.0082
+  - 0.9919
+  - 0.9872
+  frame: 11
+  global_frame: 640
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0024
+  - 0.0107
+  - 0.9937
+  - 0.9888
+  frame: 12
+  global_frame: 641
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0001
+  - 0.0096
+  - 0.9961
+  - 0.9893
+  frame: 13
+  global_frame: 642
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0026
+  - 0.0085
+  - 0.9943
+  - 0.9879
+  frame: 14
+  global_frame: 643
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0082
+  - 0.0062
+  - 0.9866
+  - 0.9896
+  frame: 15
+  global_frame: 644
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0069
+  - 0.0055
+  - 0.9867
+  - 0.9889
+  frame: 16
+  global_frame: 645
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0071
+  - 0.0062
+  - 0.9861
+  - 0.9896
+  frame: 17
+  global_frame: 646
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0074
+  - 0.0072
+  - 0.9856
+  - 0.99
+  frame: 18
+  global_frame: 647
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0074
+  - 0.0071
+  - 0.9855
+  - 0.99
+  frame: 19
+  global_frame: 648
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0074
+  - 0.0067
+  - 0.9859
+  - 0.9903
+  frame: 20
+  global_frame: 649
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.006
+  - 0.0066
+  - 0.9869
+  - 0.991
+  frame: 21
+  global_frame: 650
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0063
+  - 0.0072
+  - 0.9867
+  - 0.9917
+  frame: 22
+  global_frame: 651
+  prompt: the gecko is climbing
+- bbox_ratios:
+  - -0.0072
+  - 0.01
+  - 0.9862
+  - 0.9927
+  frame: 23
+  global_frame: 652
+  prompt: the gecko is climbing
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: gecko
+seed: 4
+source_clip: CXOVMDEV_580_657
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

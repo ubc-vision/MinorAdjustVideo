@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3
+  - 0.3281
+  - 0.476
+  - 0.5596
+  frame: 0
+  global_frame: 1099
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.3008
+  - 0.328
+  - 0.4756
+  - 0.5593
+  frame: 1
+  global_frame: 1100
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2984
+  - 0.3272
+  - 0.4725
+  - 0.5451
+  frame: 2
+  global_frame: 1101
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2983
+  - 0.3296
+  - 0.4713
+  - 0.5471
+  frame: 3
+  global_frame: 1102
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.297
+  - 0.3318
+  - 0.469
+  - 0.5473
+  frame: 4
+  global_frame: 1103
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2951
+  - 0.3336
+  - 0.4703
+  - 0.5503
+  frame: 5
+  global_frame: 1104
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.295
+  - 0.3335
+  - 0.4702
+  - 0.5503
+  frame: 6
+  global_frame: 1105
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2951
+  - 0.3335
+  - 0.4702
+  - 0.5504
+  frame: 7
+  global_frame: 1106
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2945
+  - 0.3346
+  - 0.4718
+  - 0.5662
+  frame: 8
+  global_frame: 1107
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2943
+  - 0.334
+  - 0.4714
+  - 0.5526
+  frame: 9
+  global_frame: 1108
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2969
+  - 0.3394
+  - 0.4697
+  - 0.5581
+  frame: 10
+  global_frame: 1109
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.292
+  - 0.3388
+  - 0.4678
+  - 0.5575
+  frame: 11
+  global_frame: 1110
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2919
+  - 0.3388
+  - 0.4677
+  - 0.5575
+  frame: 12
+  global_frame: 1111
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2902
+  - 0.3396
+  - 0.4698
+  - 0.5549
+  frame: 13
+  global_frame: 1112
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2895
+  - 0.3392
+  - 0.4658
+  - 0.5524
+  frame: 14
+  global_frame: 1113
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2888
+  - 0.3381
+  - 0.4618
+  - 0.552
+  frame: 15
+  global_frame: 1114
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2874
+  - 0.3383
+  - 0.4606
+  - 0.55
+  frame: 16
+  global_frame: 1115
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2871
+  - 0.3372
+  - 0.4589
+  - 0.5525
+  frame: 17
+  global_frame: 1116
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2872
+  - 0.3372
+  - 0.4589
+  - 0.5524
+  frame: 18
+  global_frame: 1117
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2866
+  - 0.337
+  - 0.4583
+  - 0.5489
+  frame: 19
+  global_frame: 1118
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2848
+  - 0.3371
+  - 0.4622
+  - 0.5514
+  frame: 20
+  global_frame: 1119
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2824
+  - 0.3353
+  - 0.4787
+  - 0.5521
+  frame: 21
+  global_frame: 1120
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2811
+  - 0.3345
+  - 0.4671
+  - 0.549
+  frame: 22
+  global_frame: 1121
+  prompt: the wasp is flying
+- bbox_ratios:
+  - 0.2813
+  - 0.3346
+  - 0.4588
+  - 0.5457
+  frame: 23
+  global_frame: 1122
+  prompt: the wasp is flying
+motion_id: 9
+motion_iter: 0
+num_inference_steps: null
+object_name: wasp
+seed: 4
+source_clip: CTQWACJH_1020_1123
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

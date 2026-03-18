@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.247
+  - 0.3785
+  - 0.469
+  - 0.6698
+  frame: 0
+  global_frame: 163
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2466
+  - 0.3738
+  - 0.467
+  - 0.6695
+  frame: 1
+  global_frame: 164
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2496
+  - 0.3872
+  - 0.4638
+  - 0.6608
+  frame: 2
+  global_frame: 165
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2504
+  - 0.3881
+  - 0.4646
+  - 0.6605
+  frame: 3
+  global_frame: 166
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2504
+  - 0.3894
+  - 0.4631
+  - 0.6607
+  frame: 4
+  global_frame: 167
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2838
+  - 0.3957
+  - 0.489
+  - 0.6371
+  frame: 5
+  global_frame: 168
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.2964
+  - 0.3893
+  - 0.4993
+  - 0.6334
+  frame: 6
+  global_frame: 169
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3089
+  - 0.3828
+  - 0.5097
+  - 0.6298
+  frame: 7
+  global_frame: 170
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3215
+  - 0.3763
+  - 0.5201
+  - 0.6261
+  frame: 8
+  global_frame: 171
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.334
+  - 0.3699
+  - 0.5304
+  - 0.6224
+  frame: 9
+  global_frame: 172
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3466
+  - 0.3634
+  - 0.5408
+  - 0.6188
+  frame: 10
+  global_frame: 173
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3591
+  - 0.357
+  - 0.5511
+  - 0.6151
+  frame: 11
+  global_frame: 174
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3588
+  - 0.3569
+  - 0.5512
+  - 0.6152
+  frame: 12
+  global_frame: 175
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.359
+  - 0.3597
+  - 0.5507
+  - 0.6145
+  frame: 13
+  global_frame: 176
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3717
+  - 0.3706
+  - 0.5953
+  - 0.6217
+  frame: 14
+  global_frame: 177
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3216
+  - 0.3511
+  - 0.6047
+  - 0.5923
+  frame: 15
+  global_frame: 178
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.3204
+  - 0.3514
+  - 0.6042
+  - 0.5888
+  frame: 16
+  global_frame: 179
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4262
+  - 0.3559
+  - 0.6124
+  - 0.5696
+  frame: 17
+  global_frame: 180
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4359
+  - 0.3523
+  - 0.6274
+  - 0.5635
+  frame: 18
+  global_frame: 181
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4349
+  - 0.3522
+  - 0.6276
+  - 0.5625
+  frame: 19
+  global_frame: 182
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4341
+  - 0.3525
+  - 0.6279
+  - 0.5634
+  frame: 20
+  global_frame: 183
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4527
+  - 0.3483
+  - 0.6262
+  - 0.5627
+  frame: 21
+  global_frame: 184
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4527
+  - 0.3472
+  - 0.6262
+  - 0.5626
+  frame: 22
+  global_frame: 185
+  prompt: the opossum is walking
+- bbox_ratios:
+  - 0.4706
+  - 0.3462
+  - 0.6435
+  - 0.5752
+  frame: 23
+  global_frame: 186
+  prompt: the opossum is walking
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: opossum
+seed: 4
+source_clip: GERUDRAC_98_242
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

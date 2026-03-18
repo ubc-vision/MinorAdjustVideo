@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.358
+  - 0.1977
+  - 0.5716
+  - 0.7964
+  frame: 0
+  global_frame: 45
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3586
+  - 0.198
+  - 0.5714
+  - 0.797
+  frame: 1
+  global_frame: 46
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3592
+  - 0.1984
+  - 0.5713
+  - 0.7976
+  frame: 2
+  global_frame: 47
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3599
+  - 0.1988
+  - 0.5711
+  - 0.7982
+  frame: 3
+  global_frame: 48
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3605
+  - 0.1991
+  - 0.5709
+  - 0.7988
+  frame: 4
+  global_frame: 49
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3612
+  - 0.1995
+  - 0.5708
+  - 0.7994
+  frame: 5
+  global_frame: 50
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3618
+  - 0.1999
+  - 0.5706
+  - 0.8
+  frame: 6
+  global_frame: 51
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.2486
+  - 0.1995
+  - 0.5408
+  - 0.8527
+  frame: 7
+  global_frame: 52
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.1354
+  - 0.1991
+  - 0.5109
+  - 0.9054
+  frame: 8
+  global_frame: 53
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.0222
+  - 0.1987
+  - 0.4811
+  - 0.9581
+  frame: 9
+  global_frame: 54
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.0193
+  - 0.1987
+  - 0.4913
+  - 0.9552
+  frame: 10
+  global_frame: 55
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.0747
+  - 0.2034
+  - 0.5336
+  - 0.9569
+  frame: 11
+  global_frame: 56
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.13
+  - 0.2081
+  - 0.5758
+  - 0.9586
+  frame: 12
+  global_frame: 57
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.1854
+  - 0.2128
+  - 0.6181
+  - 0.9604
+  frame: 13
+  global_frame: 58
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.2407
+  - 0.2175
+  - 0.6603
+  - 0.9621
+  frame: 14
+  global_frame: 59
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.2961
+  - 0.2222
+  - 0.7026
+  - 0.9638
+  frame: 15
+  global_frame: 60
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.3515
+  - 0.227
+  - 0.7449
+  - 0.9655
+  frame: 16
+  global_frame: 61
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.4068
+  - 0.2317
+  - 0.7871
+  - 0.9673
+  frame: 17
+  global_frame: 62
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.4622
+  - 0.2364
+  - 0.8294
+  - 0.969
+  frame: 18
+  global_frame: 63
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.5175
+  - 0.2411
+  - 0.8716
+  - 0.9707
+  frame: 19
+  global_frame: 64
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.5729
+  - 0.2458
+  - 0.9139
+  - 0.9725
+  frame: 20
+  global_frame: 65
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.6283
+  - 0.2505
+  - 0.9562
+  - 0.9742
+  frame: 21
+  global_frame: 66
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.6836
+  - 0.2553
+  - 0.9984
+  - 0.9759
+  frame: 22
+  global_frame: 67
+  prompt: the flamingo is walking
+- bbox_ratios:
+  - 0.6936
+  - 0.2544
+  - 0.9982
+  - 0.9755
+  frame: 23
+  global_frame: 68
+  prompt: the flamingo is walking
+motion_id: 6
+motion_iter: 1
+num_inference_steps: null
+object_name: flamingo
+seed: 4
+source_clip: GFWVITFT_33_105
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

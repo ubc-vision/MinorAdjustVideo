@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4778
+  - 0.4592
+  - 0.525
+  - 0.6025
+  frame: 0
+  global_frame: 958
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4787
+  - 0.4434
+  - 0.5419
+  - 0.5955
+  frame: 1
+  global_frame: 959
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4796
+  - 0.4277
+  - 0.5588
+  - 0.5885
+  frame: 2
+  global_frame: 960
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4805
+  - 0.4119
+  - 0.5758
+  - 0.5815
+  frame: 3
+  global_frame: 961
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.481
+  - 0.4041
+  - 0.5745
+  - 0.5673
+  frame: 4
+  global_frame: 962
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4847
+  - 0.3863
+  - 0.5766
+  - 0.5518
+  frame: 5
+  global_frame: 963
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4939
+  - 0.3569
+  - 0.5823
+  - 0.5337
+  frame: 6
+  global_frame: 964
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.4917
+  - 0.352
+  - 0.5956
+  - 0.5317
+  frame: 7
+  global_frame: 965
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5072
+  - 0.353
+  - 0.5906
+  - 0.4979
+  frame: 8
+  global_frame: 966
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5085
+  - 0.3394
+  - 0.5963
+  - 0.4914
+  frame: 9
+  global_frame: 967
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.517
+  - 0.3217
+  - 0.6008
+  - 0.4868
+  frame: 10
+  global_frame: 968
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5185
+  - 0.3101
+  - 0.6031
+  - 0.4847
+  frame: 11
+  global_frame: 969
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5154
+  - 0.3206
+  - 0.6062
+  - 0.4742
+  frame: 12
+  global_frame: 970
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5241
+  - 0.286
+  - 0.6114
+  - 0.4472
+  frame: 13
+  global_frame: 971
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.528
+  - 0.2735
+  - 0.6177
+  - 0.4445
+  frame: 14
+  global_frame: 972
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5298
+  - 0.241
+  - 0.6214
+  - 0.4335
+  frame: 15
+  global_frame: 973
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5489
+  - 0.2346
+  - 0.6324
+  - 0.4063
+  frame: 16
+  global_frame: 974
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5403
+  - 0.2174
+  - 0.6248
+  - 0.4094
+  frame: 17
+  global_frame: 975
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5549
+  - 0.24
+  - 0.6277
+  - 0.4035
+  frame: 18
+  global_frame: 976
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5618
+  - 0.2222
+  - 0.6302
+  - 0.3759
+  frame: 19
+  global_frame: 977
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5703
+  - 0.1975
+  - 0.6471
+  - 0.3478
+  frame: 20
+  global_frame: 978
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5695
+  - 0.2005
+  - 0.645
+  - 0.3358
+  frame: 21
+  global_frame: 979
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.583
+  - 0.176
+  - 0.6563
+  - 0.3223
+  frame: 22
+  global_frame: 980
+  prompt: the big headed ant is moving
+- bbox_ratios:
+  - 0.5884
+  - 0.123
+  - 0.6583
+  - 0.2903
+  frame: 23
+  global_frame: 981
+  prompt: the big headed ant is moving
+motion_id: 10
+motion_iter: 0
+num_inference_steps: null
+object_name: ant
+seed: 4
+source_clip: AFNORHIS_907_1053
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

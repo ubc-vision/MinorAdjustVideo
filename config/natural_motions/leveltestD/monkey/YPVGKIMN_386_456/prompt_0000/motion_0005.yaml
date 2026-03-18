@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1163
+  - 0.0179
+  - 0.3723
+  - 0.7668
+  frame: 0
+  global_frame: 433
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1143
+  - 0.012
+  - 0.368
+  - 0.7629
+  frame: 1
+  global_frame: 434
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1141
+  - 0.012
+  - 0.3672
+  - 0.7618
+  frame: 2
+  global_frame: 435
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1139
+  - 0.0172
+  - 0.3631
+  - 0.7614
+  frame: 3
+  global_frame: 436
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1174
+  - 0.0218
+  - 0.3706
+  - 0.758
+  frame: 4
+  global_frame: 437
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1174
+  - 0.0218
+  - 0.3705
+  - 0.7585
+  frame: 5
+  global_frame: 438
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.115
+  - 0.0183
+  - 0.3721
+  - 0.7681
+  frame: 6
+  global_frame: 439
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1143
+  - 0.0176
+  - 0.3741
+  - 0.7639
+  frame: 7
+  global_frame: 440
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1143
+  - 0.0199
+  - 0.3784
+  - 0.7661
+  frame: 8
+  global_frame: 441
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1127
+  - 0.0193
+  - 0.3785
+  - 0.7701
+  frame: 9
+  global_frame: 442
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.113
+  - 0.027
+  - 0.3778
+  - 0.7749
+  frame: 10
+  global_frame: 443
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.113
+  - 0.0273
+  - 0.3782
+  - 0.7741
+  frame: 11
+  global_frame: 444
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1126
+  - 0.0265
+  - 0.3747
+  - 0.7695
+  frame: 12
+  global_frame: 445
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1135
+  - 0.0247
+  - 0.3789
+  - 0.7755
+  frame: 13
+  global_frame: 446
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1127
+  - 0.0253
+  - 0.3795
+  - 0.7771
+  frame: 14
+  global_frame: 447
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1126
+  - 0.0352
+  - 0.3767
+  - 0.7763
+  frame: 15
+  global_frame: 448
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1127
+  - 0.0427
+  - 0.376
+  - 0.7707
+  frame: 16
+  global_frame: 449
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1131
+  - 0.0424
+  - 0.3745
+  - 0.7688
+  frame: 17
+  global_frame: 450
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1126
+  - 0.0393
+  - 0.3705
+  - 0.7697
+  frame: 18
+  global_frame: 451
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1132
+  - 0.0393
+  - 0.3725
+  - 0.7752
+  frame: 19
+  global_frame: 452
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1128
+  - 0.0391
+  - 0.3732
+  - 0.7751
+  frame: 20
+  global_frame: 453
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.1123
+  - 0.042
+  - 0.373
+  - 0.7855
+  frame: 21
+  global_frame: 454
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.115
+  - 0.0378
+  - 0.3724
+  - 0.7857
+  frame: 22
+  global_frame: 455
+  prompt: the mitred leaf monkey is walking
+- bbox_ratios:
+  - 0.123
+  - 0.0383
+  - 0.375
+  - 0.812
+  frame: 23
+  global_frame: 456
+  prompt: the mitred leaf monkey is walking
+motion_id: 5
+motion_iter: 0
+num_inference_steps: null
+object_name: monkey
+seed: 4
+source_clip: YPVGKIMN_386_456
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1756
+  - 0.4167
+  - 0.5776
+  - 0.8988
+  frame: 0
+  global_frame: 543
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.18
+  - 0.4159
+  - 0.5818
+  - 0.8986
+  frame: 1
+  global_frame: 544
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.188
+  - 0.4155
+  - 0.5912
+  - 0.8995
+  frame: 2
+  global_frame: 545
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.1959
+  - 0.4151
+  - 0.6006
+  - 0.9003
+  frame: 3
+  global_frame: 546
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2038
+  - 0.4147
+  - 0.61
+  - 0.9011
+  frame: 4
+  global_frame: 547
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2118
+  - 0.4143
+  - 0.6194
+  - 0.902
+  frame: 5
+  global_frame: 548
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2197
+  - 0.4139
+  - 0.6288
+  - 0.9028
+  frame: 6
+  global_frame: 549
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2246
+  - 0.4142
+  - 0.6342
+  - 0.9029
+  frame: 7
+  global_frame: 550
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2294
+  - 0.4145
+  - 0.6396
+  - 0.9029
+  frame: 8
+  global_frame: 551
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2343
+  - 0.4149
+  - 0.6449
+  - 0.9029
+  frame: 9
+  global_frame: 552
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2391
+  - 0.4152
+  - 0.6503
+  - 0.903
+  frame: 10
+  global_frame: 553
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.244
+  - 0.4156
+  - 0.6557
+  - 0.903
+  frame: 11
+  global_frame: 554
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2482
+  - 0.4171
+  - 0.6584
+  - 0.9045
+  frame: 12
+  global_frame: 555
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2523
+  - 0.4186
+  - 0.6611
+  - 0.9059
+  frame: 13
+  global_frame: 556
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2565
+  - 0.42
+  - 0.6638
+  - 0.9074
+  frame: 14
+  global_frame: 557
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2607
+  - 0.4215
+  - 0.6665
+  - 0.9088
+  frame: 15
+  global_frame: 558
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2648
+  - 0.423
+  - 0.6692
+  - 0.9103
+  frame: 16
+  global_frame: 559
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.269
+  - 0.4245
+  - 0.6719
+  - 0.9118
+  frame: 17
+  global_frame: 560
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2732
+  - 0.426
+  - 0.6746
+  - 0.9132
+  frame: 18
+  global_frame: 561
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2773
+  - 0.4274
+  - 0.6773
+  - 0.9147
+  frame: 19
+  global_frame: 562
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2856
+  - 0.4262
+  - 0.6967
+  - 0.91
+  frame: 20
+  global_frame: 563
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2821
+  - 0.4298
+  - 0.6896
+  - 0.9224
+  frame: 21
+  global_frame: 564
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2821
+  - 0.43
+  - 0.6896
+  - 0.9222
+  frame: 22
+  global_frame: 565
+  prompt: the corncrake is walking
+- bbox_ratios:
+  - 0.2753
+  - 0.4254
+  - 0.6881
+  - 0.9194
+  frame: 23
+  global_frame: 566
+  prompt: the corncrake is walking
+motion_id: 247
+motion_iter: 2
+num_inference_steps: null
+object_name: corncrake
+seed: 4
+source_clip: EROVYNHV_278_950
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

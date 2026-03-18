@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.763
+  - 0.1742
+  - 0.9844
+  - 0.4365
+  frame: 0
+  global_frame: 728
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.7419
+  - 0.1748
+  - 0.9617
+  - 0.4317
+  frame: 1
+  global_frame: 729
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.7208
+  - 0.1755
+  - 0.9391
+  - 0.4269
+  frame: 2
+  global_frame: 730
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.6998
+  - 0.1761
+  - 0.9164
+  - 0.4221
+  frame: 3
+  global_frame: 731
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.6787
+  - 0.1768
+  - 0.8938
+  - 0.4173
+  frame: 4
+  global_frame: 732
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.6576
+  - 0.1774
+  - 0.8711
+  - 0.4126
+  frame: 5
+  global_frame: 733
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.6365
+  - 0.1781
+  - 0.8485
+  - 0.4078
+  frame: 6
+  global_frame: 734
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.6155
+  - 0.1787
+  - 0.8258
+  - 0.403
+  frame: 7
+  global_frame: 735
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.5944
+  - 0.1794
+  - 0.8032
+  - 0.3982
+  frame: 8
+  global_frame: 736
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.5733
+  - 0.18
+  - 0.7805
+  - 0.3934
+  frame: 9
+  global_frame: 737
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.5522
+  - 0.1807
+  - 0.7579
+  - 0.3886
+  frame: 10
+  global_frame: 738
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.5311
+  - 0.1813
+  - 0.7352
+  - 0.3838
+  frame: 11
+  global_frame: 739
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.5101
+  - 0.182
+  - 0.7126
+  - 0.379
+  frame: 12
+  global_frame: 740
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.489
+  - 0.1826
+  - 0.6899
+  - 0.3742
+  frame: 13
+  global_frame: 741
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.4679
+  - 0.1833
+  - 0.6673
+  - 0.3694
+  frame: 14
+  global_frame: 742
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.4468
+  - 0.1839
+  - 0.6446
+  - 0.3647
+  frame: 15
+  global_frame: 743
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.4258
+  - 0.1846
+  - 0.622
+  - 0.3599
+  frame: 16
+  global_frame: 744
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.4047
+  - 0.1852
+  - 0.5993
+  - 0.3551
+  frame: 17
+  global_frame: 745
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.3836
+  - 0.1858
+  - 0.5767
+  - 0.3503
+  frame: 18
+  global_frame: 746
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.3625
+  - 0.1865
+  - 0.554
+  - 0.3455
+  frame: 19
+  global_frame: 747
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.3415
+  - 0.1871
+  - 0.5314
+  - 0.3407
+  frame: 20
+  global_frame: 748
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.3204
+  - 0.1878
+  - 0.5087
+  - 0.3359
+  frame: 21
+  global_frame: 749
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.2993
+  - 0.1884
+  - 0.4861
+  - 0.3311
+  frame: 22
+  global_frame: 750
+  prompt: the common goldeneye is running on water
+- bbox_ratios:
+  - 0.2782
+  - 0.1891
+  - 0.4634
+  - 0.3263
+  frame: 23
+  global_frame: 751
+  prompt: the common goldeneye is running on water
+motion_id: 1
+motion_iter: 2
+num_inference_steps: null
+object_name: goldeneye
+seed: 4
+source_clip: AUBWYSOM_724_801
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

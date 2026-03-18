@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3365
+  - 0.004
+  - 1.0077
+  - 0.9942
+  frame: 0
+  global_frame: 494
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3413
+  - 0.0087
+  - 1.0074
+  - 0.9943
+  frame: 1
+  global_frame: 495
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.346
+  - 0.0133
+  - 1.0071
+  - 0.9944
+  frame: 2
+  global_frame: 496
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3507
+  - 0.018
+  - 1.0067
+  - 0.9944
+  frame: 3
+  global_frame: 497
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3555
+  - 0.0227
+  - 1.0064
+  - 0.9945
+  frame: 4
+  global_frame: 498
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3602
+  - 0.0274
+  - 1.0061
+  - 0.9946
+  frame: 5
+  global_frame: 499
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3649
+  - 0.0321
+  - 1.0058
+  - 0.9947
+  frame: 6
+  global_frame: 500
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3697
+  - 0.0368
+  - 1.0054
+  - 0.9947
+  frame: 7
+  global_frame: 501
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3744
+  - 0.0415
+  - 1.0051
+  - 0.9948
+  frame: 8
+  global_frame: 502
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3791
+  - 0.0462
+  - 1.0048
+  - 0.9949
+  frame: 9
+  global_frame: 503
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3838
+  - 0.0509
+  - 1.0045
+  - 0.9949
+  frame: 10
+  global_frame: 504
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3886
+  - 0.0556
+  - 1.0041
+  - 0.995
+  frame: 11
+  global_frame: 505
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.3933
+  - 0.0602
+  - 1.0038
+  - 0.9951
+  frame: 12
+  global_frame: 506
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.398
+  - 0.0649
+  - 1.0035
+  - 0.9951
+  frame: 13
+  global_frame: 507
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4028
+  - 0.0696
+  - 1.0032
+  - 0.9952
+  frame: 14
+  global_frame: 508
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4075
+  - 0.0743
+  - 1.0028
+  - 0.9953
+  frame: 15
+  global_frame: 509
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4122
+  - 0.079
+  - 1.0025
+  - 0.9953
+  frame: 16
+  global_frame: 510
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.417
+  - 0.0837
+  - 1.0022
+  - 0.9954
+  frame: 17
+  global_frame: 511
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4217
+  - 0.0884
+  - 1.0018
+  - 0.9955
+  frame: 18
+  global_frame: 512
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4264
+  - 0.0931
+  - 1.0015
+  - 0.9956
+  frame: 19
+  global_frame: 513
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4312
+  - 0.0978
+  - 1.0012
+  - 0.9956
+  frame: 20
+  global_frame: 514
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4359
+  - 0.1025
+  - 1.0009
+  - 0.9957
+  frame: 21
+  global_frame: 515
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4406
+  - 0.1071
+  - 1.0005
+  - 0.9958
+  frame: 22
+  global_frame: 516
+  prompt: the toad is moving
+- bbox_ratios:
+  - 0.4454
+  - 0.1118
+  - 1.0002
+  - 0.9958
+  frame: 23
+  global_frame: 517
+  prompt: the toad is moving
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: toad
+seed: 4
+source_clip: OLMOOLHH_489_588
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

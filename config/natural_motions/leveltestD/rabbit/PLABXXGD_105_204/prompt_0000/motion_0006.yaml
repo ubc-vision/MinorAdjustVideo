@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4024
+  - 0.481
+  - 0.8012
+  - 0.8303
+  frame: 0
+  global_frame: 134
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3832
+  - 0.5862
+  - 0.7254
+  - 0.8181
+  frame: 1
+  global_frame: 135
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3668
+  - 0.523
+  - 0.7237
+  - 0.8384
+  frame: 2
+  global_frame: 136
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3477
+  - 0.543
+  - 0.703
+  - 0.8521
+  frame: 3
+  global_frame: 137
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3637
+  - 0.5361
+  - 0.6824
+  - 0.8375
+  frame: 4
+  global_frame: 138
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3639
+  - 0.5342
+  - 0.6832
+  - 0.8368
+  frame: 5
+  global_frame: 139
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3834
+  - 0.619
+  - 0.6822
+  - 0.8346
+  frame: 6
+  global_frame: 140
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3344
+  - 0.5959
+  - 0.6362
+  - 0.8093
+  frame: 7
+  global_frame: 141
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.359
+  - 0.555
+  - 0.654
+  - 0.8361
+  frame: 8
+  global_frame: 142
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3253
+  - 0.6003
+  - 0.5828
+  - 0.828
+  frame: 9
+  global_frame: 143
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3342
+  - 0.577
+  - 0.6041
+  - 0.8201
+  frame: 10
+  global_frame: 144
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3345
+  - 0.5763
+  - 0.6043
+  - 0.8191
+  frame: 11
+  global_frame: 145
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3205
+  - 0.5573
+  - 0.6229
+  - 0.8183
+  frame: 12
+  global_frame: 146
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3483
+  - 0.5452
+  - 0.6127
+  - 0.7986
+  frame: 13
+  global_frame: 147
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3308
+  - 0.5181
+  - 0.6566
+  - 0.7809
+  frame: 14
+  global_frame: 148
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.303
+  - 0.3892
+  - 0.6645
+  - 0.808
+  frame: 15
+  global_frame: 149
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3218
+  - 0.4968
+  - 0.6842
+  - 0.8274
+  frame: 16
+  global_frame: 150
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3221
+  - 0.4971
+  - 0.6833
+  - 0.8222
+  frame: 17
+  global_frame: 151
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3136
+  - 0.49
+  - 0.6802
+  - 0.7982
+  frame: 18
+  global_frame: 152
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3263
+  - 0.3784
+  - 0.688
+  - 0.7781
+  frame: 19
+  global_frame: 153
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3229
+  - 0.3788
+  - 0.7106
+  - 0.7899
+  frame: 20
+  global_frame: 154
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3356
+  - 0.3842
+  - 0.6938
+  - 0.7342
+  frame: 21
+  global_frame: 155
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3127
+  - 0.5064
+  - 0.7563
+  - 0.7321
+  frame: 22
+  global_frame: 156
+  prompt: the rabbit is jumping
+- bbox_ratios:
+  - 0.3128
+  - 0.5065
+  - 0.7565
+  - 0.7321
+  frame: 23
+  global_frame: 157
+  prompt: the rabbit is jumping
+motion_id: 6
+motion_iter: 2
+num_inference_steps: null
+object_name: rabbit
+seed: 4
+source_clip: PLABXXGD_105_204
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

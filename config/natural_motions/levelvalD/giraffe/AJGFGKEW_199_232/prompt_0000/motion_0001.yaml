@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2204
+  - 0.0831
+  - 0.5754
+  - 1.003
+  frame: 0
+  global_frame: 200
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2269
+  - 0.0728
+  - 0.5866
+  - 1.0028
+  frame: 1
+  global_frame: 201
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2284
+  - 0.0716
+  - 0.5868
+  - 1.0027
+  frame: 2
+  global_frame: 202
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2275
+  - 0.0704
+  - 0.5868
+  - 1.0023
+  frame: 3
+  global_frame: 203
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2276
+  - 0.0699
+  - 0.5873
+  - 1.0021
+  frame: 4
+  global_frame: 204
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2277
+  - 0.0698
+  - 0.5874
+  - 1.0019
+  frame: 5
+  global_frame: 205
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.228
+  - 0.0733
+  - 0.582
+  - 1.0037
+  frame: 6
+  global_frame: 206
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2267
+  - 0.0693
+  - 0.5866
+  - 1.0009
+  frame: 7
+  global_frame: 207
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2245
+  - 0.0686
+  - 0.5887
+  - 1.0024
+  frame: 8
+  global_frame: 208
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2248
+  - 0.0724
+  - 0.5811
+  - 1.0045
+  frame: 9
+  global_frame: 209
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2231
+  - 0.0737
+  - 0.5826
+  - 1.0043
+  frame: 10
+  global_frame: 210
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2236
+  - 0.0745
+  - 0.5827
+  - 1.0041
+  frame: 11
+  global_frame: 211
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2236
+  - 0.0744
+  - 0.5824
+  - 1.0042
+  frame: 12
+  global_frame: 212
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2256
+  - 0.075
+  - 0.5814
+  - 1.0036
+  frame: 13
+  global_frame: 213
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2244
+  - 0.075
+  - 0.5814
+  - 1.0038
+  frame: 14
+  global_frame: 214
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2239
+  - 0.0743
+  - 0.5803
+  - 1.0037
+  frame: 15
+  global_frame: 215
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2246
+  - 0.0745
+  - 0.5807
+  - 1.0039
+  frame: 16
+  global_frame: 216
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2246
+  - 0.0745
+  - 0.5807
+  - 1.0039
+  frame: 17
+  global_frame: 217
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.223
+  - 0.074
+  - 0.5815
+  - 1.0034
+  frame: 18
+  global_frame: 218
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2221
+  - 0.0732
+  - 0.5822
+  - 1.0033
+  frame: 19
+  global_frame: 219
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2222
+  - 0.0738
+  - 0.582
+  - 1.0033
+  frame: 20
+  global_frame: 220
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2218
+  - 0.0739
+  - 0.5817
+  - 1.0033
+  frame: 21
+  global_frame: 221
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2234
+  - 0.0737
+  - 0.5811
+  - 1.0036
+  frame: 22
+  global_frame: 222
+  prompt: the giraffe is walking
+- bbox_ratios:
+  - 0.2235
+  - 0.0738
+  - 0.5811
+  - 1.0036
+  frame: 23
+  global_frame: 223
+  prompt: the giraffe is walking
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: giraffe
+seed: 4
+source_clip: AJGFGKEW_199_232
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

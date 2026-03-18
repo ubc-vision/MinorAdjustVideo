@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2543
+  - 0.3599
+  - 0.5445
+  - 0.82
+  frame: 0
+  global_frame: 287
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2631
+  - 0.363
+  - 0.553
+  - 0.8166
+  frame: 1
+  global_frame: 288
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2631
+  - 0.3627
+  - 0.5529
+  - 0.8166
+  frame: 2
+  global_frame: 289
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2719
+  - 0.3648
+  - 0.5596
+  - 0.8127
+  frame: 3
+  global_frame: 290
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2734
+  - 0.364
+  - 0.566
+  - 0.8121
+  frame: 4
+  global_frame: 291
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2776
+  - 0.3628
+  - 0.5734
+  - 0.8048
+  frame: 5
+  global_frame: 292
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2812
+  - 0.3631
+  - 0.5747
+  - 0.7978
+  frame: 6
+  global_frame: 293
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2839
+  - 0.3597
+  - 0.5767
+  - 0.7926
+  frame: 7
+  global_frame: 294
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.284
+  - 0.3594
+  - 0.5767
+  - 0.7926
+  frame: 8
+  global_frame: 295
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2877
+  - 0.3657
+  - 0.5797
+  - 0.7906
+  frame: 9
+  global_frame: 296
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2956
+  - 0.3592
+  - 0.5899
+  - 0.7914
+  frame: 10
+  global_frame: 297
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2948
+  - 0.3695
+  - 0.5902
+  - 0.7964
+  frame: 11
+  global_frame: 298
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.2999
+  - 0.3726
+  - 0.5969
+  - 0.7934
+  frame: 12
+  global_frame: 299
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3009
+  - 0.3749
+  - 0.5976
+  - 0.7899
+  frame: 13
+  global_frame: 300
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3009
+  - 0.3746
+  - 0.5977
+  - 0.7897
+  frame: 14
+  global_frame: 301
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3051
+  - 0.3752
+  - 0.6024
+  - 0.7924
+  frame: 15
+  global_frame: 302
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3115
+  - 0.3735
+  - 0.6035
+  - 0.787
+  frame: 16
+  global_frame: 303
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3198
+  - 0.3716
+  - 0.6047
+  - 0.7854
+  frame: 17
+  global_frame: 304
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.326
+  - 0.3686
+  - 0.6115
+  - 0.7806
+  frame: 18
+  global_frame: 305
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3292
+  - 0.368
+  - 0.6184
+  - 0.7791
+  frame: 19
+  global_frame: 306
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3292
+  - 0.3679
+  - 0.6182
+  - 0.7792
+  frame: 20
+  global_frame: 307
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.332
+  - 0.3635
+  - 0.6257
+  - 0.776
+  frame: 21
+  global_frame: 308
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3312
+  - 0.3602
+  - 0.6289
+  - 0.7771
+  frame: 22
+  global_frame: 309
+  prompt: the ostrich is walking
+- bbox_ratios:
+  - 0.3276
+  - 0.3594
+  - 0.6303
+  - 0.7706
+  frame: 23
+  global_frame: 310
+  prompt: the ostrich is walking
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: ostrich
+seed: 4
+source_clip: HXMHUNSU_230_338
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.0133
+  - 0.0049
+  - 0.9817
+  - 0.8118
+  frame: 0
+  global_frame: 306
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.014
+  - 0.0049
+  - 0.9811
+  - 0.8126
+  frame: 1
+  global_frame: 307
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0146
+  - 0.0048
+  - 0.9805
+  - 0.8134
+  frame: 2
+  global_frame: 308
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0151
+  - 0.0064
+  - 0.9797
+  - 0.814
+  frame: 3
+  global_frame: 309
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0153
+  - 0.0064
+  - 0.9792
+  - 0.8125
+  frame: 4
+  global_frame: 310
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0155
+  - 0.007
+  - 0.9786
+  - 0.8126
+  frame: 5
+  global_frame: 311
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0154
+  - 0.0073
+  - 0.9788
+  - 0.8093
+  frame: 6
+  global_frame: 312
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0152
+  - 0.0077
+  - 0.9791
+  - 0.8061
+  frame: 7
+  global_frame: 313
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0151
+  - 0.0081
+  - 0.9794
+  - 0.8029
+  frame: 8
+  global_frame: 314
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.015
+  - 0.0084
+  - 0.9797
+  - 0.7996
+  frame: 9
+  global_frame: 315
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0143
+  - 0.0089
+  - 0.98
+  - 0.7959
+  frame: 10
+  global_frame: 316
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0134
+  - 0.0065
+  - 0.9809
+  - 0.7949
+  frame: 11
+  global_frame: 317
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0128
+  - 0.0047
+  - 0.9807
+  - 0.7939
+  frame: 12
+  global_frame: 318
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0127
+  - 0.0053
+  - 0.9805
+  - 0.7863
+  frame: 13
+  global_frame: 319
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0123
+  - 0.0034
+  - 0.9816
+  - 0.7903
+  frame: 14
+  global_frame: 320
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0127
+  - 0.004
+  - 0.9811
+  - 0.786
+  frame: 15
+  global_frame: 321
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0127
+  - 0.0029
+  - 0.9804
+  - 0.788
+  frame: 16
+  global_frame: 322
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0148
+  - 0.003
+  - 0.9793
+  - 0.7842
+  frame: 17
+  global_frame: 323
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0158
+  - 0.0029
+  - 0.9781
+  - 0.7824
+  frame: 18
+  global_frame: 324
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0169
+  - 0.0024
+  - 0.9767
+  - 0.7784
+  frame: 19
+  global_frame: 325
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0154
+  - 0.0016
+  - 0.9782
+  - 0.7783
+  frame: 20
+  global_frame: 326
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.015
+  - 0.0022
+  - 0.9796
+  - 0.7782
+  frame: 21
+  global_frame: 327
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0132
+  - 0.0012
+  - 0.9816
+  - 0.7741
+  frame: 22
+  global_frame: 328
+  prompt: the banana slug is moving
+- bbox_ratios:
+  - -0.0123
+  - 0.0011
+  - 0.9824
+  - 0.7763
+  frame: 23
+  global_frame: 329
+  prompt: the banana slug is moving
+motion_id: 51
+motion_iter: 2
+num_inference_steps: null
+object_name: slug
+seed: 4
+source_clip: FOOIFPNE_206_480
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

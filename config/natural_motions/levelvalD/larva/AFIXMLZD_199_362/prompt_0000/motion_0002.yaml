@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1443
+  - 0.37
+  - 0.9146
+  - 0.9938
+  frame: 0
+  global_frame: 254
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1504
+  - 0.3979
+  - 0.8722
+  - 0.995
+  frame: 1
+  global_frame: 255
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1564
+  - 0.4259
+  - 0.8298
+  - 0.9961
+  frame: 2
+  global_frame: 256
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1624
+  - 0.4538
+  - 0.7874
+  - 0.9973
+  frame: 3
+  global_frame: 257
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1684
+  - 0.4817
+  - 0.745
+  - 0.9984
+  frame: 4
+  global_frame: 258
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1745
+  - 0.5096
+  - 0.7027
+  - 0.9996
+  frame: 5
+  global_frame: 259
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1805
+  - 0.5376
+  - 0.6603
+  - 1.0007
+  frame: 6
+  global_frame: 260
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1865
+  - 0.5655
+  - 0.6179
+  - 1.0019
+  frame: 7
+  global_frame: 261
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1948
+  - 0.5432
+  - 0.6231
+  - 1.0011
+  frame: 8
+  global_frame: 262
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.203
+  - 0.5208
+  - 0.6284
+  - 1.0003
+  frame: 9
+  global_frame: 263
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.2113
+  - 0.4985
+  - 0.6337
+  - 0.9996
+  frame: 10
+  global_frame: 264
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.2195
+  - 0.4762
+  - 0.639
+  - 0.9988
+  frame: 11
+  global_frame: 265
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.2278
+  - 0.4539
+  - 0.6443
+  - 0.998
+  frame: 12
+  global_frame: 266
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.236
+  - 0.4315
+  - 0.6496
+  - 0.9972
+  frame: 13
+  global_frame: 267
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.207
+  - 0.3737
+  - 0.6278
+  - 0.9857
+  frame: 14
+  global_frame: 268
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1781
+  - 0.3158
+  - 0.606
+  - 0.9742
+  frame: 15
+  global_frame: 269
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1491
+  - 0.258
+  - 0.5842
+  - 0.9628
+  frame: 16
+  global_frame: 270
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.1202
+  - 0.2001
+  - 0.5625
+  - 0.9513
+  frame: 17
+  global_frame: 271
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0912
+  - 0.1423
+  - 0.5407
+  - 0.9398
+  frame: 18
+  global_frame: 272
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0623
+  - 0.0844
+  - 0.5189
+  - 0.9283
+  frame: 19
+  global_frame: 273
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0506
+  - 0.0713
+  - 0.5851
+  - 0.9637
+  frame: 20
+  global_frame: 274
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0504
+  - 0.0673
+  - 0.5857
+  - 0.9655
+  frame: 21
+  global_frame: 275
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0501
+  - 0.0633
+  - 0.5864
+  - 0.9673
+  frame: 22
+  global_frame: 276
+  prompt: the mosquito larva is moving
+- bbox_ratios:
+  - 0.0499
+  - 0.0592
+  - 0.587
+  - 0.9692
+  frame: 23
+  global_frame: 277
+  prompt: the mosquito larva is moving
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: larva
+seed: 4
+source_clip: AFIXMLZD_199_362
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

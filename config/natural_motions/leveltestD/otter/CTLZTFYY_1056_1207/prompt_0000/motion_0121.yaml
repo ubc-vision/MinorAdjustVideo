@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0785
+  - 0.2817
+  - 0.9095
+  - 0.9824
+  frame: 0
+  global_frame: 1177
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0598
+  - 0.2705
+  - 0.9107
+  - 0.947
+  frame: 1
+  global_frame: 1178
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0401
+  - 0.2817
+  - 0.8938
+  - 0.9648
+  frame: 2
+  global_frame: 1179
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0547
+  - 0.2815
+  - 0.8925
+  - 0.9841
+  frame: 3
+  global_frame: 1180
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0362
+  - 0.2771
+  - 0.8889
+  - 0.989
+  frame: 4
+  global_frame: 1181
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0144
+  - 0.2765
+  - 0.8858
+  - 0.994
+  frame: 5
+  global_frame: 1182
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0161
+  - 0.2768
+  - 0.8857
+  - 0.9933
+  frame: 6
+  global_frame: 1183
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.025
+  - 0.262
+  - 0.8957
+  - 0.9881
+  frame: 7
+  global_frame: 1184
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0119
+  - 0.2657
+  - 0.8896
+  - 0.9927
+  frame: 8
+  global_frame: 1185
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0034
+  - 0.2631
+  - 0.8837
+  - 0.9939
+  frame: 9
+  global_frame: 1186
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0059
+  - 0.2482
+  - 0.8927
+  - 0.9918
+  frame: 10
+  global_frame: 1187
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0053
+  - 0.2487
+  - 0.896
+  - 0.9996
+  frame: 11
+  global_frame: 1188
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0021
+  - 0.2522
+  - 0.8818
+  - 0.9987
+  frame: 12
+  global_frame: 1189
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0016
+  - 0.2533
+  - 0.879
+  - 0.9997
+  frame: 13
+  global_frame: 1190
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0003
+  - 0.2496
+  - 0.876
+  - 0.9994
+  frame: 14
+  global_frame: 1191
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0049
+  - 0.2446
+  - 0.8727
+  - 0.9947
+  frame: 15
+  global_frame: 1192
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0037
+  - 0.2398
+  - 0.8717
+  - 0.9929
+  frame: 16
+  global_frame: 1193
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0071
+  - 0.2372
+  - 0.8798
+  - 0.9934
+  frame: 17
+  global_frame: 1194
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0051
+  - 0.2332
+  - 0.8829
+  - 0.9962
+  frame: 18
+  global_frame: 1195
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0034
+  - 0.2348
+  - 0.8659
+  - 0.9958
+  frame: 19
+  global_frame: 1196
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0022
+  - 0.2329
+  - 0.8578
+  - 0.9996
+  frame: 20
+  global_frame: 1197
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0028
+  - 0.2211
+  - 0.8536
+  - 0.9984
+  frame: 21
+  global_frame: 1198
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0051
+  - 0.207
+  - 0.862
+  - 0.9888
+  frame: 22
+  global_frame: 1199
+  prompt: the otter is walking
+- bbox_ratios:
+  - 0.0033
+  - 0.2002
+  - 0.8468
+  - 0.992
+  frame: 23
+  global_frame: 1200
+  prompt: the otter is walking
+motion_id: 121
+motion_iter: 2
+num_inference_steps: null
+object_name: otter
+seed: 4
+source_clip: CTLZTFYY_1056_1207
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

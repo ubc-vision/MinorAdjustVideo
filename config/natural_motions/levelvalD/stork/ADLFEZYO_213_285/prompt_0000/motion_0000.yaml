@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.6004
+  - 0.3371
+  - 0.7985
+  - 0.7692
+  frame: 0
+  global_frame: 239
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6002
+  - 0.3372
+  - 0.7975
+  - 0.7688
+  frame: 1
+  global_frame: 240
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6004
+  - 0.3371
+  - 0.7977
+  - 0.7689
+  frame: 2
+  global_frame: 241
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.5989
+  - 0.3401
+  - 0.796
+  - 0.7683
+  frame: 3
+  global_frame: 242
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.5991
+  - 0.3409
+  - 0.7963
+  - 0.7692
+  frame: 4
+  global_frame: 243
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6025
+  - 0.3407
+  - 0.7965
+  - 0.7688
+  frame: 5
+  global_frame: 244
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6035
+  - 0.3397
+  - 0.7958
+  - 0.7703
+  frame: 6
+  global_frame: 245
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6029
+  - 0.3396
+  - 0.7964
+  - 0.7692
+  frame: 7
+  global_frame: 246
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6032
+  - 0.3397
+  - 0.7967
+  - 0.7694
+  frame: 8
+  global_frame: 247
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6021
+  - 0.3403
+  - 0.7972
+  - 0.7682
+  frame: 9
+  global_frame: 248
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6006
+  - 0.3404
+  - 0.7966
+  - 0.7673
+  frame: 10
+  global_frame: 249
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6007
+  - 0.3407
+  - 0.797
+  - 0.7676
+  frame: 11
+  global_frame: 250
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6011
+  - 0.3424
+  - 0.7962
+  - 0.7681
+  frame: 12
+  global_frame: 251
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6038
+  - 0.3442
+  - 0.7964
+  - 0.7697
+  frame: 13
+  global_frame: 252
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6026
+  - 0.344
+  - 0.7962
+  - 0.7697
+  frame: 14
+  global_frame: 253
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.604
+  - 0.3459
+  - 0.7933
+  - 0.7686
+  frame: 15
+  global_frame: 254
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6024
+  - 0.3459
+  - 0.7958
+  - 0.767
+  frame: 16
+  global_frame: 255
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6005
+  - 0.3457
+  - 0.7977
+  - 0.7657
+  frame: 17
+  global_frame: 256
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.5992
+  - 0.3462
+  - 0.7976
+  - 0.7667
+  frame: 18
+  global_frame: 257
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6027
+  - 0.3474
+  - 0.8004
+  - 0.7689
+  frame: 19
+  global_frame: 258
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6023
+  - 0.3472
+  - 0.8005
+  - 0.769
+  frame: 20
+  global_frame: 259
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.6025
+  - 0.3463
+  - 0.8003
+  - 0.7676
+  frame: 21
+  global_frame: 260
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.5993
+  - 0.347
+  - 0.7967
+  - 0.7663
+  frame: 22
+  global_frame: 261
+  prompt: the stork is walking
+- bbox_ratios:
+  - 0.601
+  - 0.3457
+  - 0.7942
+  - 0.7658
+  frame: 23
+  global_frame: 262
+  prompt: the stork is walking
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: stork
+seed: 4
+source_clip: ADLFEZYO_213_285
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

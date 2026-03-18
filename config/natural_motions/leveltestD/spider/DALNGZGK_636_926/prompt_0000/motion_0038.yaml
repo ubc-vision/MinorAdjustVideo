@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3918
+  - 0.2944
+  - 0.6285
+  - 0.8098
+  frame: 0
+  global_frame: 878
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3907
+  - 0.3053
+  - 0.6242
+  - 0.8132
+  frame: 1
+  global_frame: 879
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3843
+  - 0.2877
+  - 0.6287
+  - 0.8131
+  frame: 2
+  global_frame: 880
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3798
+  - 0.2644
+  - 0.6305
+  - 0.8206
+  frame: 3
+  global_frame: 881
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3766
+  - 0.1814
+  - 0.6305
+  - 0.8206
+  frame: 4
+  global_frame: 882
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3767
+  - 0.1835
+  - 0.6304
+  - 0.8206
+  frame: 5
+  global_frame: 883
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3746
+  - 0.1616
+  - 0.6337
+  - 0.8256
+  frame: 6
+  global_frame: 884
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3823
+  - 0.1723
+  - 0.6292
+  - 0.8269
+  frame: 7
+  global_frame: 885
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3842
+  - 0.2106
+  - 0.6249
+  - 0.8322
+  frame: 8
+  global_frame: 886
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3836
+  - 0.2249
+  - 0.6276
+  - 0.8122
+  frame: 9
+  global_frame: 887
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3766
+  - 0.2319
+  - 0.6345
+  - 0.7998
+  frame: 10
+  global_frame: 888
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3769
+  - 0.2328
+  - 0.6344
+  - 0.8001
+  frame: 11
+  global_frame: 889
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3743
+  - 0.2361
+  - 0.6331
+  - 0.8019
+  frame: 12
+  global_frame: 890
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.376
+  - 0.2769
+  - 0.6327
+  - 0.7876
+  frame: 13
+  global_frame: 891
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3755
+  - 0.2756
+  - 0.6313
+  - 0.7768
+  frame: 14
+  global_frame: 892
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3732
+  - 0.2057
+  - 0.638
+  - 0.7619
+  frame: 15
+  global_frame: 893
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3687
+  - 0.1839
+  - 0.6364
+  - 0.7599
+  frame: 16
+  global_frame: 894
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.369
+  - 0.2036
+  - 0.6364
+  - 0.7594
+  frame: 17
+  global_frame: 895
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3801
+  - 0.252
+  - 0.6253
+  - 0.7193
+  frame: 18
+  global_frame: 896
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3768
+  - 0.3126
+  - 0.6195
+  - 0.7216
+  frame: 19
+  global_frame: 897
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3324
+  - 0.17
+  - 0.6276
+  - 0.7477
+  frame: 20
+  global_frame: 898
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3462
+  - 0.1922
+  - 0.6294
+  - 0.7541
+  frame: 21
+  global_frame: 899
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3465
+  - 0.208
+  - 0.6325
+  - 0.781
+  frame: 22
+  global_frame: 900
+  prompt: the diving bell water spider is moving
+- bbox_ratios:
+  - 0.3463
+  - 0.2081
+  - 0.6325
+  - 0.7806
+  frame: 23
+  global_frame: 901
+  prompt: the diving bell water spider is moving
+motion_id: 38
+motion_iter: 0
+num_inference_steps: null
+object_name: spider
+seed: 4
+source_clip: DALNGZGK_636_926
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

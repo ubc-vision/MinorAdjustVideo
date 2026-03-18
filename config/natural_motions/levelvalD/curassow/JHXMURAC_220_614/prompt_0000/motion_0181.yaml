@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4103
+  - 0.695
+  - 0.7039
+  - 0.8469
+  frame: 0
+  global_frame: 454
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.4097
+  - 0.6959
+  - 0.7024
+  - 0.8463
+  frame: 1
+  global_frame: 455
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.409
+  - 0.6968
+  - 0.701
+  - 0.8456
+  frame: 2
+  global_frame: 456
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.4083
+  - 0.6977
+  - 0.6996
+  - 0.845
+  frame: 3
+  global_frame: 457
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.4077
+  - 0.6987
+  - 0.6981
+  - 0.8443
+  frame: 4
+  global_frame: 458
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.4053
+  - 0.6907
+  - 0.6936
+  - 0.8368
+  frame: 5
+  global_frame: 459
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.403
+  - 0.6828
+  - 0.6891
+  - 0.8293
+  frame: 6
+  global_frame: 460
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.4006
+  - 0.6749
+  - 0.6846
+  - 0.8218
+  frame: 7
+  global_frame: 461
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3983
+  - 0.6669
+  - 0.6801
+  - 0.8143
+  frame: 8
+  global_frame: 462
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3959
+  - 0.659
+  - 0.6756
+  - 0.8068
+  frame: 9
+  global_frame: 463
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3936
+  - 0.6511
+  - 0.6711
+  - 0.7993
+  frame: 10
+  global_frame: 464
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3913
+  - 0.6431
+  - 0.6666
+  - 0.7918
+  frame: 11
+  global_frame: 465
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3889
+  - 0.6352
+  - 0.662
+  - 0.7843
+  frame: 12
+  global_frame: 466
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3866
+  - 0.6272
+  - 0.6575
+  - 0.7768
+  frame: 13
+  global_frame: 467
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3842
+  - 0.6193
+  - 0.653
+  - 0.7694
+  frame: 14
+  global_frame: 468
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3819
+  - 0.6114
+  - 0.6485
+  - 0.7619
+  frame: 15
+  global_frame: 469
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3795
+  - 0.6034
+  - 0.644
+  - 0.7544
+  frame: 16
+  global_frame: 470
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3772
+  - 0.5955
+  - 0.6395
+  - 0.7469
+  frame: 17
+  global_frame: 471
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3748
+  - 0.5876
+  - 0.635
+  - 0.7394
+  frame: 18
+  global_frame: 472
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3725
+  - 0.5796
+  - 0.6305
+  - 0.7319
+  frame: 19
+  global_frame: 473
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3701
+  - 0.5717
+  - 0.626
+  - 0.7244
+  frame: 20
+  global_frame: 474
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3678
+  - 0.5637
+  - 0.6214
+  - 0.7169
+  frame: 21
+  global_frame: 475
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3655
+  - 0.5558
+  - 0.6169
+  - 0.7094
+  frame: 22
+  global_frame: 476
+  prompt: the great curassow is walking
+- bbox_ratios:
+  - 0.3631
+  - 0.5479
+  - 0.6124
+  - 0.7019
+  frame: 23
+  global_frame: 477
+  prompt: the great curassow is walking
+motion_id: 181
+motion_iter: 2
+num_inference_steps: null
+object_name: curassow
+seed: 4
+source_clip: JHXMURAC_220_614
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

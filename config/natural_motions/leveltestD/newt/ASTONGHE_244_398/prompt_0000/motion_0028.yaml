@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0257
+  - -0.0011
+  - 0.7048
+  - 0.6817
+  frame: 0
+  global_frame: 312
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0326
+  - -0.0006
+  - 0.7137
+  - 0.6827
+  frame: 1
+  global_frame: 313
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0321
+  - 0.002
+  - 0.7182
+  - 0.6866
+  frame: 2
+  global_frame: 314
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0406
+  - -0.0024
+  - 0.739
+  - 0.6825
+  frame: 3
+  global_frame: 315
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0376
+  - 0.0027
+  - 0.7597
+  - 0.6968
+  frame: 4
+  global_frame: 316
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0378
+  - 0.0026
+  - 0.7597
+  - 0.6971
+  frame: 5
+  global_frame: 317
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0396
+  - 0.0027
+  - 0.7738
+  - 0.7161
+  frame: 6
+  global_frame: 318
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0326
+  - 0.0064
+  - 0.7824
+  - 0.727
+  frame: 7
+  global_frame: 319
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0469
+  - 0.0019
+  - 0.8076
+  - 0.7492
+  frame: 8
+  global_frame: 320
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0452
+  - -0.0
+  - 0.8093
+  - 0.7968
+  frame: 9
+  global_frame: 321
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0439
+  - 0.0002
+  - 0.8093
+  - 0.7957
+  frame: 10
+  global_frame: 322
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0418
+  - 0.002
+  - 0.8179
+  - 0.8113
+  frame: 11
+  global_frame: 323
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.026
+  - -0.0003
+  - 0.8242
+  - 0.8654
+  frame: 12
+  global_frame: 324
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0218
+  - -0.0025
+  - 0.829
+  - 0.8947
+  frame: 13
+  global_frame: 325
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0184
+  - 0.0008
+  - 0.8179
+  - 0.9218
+  frame: 14
+  global_frame: 326
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0191
+  - 0.001
+  - 0.8177
+  - 0.9225
+  frame: 15
+  global_frame: 327
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0047
+  - 0.0025
+  - 0.8088
+  - 0.9292
+  frame: 16
+  global_frame: 328
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0089
+  - 0.0042
+  - 0.8004
+  - 0.9318
+  frame: 17
+  global_frame: 329
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0067
+  - 0.0063
+  - 0.7856
+  - 0.9402
+  frame: 18
+  global_frame: 330
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0024
+  - -0.0015
+  - 0.7819
+  - 0.927
+  frame: 19
+  global_frame: 331
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0022
+  - -0.0018
+  - 0.7819
+  - 0.9267
+  frame: 20
+  global_frame: 332
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0042
+  - -0.0029
+  - 0.7704
+  - 0.932
+  frame: 21
+  global_frame: 333
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - -0.0015
+  - 0.0035
+  - 0.7746
+  - 0.9534
+  frame: 22
+  global_frame: 334
+  prompt: the brown newt is walking in a straight line on the rock
+- bbox_ratios:
+  - 0.0051
+  - 0.0066
+  - 0.7611
+  - 0.9426
+  frame: 23
+  global_frame: 335
+  prompt: the brown newt is walking in a straight line on the rock
+motion_id: 28
+motion_iter: 0
+num_inference_steps: null
+object_name: newt
+seed: 4
+source_clip: ASTONGHE_244_398
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

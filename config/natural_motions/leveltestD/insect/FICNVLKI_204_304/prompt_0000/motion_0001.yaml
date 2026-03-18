@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3841
+  - 0.0739
+  - 0.5845
+  - 0.2385
+  frame: 0
+  global_frame: 253
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3871
+  - 0.0808
+  - 0.5873
+  - 0.2512
+  frame: 1
+  global_frame: 254
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3959
+  - 0.0773
+  - 0.5837
+  - 0.2524
+  frame: 2
+  global_frame: 255
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3698
+  - 0.0735
+  - 0.5515
+  - 0.2285
+  frame: 3
+  global_frame: 256
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3503
+  - 0.0688
+  - 0.5498
+  - 0.235
+  frame: 4
+  global_frame: 257
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3492
+  - 0.0819
+  - 0.5239
+  - 0.2343
+  frame: 5
+  global_frame: 258
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3477
+  - 0.0919
+  - 0.5102
+  - 0.2349
+  frame: 6
+  global_frame: 259
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3461
+  - 0.1019
+  - 0.4965
+  - 0.2355
+  frame: 7
+  global_frame: 260
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3395
+  - 0.1096
+  - 0.519
+  - 0.268
+  frame: 8
+  global_frame: 261
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3009
+  - 0.0777
+  - 0.54
+  - 0.2805
+  frame: 9
+  global_frame: 262
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3276
+  - 0.1193
+  - 0.552
+  - 0.2866
+  frame: 10
+  global_frame: 263
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3265
+  - 0.1079
+  - 0.5612
+  - 0.3027
+  frame: 11
+  global_frame: 264
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3284
+  - 0.1082
+  - 0.5645
+  - 0.303
+  frame: 12
+  global_frame: 265
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3677
+  - 0.1527
+  - 0.5863
+  - 0.3191
+  frame: 13
+  global_frame: 266
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3573
+  - 0.1381
+  - 0.5926
+  - 0.3298
+  frame: 14
+  global_frame: 267
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3725
+  - 0.1463
+  - 0.6183
+  - 0.3461
+  frame: 15
+  global_frame: 268
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3874
+  - 0.1606
+  - 0.6354
+  - 0.3645
+  frame: 16
+  global_frame: 269
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.3981
+  - 0.1836
+  - 0.6237
+  - 0.3736
+  frame: 17
+  global_frame: 270
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.4099
+  - 0.1974
+  - 0.6445
+  - 0.3861
+  frame: 18
+  global_frame: 271
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.4189
+  - 0.1945
+  - 0.6718
+  - 0.4031
+  frame: 19
+  global_frame: 272
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.4258
+  - 0.1891
+  - 0.6518
+  - 0.3906
+  frame: 20
+  global_frame: 273
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.4265
+  - 0.187
+  - 0.6271
+  - 0.3859
+  frame: 21
+  global_frame: 274
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.406
+  - 0.1838
+  - 0.5935
+  - 0.372
+  frame: 22
+  global_frame: 275
+  prompt: the firebrat insect is moving
+- bbox_ratios:
+  - 0.4017
+  - 0.1829
+  - 0.5802
+  - 0.3595
+  frame: 23
+  global_frame: 276
+  prompt: the firebrat insect is moving
+motion_id: 1
+motion_iter: 2
+num_inference_steps: null
+object_name: insect
+seed: 4
+source_clip: FICNVLKI_204_304
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

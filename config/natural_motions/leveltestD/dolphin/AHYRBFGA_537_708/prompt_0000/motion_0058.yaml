@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2552
+  - 0.0457
+  - 0.5007
+  - 0.2229
+  frame: 0
+  global_frame: 616
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2595
+  - 0.0465
+  - 0.5037
+  - 0.2236
+  frame: 1
+  global_frame: 617
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2637
+  - 0.0474
+  - 0.5068
+  - 0.2243
+  frame: 2
+  global_frame: 618
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.268
+  - 0.0482
+  - 0.5099
+  - 0.2249
+  frame: 3
+  global_frame: 619
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2723
+  - 0.0491
+  - 0.5129
+  - 0.2256
+  frame: 4
+  global_frame: 620
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2765
+  - 0.0499
+  - 0.516
+  - 0.2263
+  frame: 5
+  global_frame: 621
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2808
+  - 0.0508
+  - 0.5191
+  - 0.227
+  frame: 6
+  global_frame: 622
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2851
+  - 0.0516
+  - 0.5221
+  - 0.2276
+  frame: 7
+  global_frame: 623
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2893
+  - 0.0525
+  - 0.5252
+  - 0.2283
+  frame: 8
+  global_frame: 624
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2936
+  - 0.0533
+  - 0.5282
+  - 0.229
+  frame: 9
+  global_frame: 625
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.2979
+  - 0.0542
+  - 0.5313
+  - 0.2297
+  frame: 10
+  global_frame: 626
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3021
+  - 0.055
+  - 0.5344
+  - 0.2303
+  frame: 11
+  global_frame: 627
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3064
+  - 0.0559
+  - 0.5374
+  - 0.231
+  frame: 12
+  global_frame: 628
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3106
+  - 0.0567
+  - 0.5405
+  - 0.2317
+  frame: 13
+  global_frame: 629
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3149
+  - 0.0576
+  - 0.5436
+  - 0.2323
+  frame: 14
+  global_frame: 630
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3192
+  - 0.0584
+  - 0.5466
+  - 0.233
+  frame: 15
+  global_frame: 631
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3234
+  - 0.0593
+  - 0.5497
+  - 0.2337
+  frame: 16
+  global_frame: 632
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3277
+  - 0.0601
+  - 0.5528
+  - 0.2344
+  frame: 17
+  global_frame: 633
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.332
+  - 0.061
+  - 0.5558
+  - 0.235
+  frame: 18
+  global_frame: 634
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3362
+  - 0.0618
+  - 0.5589
+  - 0.2357
+  frame: 19
+  global_frame: 635
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3405
+  - 0.0627
+  - 0.562
+  - 0.2364
+  frame: 20
+  global_frame: 636
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3448
+  - 0.0635
+  - 0.565
+  - 0.2371
+  frame: 21
+  global_frame: 637
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.349
+  - 0.0644
+  - 0.5681
+  - 0.2377
+  frame: 22
+  global_frame: 638
+  prompt: the dolphin is swimming
+- bbox_ratios:
+  - 0.3533
+  - 0.0653
+  - 0.5712
+  - 0.2384
+  frame: 23
+  global_frame: 639
+  prompt: the dolphin is swimming
+motion_id: 58
+motion_iter: 0
+num_inference_steps: null
+object_name: dolphin
+seed: 4
+source_clip: AHYRBFGA_537_708
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

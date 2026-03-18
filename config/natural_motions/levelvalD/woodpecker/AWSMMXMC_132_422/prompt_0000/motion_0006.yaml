@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5001
+  - 0.2546
+  - 0.6133
+  - 0.6559
+  frame: 0
+  global_frame: 336
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.5018
+  - 0.2582
+  - 0.6115
+  - 0.6543
+  frame: 1
+  global_frame: 337
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4989
+  - 0.2531
+  - 0.6148
+  - 0.6539
+  frame: 2
+  global_frame: 338
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.5002
+  - 0.2497
+  - 0.6112
+  - 0.6536
+  frame: 3
+  global_frame: 339
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4998
+  - 0.2476
+  - 0.6054
+  - 0.6505
+  frame: 4
+  global_frame: 340
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4992
+  - 0.2473
+  - 0.6034
+  - 0.6509
+  frame: 5
+  global_frame: 341
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4937
+  - 0.2452
+  - 0.6015
+  - 0.6513
+  frame: 6
+  global_frame: 342
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4932
+  - 0.2347
+  - 0.5984
+  - 0.6516
+  frame: 7
+  global_frame: 343
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4915
+  - 0.2312
+  - 0.5996
+  - 0.661
+  frame: 8
+  global_frame: 344
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.489
+  - 0.2173
+  - 0.5945
+  - 0.6644
+  frame: 9
+  global_frame: 345
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4856
+  - 0.2161
+  - 0.5919
+  - 0.6677
+  frame: 10
+  global_frame: 346
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4882
+  - 0.2114
+  - 0.5893
+  - 0.681
+  frame: 11
+  global_frame: 347
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4846
+  - 0.2147
+  - 0.5892
+  - 0.6752
+  frame: 12
+  global_frame: 348
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.487
+  - 0.2167
+  - 0.5898
+  - 0.6743
+  frame: 13
+  global_frame: 349
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4866
+  - 0.2142
+  - 0.5927
+  - 0.6769
+  frame: 14
+  global_frame: 350
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4857
+  - 0.2139
+  - 0.5942
+  - 0.6785
+  frame: 15
+  global_frame: 351
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4869
+  - 0.2191
+  - 0.5935
+  - 0.6786
+  frame: 16
+  global_frame: 352
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4909
+  - 0.2231
+  - 0.5949
+  - 0.6793
+  frame: 17
+  global_frame: 353
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4949
+  - 0.2289
+  - 0.5924
+  - 0.6778
+  frame: 18
+  global_frame: 354
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4947
+  - 0.2283
+  - 0.5914
+  - 0.678
+  frame: 19
+  global_frame: 355
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4946
+  - 0.2306
+  - 0.5912
+  - 0.6783
+  frame: 20
+  global_frame: 356
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4909
+  - 0.2335
+  - 0.592
+  - 0.6782
+  frame: 21
+  global_frame: 357
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4931
+  - 0.2368
+  - 0.5897
+  - 0.6796
+  frame: 22
+  global_frame: 358
+  prompt: the woodpecker is moving
+- bbox_ratios:
+  - 0.4933
+  - 0.2375
+  - 0.5906
+  - 0.6799
+  frame: 23
+  global_frame: 359
+  prompt: the woodpecker is moving
+motion_id: 6
+motion_iter: 2
+num_inference_steps: null
+object_name: woodpecker
+seed: 4
+source_clip: AWSMMXMC_132_422
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

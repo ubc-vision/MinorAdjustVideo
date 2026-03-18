@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2648
+  - 0.4785
+  - 0.9321
+  - 0.8755
+  frame: 0
+  global_frame: 358
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2626
+  - 0.4688
+  - 0.9348
+  - 0.8796
+  frame: 1
+  global_frame: 359
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.264
+  - 0.4742
+  - 0.9345
+  - 0.8813
+  frame: 2
+  global_frame: 360
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2655
+  - 0.4796
+  - 0.9342
+  - 0.8829
+  frame: 3
+  global_frame: 361
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.267
+  - 0.485
+  - 0.9339
+  - 0.8845
+  frame: 4
+  global_frame: 362
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2649
+  - 0.4681
+  - 0.9334
+  - 0.8855
+  frame: 5
+  global_frame: 363
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2629
+  - 0.4512
+  - 0.9328
+  - 0.8864
+  frame: 6
+  global_frame: 364
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2608
+  - 0.4344
+  - 0.9323
+  - 0.8873
+  frame: 7
+  global_frame: 365
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2588
+  - 0.4175
+  - 0.9317
+  - 0.8882
+  frame: 8
+  global_frame: 366
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2567
+  - 0.4006
+  - 0.9311
+  - 0.8891
+  frame: 9
+  global_frame: 367
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2546
+  - 0.3838
+  - 0.9306
+  - 0.89
+  frame: 10
+  global_frame: 368
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2526
+  - 0.3669
+  - 0.93
+  - 0.891
+  frame: 11
+  global_frame: 369
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2505
+  - 0.35
+  - 0.9295
+  - 0.8919
+  frame: 12
+  global_frame: 370
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2485
+  - 0.3332
+  - 0.9289
+  - 0.8928
+  frame: 13
+  global_frame: 371
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2464
+  - 0.3163
+  - 0.9284
+  - 0.8937
+  frame: 14
+  global_frame: 372
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2443
+  - 0.2994
+  - 0.9278
+  - 0.8946
+  frame: 15
+  global_frame: 373
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2423
+  - 0.2826
+  - 0.9272
+  - 0.8956
+  frame: 16
+  global_frame: 374
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2402
+  - 0.2657
+  - 0.9267
+  - 0.8965
+  frame: 17
+  global_frame: 375
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2382
+  - 0.2488
+  - 0.9261
+  - 0.8974
+  frame: 18
+  global_frame: 376
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2361
+  - 0.232
+  - 0.9256
+  - 0.8983
+  frame: 19
+  global_frame: 377
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.234
+  - 0.2151
+  - 0.925
+  - 0.8992
+  frame: 20
+  global_frame: 378
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.232
+  - 0.1982
+  - 0.9245
+  - 0.9001
+  frame: 21
+  global_frame: 379
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2299
+  - 0.1814
+  - 0.9239
+  - 0.9011
+  frame: 22
+  global_frame: 380
+  prompt: the shield bug is moving
+- bbox_ratios:
+  - 0.2279
+  - 0.1645
+  - 0.9233
+  - 0.902
+  frame: 23
+  global_frame: 381
+  prompt: the shield bug is moving
+motion_id: 52
+motion_iter: 0
+num_inference_steps: null
+object_name: bug
+seed: 4
+source_clip: KJMUNBQT_244_408
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

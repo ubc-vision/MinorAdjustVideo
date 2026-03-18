@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2767
+  - 0.1737
+  - 0.9471
+  - 1.0021
+  frame: 0
+  global_frame: 639
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.2894
+  - 0.1899
+  - 0.9065
+  - 1.0006
+  frame: 1
+  global_frame: 640
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.3021
+  - 0.2061
+  - 0.8659
+  - 0.9992
+  frame: 2
+  global_frame: 641
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.2486
+  - 0.2296
+  - 0.8231
+  - 1.0051
+  frame: 3
+  global_frame: 642
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.2475
+  - 0.2429
+  - 0.8317
+  - 1.0052
+  frame: 4
+  global_frame: 643
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.2028
+  - 0.2416
+  - 0.8329
+  - 1.002
+  frame: 5
+  global_frame: 644
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.2012
+  - 0.2523
+  - 0.8355
+  - 1.0021
+  frame: 6
+  global_frame: 645
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1996
+  - 0.263
+  - 0.8381
+  - 1.0021
+  frame: 7
+  global_frame: 646
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.198
+  - 0.2737
+  - 0.8407
+  - 1.0021
+  frame: 8
+  global_frame: 647
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1964
+  - 0.2843
+  - 0.8434
+  - 1.0021
+  frame: 9
+  global_frame: 648
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1948
+  - 0.295
+  - 0.846
+  - 1.0021
+  frame: 10
+  global_frame: 649
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1932
+  - 0.3057
+  - 0.8486
+  - 1.0021
+  frame: 11
+  global_frame: 650
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1916
+  - 0.3164
+  - 0.8512
+  - 1.0021
+  frame: 12
+  global_frame: 651
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.19
+  - 0.3271
+  - 0.8538
+  - 1.0021
+  frame: 13
+  global_frame: 652
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1884
+  - 0.3378
+  - 0.8564
+  - 1.0021
+  frame: 14
+  global_frame: 653
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1868
+  - 0.3484
+  - 0.859
+  - 1.0021
+  frame: 15
+  global_frame: 654
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1852
+  - 0.3591
+  - 0.8616
+  - 1.0021
+  frame: 16
+  global_frame: 655
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1836
+  - 0.3698
+  - 0.8642
+  - 1.0021
+  frame: 17
+  global_frame: 656
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.182
+  - 0.3805
+  - 0.8669
+  - 1.0022
+  frame: 18
+  global_frame: 657
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1804
+  - 0.3912
+  - 0.8695
+  - 1.0022
+  frame: 19
+  global_frame: 658
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1788
+  - 0.4018
+  - 0.8721
+  - 1.0022
+  frame: 20
+  global_frame: 659
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1772
+  - 0.4125
+  - 0.8747
+  - 1.0022
+  frame: 21
+  global_frame: 660
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.1756
+  - 0.4232
+  - 0.8773
+  - 1.0022
+  frame: 22
+  global_frame: 661
+  prompt: the caterpillar is moving
+- bbox_ratios:
+  - 0.174
+  - 0.4339
+  - 0.8799
+  - 1.0022
+  frame: 23
+  global_frame: 662
+  prompt: the caterpillar is moving
+motion_id: 7
+motion_iter: 0
+num_inference_steps: null
+object_name: caterpillar
+seed: 4
+source_clip: AFNORHIS_631_691
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

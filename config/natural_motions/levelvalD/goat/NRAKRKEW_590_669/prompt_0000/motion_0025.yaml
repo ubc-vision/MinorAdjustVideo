@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3076
+  - 0.2115
+  - 0.8503
+  - 0.8587
+  frame: 0
+  global_frame: 645
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.3077
+  - 0.2102
+  - 0.8498
+  - 0.8564
+  frame: 1
+  global_frame: 646
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.3051
+  - 0.2095
+  - 0.8489
+  - 0.8553
+  frame: 2
+  global_frame: 647
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.3026
+  - 0.2035
+  - 0.8501
+  - 0.8477
+  frame: 3
+  global_frame: 648
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.3027
+  - 0.2038
+  - 0.85
+  - 0.848
+  frame: 4
+  global_frame: 649
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.3
+  - 0.2047
+  - 0.8474
+  - 0.8505
+  frame: 5
+  global_frame: 650
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2944
+  - 0.204
+  - 0.8435
+  - 0.8498
+  frame: 6
+  global_frame: 651
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2905
+  - 0.2025
+  - 0.8432
+  - 0.8497
+  frame: 7
+  global_frame: 652
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2888
+  - 0.2006
+  - 0.8444
+  - 0.8478
+  frame: 8
+  global_frame: 653
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2905
+  - 0.2036
+  - 0.8458
+  - 0.8503
+  frame: 9
+  global_frame: 654
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2905
+  - 0.2037
+  - 0.846
+  - 0.85
+  frame: 10
+  global_frame: 655
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2859
+  - 0.2051
+  - 0.8454
+  - 0.8528
+  frame: 11
+  global_frame: 656
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2824
+  - 0.2077
+  - 0.8451
+  - 0.8504
+  frame: 12
+  global_frame: 657
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2838
+  - 0.2075
+  - 0.8458
+  - 0.8469
+  frame: 13
+  global_frame: 658
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2821
+  - 0.2049
+  - 0.8429
+  - 0.8445
+  frame: 14
+  global_frame: 659
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.278
+  - 0.1995
+  - 0.8442
+  - 0.8401
+  frame: 15
+  global_frame: 660
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.278
+  - 0.1995
+  - 0.8442
+  - 0.8401
+  frame: 16
+  global_frame: 661
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2736
+  - 0.1972
+  - 0.8456
+  - 0.8383
+  frame: 17
+  global_frame: 662
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2692
+  - 0.1882
+  - 0.8448
+  - 0.833
+  frame: 18
+  global_frame: 663
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2663
+  - 0.1771
+  - 0.8405
+  - 0.8305
+  frame: 19
+  global_frame: 664
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2534
+  - 0.1661
+  - 0.8338
+  - 0.8252
+  frame: 20
+  global_frame: 665
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2549
+  - 0.1962
+  - 0.8438
+  - 0.8216
+  frame: 21
+  global_frame: 666
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2549
+  - 0.1962
+  - 0.8438
+  - 0.8216
+  frame: 22
+  global_frame: 667
+  prompt: the goat is walking
+- bbox_ratios:
+  - 0.2618
+  - 0.1912
+  - 0.8682
+  - 0.8178
+  frame: 23
+  global_frame: 668
+  prompt: the goat is walking
+motion_id: 25
+motion_iter: 0
+num_inference_steps: null
+object_name: goat
+seed: 4
+source_clip: NRAKRKEW_590_669
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

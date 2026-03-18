@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5352
+  - 0.6029
+  - 0.6862
+  - 0.7049
+  frame: 0
+  global_frame: 141
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.535
+  - 0.6028
+  - 0.6862
+  - 0.7047
+  frame: 1
+  global_frame: 142
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.534
+  - 0.6051
+  - 0.7
+  - 0.7099
+  frame: 2
+  global_frame: 143
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5344
+  - 0.6059
+  - 0.6958
+  - 0.7107
+  frame: 3
+  global_frame: 144
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5323
+  - 0.6083
+  - 0.685
+  - 0.708
+  frame: 4
+  global_frame: 145
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5196
+  - 0.6051
+  - 0.6907
+  - 0.7024
+  frame: 5
+  global_frame: 146
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5133
+  - 0.614
+  - 0.6802
+  - 0.7122
+  frame: 6
+  global_frame: 147
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5132
+  - 0.6141
+  - 0.6801
+  - 0.7122
+  frame: 7
+  global_frame: 148
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5139
+  - 0.6118
+  - 0.6846
+  - 0.7115
+  frame: 8
+  global_frame: 149
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5132
+  - 0.6125
+  - 0.68
+  - 0.7117
+  frame: 9
+  global_frame: 150
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5112
+  - 0.6093
+  - 0.6872
+  - 0.712
+  frame: 10
+  global_frame: 151
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5102
+  - 0.6086
+  - 0.689
+  - 0.7123
+  frame: 11
+  global_frame: 152
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5026
+  - 0.6097
+  - 0.6831
+  - 0.7171
+  frame: 12
+  global_frame: 153
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5026
+  - 0.6097
+  - 0.6834
+  - 0.717
+  frame: 13
+  global_frame: 154
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5044
+  - 0.6056
+  - 0.686
+  - 0.7129
+  frame: 14
+  global_frame: 155
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5017
+  - 0.6004
+  - 0.6873
+  - 0.7122
+  frame: 15
+  global_frame: 156
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.4962
+  - 0.6046
+  - 0.6893
+  - 0.7163
+  frame: 16
+  global_frame: 157
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.4981
+  - 0.6066
+  - 0.6727
+  - 0.7145
+  frame: 17
+  global_frame: 158
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5004
+  - 0.6083
+  - 0.6663
+  - 0.7137
+  frame: 18
+  global_frame: 159
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5004
+  - 0.6083
+  - 0.6663
+  - 0.7136
+  frame: 19
+  global_frame: 160
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.4988
+  - 0.6044
+  - 0.6672
+  - 0.7076
+  frame: 20
+  global_frame: 161
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.5018
+  - 0.6087
+  - 0.6693
+  - 0.711
+  frame: 21
+  global_frame: 162
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.4946
+  - 0.6064
+  - 0.6659
+  - 0.7115
+  frame: 22
+  global_frame: 163
+  prompt: the garganey is swimming
+- bbox_ratios:
+  - 0.4908
+  - 0.6068
+  - 0.6647
+  - 0.7108
+  frame: 23
+  global_frame: 164
+  prompt: the garganey is swimming
+motion_id: 16
+motion_iter: 0
+num_inference_steps: null
+object_name: garganey
+seed: 4
+source_clip: CKEBFQWI_0_175
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

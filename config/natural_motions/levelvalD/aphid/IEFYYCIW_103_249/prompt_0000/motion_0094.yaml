@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3981
+  - 0.2521
+  - 0.6137
+  - 0.7295
+  frame: 0
+  global_frame: 220
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.397
+  - 0.2547
+  - 0.615
+  - 0.7395
+  frame: 1
+  global_frame: 221
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3958
+  - 0.2572
+  - 0.6164
+  - 0.7494
+  frame: 2
+  global_frame: 222
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3963
+  - 0.2566
+  - 0.6162
+  - 0.75
+  frame: 3
+  global_frame: 223
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3924
+  - 0.2556
+  - 0.6048
+  - 0.7397
+  frame: 4
+  global_frame: 224
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3885
+  - 0.2545
+  - 0.5934
+  - 0.7295
+  frame: 5
+  global_frame: 225
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3846
+  - 0.2535
+  - 0.582
+  - 0.7192
+  frame: 6
+  global_frame: 226
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3835
+  - 0.2523
+  - 0.5778
+  - 0.6797
+  frame: 7
+  global_frame: 227
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3825
+  - 0.251
+  - 0.5736
+  - 0.6402
+  frame: 8
+  global_frame: 228
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3814
+  - 0.2498
+  - 0.5693
+  - 0.6007
+  frame: 9
+  global_frame: 229
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3804
+  - 0.2486
+  - 0.5651
+  - 0.5612
+  frame: 10
+  global_frame: 230
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3793
+  - 0.2473
+  - 0.5609
+  - 0.5216
+  frame: 11
+  global_frame: 231
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3783
+  - 0.2461
+  - 0.5566
+  - 0.4821
+  frame: 12
+  global_frame: 232
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3575
+  - 0.2441
+  - 0.5682
+  - 0.5016
+  frame: 13
+  global_frame: 233
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3368
+  - 0.242
+  - 0.5798
+  - 0.521
+  frame: 14
+  global_frame: 234
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.337
+  - 0.2423
+  - 0.5798
+  - 0.5214
+  frame: 15
+  global_frame: 235
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3435
+  - 0.2425
+  - 0.5777
+  - 0.5162
+  frame: 16
+  global_frame: 236
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3396
+  - 0.2379
+  - 0.5758
+  - 0.5093
+  frame: 17
+  global_frame: 237
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3755
+  - 0.2343
+  - 0.5841
+  - 0.5131
+  frame: 18
+  global_frame: 238
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3743
+  - 0.2345
+  - 0.5783
+  - 0.5003
+  frame: 19
+  global_frame: 239
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3774
+  - 0.2394
+  - 0.5786
+  - 0.4987
+  frame: 20
+  global_frame: 240
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3781
+  - 0.2394
+  - 0.5784
+  - 0.4981
+  frame: 21
+  global_frame: 241
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3774
+  - 0.2298
+  - 0.5836
+  - 0.4985
+  frame: 22
+  global_frame: 242
+  prompt: the aphid is moving
+- bbox_ratios:
+  - 0.3787
+  - 0.2274
+  - 0.5857
+  - 0.4936
+  frame: 23
+  global_frame: 243
+  prompt: the aphid is moving
+motion_id: 94
+motion_iter: 1
+num_inference_steps: null
+object_name: aphid
+seed: 4
+source_clip: IEFYYCIW_103_249
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

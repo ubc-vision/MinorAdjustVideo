@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0037
+  - 0.1329
+  - 0.2558
+  - 0.4608
+  frame: 0
+  global_frame: 394
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0035
+  - 0.1311
+  - 0.2648
+  - 0.4666
+  frame: 1
+  global_frame: 395
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0015
+  - 0.1356
+  - 0.2731
+  - 0.4694
+  frame: 2
+  global_frame: 396
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0033
+  - 0.1358
+  - 0.2812
+  - 0.4692
+  frame: 3
+  global_frame: 397
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0033
+  - 0.1363
+  - 0.2812
+  - 0.4692
+  frame: 4
+  global_frame: 398
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0015
+  - 0.136
+  - 0.2848
+  - 0.4638
+  frame: 5
+  global_frame: 399
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0041
+  - 0.1374
+  - 0.2905
+  - 0.4631
+  frame: 6
+  global_frame: 400
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.0766
+  - 0.1291
+  - 0.3558
+  - 0.4711
+  frame: 7
+  global_frame: 401
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.1491
+  - 0.1208
+  - 0.4211
+  - 0.4791
+  frame: 8
+  global_frame: 402
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.2216
+  - 0.1125
+  - 0.4864
+  - 0.4871
+  frame: 9
+  global_frame: 403
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.2941
+  - 0.1042
+  - 0.5516
+  - 0.4951
+  frame: 10
+  global_frame: 404
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.3666
+  - 0.0959
+  - 0.6169
+  - 0.5032
+  frame: 11
+  global_frame: 405
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.4391
+  - 0.0876
+  - 0.6822
+  - 0.5112
+  frame: 12
+  global_frame: 406
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.5116
+  - 0.0793
+  - 0.7474
+  - 0.5192
+  frame: 13
+  global_frame: 407
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.5841
+  - 0.071
+  - 0.8127
+  - 0.5272
+  frame: 14
+  global_frame: 408
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.6566
+  - 0.0628
+  - 0.878
+  - 0.5352
+  frame: 15
+  global_frame: 409
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7291
+  - 0.0545
+  - 0.9432
+  - 0.5432
+  frame: 16
+  global_frame: 410
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7274
+  - 0.0558
+  - 0.9577
+  - 0.5349
+  frame: 17
+  global_frame: 411
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7273
+  - 0.0562
+  - 0.9548
+  - 0.5147
+  frame: 18
+  global_frame: 412
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7274
+  - 0.0579
+  - 0.9513
+  - 0.5157
+  frame: 19
+  global_frame: 413
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7296
+  - 0.056
+  - 0.9339
+  - 0.4835
+  frame: 20
+  global_frame: 414
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7291
+  - 0.0552
+  - 0.9326
+  - 0.4758
+  frame: 21
+  global_frame: 415
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7281
+  - 0.0561
+  - 0.9379
+  - 0.4809
+  frame: 22
+  global_frame: 416
+  prompt: the wildebeest is walking
+- bbox_ratios:
+  - 0.7271
+  - 0.057
+  - 0.9432
+  - 0.4861
+  frame: 23
+  global_frame: 417
+  prompt: the wildebeest is walking
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: wildebeest
+seed: 4
+source_clip: CXEKLFGA_213_453
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

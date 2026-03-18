@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2593
+  - 0.1188
+  - 0.4302
+  - 0.4421
+  frame: 0
+  global_frame: 51
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2582
+  - 0.12
+  - 0.4317
+  - 0.4418
+  frame: 1
+  global_frame: 52
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2631
+  - 0.1161
+  - 0.4261
+  - 0.4305
+  frame: 2
+  global_frame: 53
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2626
+  - 0.1149
+  - 0.4278
+  - 0.4477
+  frame: 3
+  global_frame: 54
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2633
+  - 0.1145
+  - 0.4297
+  - 0.4368
+  frame: 4
+  global_frame: 55
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2509
+  - 0.114
+  - 0.4063
+  - 0.4198
+  frame: 5
+  global_frame: 56
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2517
+  - 0.1146
+  - 0.4071
+  - 0.4318
+  frame: 6
+  global_frame: 57
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2518
+  - 0.1148
+  - 0.4075
+  - 0.433
+  frame: 7
+  global_frame: 58
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2515
+  - 0.1157
+  - 0.4085
+  - 0.433
+  frame: 8
+  global_frame: 59
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2535
+  - 0.1151
+  - 0.4309
+  - 0.4415
+  frame: 9
+  global_frame: 60
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2518
+  - 0.1147
+  - 0.4317
+  - 0.442
+  frame: 10
+  global_frame: 61
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2514
+  - 0.1163
+  - 0.41
+  - 0.4444
+  frame: 11
+  global_frame: 62
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2521
+  - 0.1153
+  - 0.4102
+  - 0.4474
+  frame: 12
+  global_frame: 63
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2513
+  - 0.115
+  - 0.4098
+  - 0.4488
+  frame: 13
+  global_frame: 64
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.253
+  - 0.1134
+  - 0.4291
+  - 0.4576
+  frame: 14
+  global_frame: 65
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2547
+  - 0.1139
+  - 0.4295
+  - 0.4566
+  frame: 15
+  global_frame: 66
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2568
+  - 0.113
+  - 0.432
+  - 0.4562
+  frame: 16
+  global_frame: 67
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2584
+  - 0.1121
+  - 0.4247
+  - 0.4567
+  frame: 17
+  global_frame: 68
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2588
+  - 0.1108
+  - 0.4308
+  - 0.4588
+  frame: 18
+  global_frame: 69
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2582
+  - 0.1106
+  - 0.4307
+  - 0.4594
+  frame: 19
+  global_frame: 70
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2601
+  - 0.1103
+  - 0.4336
+  - 0.4557
+  frame: 20
+  global_frame: 71
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2599
+  - 0.1109
+  - 0.4368
+  - 0.451
+  frame: 21
+  global_frame: 72
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.2605
+  - 0.1104
+  - 0.4372
+  - 0.4465
+  frame: 22
+  global_frame: 73
+  prompt: the ardea alba egret is walking
+- bbox_ratios:
+  - 0.3025
+  - 0.1331
+  - 0.4823
+  - 0.4495
+  frame: 23
+  global_frame: 74
+  prompt: the ardea alba egret is walking
+motion_id: 10
+motion_iter: 0
+num_inference_steps: null
+object_name: egret
+seed: 4
+source_clip: AOXBHPLS_16_177
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

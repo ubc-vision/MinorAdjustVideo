@@ -1,0 +1,15 @@
+
+# common shared settings across different methods for comparison
+
+width: 320 # high resolution options [480, 512]
+height: 320
+save_video: True
+viz_orient2d: False
+overlay_maps: True
+save_frames: True
+vis_maps: False 
+vis_opt_and_denoise_maps: False
+vis_opt_bboxes: False
+user_box_color: blue # None
+store_latent_xo_xt: False # SEEMS to conflic with normal xt-1 given xt generation
+set_global_deterministic: True # If true, enable strict global determinism (requires integer 'seed' in the main config YAML).

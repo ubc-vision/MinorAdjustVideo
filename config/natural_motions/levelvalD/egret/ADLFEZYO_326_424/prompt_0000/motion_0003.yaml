@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.79
+  - 0.3236
+  - 0.976
+  - 0.849
+  frame: 0
+  global_frame: 337
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7896
+  - 0.3275
+  - 0.975
+  - 0.8492
+  frame: 1
+  global_frame: 338
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7888
+  - 0.3218
+  - 0.9725
+  - 0.8491
+  frame: 2
+  global_frame: 339
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7906
+  - 0.309
+  - 0.9676
+  - 0.8496
+  frame: 3
+  global_frame: 340
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7917
+  - 0.2989
+  - 0.9625
+  - 0.8495
+  frame: 4
+  global_frame: 341
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7921
+  - 0.2895
+  - 0.9602
+  - 0.8507
+  frame: 5
+  global_frame: 342
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7922
+  - 0.2903
+  - 0.9598
+  - 0.8511
+  frame: 6
+  global_frame: 343
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7922
+  - 0.2825
+  - 0.9566
+  - 0.8512
+  frame: 7
+  global_frame: 344
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7964
+  - 0.2702
+  - 0.9559
+  - 0.8523
+  frame: 8
+  global_frame: 345
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.797
+  - 0.2608
+  - 0.956
+  - 0.8521
+  frame: 9
+  global_frame: 346
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7935
+  - 0.2529
+  - 0.9525
+  - 0.852
+  frame: 10
+  global_frame: 347
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7934
+  - 0.2432
+  - 0.9532
+  - 0.8517
+  frame: 11
+  global_frame: 348
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7935
+  - 0.2436
+  - 0.9533
+  - 0.8519
+  frame: 12
+  global_frame: 349
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7939
+  - 0.2379
+  - 0.9532
+  - 0.8515
+  frame: 13
+  global_frame: 350
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7935
+  - 0.2322
+  - 0.9524
+  - 0.8525
+  frame: 14
+  global_frame: 351
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7941
+  - 0.2267
+  - 0.9517
+  - 0.8516
+  frame: 15
+  global_frame: 352
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7977
+  - 0.2178
+  - 0.9558
+  - 0.8521
+  frame: 16
+  global_frame: 353
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7952
+  - 0.218
+  - 0.9528
+  - 0.851
+  frame: 17
+  global_frame: 354
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7953
+  - 0.2175
+  - 0.9526
+  - 0.8509
+  frame: 18
+  global_frame: 355
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7952
+  - 0.2121
+  - 0.9526
+  - 0.8525
+  frame: 19
+  global_frame: 356
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7949
+  - 0.2111
+  - 0.9522
+  - 0.8518
+  frame: 20
+  global_frame: 357
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7954
+  - 0.2112
+  - 0.9527
+  - 0.8529
+  frame: 21
+  global_frame: 358
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7956
+  - 0.2058
+  - 0.9523
+  - 0.8484
+  frame: 22
+  global_frame: 359
+  prompt: the egret is walking
+- bbox_ratios:
+  - 0.7958
+  - 0.2066
+  - 0.9514
+  - 0.8496
+  frame: 23
+  global_frame: 360
+  prompt: the egret is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: egret
+seed: 4
+source_clip: ADLFEZYO_326_424
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

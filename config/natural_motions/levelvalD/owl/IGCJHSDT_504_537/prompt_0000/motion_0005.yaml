@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2057
+  - 0.1903
+  - 0.5471
+  - 0.9896
+  frame: 0
+  global_frame: 514
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.2053
+  - 0.1905
+  - 0.5453
+  - 0.9896
+  frame: 1
+  global_frame: 515
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.2022
+  - 0.196
+  - 0.5444
+  - 0.9882
+  frame: 2
+  global_frame: 516
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.197
+  - 0.2086
+  - 0.5413
+  - 0.9906
+  frame: 3
+  global_frame: 517
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1958
+  - 0.2189
+  - 0.5428
+  - 0.9908
+  frame: 4
+  global_frame: 518
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1892
+  - 0.2276
+  - 0.5439
+  - 0.9901
+  frame: 5
+  global_frame: 519
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1803
+  - 0.2308
+  - 0.5443
+  - 0.991
+  frame: 6
+  global_frame: 520
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1819
+  - 0.2352
+  - 0.5442
+  - 0.9918
+  frame: 7
+  global_frame: 521
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.183
+  - 0.2401
+  - 0.5435
+  - 0.9903
+  frame: 8
+  global_frame: 522
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1801
+  - 0.2481
+  - 0.5436
+  - 0.9916
+  frame: 9
+  global_frame: 523
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1802
+  - 0.2597
+  - 0.5413
+  - 0.9945
+  frame: 10
+  global_frame: 524
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1767
+  - 0.264
+  - 0.546
+  - 0.9744
+  frame: 11
+  global_frame: 525
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1816
+  - 0.2883
+  - 0.5456
+  - 0.9985
+  frame: 12
+  global_frame: 526
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1702
+  - 0.2891
+  - 0.5431
+  - 0.9939
+  frame: 13
+  global_frame: 527
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1631
+  - 0.2795
+  - 0.5459
+  - 0.9857
+  frame: 14
+  global_frame: 528
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1573
+  - 0.2762
+  - 0.5463
+  - 0.9834
+  frame: 15
+  global_frame: 529
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.154
+  - 0.2774
+  - 0.5469
+  - 0.9846
+  frame: 16
+  global_frame: 530
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1511
+  - 0.2756
+  - 0.5433
+  - 0.9868
+  frame: 17
+  global_frame: 531
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1464
+  - 0.2808
+  - 0.5436
+  - 0.989
+  frame: 18
+  global_frame: 532
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1478
+  - 0.2793
+  - 0.5431
+  - 0.9879
+  frame: 19
+  global_frame: 533
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.15
+  - 0.2743
+  - 0.5439
+  - 0.9862
+  frame: 20
+  global_frame: 534
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1471
+  - 0.2655
+  - 0.5421
+  - 0.9838
+  frame: 21
+  global_frame: 535
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1397
+  - 0.2583
+  - 0.5391
+  - 0.9863
+  frame: 22
+  global_frame: 536
+  prompt: the boreal owl is walking
+- bbox_ratios:
+  - 0.1453
+  - 0.2592
+  - 0.541
+  - 0.9809
+  frame: 23
+  global_frame: 537
+  prompt: the boreal owl is walking
+motion_id: 5
+motion_iter: 0
+num_inference_steps: null
+object_name: owl
+seed: 4
+source_clip: IGCJHSDT_504_537
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

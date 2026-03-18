@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0697
+  - 0.0291
+  - 0.9954
+  - 0.8048
+  frame: 0
+  global_frame: 196
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0696
+  - 0.0283
+  - 0.9956
+  - 0.8032
+  frame: 1
+  global_frame: 197
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0705
+  - 0.0285
+  - 0.9949
+  - 0.8049
+  frame: 2
+  global_frame: 198
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0763
+  - 0.0147
+  - 1.0028
+  - 0.7928
+  frame: 3
+  global_frame: 199
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0758
+  - 0.0141
+  - 1.0035
+  - 0.7927
+  frame: 4
+  global_frame: 200
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.077
+  - 0.0138
+  - 1.0036
+  - 0.7936
+  frame: 5
+  global_frame: 201
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0799
+  - 0.0141
+  - 1.0057
+  - 0.7912
+  frame: 6
+  global_frame: 202
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0735
+  - 0.0307
+  - 0.9957
+  - 0.8064
+  frame: 7
+  global_frame: 203
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0748
+  - 0.0131
+  - 1.0031
+  - 0.7909
+  frame: 8
+  global_frame: 204
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0769
+  - 0.0142
+  - 1.0035
+  - 0.7901
+  frame: 9
+  global_frame: 205
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0749
+  - 0.013
+  - 1.0032
+  - 0.7912
+  frame: 10
+  global_frame: 206
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0759
+  - 0.0157
+  - 1.0059
+  - 0.7943
+  frame: 11
+  global_frame: 207
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0757
+  - 0.0182
+  - 1.0064
+  - 0.7967
+  frame: 12
+  global_frame: 208
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0758
+  - 0.0177
+  - 1.0065
+  - 0.7965
+  frame: 13
+  global_frame: 209
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0808
+  - 0.0193
+  - 1.0083
+  - 0.7965
+  frame: 14
+  global_frame: 210
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0705
+  - 0.0297
+  - 0.9968
+  - 0.8093
+  frame: 15
+  global_frame: 211
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0721
+  - 0.0306
+  - 0.9958
+  - 0.8114
+  frame: 16
+  global_frame: 212
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0709
+  - 0.0296
+  - 0.996
+  - 0.8114
+  frame: 17
+  global_frame: 213
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0713
+  - 0.029
+  - 0.9965
+  - 0.8106
+  frame: 18
+  global_frame: 214
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.073
+  - 0.0289
+  - 0.9957
+  - 0.8122
+  frame: 19
+  global_frame: 215
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0735
+  - 0.0277
+  - 0.9954
+  - 0.8136
+  frame: 20
+  global_frame: 216
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0747
+  - 0.0279
+  - 0.9957
+  - 0.8128
+  frame: 21
+  global_frame: 217
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0773
+  - 0.0153
+  - 1.0007
+  - 0.8064
+  frame: 22
+  global_frame: 218
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+- bbox_ratios:
+  - 0.0798
+  - 0.0339
+  - 0.9939
+  - 0.8199
+  frame: 23
+  global_frame: 219
+  prompt: the planarian schmidtea mediterranea flatworm is moving
+motion_id: 31
+motion_iter: 0
+num_inference_steps: null
+object_name: flatworm
+seed: 4
+source_clip: IWFJFIQQ_134_220
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

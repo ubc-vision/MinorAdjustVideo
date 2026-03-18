@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.8179
+  - 0.6032
+  - 0.9823
+  - 0.7349
+  frame: 0
+  global_frame: 10
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.815
+  - 0.5789
+  - 0.9779
+  - 0.734
+  frame: 1
+  global_frame: 11
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.8125
+  - 0.5828
+  - 0.975
+  - 0.732
+  frame: 2
+  global_frame: 12
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.81
+  - 0.5868
+  - 0.972
+  - 0.73
+  frame: 3
+  global_frame: 13
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.8075
+  - 0.5908
+  - 0.969
+  - 0.728
+  frame: 4
+  global_frame: 14
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.805
+  - 0.5948
+  - 0.9661
+  - 0.7259
+  frame: 5
+  global_frame: 15
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.8061
+  - 0.5859
+  - 0.9748
+  - 0.7261
+  frame: 6
+  global_frame: 16
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.7759
+  - 0.5792
+  - 0.9552
+  - 0.7248
+  frame: 7
+  global_frame: 17
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.7456
+  - 0.5725
+  - 0.9357
+  - 0.7235
+  frame: 8
+  global_frame: 18
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.7153
+  - 0.5659
+  - 0.9161
+  - 0.7222
+  frame: 9
+  global_frame: 19
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.685
+  - 0.5592
+  - 0.8966
+  - 0.7209
+  frame: 10
+  global_frame: 20
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.6548
+  - 0.5525
+  - 0.877
+  - 0.7196
+  frame: 11
+  global_frame: 21
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.6245
+  - 0.5458
+  - 0.8574
+  - 0.7183
+  frame: 12
+  global_frame: 22
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.5942
+  - 0.5391
+  - 0.8379
+  - 0.7171
+  frame: 13
+  global_frame: 23
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.5639
+  - 0.5324
+  - 0.8183
+  - 0.7158
+  frame: 14
+  global_frame: 24
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.5337
+  - 0.5257
+  - 0.7988
+  - 0.7145
+  frame: 15
+  global_frame: 25
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.5034
+  - 0.519
+  - 0.7792
+  - 0.7132
+  frame: 16
+  global_frame: 26
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.4731
+  - 0.5123
+  - 0.7597
+  - 0.7119
+  frame: 17
+  global_frame: 27
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.4428
+  - 0.5056
+  - 0.7401
+  - 0.7106
+  frame: 18
+  global_frame: 28
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.4126
+  - 0.499
+  - 0.7206
+  - 0.7093
+  frame: 19
+  global_frame: 29
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.3823
+  - 0.4923
+  - 0.701
+  - 0.708
+  frame: 20
+  global_frame: 30
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.352
+  - 0.4856
+  - 0.6815
+  - 0.7067
+  frame: 21
+  global_frame: 31
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.4324
+  - 0.4954
+  - 0.729
+  - 0.7114
+  frame: 22
+  global_frame: 32
+  prompt: the walrus is swimming
+- bbox_ratios:
+  - 0.5128
+  - 0.5053
+  - 0.7765
+  - 0.7161
+  frame: 23
+  global_frame: 33
+  prompt: the walrus is swimming
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: walrus
+seed: 4
+source_clip: MPVVFPIF_4_103
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

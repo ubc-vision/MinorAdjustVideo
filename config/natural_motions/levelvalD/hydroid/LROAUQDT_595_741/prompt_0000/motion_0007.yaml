@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2342
+  - 0.2029
+  - 0.7328
+  - 0.9993
+  frame: 0
+  global_frame: 616
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.216
+  - 0.1994
+  - 0.741
+  - 1.0008
+  frame: 1
+  global_frame: 617
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.214
+  - 0.1988
+  - 0.7432
+  - 1.0026
+  frame: 2
+  global_frame: 618
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2292
+  - 0.2014
+  - 0.7438
+  - 1.0005
+  frame: 3
+  global_frame: 619
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2289
+  - 0.2026
+  - 0.7403
+  - 1.0022
+  frame: 4
+  global_frame: 620
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2284
+  - 0.2028
+  - 0.7403
+  - 1.0037
+  frame: 5
+  global_frame: 621
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2255
+  - 0.2004
+  - 0.7412
+  - 1.0023
+  frame: 6
+  global_frame: 622
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2226
+  - 0.198
+  - 0.742
+  - 1.0009
+  frame: 7
+  global_frame: 623
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2197
+  - 0.1956
+  - 0.7428
+  - 0.9995
+  frame: 8
+  global_frame: 624
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2169
+  - 0.1932
+  - 0.7437
+  - 0.9981
+  frame: 9
+  global_frame: 625
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.214
+  - 0.1908
+  - 0.7445
+  - 0.9967
+  frame: 10
+  global_frame: 626
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2115
+  - 0.1919
+  - 0.7471
+  - 0.9953
+  frame: 11
+  global_frame: 627
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2134
+  - 0.1943
+  - 0.7545
+  - 0.9933
+  frame: 12
+  global_frame: 628
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2124
+  - 0.1918
+  - 0.7586
+  - 0.995
+  frame: 13
+  global_frame: 629
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2137
+  - 0.1942
+  - 0.7597
+  - 0.9976
+  frame: 14
+  global_frame: 630
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.209
+  - 0.1917
+  - 0.7549
+  - 0.9711
+  frame: 15
+  global_frame: 631
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2088
+  - 0.1936
+  - 0.7569
+  - 0.9437
+  frame: 16
+  global_frame: 632
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2082
+  - 0.1926
+  - 0.7629
+  - 0.9723
+  frame: 17
+  global_frame: 633
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2073
+  - 0.1907
+  - 0.7601
+  - 0.9762
+  frame: 18
+  global_frame: 634
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2079
+  - 0.1923
+  - 0.7393
+  - 0.9954
+  frame: 19
+  global_frame: 635
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2112
+  - 0.1882
+  - 0.7357
+  - 0.9311
+  frame: 20
+  global_frame: 636
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2145
+  - 0.1841
+  - 0.732
+  - 0.8669
+  frame: 21
+  global_frame: 637
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2131
+  - 0.1845
+  - 0.727
+  - 0.8733
+  frame: 22
+  global_frame: 638
+  prompt: the hydroid is moving
+- bbox_ratios:
+  - 0.2064
+  - 0.1855
+  - 0.7207
+  - 0.903
+  frame: 23
+  global_frame: 639
+  prompt: the hydroid is moving
+motion_id: 7
+motion_iter: 2
+num_inference_steps: null
+object_name: hydroid
+seed: 4
+source_clip: LROAUQDT_595_741
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

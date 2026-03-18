@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3607
+  - 0.5066
+  - 0.7131
+  - 0.6446
+  frame: 0
+  global_frame: 427
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3715
+  - 0.5071
+  - 0.7133
+  - 0.6448
+  frame: 1
+  global_frame: 428
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3645
+  - 0.5068
+  - 0.7126
+  - 0.6449
+  frame: 2
+  global_frame: 429
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3599
+  - 0.5066
+  - 0.7141
+  - 0.6458
+  frame: 3
+  global_frame: 430
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3742
+  - 0.5077
+  - 0.7145
+  - 0.6461
+  frame: 4
+  global_frame: 431
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3738
+  - 0.5082
+  - 0.7133
+  - 0.6459
+  frame: 5
+  global_frame: 432
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3606
+  - 0.5069
+  - 0.7136
+  - 0.646
+  frame: 6
+  global_frame: 433
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3588
+  - 0.5068
+  - 0.7144
+  - 0.6465
+  frame: 7
+  global_frame: 434
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3616
+  - 0.5068
+  - 0.7146
+  - 0.6464
+  frame: 8
+  global_frame: 435
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3626
+  - 0.5069
+  - 0.7145
+  - 0.6464
+  frame: 9
+  global_frame: 436
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3753
+  - 0.5076
+  - 0.7135
+  - 0.6457
+  frame: 10
+  global_frame: 437
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3744
+  - 0.5077
+  - 0.713
+  - 0.6457
+  frame: 11
+  global_frame: 438
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.373
+  - 0.5076
+  - 0.7123
+  - 0.6456
+  frame: 12
+  global_frame: 439
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3738
+  - 0.5077
+  - 0.7125
+  - 0.6457
+  frame: 13
+  global_frame: 440
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.371
+  - 0.5074
+  - 0.7124
+  - 0.6456
+  frame: 14
+  global_frame: 441
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3686
+  - 0.5073
+  - 0.7125
+  - 0.6457
+  frame: 15
+  global_frame: 442
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3694
+  - 0.5073
+  - 0.7126
+  - 0.6457
+  frame: 16
+  global_frame: 443
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3738
+  - 0.5076
+  - 0.7128
+  - 0.6457
+  frame: 17
+  global_frame: 444
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3754
+  - 0.5077
+  - 0.7131
+  - 0.6457
+  frame: 18
+  global_frame: 445
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3752
+  - 0.5076
+  - 0.713
+  - 0.6457
+  frame: 19
+  global_frame: 446
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3753
+  - 0.5076
+  - 0.7132
+  - 0.6457
+  frame: 20
+  global_frame: 447
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3748
+  - 0.5076
+  - 0.7129
+  - 0.6457
+  frame: 21
+  global_frame: 448
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3918
+  - 0.5097
+  - 0.7151
+  - 0.6485
+  frame: 22
+  global_frame: 449
+  prompt: the white nosed coati is walking
+- bbox_ratios:
+  - 0.3918
+  - 0.5097
+  - 0.7151
+  - 0.6485
+  frame: 23
+  global_frame: 450
+  prompt: the white nosed coati is walking
+motion_id: 3
+motion_iter: 1
+num_inference_steps: null
+object_name: coati
+seed: 4
+source_clip: HFCPGRAC_424_482
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

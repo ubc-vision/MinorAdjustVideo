@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0929
+  - 0.3392
+  - 0.4559
+  - 0.5519
+  frame: 0
+  global_frame: 338
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.0952
+  - 0.3369
+  - 0.459
+  - 0.5507
+  frame: 1
+  global_frame: 339
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.0974
+  - 0.3347
+  - 0.462
+  - 0.5494
+  frame: 2
+  global_frame: 340
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.0997
+  - 0.3324
+  - 0.465
+  - 0.5482
+  frame: 3
+  global_frame: 341
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1019
+  - 0.3302
+  - 0.4681
+  - 0.5469
+  frame: 4
+  global_frame: 342
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1042
+  - 0.3279
+  - 0.4711
+  - 0.5457
+  frame: 5
+  global_frame: 343
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1016
+  - 0.3221
+  - 0.4852
+  - 0.5498
+  frame: 6
+  global_frame: 344
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1014
+  - 0.3218
+  - 0.4844
+  - 0.55
+  frame: 7
+  global_frame: 345
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.087
+  - 0.3252
+  - 0.4759
+  - 0.5566
+  frame: 8
+  global_frame: 346
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.0986
+  - 0.3146
+  - 0.5184
+  - 0.5535
+  frame: 9
+  global_frame: 347
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1077
+  - 0.3175
+  - 0.5275
+  - 0.5561
+  frame: 10
+  global_frame: 348
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1167
+  - 0.3204
+  - 0.5366
+  - 0.5587
+  frame: 11
+  global_frame: 349
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1191
+  - 0.3203
+  - 0.5368
+  - 0.5586
+  frame: 12
+  global_frame: 350
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1274
+  - 0.3161
+  - 0.5369
+  - 0.5538
+  frame: 13
+  global_frame: 351
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1357
+  - 0.3119
+  - 0.537
+  - 0.5489
+  frame: 14
+  global_frame: 352
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1638
+  - 0.3063
+  - 0.5517
+  - 0.5461
+  frame: 15
+  global_frame: 353
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1609
+  - 0.305
+  - 0.553
+  - 0.5514
+  frame: 16
+  global_frame: 354
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1642
+  - 0.3031
+  - 0.5568
+  - 0.5443
+  frame: 17
+  global_frame: 355
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1631
+  - 0.3064
+  - 0.5567
+  - 0.545
+  frame: 18
+  global_frame: 356
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1635
+  - 0.3065
+  - 0.5566
+  - 0.5447
+  frame: 19
+  global_frame: 357
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1651
+  - 0.3049
+  - 0.5611
+  - 0.5426
+  frame: 20
+  global_frame: 358
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1667
+  - 0.3034
+  - 0.5655
+  - 0.5406
+  frame: 21
+  global_frame: 359
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1683
+  - 0.3018
+  - 0.57
+  - 0.5385
+  frame: 22
+  global_frame: 360
+  prompt: the tamandua is walking
+- bbox_ratios:
+  - 0.1679
+  - 0.291
+  - 0.5737
+  - 0.5344
+  frame: 23
+  global_frame: 361
+  prompt: the tamandua is walking
+motion_id: 100
+motion_iter: 0
+num_inference_steps: null
+object_name: tamandua
+seed: 4
+source_clip: TZOWIRAC_237_434
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.261
+  - 0.2718
+  - 0.597
+  - 0.9416
+  frame: 0
+  global_frame: 408
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2607
+  - 0.2711
+  - 0.5971
+  - 0.9403
+  frame: 1
+  global_frame: 409
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2675
+  - 0.275
+  - 0.6046
+  - 0.9249
+  frame: 2
+  global_frame: 410
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.264
+  - 0.2723
+  - 0.6036
+  - 0.9234
+  frame: 3
+  global_frame: 411
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2628
+  - 0.2599
+  - 0.5986
+  - 0.9189
+  frame: 4
+  global_frame: 412
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2636
+  - 0.2584
+  - 0.6051
+  - 0.9207
+  frame: 5
+  global_frame: 413
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2606
+  - 0.2459
+  - 0.5972
+  - 0.9204
+  frame: 6
+  global_frame: 414
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2606
+  - 0.2459
+  - 0.5973
+  - 0.9207
+  frame: 7
+  global_frame: 415
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2637
+  - 0.247
+  - 0.6039
+  - 0.9441
+  frame: 8
+  global_frame: 416
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2618
+  - 0.2366
+  - 0.6029
+  - 0.962
+  frame: 9
+  global_frame: 417
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2598
+  - 0.2295
+  - 0.5995
+  - 0.964
+  frame: 10
+  global_frame: 418
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2607
+  - 0.2242
+  - 0.5981
+  - 0.9794
+  frame: 11
+  global_frame: 419
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2612
+  - 0.2134
+  - 0.6025
+  - 0.9766
+  frame: 12
+  global_frame: 420
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2614
+  - 0.2135
+  - 0.6025
+  - 0.9773
+  frame: 13
+  global_frame: 421
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2625
+  - 0.2022
+  - 0.6028
+  - 0.988
+  frame: 14
+  global_frame: 422
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2607
+  - 0.2022
+  - 0.5915
+  - 0.9913
+  frame: 15
+  global_frame: 423
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2653
+  - 0.1943
+  - 0.6037
+  - 0.9895
+  frame: 16
+  global_frame: 424
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2676
+  - 0.1852
+  - 0.6012
+  - 0.9584
+  frame: 17
+  global_frame: 425
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2775
+  - 0.1731
+  - 0.6017
+  - 0.9401
+  frame: 18
+  global_frame: 426
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2751
+  - 0.1722
+  - 0.5971
+  - 0.9458
+  frame: 19
+  global_frame: 427
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2767
+  - 0.164
+  - 0.5979
+  - 0.9469
+  frame: 20
+  global_frame: 428
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2747
+  - 0.1502
+  - 0.6
+  - 0.9718
+  frame: 21
+  global_frame: 429
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2702
+  - 0.1368
+  - 0.5884
+  - 0.9695
+  frame: 22
+  global_frame: 430
+  prompt: the maroon macaque is climbing
+- bbox_ratios:
+  - 0.2776
+  - 0.1221
+  - 0.5946
+  - 0.9276
+  frame: 23
+  global_frame: 431
+  prompt: the maroon macaque is climbing
+motion_id: 89
+motion_iter: 1
+num_inference_steps: null
+object_name: macaque
+seed: 4
+source_clip: BPRIPFFP_319_504
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0043
+  - 0.0163
+  - 0.9409
+  - 0.9891
+  frame: 0
+  global_frame: 603
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0139
+  - 0.0131
+  - 0.9397
+  - 0.9766
+  frame: 1
+  global_frame: 604
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0094
+  - 0.0139
+  - 0.941
+  - 0.9665
+  frame: 2
+  global_frame: 605
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0128
+  - 0.006
+  - 0.9745
+  - 0.9894
+  frame: 3
+  global_frame: 606
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0064
+  - 0.0051
+  - 0.9772
+  - 0.9905
+  frame: 4
+  global_frame: 607
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0025
+  - 0.0118
+  - 0.9625
+  - 0.9917
+  frame: 5
+  global_frame: 608
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0143
+  - 0.0104
+  - 0.9824
+  - 0.9949
+  frame: 6
+  global_frame: 609
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0074
+  - 0.0103
+  - 0.9866
+  - 0.9905
+  frame: 7
+  global_frame: 610
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0019
+  - 0.0112
+  - 0.9808
+  - 0.9861
+  frame: 8
+  global_frame: 611
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0119
+  - 0.0159
+  - 0.9896
+  - 0.9884
+  frame: 9
+  global_frame: 612
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0036
+  - 0.0363
+  - 0.9885
+  - 0.9973
+  frame: 10
+  global_frame: 613
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0077
+  - 0.0315
+  - 0.9927
+  - 0.9898
+  frame: 11
+  global_frame: 614
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0024
+  - 0.0328
+  - 0.995
+  - 0.9887
+  frame: 12
+  global_frame: 615
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0072
+  - 0.0402
+  - 0.9965
+  - 0.9907
+  frame: 13
+  global_frame: 616
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0017
+  - 0.042
+  - 0.991
+  - 0.9952
+  frame: 14
+  global_frame: 617
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0117
+  - 0.0497
+  - 1.0014
+  - 0.999
+  frame: 15
+  global_frame: 618
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0041
+  - 0.0565
+  - 0.9922
+  - 0.9988
+  frame: 16
+  global_frame: 619
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0057
+  - 0.0495
+  - 0.9912
+  - 1.0013
+  frame: 17
+  global_frame: 620
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0025
+  - 0.0438
+  - 0.9942
+  - 0.9996
+  frame: 18
+  global_frame: 621
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0041
+  - 0.0436
+  - 0.9958
+  - 0.9972
+  frame: 19
+  global_frame: 622
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0034
+  - 0.0281
+  - 0.9945
+  - 0.9961
+  frame: 20
+  global_frame: 623
+  prompt: the squid is swimming
+- bbox_ratios:
+  - -0.0017
+  - 0.031
+  - 0.9695
+  - 0.9955
+  frame: 21
+  global_frame: 624
+  prompt: the squid is swimming
+- bbox_ratios:
+  - -0.0073
+  - 0.0164
+  - 0.9825
+  - 0.9986
+  frame: 22
+  global_frame: 625
+  prompt: the squid is swimming
+- bbox_ratios:
+  - 0.0048
+  - 0.0067
+  - 0.995
+  - 0.9918
+  frame: 23
+  global_frame: 626
+  prompt: the squid is swimming
+motion_id: 8
+motion_iter: 2
+num_inference_steps: null
+object_name: squid
+seed: 4
+source_clip: FJMOLMLY_477_681
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

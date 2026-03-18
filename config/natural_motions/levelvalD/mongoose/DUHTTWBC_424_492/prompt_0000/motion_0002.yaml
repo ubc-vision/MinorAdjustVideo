@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0166
+  - -0.0048
+  - 0.689
+  - 0.8441
+  frame: 0
+  global_frame: 431
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0241
+  - -0.0042
+  - 0.7014
+  - 0.8572
+  frame: 1
+  global_frame: 432
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0315
+  - -0.0035
+  - 0.7138
+  - 0.8703
+  frame: 2
+  global_frame: 433
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.039
+  - -0.0028
+  - 0.7262
+  - 0.8834
+  frame: 3
+  global_frame: 434
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0465
+  - -0.0022
+  - 0.7386
+  - 0.8964
+  frame: 4
+  global_frame: 435
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0539
+  - -0.0015
+  - 0.7511
+  - 0.9095
+  frame: 5
+  global_frame: 436
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0614
+  - -0.0009
+  - 0.7635
+  - 0.9226
+  frame: 6
+  global_frame: 437
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0689
+  - -0.0002
+  - 0.7759
+  - 0.9357
+  frame: 7
+  global_frame: 438
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0763
+  - 0.0005
+  - 0.7883
+  - 0.9488
+  frame: 8
+  global_frame: 439
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0838
+  - 0.0011
+  - 0.8008
+  - 0.9618
+  frame: 9
+  global_frame: 440
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0912
+  - 0.0018
+  - 0.8132
+  - 0.9749
+  frame: 10
+  global_frame: 441
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0987
+  - 0.0025
+  - 0.8256
+  - 0.988
+  frame: 11
+  global_frame: 442
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.1062
+  - 0.0031
+  - 0.838
+  - 1.0011
+  frame: 12
+  global_frame: 443
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0987
+  - 0.0019
+  - 0.8357
+  - 0.9993
+  frame: 13
+  global_frame: 444
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0912
+  - 0.0007
+  - 0.8334
+  - 0.9976
+  frame: 14
+  global_frame: 445
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0837
+  - -0.0005
+  - 0.8312
+  - 0.9958
+  frame: 15
+  global_frame: 446
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0762
+  - -0.0018
+  - 0.8289
+  - 0.9941
+  frame: 16
+  global_frame: 447
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0687
+  - -0.003
+  - 0.8266
+  - 0.9924
+  frame: 17
+  global_frame: 448
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0612
+  - -0.0042
+  - 0.8243
+  - 0.9906
+  frame: 18
+  global_frame: 449
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0757
+  - -0.0007
+  - 0.7863
+  - 0.9922
+  frame: 19
+  global_frame: 450
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0902
+  - 0.0028
+  - 0.7484
+  - 0.9938
+  frame: 20
+  global_frame: 451
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0971
+  - 0.0054
+  - 0.9037
+  - 0.9985
+  frame: 21
+  global_frame: 452
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.0799
+  - -0.0036
+  - 0.8596
+  - 0.9929
+  frame: 22
+  global_frame: 453
+  prompt: the mongoose is walking
+- bbox_ratios:
+  - 0.1127
+  - -0.0053
+  - 0.7689
+  - 0.9066
+  frame: 23
+  global_frame: 454
+  prompt: the mongoose is walking
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: mongoose
+seed: 4
+source_clip: DUHTTWBC_424_492
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

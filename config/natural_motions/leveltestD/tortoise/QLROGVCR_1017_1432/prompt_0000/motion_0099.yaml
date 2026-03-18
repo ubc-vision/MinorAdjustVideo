@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1704
+  - 0.1513
+  - 0.6695
+  - 0.6087
+  frame: 0
+  global_frame: 1371
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.1875
+  - 0.1566
+  - 0.6895
+  - 0.6134
+  frame: 1
+  global_frame: 1372
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.1994
+  - 0.1694
+  - 0.6986
+  - 0.6269
+  frame: 2
+  global_frame: 1373
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2123
+  - 0.1674
+  - 0.7115
+  - 0.6271
+  frame: 3
+  global_frame: 1374
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2262
+  - 0.1449
+  - 0.7223
+  - 0.5868
+  frame: 4
+  global_frame: 1375
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2355
+  - 0.1313
+  - 0.7124
+  - 0.5722
+  frame: 5
+  global_frame: 1376
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2336
+  - 0.1144
+  - 0.7202
+  - 0.5541
+  frame: 6
+  global_frame: 1377
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.231
+  - 0.1032
+  - 0.7088
+  - 0.5378
+  frame: 7
+  global_frame: 1378
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2298
+  - 0.094
+  - 0.7096
+  - 0.5256
+  frame: 8
+  global_frame: 1379
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2275
+  - 0.0843
+  - 0.7043
+  - 0.5183
+  frame: 9
+  global_frame: 1380
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2257
+  - 0.0808
+  - 0.6965
+  - 0.5165
+  frame: 10
+  global_frame: 1381
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.217
+  - 0.086
+  - 0.6917
+  - 0.5178
+  frame: 11
+  global_frame: 1382
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2084
+  - 0.0924
+  - 0.6849
+  - 0.5255
+  frame: 12
+  global_frame: 1383
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2039
+  - 0.1155
+  - 0.6786
+  - 0.5593
+  frame: 13
+  global_frame: 1384
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.1874
+  - 0.1468
+  - 0.6638
+  - 0.6048
+  frame: 14
+  global_frame: 1385
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.1874
+  - 0.18
+  - 0.6782
+  - 0.6375
+  frame: 15
+  global_frame: 1386
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.1921
+  - 0.2095
+  - 0.6797
+  - 0.6753
+  frame: 16
+  global_frame: 1387
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2015
+  - 0.2515
+  - 0.677
+  - 0.6965
+  frame: 17
+  global_frame: 1388
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2117
+  - 0.279
+  - 0.6883
+  - 0.7239
+  frame: 18
+  global_frame: 1389
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2137
+  - 0.3017
+  - 0.6864
+  - 0.7494
+  frame: 19
+  global_frame: 1390
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2165
+  - 0.3187
+  - 0.6954
+  - 0.7581
+  frame: 20
+  global_frame: 1391
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2242
+  - 0.3249
+  - 0.702
+  - 0.7566
+  frame: 21
+  global_frame: 1392
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2238
+  - 0.3255
+  - 0.6987
+  - 0.751
+  frame: 22
+  global_frame: 1393
+  prompt: the tortoise is walking
+- bbox_ratios:
+  - 0.2253
+  - 0.3217
+  - 0.6934
+  - 0.738
+  frame: 23
+  global_frame: 1394
+  prompt: the tortoise is walking
+motion_id: 99
+motion_iter: 0
+num_inference_steps: null
+object_name: tortoise
+seed: 4
+source_clip: QLROGVCR_1017_1432
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

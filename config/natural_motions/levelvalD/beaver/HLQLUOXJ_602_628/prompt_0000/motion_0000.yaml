@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1573
+  - 0.2053
+  - 0.4895
+  - 0.7035
+  frame: 0
+  global_frame: 605
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1472
+  - 0.1976
+  - 0.4736
+  - 0.6935
+  frame: 1
+  global_frame: 606
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1414
+  - 0.1995
+  - 0.457
+  - 0.6656
+  frame: 2
+  global_frame: 607
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1364
+  - 0.2017
+  - 0.4453
+  - 0.681
+  frame: 3
+  global_frame: 608
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1368
+  - 0.202
+  - 0.4454
+  - 0.6789
+  frame: 4
+  global_frame: 609
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1365
+  - 0.202
+  - 0.4452
+  - 0.6806
+  frame: 5
+  global_frame: 610
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1303
+  - 0.2087
+  - 0.4307
+  - 0.7099
+  frame: 6
+  global_frame: 611
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1174
+  - 0.2104
+  - 0.4238
+  - 0.7024
+  frame: 7
+  global_frame: 612
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1168
+  - 0.2012
+  - 0.4227
+  - 0.7045
+  frame: 8
+  global_frame: 613
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1161
+  - 0.192
+  - 0.4217
+  - 0.7067
+  frame: 9
+  global_frame: 614
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1155
+  - 0.1827
+  - 0.4206
+  - 0.7088
+  frame: 10
+  global_frame: 615
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1157
+  - 0.1827
+  - 0.4206
+  - 0.707
+  frame: 11
+  global_frame: 616
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1153
+  - 0.183
+  - 0.4137
+  - 0.7051
+  frame: 12
+  global_frame: 617
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1152
+  - 0.1884
+  - 0.4156
+  - 0.7085
+  frame: 13
+  global_frame: 618
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1151
+  - 0.1937
+  - 0.4175
+  - 0.7118
+  frame: 14
+  global_frame: 619
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1149
+  - 0.199
+  - 0.4194
+  - 0.7152
+  frame: 15
+  global_frame: 620
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1148
+  - 0.2044
+  - 0.4213
+  - 0.7185
+  frame: 16
+  global_frame: 621
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1146
+  - 0.2097
+  - 0.4232
+  - 0.7218
+  frame: 17
+  global_frame: 622
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1145
+  - 0.215
+  - 0.425
+  - 0.7252
+  frame: 18
+  global_frame: 623
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1144
+  - 0.2204
+  - 0.4269
+  - 0.7285
+  frame: 19
+  global_frame: 624
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1142
+  - 0.2257
+  - 0.4288
+  - 0.7319
+  frame: 20
+  global_frame: 625
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1179
+  - 0.2134
+  - 0.4271
+  - 0.7268
+  frame: 21
+  global_frame: 626
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1216
+  - 0.2011
+  - 0.4253
+  - 0.7217
+  frame: 22
+  global_frame: 627
+  prompt: the beaver is jumping
+- bbox_ratios:
+  - 0.1218
+  - 0.2012
+  - 0.4259
+  - 0.7218
+  frame: 23
+  global_frame: 628
+  prompt: the beaver is jumping
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: beaver
+seed: 4
+source_clip: HLQLUOXJ_602_628
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

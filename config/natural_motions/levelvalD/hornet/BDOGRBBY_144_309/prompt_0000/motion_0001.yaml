@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5009
+  - -0.0012
+  - 0.8909
+  - 0.9681
+  frame: 0
+  global_frame: 214
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4957
+  - -0.0014
+  - 0.8857
+  - 0.9692
+  frame: 1
+  global_frame: 215
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4905
+  - -0.0015
+  - 0.8804
+  - 0.9704
+  frame: 2
+  global_frame: 216
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4853
+  - -0.0016
+  - 0.8752
+  - 0.9716
+  frame: 3
+  global_frame: 217
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4801
+  - -0.0017
+  - 0.8699
+  - 0.9728
+  frame: 4
+  global_frame: 218
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4749
+  - -0.0018
+  - 0.8647
+  - 0.974
+  frame: 5
+  global_frame: 219
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4697
+  - -0.0019
+  - 0.8594
+  - 0.9751
+  frame: 6
+  global_frame: 220
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4645
+  - -0.0021
+  - 0.8542
+  - 0.9763
+  frame: 7
+  global_frame: 221
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4593
+  - -0.0022
+  - 0.8489
+  - 0.9775
+  frame: 8
+  global_frame: 222
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4541
+  - -0.0023
+  - 0.8437
+  - 0.9787
+  frame: 9
+  global_frame: 223
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4489
+  - -0.0024
+  - 0.8385
+  - 0.9799
+  frame: 10
+  global_frame: 224
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4437
+  - -0.0025
+  - 0.8332
+  - 0.981
+  frame: 11
+  global_frame: 225
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4385
+  - -0.0026
+  - 0.828
+  - 0.9822
+  frame: 12
+  global_frame: 226
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4333
+  - -0.0027
+  - 0.8227
+  - 0.9834
+  frame: 13
+  global_frame: 227
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4282
+  - -0.0029
+  - 0.8175
+  - 0.9846
+  frame: 14
+  global_frame: 228
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.423
+  - -0.003
+  - 0.8122
+  - 0.9858
+  frame: 15
+  global_frame: 229
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4148
+  - -0.005
+  - 0.809
+  - 0.9835
+  frame: 16
+  global_frame: 230
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4066
+  - -0.0069
+  - 0.8059
+  - 0.9813
+  frame: 17
+  global_frame: 231
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.3985
+  - -0.0089
+  - 0.8027
+  - 0.9791
+  frame: 18
+  global_frame: 232
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.3903
+  - -0.0109
+  - 0.7995
+  - 0.9768
+  frame: 19
+  global_frame: 233
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.3653
+  - -0.0069
+  - 0.8048
+  - 0.9874
+  frame: 20
+  global_frame: 234
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.3775
+  - -0.0028
+  - 0.7983
+  - 0.987
+  frame: 21
+  global_frame: 235
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.3898
+  - 0.0013
+  - 0.7919
+  - 0.9866
+  frame: 22
+  global_frame: 236
+  prompt: the giant hornet is flying
+- bbox_ratios:
+  - 0.4021
+  - 0.0054
+  - 0.7854
+  - 0.9862
+  frame: 23
+  global_frame: 237
+  prompt: the giant hornet is flying
+motion_id: 1
+motion_iter: 1
+num_inference_steps: null
+object_name: hornet
+seed: 4
+source_clip: BDOGRBBY_144_309
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

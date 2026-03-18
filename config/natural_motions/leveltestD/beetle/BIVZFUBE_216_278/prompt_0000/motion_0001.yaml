@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2123
+  - -0.003
+  - 0.9981
+  - 0.9174
+  frame: 0
+  global_frame: 220
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2219
+  - -0.003
+  - 0.998
+  - 0.9068
+  frame: 1
+  global_frame: 221
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2315
+  - -0.0031
+  - 0.9979
+  - 0.8963
+  frame: 2
+  global_frame: 222
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.241
+  - -0.0031
+  - 0.9978
+  - 0.8858
+  frame: 3
+  global_frame: 223
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2506
+  - -0.0032
+  - 0.9978
+  - 0.8753
+  frame: 4
+  global_frame: 224
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2601
+  - -0.0033
+  - 0.9977
+  - 0.8647
+  frame: 5
+  global_frame: 225
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2697
+  - -0.0033
+  - 0.9976
+  - 0.8542
+  frame: 6
+  global_frame: 226
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2793
+  - -0.0034
+  - 0.9975
+  - 0.8437
+  frame: 7
+  global_frame: 227
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2888
+  - -0.0034
+  - 0.9975
+  - 0.8332
+  frame: 8
+  global_frame: 228
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.2984
+  - -0.0035
+  - 0.9974
+  - 0.8226
+  frame: 9
+  global_frame: 229
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3079
+  - -0.0035
+  - 0.9973
+  - 0.8121
+  frame: 10
+  global_frame: 230
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3175
+  - -0.0036
+  - 0.9972
+  - 0.8016
+  frame: 11
+  global_frame: 231
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3271
+  - -0.0037
+  - 0.9971
+  - 0.791
+  frame: 12
+  global_frame: 232
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3366
+  - -0.0037
+  - 0.9971
+  - 0.7805
+  frame: 13
+  global_frame: 233
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3462
+  - -0.0038
+  - 0.997
+  - 0.77
+  frame: 14
+  global_frame: 234
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3557
+  - -0.0038
+  - 0.9969
+  - 0.7595
+  frame: 15
+  global_frame: 235
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3653
+  - -0.0039
+  - 0.9968
+  - 0.7489
+  frame: 16
+  global_frame: 236
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3749
+  - -0.0039
+  - 0.9968
+  - 0.7384
+  frame: 17
+  global_frame: 237
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.3844
+  - -0.004
+  - 0.9967
+  - 0.7279
+  frame: 18
+  global_frame: 238
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.394
+  - -0.0041
+  - 0.9966
+  - 0.7174
+  frame: 19
+  global_frame: 239
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.4035
+  - -0.0041
+  - 0.9965
+  - 0.7068
+  frame: 20
+  global_frame: 240
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.4131
+  - -0.0042
+  - 0.9964
+  - 0.6963
+  frame: 21
+  global_frame: 241
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.4227
+  - -0.0042
+  - 0.9964
+  - 0.6858
+  frame: 22
+  global_frame: 242
+  prompt: the beetle is moving
+- bbox_ratios:
+  - 0.4322
+  - -0.0043
+  - 0.9963
+  - 0.6752
+  frame: 23
+  global_frame: 243
+  prompt: the beetle is moving
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: beetle
+seed: 4
+source_clip: BIVZFUBE_216_278
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

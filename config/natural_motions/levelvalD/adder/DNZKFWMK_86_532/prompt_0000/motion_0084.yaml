@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.0027
+  - 0.2804
+  - 0.7602
+  - 0.7366
+  frame: 0
+  global_frame: 386
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2802
+  - 0.7608
+  - 0.737
+  frame: 1
+  global_frame: 387
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.28
+  - 0.7613
+  - 0.7373
+  frame: 2
+  global_frame: 388
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2797
+  - 0.7618
+  - 0.7376
+  frame: 3
+  global_frame: 389
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2795
+  - 0.7623
+  - 0.7379
+  frame: 4
+  global_frame: 390
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2793
+  - 0.7629
+  - 0.7383
+  frame: 5
+  global_frame: 391
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2791
+  - 0.7634
+  - 0.7386
+  frame: 6
+  global_frame: 392
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2789
+  - 0.7639
+  - 0.7389
+  frame: 7
+  global_frame: 393
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2787
+  - 0.7644
+  - 0.7392
+  frame: 8
+  global_frame: 394
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2785
+  - 0.765
+  - 0.7395
+  frame: 9
+  global_frame: 395
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2782
+  - 0.7655
+  - 0.7399
+  frame: 10
+  global_frame: 396
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.278
+  - 0.766
+  - 0.7402
+  frame: 11
+  global_frame: 397
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0027
+  - 0.2778
+  - 0.7665
+  - 0.7405
+  frame: 12
+  global_frame: 398
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0028
+  - 0.2776
+  - 0.7671
+  - 0.7408
+  frame: 13
+  global_frame: 399
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0019
+  - 0.2751
+  - 0.7612
+  - 0.7396
+  frame: 14
+  global_frame: 400
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0003
+  - 0.283
+  - 0.7623
+  - 0.7551
+  frame: 15
+  global_frame: 401
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0006
+  - 0.2809
+  - 0.7555
+  - 0.7544
+  frame: 16
+  global_frame: 402
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0006
+  - 0.2805
+  - 0.7553
+  - 0.7546
+  frame: 17
+  global_frame: 403
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0008
+  - 0.2665
+  - 0.7388
+  - 0.7562
+  frame: 18
+  global_frame: 404
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - 0.0006
+  - 0.2696
+  - 0.7387
+  - 0.7438
+  frame: 19
+  global_frame: 405
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0017
+  - 0.2722
+  - 0.7457
+  - 0.7408
+  frame: 20
+  global_frame: 406
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0003
+  - 0.2714
+  - 0.7434
+  - 0.7431
+  frame: 21
+  global_frame: 407
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0005
+  - 0.2698
+  - 0.7385
+  - 0.7583
+  frame: 22
+  global_frame: 408
+  prompt: the horned adder is moving
+- bbox_ratios:
+  - -0.0005
+  - 0.2703
+  - 0.7384
+  - 0.7572
+  frame: 23
+  global_frame: 409
+  prompt: the horned adder is moving
+motion_id: 84
+motion_iter: 0
+num_inference_steps: null
+object_name: adder
+seed: 4
+source_clip: DNZKFWMK_86_532
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

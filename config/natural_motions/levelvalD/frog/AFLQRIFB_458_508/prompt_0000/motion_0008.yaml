@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0954
+  - 0.2954
+  - 0.4519
+  - 0.9515
+  frame: 0
+  global_frame: 466
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.1032
+  - 0.2935
+  - 0.4741
+  - 0.9429
+  frame: 1
+  global_frame: 467
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.11
+  - 0.2938
+  - 0.4729
+  - 0.9404
+  frame: 2
+  global_frame: 468
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0661
+  - 0.288
+  - 0.4724
+  - 0.9369
+  frame: 3
+  global_frame: 469
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.05
+  - 0.2894
+  - 0.5763
+  - 0.94
+  frame: 4
+  global_frame: 470
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0475
+  - 0.2807
+  - 0.5141
+  - 0.9393
+  frame: 5
+  global_frame: 471
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0374
+  - 0.2728
+  - 0.4768
+  - 0.9439
+  frame: 6
+  global_frame: 472
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0415
+  - 0.262
+  - 0.581
+  - 0.9366
+  frame: 7
+  global_frame: 473
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.033
+  - 0.2477
+  - 0.4648
+  - 0.9205
+  frame: 8
+  global_frame: 474
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0163
+  - 0.2395
+  - 0.4189
+  - 0.9118
+  frame: 9
+  global_frame: 475
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0212
+  - 0.2293
+  - 0.6657
+  - 0.9572
+  frame: 10
+  global_frame: 476
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0416
+  - 0.2171
+  - 0.6753
+  - 0.9345
+  frame: 11
+  global_frame: 477
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0453
+  - 0.2182
+  - 0.6148
+  - 0.9398
+  frame: 12
+  global_frame: 478
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0403
+  - 0.2125
+  - 0.5697
+  - 0.937
+  frame: 13
+  global_frame: 479
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0416
+  - 0.2121
+  - 0.5647
+  - 0.9391
+  frame: 14
+  global_frame: 480
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0409
+  - 0.2109
+  - 0.6057
+  - 0.9384
+  frame: 15
+  global_frame: 481
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0493
+  - 0.2087
+  - 0.4677
+  - 0.9267
+  frame: 16
+  global_frame: 482
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0517
+  - 0.2117
+  - 0.4716
+  - 0.9251
+  frame: 17
+  global_frame: 483
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0516
+  - 0.2074
+  - 0.503
+  - 0.9269
+  frame: 18
+  global_frame: 484
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.047
+  - 0.2081
+  - 0.5997
+  - 0.9368
+  frame: 19
+  global_frame: 485
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0504
+  - 0.2036
+  - 0.5904
+  - 0.9316
+  frame: 20
+  global_frame: 486
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.0501
+  - 0.2061
+  - 0.6664
+  - 0.9288
+  frame: 21
+  global_frame: 487
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.058
+  - 0.2479
+  - 0.4905
+  - 0.9159
+  frame: 22
+  global_frame: 488
+  prompt: the blue poison dart frog is jumping
+- bbox_ratios:
+  - 0.063
+  - 0.2301
+  - 0.6901
+  - 0.9157
+  frame: 23
+  global_frame: 489
+  prompt: the blue poison dart frog is jumping
+motion_id: 8
+motion_iter: 0
+num_inference_steps: null
+object_name: frog
+seed: 4
+source_clip: AFLQRIFB_458_508
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

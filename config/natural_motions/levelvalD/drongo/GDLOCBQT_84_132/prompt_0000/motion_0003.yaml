@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4653
+  - 0.3491
+  - 0.6661
+  - 0.8372
+  frame: 0
+  global_frame: 107
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4598
+  - 0.3648
+  - 0.6636
+  - 0.8615
+  frame: 1
+  global_frame: 108
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4598
+  - 0.3648
+  - 0.6636
+  - 0.8616
+  frame: 2
+  global_frame: 109
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4671
+  - 0.3712
+  - 0.6499
+  - 0.8539
+  frame: 3
+  global_frame: 110
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4643
+  - 0.3814
+  - 0.6381
+  - 0.841
+  frame: 4
+  global_frame: 111
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4701
+  - 0.3709
+  - 0.6347
+  - 0.7879
+  frame: 5
+  global_frame: 112
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4625
+  - 0.3706
+  - 0.626
+  - 0.7701
+  frame: 6
+  global_frame: 113
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4569
+  - 0.3641
+  - 0.6524
+  - 0.7995
+  frame: 7
+  global_frame: 114
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4567
+  - 0.3638
+  - 0.6526
+  - 0.8001
+  frame: 8
+  global_frame: 115
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4474
+  - 0.2918
+  - 0.6537
+  - 0.8351
+  frame: 9
+  global_frame: 116
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4543
+  - 0.2765
+  - 0.6572
+  - 0.8118
+  frame: 10
+  global_frame: 117
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4612
+  - 0.2612
+  - 0.6607
+  - 0.7885
+  frame: 11
+  global_frame: 118
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4681
+  - 0.2459
+  - 0.6642
+  - 0.7651
+  frame: 12
+  global_frame: 119
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.475
+  - 0.2305
+  - 0.6677
+  - 0.7418
+  frame: 13
+  global_frame: 120
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4819
+  - 0.2152
+  - 0.6711
+  - 0.7184
+  frame: 14
+  global_frame: 121
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4889
+  - 0.1999
+  - 0.6746
+  - 0.6951
+  frame: 15
+  global_frame: 122
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4958
+  - 0.1846
+  - 0.6781
+  - 0.6717
+  frame: 16
+  global_frame: 123
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4708
+  - 0.1835
+  - 0.6841
+  - 0.7579
+  frame: 17
+  global_frame: 124
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4714
+  - 0.1846
+  - 0.6855
+  - 0.7479
+  frame: 18
+  global_frame: 125
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4633
+  - 0.1942
+  - 0.6887
+  - 0.7468
+  frame: 19
+  global_frame: 126
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4633
+  - 0.1943
+  - 0.6886
+  - 0.7468
+  frame: 20
+  global_frame: 127
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.4845
+  - 0.2028
+  - 0.6876
+  - 0.7475
+  frame: 21
+  global_frame: 128
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.5057
+  - 0.2112
+  - 0.6865
+  - 0.7483
+  frame: 22
+  global_frame: 129
+  prompt: the greater racket tail drongo is walking
+- bbox_ratios:
+  - 0.5069
+  - 0.2181
+  - 0.679
+  - 0.7435
+  frame: 23
+  global_frame: 130
+  prompt: the greater racket tail drongo is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: drongo
+seed: 4
+source_clip: GDLOCBQT_84_132
+token_inds:
+- 5
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4322
+  - 0.001
+  - 1.005
+  - 0.6695
+  frame: 0
+  global_frame: 52
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4297
+  - 0.0012
+  - 1.0048
+  - 0.6773
+  frame: 1
+  global_frame: 53
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4272
+  - 0.0015
+  - 1.0046
+  - 0.6852
+  frame: 2
+  global_frame: 54
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4246
+  - 0.0018
+  - 1.0043
+  - 0.693
+  frame: 3
+  global_frame: 55
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4221
+  - 0.0021
+  - 1.0041
+  - 0.7008
+  frame: 4
+  global_frame: 56
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4196
+  - 0.0024
+  - 1.0039
+  - 0.7087
+  frame: 5
+  global_frame: 57
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.417
+  - 0.0027
+  - 1.0037
+  - 0.7165
+  frame: 6
+  global_frame: 58
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4145
+  - 0.003
+  - 1.0035
+  - 0.7244
+  frame: 7
+  global_frame: 59
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.412
+  - 0.0033
+  - 1.0033
+  - 0.7322
+  frame: 8
+  global_frame: 60
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4095
+  - 0.0036
+  - 1.003
+  - 0.74
+  frame: 9
+  global_frame: 61
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4069
+  - 0.0038
+  - 1.0028
+  - 0.7479
+  frame: 10
+  global_frame: 62
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4044
+  - 0.0041
+  - 1.0026
+  - 0.7557
+  frame: 11
+  global_frame: 63
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.4019
+  - 0.0044
+  - 1.0024
+  - 0.7636
+  frame: 12
+  global_frame: 64
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3993
+  - 0.0047
+  - 1.0022
+  - 0.7714
+  frame: 13
+  global_frame: 65
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3968
+  - 0.005
+  - 1.002
+  - 0.7792
+  frame: 14
+  global_frame: 66
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3943
+  - 0.0053
+  - 1.0017
+  - 0.7871
+  frame: 15
+  global_frame: 67
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3918
+  - 0.0056
+  - 1.0015
+  - 0.7949
+  frame: 16
+  global_frame: 68
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3892
+  - 0.0059
+  - 1.0013
+  - 0.8028
+  frame: 17
+  global_frame: 69
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3867
+  - 0.0062
+  - 1.0011
+  - 0.8106
+  frame: 18
+  global_frame: 70
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3842
+  - 0.0065
+  - 1.0009
+  - 0.8184
+  frame: 19
+  global_frame: 71
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3817
+  - 0.0067
+  - 1.0006
+  - 0.8263
+  frame: 20
+  global_frame: 72
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3791
+  - 0.007
+  - 1.0004
+  - 0.8341
+  frame: 21
+  global_frame: 73
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3766
+  - 0.0073
+  - 1.0002
+  - 0.842
+  frame: 22
+  global_frame: 74
+  prompt: the darner damselfly is moving
+- bbox_ratios:
+  - 0.3741
+  - 0.0076
+  - 1.0
+  - 0.8498
+  frame: 23
+  global_frame: 75
+  prompt: the darner damselfly is moving
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: darner
+seed: 4
+source_clip: WPKSTRJS_38_98
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

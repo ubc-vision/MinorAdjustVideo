@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3664
+  - -0.0029
+  - 0.6672
+  - 0.9368
+  frame: 0
+  global_frame: 949
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3704
+  - 0.0022
+  - 0.6969
+  - 0.9389
+  frame: 1
+  global_frame: 950
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3745
+  - 0.0074
+  - 0.7266
+  - 0.9409
+  frame: 2
+  global_frame: 951
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3786
+  - 0.0125
+  - 0.7564
+  - 0.943
+  frame: 3
+  global_frame: 952
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3826
+  - 0.0176
+  - 0.7861
+  - 0.945
+  frame: 4
+  global_frame: 953
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3867
+  - 0.0228
+  - 0.8158
+  - 0.9471
+  frame: 5
+  global_frame: 954
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3907
+  - 0.0279
+  - 0.8455
+  - 0.9491
+  frame: 6
+  global_frame: 955
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3948
+  - 0.033
+  - 0.8753
+  - 0.9511
+  frame: 7
+  global_frame: 956
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.3988
+  - 0.0382
+  - 0.905
+  - 0.9532
+  frame: 8
+  global_frame: 957
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4029
+  - 0.0433
+  - 0.9347
+  - 0.9552
+  frame: 9
+  global_frame: 958
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.407
+  - 0.0484
+  - 0.9645
+  - 0.9573
+  frame: 10
+  global_frame: 959
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.411
+  - 0.0536
+  - 0.9942
+  - 0.9593
+  frame: 11
+  global_frame: 960
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4106
+  - 0.0535
+  - 0.9936
+  - 0.9597
+  frame: 12
+  global_frame: 961
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4183
+  - 0.0614
+  - 0.9589
+  - 0.9584
+  frame: 13
+  global_frame: 962
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.426
+  - 0.0694
+  - 0.9242
+  - 0.9571
+  frame: 14
+  global_frame: 963
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4337
+  - 0.0773
+  - 0.8895
+  - 0.9558
+  frame: 15
+  global_frame: 964
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4414
+  - 0.0852
+  - 0.8547
+  - 0.9545
+  frame: 16
+  global_frame: 965
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4491
+  - 0.0931
+  - 0.82
+  - 0.9533
+  frame: 17
+  global_frame: 966
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4569
+  - 0.1011
+  - 0.7853
+  - 0.952
+  frame: 18
+  global_frame: 967
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4646
+  - 0.109
+  - 0.7506
+  - 0.9507
+  frame: 19
+  global_frame: 968
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4723
+  - 0.1169
+  - 0.7159
+  - 0.9494
+  frame: 20
+  global_frame: 969
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.48
+  - 0.1249
+  - 0.6811
+  - 0.9481
+  frame: 21
+  global_frame: 970
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.4877
+  - 0.1328
+  - 0.6464
+  - 0.9468
+  frame: 22
+  global_frame: 971
+  prompt: the orca is swimming
+- bbox_ratios:
+  - 0.5001
+  - 0.1436
+  - 0.649
+  - 0.9567
+  frame: 23
+  global_frame: 972
+  prompt: the orca is swimming
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: orca
+seed: 4
+source_clip: CPITUPIF_938_972
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

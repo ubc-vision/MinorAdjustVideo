@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - -0.0078
+  - -0.0004
+  - 0.8876
+  - 0.9945
+  frame: 0
+  global_frame: 1244
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0023
+  - -0.0051
+  - 0.8881
+  - 0.988
+  frame: 1
+  global_frame: 1245
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.006
+  - 0.0003
+  - 0.878
+  - 0.7447
+  frame: 2
+  global_frame: 1246
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0094
+  - 0.0025
+  - 0.9102
+  - 0.9962
+  frame: 3
+  global_frame: 1247
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0022
+  - 0.0105
+  - 0.9593
+  - 0.797
+  frame: 4
+  global_frame: 1248
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0064
+  - -0.0047
+  - 0.9841
+  - 0.9559
+  frame: 5
+  global_frame: 1249
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.002
+  - 0.0036
+  - 1.0001
+  - 0.9987
+  frame: 6
+  global_frame: 1250
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0037
+  - 0.0062
+  - 0.9942
+  - 0.9972
+  frame: 7
+  global_frame: 1251
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0109
+  - -0.0006
+  - 1.0091
+  - 0.9919
+  frame: 8
+  global_frame: 1252
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0028
+  - 0.0052
+  - 1.0002
+  - 0.9982
+  frame: 9
+  global_frame: 1253
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0025
+  - -0.0068
+  - 0.9937
+  - 0.9883
+  frame: 10
+  global_frame: 1254
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0016
+  - 0.0026
+  - 0.9988
+  - 0.9906
+  frame: 11
+  global_frame: 1255
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0054
+  - -0.0055
+  - 1.0028
+  - 0.9744
+  frame: 12
+  global_frame: 1256
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0053
+  - 0.0286
+  - 1.0019
+  - 0.9665
+  frame: 13
+  global_frame: 1257
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0013
+  - 0.0123
+  - 0.9876
+  - 0.9957
+  frame: 14
+  global_frame: 1258
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0066
+  - 0.0026
+  - 0.99
+  - 0.9951
+  frame: 15
+  global_frame: 1259
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0028
+  - 0.0019
+  - 0.9858
+  - 0.9973
+  frame: 16
+  global_frame: 1260
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0007
+  - 0.0063
+  - 0.9846
+  - 1.002
+  frame: 17
+  global_frame: 1261
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.0022
+  - 0.0106
+  - 0.97
+  - 1.0074
+  frame: 18
+  global_frame: 1262
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - 0.004
+  - 0.0108
+  - 0.9732
+  - 0.9955
+  frame: 19
+  global_frame: 1263
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0028
+  - 0.0092
+  - 0.9709
+  - 1.0048
+  frame: 20
+  global_frame: 1264
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0021
+  - -0.0008
+  - 0.9929
+  - 0.995
+  frame: 21
+  global_frame: 1265
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0014
+  - -0.0021
+  - 0.9928
+  - 0.9939
+  frame: 22
+  global_frame: 1266
+  prompt: the gecarcinus lateralis crab is moving
+- bbox_ratios:
+  - -0.0024
+  - -0.001
+  - 0.9924
+  - 0.9954
+  frame: 23
+  global_frame: 1267
+  prompt: the gecarcinus lateralis crab is moving
+motion_id: 4
+motion_iter: 1
+num_inference_steps: null
+object_name: gecarcinus
+seed: 4
+source_clip: ROEZFXQD_1240_1293
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

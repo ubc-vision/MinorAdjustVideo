@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.245
+  - 0.3946
+  - 0.9942
+  - 0.7734
+  frame: 0
+  global_frame: 515
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2453
+  - 0.3916
+  - 0.9955
+  - 0.776
+  frame: 1
+  global_frame: 516
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2456
+  - 0.392
+  - 0.9955
+  - 0.7757
+  frame: 2
+  global_frame: 517
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2342
+  - 0.3914
+  - 0.9919
+  - 0.7733
+  frame: 3
+  global_frame: 518
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2288
+  - 0.3861
+  - 0.997
+  - 0.773
+  frame: 4
+  global_frame: 519
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2235
+  - 0.3809
+  - 1.0021
+  - 0.7727
+  frame: 5
+  global_frame: 520
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2154
+  - 0.3927
+  - 1.0005
+  - 0.7734
+  frame: 6
+  global_frame: 521
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.216
+  - 0.4018
+  - 0.9407
+  - 0.7705
+  frame: 7
+  global_frame: 522
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2132
+  - 0.4034
+  - 0.8939
+  - 0.769
+  frame: 8
+  global_frame: 523
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2104
+  - 0.3942
+  - 0.998
+  - 0.7738
+  frame: 9
+  global_frame: 524
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2094
+  - 0.3883
+  - 0.9996
+  - 0.772
+  frame: 10
+  global_frame: 525
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2095
+  - 0.3808
+  - 0.9995
+  - 0.7698
+  frame: 11
+  global_frame: 526
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2077
+  - 0.3691
+  - 1.0009
+  - 0.7699
+  frame: 12
+  global_frame: 527
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.2004
+  - 0.3752
+  - 0.9957
+  - 0.7622
+  frame: 13
+  global_frame: 528
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1915
+  - 0.3741
+  - 1.0041
+  - 0.763
+  frame: 14
+  global_frame: 529
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1857
+  - 0.3705
+  - 1.0047
+  - 0.7621
+  frame: 15
+  global_frame: 530
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1857
+  - 0.3706
+  - 1.0048
+  - 0.7624
+  frame: 16
+  global_frame: 531
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1801
+  - 0.3626
+  - 1.0021
+  - 0.7619
+  frame: 17
+  global_frame: 532
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1773
+  - 0.3688
+  - 1.0106
+  - 0.7577
+  frame: 18
+  global_frame: 533
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1689
+  - 0.3886
+  - 0.9979
+  - 0.76
+  frame: 19
+  global_frame: 534
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.171
+  - 0.3736
+  - 0.9986
+  - 0.7599
+  frame: 20
+  global_frame: 535
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1656
+  - 0.3597
+  - 1.0036
+  - 0.7545
+  frame: 21
+  global_frame: 536
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.172
+  - 0.3592
+  - 0.9994
+  - 0.7541
+  frame: 22
+  global_frame: 537
+  prompt: the stingray is swimming
+- bbox_ratios:
+  - 0.1691
+  - 0.3486
+  - 0.9992
+  - 0.7508
+  frame: 23
+  global_frame: 538
+  prompt: the stingray is swimming
+motion_id: 0
+motion_iter: 1
+num_inference_steps: null
+object_name: stingray
+seed: 4
+source_clip: HDYVCDWZ_412_624
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

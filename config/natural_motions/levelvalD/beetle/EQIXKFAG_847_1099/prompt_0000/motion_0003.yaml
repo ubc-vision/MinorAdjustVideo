@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3481
+  - 0.5952
+  - 0.6549
+  - 0.8579
+  frame: 0
+  global_frame: 865
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.3035
+  - 0.5929
+  - 0.6072
+  - 0.8569
+  frame: 1
+  global_frame: 866
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.2614
+  - 0.5958
+  - 0.5629
+  - 0.853
+  frame: 2
+  global_frame: 867
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.2237
+  - 0.5983
+  - 0.5344
+  - 0.8563
+  frame: 3
+  global_frame: 868
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1964
+  - 0.5878
+  - 0.4914
+  - 0.8468
+  frame: 4
+  global_frame: 869
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1744
+  - 0.5942
+  - 0.4805
+  - 0.8511
+  frame: 5
+  global_frame: 870
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1564
+  - 0.5948
+  - 0.4662
+  - 0.8674
+  frame: 6
+  global_frame: 871
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.159
+  - 0.6033
+  - 0.4689
+  - 0.8622
+  frame: 7
+  global_frame: 872
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1581
+  - 0.6038
+  - 0.4663
+  - 0.8622
+  frame: 8
+  global_frame: 873
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.157
+  - 0.6025
+  - 0.4708
+  - 0.8656
+  frame: 9
+  global_frame: 874
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1554
+  - 0.6008
+  - 0.4765
+  - 0.8633
+  frame: 10
+  global_frame: 875
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1549
+  - 0.5989
+  - 0.4718
+  - 0.8581
+  frame: 11
+  global_frame: 876
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1556
+  - 0.599
+  - 0.4676
+  - 0.862
+  frame: 12
+  global_frame: 877
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1544
+  - 0.601
+  - 0.4722
+  - 0.8661
+  frame: 13
+  global_frame: 878
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1571
+  - 0.5944
+  - 0.4714
+  - 0.8584
+  frame: 14
+  global_frame: 879
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1524
+  - 0.6006
+  - 0.4657
+  - 0.8697
+  frame: 15
+  global_frame: 880
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1523
+  - 0.5934
+  - 0.4697
+  - 0.8686
+  frame: 16
+  global_frame: 881
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1524
+  - 0.5947
+  - 0.4686
+  - 0.8676
+  frame: 17
+  global_frame: 882
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1525
+  - 0.5876
+  - 0.4706
+  - 0.8663
+  frame: 18
+  global_frame: 883
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1526
+  - 0.5856
+  - 0.4622
+  - 0.865
+  frame: 19
+  global_frame: 884
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1563
+  - 0.5865
+  - 0.4616
+  - 0.8631
+  frame: 20
+  global_frame: 885
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1549
+  - 0.5813
+  - 0.4701
+  - 0.8615
+  frame: 21
+  global_frame: 886
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1549
+  - 0.5642
+  - 0.4682
+  - 0.8544
+  frame: 22
+  global_frame: 887
+  prompt: the predaceous diving beetle is moving
+- bbox_ratios:
+  - 0.1582
+  - 0.574
+  - 0.4706
+  - 0.8503
+  frame: 23
+  global_frame: 888
+  prompt: the predaceous diving beetle is moving
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: beetle
+seed: 4
+source_clip: EQIXKFAG_847_1099
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

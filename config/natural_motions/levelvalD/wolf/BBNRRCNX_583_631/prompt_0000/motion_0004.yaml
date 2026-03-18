@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0009
+  - 0.0741
+  - 0.6861
+  - 1.0018
+  frame: 0
+  global_frame: 587
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0007
+  - 0.0734
+  - 0.6882
+  - 1.001
+  frame: 1
+  global_frame: 588
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0003
+  - 0.0668
+  - 0.6867
+  - 1.0015
+  frame: 2
+  global_frame: 589
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0042
+  - 0.0601
+  - 0.6908
+  - 0.9973
+  frame: 3
+  global_frame: 590
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0002
+  - 0.054
+  - 0.6847
+  - 0.9957
+  frame: 4
+  global_frame: 591
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0015
+  - 0.0593
+  - 0.6791
+  - 0.9976
+  frame: 5
+  global_frame: 592
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0041
+  - 0.0655
+  - 0.6823
+  - 1.0003
+  frame: 6
+  global_frame: 593
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0015
+  - 0.059
+  - 0.6817
+  - 1.0054
+  frame: 7
+  global_frame: 594
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0003
+  - 0.0496
+  - 0.6807
+  - 0.9945
+  frame: 8
+  global_frame: 595
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0023
+  - 0.0563
+  - 0.6743
+  - 1.0017
+  frame: 9
+  global_frame: 596
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.003
+  - 0.0479
+  - 0.6779
+  - 1.0024
+  frame: 10
+  global_frame: 597
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0075
+  - 0.0492
+  - 0.6786
+  - 1.0055
+  frame: 11
+  global_frame: 598
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0068
+  - 0.0427
+  - 0.6769
+  - 1.0068
+  frame: 12
+  global_frame: 599
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0013
+  - 0.0374
+  - 0.6813
+  - 1.0045
+  frame: 13
+  global_frame: 600
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0003
+  - 0.0311
+  - 0.6753
+  - 1.0042
+  frame: 14
+  global_frame: 601
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0052
+  - 0.0272
+  - 0.6741
+  - 1.0018
+  frame: 15
+  global_frame: 602
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0053
+  - 0.0214
+  - 0.671
+  - 1.0009
+  frame: 16
+  global_frame: 603
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0026
+  - 0.0191
+  - 0.668
+  - 1.0028
+  frame: 17
+  global_frame: 604
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0045
+  - 0.0107
+  - 0.6724
+  - 0.998
+  frame: 18
+  global_frame: 605
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0046
+  - 0.0194
+  - 0.6667
+  - 1.0022
+  frame: 19
+  global_frame: 606
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0046
+  - 0.0115
+  - 0.6665
+  - 1.0002
+  frame: 20
+  global_frame: 607
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0039
+  - 0.009
+  - 0.6564
+  - 0.9975
+  frame: 21
+  global_frame: 608
+  prompt: the wolf is walking
+- bbox_ratios:
+  - -0.0017
+  - 0.0061
+  - 0.6571
+  - 1.0016
+  frame: 22
+  global_frame: 609
+  prompt: the wolf is walking
+- bbox_ratios:
+  - 0.0022
+  - 0.0039
+  - 0.6605
+  - 0.9958
+  frame: 23
+  global_frame: 610
+  prompt: the wolf is walking
+motion_id: 4
+motion_iter: 1
+num_inference_steps: null
+object_name: wolf
+seed: 4
+source_clip: BBNRRCNX_583_631
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

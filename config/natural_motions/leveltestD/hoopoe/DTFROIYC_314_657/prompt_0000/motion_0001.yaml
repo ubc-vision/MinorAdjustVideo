@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3812
+  - 0.0153
+  - 0.6274
+  - 0.6931
+  frame: 0
+  global_frame: 425
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3892
+  - 0.002
+  - 0.6347
+  - 0.6902
+  frame: 1
+  global_frame: 426
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3813
+  - 0.0012
+  - 0.6521
+  - 0.9936
+  frame: 2
+  global_frame: 427
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3829
+  - 0.0014
+  - 0.6654
+  - 0.9951
+  frame: 3
+  global_frame: 428
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3973
+  - -0.0014
+  - 0.6713
+  - 0.6572
+  frame: 4
+  global_frame: 429
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.4017
+  - -0.0024
+  - 0.6822
+  - 0.6616
+  frame: 5
+  global_frame: 430
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3796
+  - -0.0019
+  - 0.6676
+  - 0.9922
+  frame: 6
+  global_frame: 431
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3809
+  - -0.0045
+  - 0.6555
+  - 0.9885
+  frame: 7
+  global_frame: 432
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3935
+  - 0.0016
+  - 0.6257
+  - 0.6114
+  frame: 8
+  global_frame: 433
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3587
+  - -0.0096
+  - 0.6247
+  - 0.9863
+  frame: 9
+  global_frame: 434
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3574
+  - 0.0083
+  - 0.6281
+  - 0.9322
+  frame: 10
+  global_frame: 435
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3561
+  - 0.0263
+  - 0.6314
+  - 0.8781
+  frame: 11
+  global_frame: 436
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3548
+  - 0.0442
+  - 0.6348
+  - 0.8239
+  frame: 12
+  global_frame: 437
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3535
+  - 0.0621
+  - 0.6381
+  - 0.7698
+  frame: 13
+  global_frame: 438
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3522
+  - 0.0801
+  - 0.6415
+  - 0.7156
+  frame: 14
+  global_frame: 439
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.3327
+  - 0.0708
+  - 0.6267
+  - 0.7399
+  frame: 15
+  global_frame: 440
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2816
+  - 0.0731
+  - 0.6561
+  - 0.7616
+  frame: 16
+  global_frame: 441
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2578
+  - 0.0819
+  - 0.6591
+  - 0.6764
+  frame: 17
+  global_frame: 442
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2649
+  - 0.085
+  - 0.6485
+  - 0.6155
+  frame: 18
+  global_frame: 443
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2349
+  - 0.0772
+  - 0.6365
+  - 0.6091
+  frame: 19
+  global_frame: 444
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2482
+  - 0.0715
+  - 0.6471
+  - 0.6152
+  frame: 20
+  global_frame: 445
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2615
+  - 0.0658
+  - 0.6578
+  - 0.6213
+  frame: 21
+  global_frame: 446
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2748
+  - 0.0601
+  - 0.6685
+  - 0.6274
+  frame: 22
+  global_frame: 447
+  prompt: the hoopoe is flying
+- bbox_ratios:
+  - 0.2881
+  - 0.0544
+  - 0.6791
+  - 0.6335
+  frame: 23
+  global_frame: 448
+  prompt: the hoopoe is flying
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: hoopoe
+seed: 4
+source_clip: DTFROIYC_314_657
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

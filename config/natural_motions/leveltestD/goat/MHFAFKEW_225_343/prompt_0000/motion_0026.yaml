@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1967
+  - 0.3081
+  - 0.3747
+  - 0.5551
+  frame: 0
+  global_frame: 251
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1962
+  - 0.3084
+  - 0.3719
+  - 0.5552
+  frame: 1
+  global_frame: 252
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1952
+  - 0.3093
+  - 0.3732
+  - 0.5539
+  frame: 2
+  global_frame: 253
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1944
+  - 0.308
+  - 0.3662
+  - 0.5572
+  frame: 3
+  global_frame: 254
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1943
+  - 0.3098
+  - 0.3656
+  - 0.5583
+  frame: 4
+  global_frame: 255
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1942
+  - 0.3115
+  - 0.3651
+  - 0.5595
+  frame: 5
+  global_frame: 256
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1942
+  - 0.3133
+  - 0.3645
+  - 0.5606
+  frame: 6
+  global_frame: 257
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1941
+  - 0.3151
+  - 0.3639
+  - 0.5617
+  frame: 7
+  global_frame: 258
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.194
+  - 0.3168
+  - 0.3633
+  - 0.5629
+  frame: 8
+  global_frame: 259
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1935
+  - 0.3178
+  - 0.3617
+  - 0.5649
+  frame: 9
+  global_frame: 260
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1932
+  - 0.3194
+  - 0.3622
+  - 0.5648
+  frame: 10
+  global_frame: 261
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1929
+  - 0.3211
+  - 0.3627
+  - 0.5647
+  frame: 11
+  global_frame: 262
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1926
+  - 0.3227
+  - 0.3632
+  - 0.5646
+  frame: 12
+  global_frame: 263
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1923
+  - 0.3243
+  - 0.3637
+  - 0.5645
+  frame: 13
+  global_frame: 264
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.192
+  - 0.3259
+  - 0.3642
+  - 0.5644
+  frame: 14
+  global_frame: 265
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1918
+  - 0.3276
+  - 0.3647
+  - 0.5643
+  frame: 15
+  global_frame: 266
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1915
+  - 0.3292
+  - 0.3652
+  - 0.5641
+  frame: 16
+  global_frame: 267
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1915
+  - 0.329
+  - 0.3656
+  - 0.5642
+  frame: 17
+  global_frame: 268
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1919
+  - 0.3297
+  - 0.3672
+  - 0.5653
+  frame: 18
+  global_frame: 269
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1922
+  - 0.3305
+  - 0.3687
+  - 0.5664
+  frame: 19
+  global_frame: 270
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1926
+  - 0.3312
+  - 0.3703
+  - 0.5675
+  frame: 20
+  global_frame: 271
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1929
+  - 0.332
+  - 0.3719
+  - 0.5686
+  frame: 21
+  global_frame: 272
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1933
+  - 0.3327
+  - 0.3735
+  - 0.5697
+  frame: 22
+  global_frame: 273
+  prompt: the goat is running
+- bbox_ratios:
+  - 0.1936
+  - 0.3334
+  - 0.3751
+  - 0.5708
+  frame: 23
+  global_frame: 274
+  prompt: the goat is running
+motion_id: 26
+motion_iter: 1
+num_inference_steps: null
+object_name: goat
+seed: 4
+source_clip: MHFAFKEW_225_343
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

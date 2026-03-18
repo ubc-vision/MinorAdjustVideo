@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.8599
+  - 0.3171
+  - 0.9986
+  - 0.9537
+  frame: 0
+  global_frame: 272
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8588
+  - 0.317
+  - 0.9985
+  - 0.955
+  frame: 1
+  global_frame: 273
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8588
+  - 0.3191
+  - 0.9987
+  - 0.9563
+  frame: 2
+  global_frame: 274
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8584
+  - 0.3205
+  - 0.9984
+  - 0.9539
+  frame: 3
+  global_frame: 275
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8592
+  - 0.3206
+  - 0.9988
+  - 0.955
+  frame: 4
+  global_frame: 276
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8593
+  - 0.3206
+  - 0.9988
+  - 0.955
+  frame: 5
+  global_frame: 277
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8595
+  - 0.3203
+  - 0.9988
+  - 0.9541
+  frame: 6
+  global_frame: 278
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8604
+  - 0.3192
+  - 0.9988
+  - 0.9535
+  frame: 7
+  global_frame: 279
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8587
+  - 0.3186
+  - 0.9989
+  - 0.9531
+  frame: 8
+  global_frame: 280
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8596
+  - 0.3192
+  - 0.999
+  - 0.9527
+  frame: 9
+  global_frame: 281
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8584
+  - 0.3205
+  - 0.9991
+  - 0.9527
+  frame: 10
+  global_frame: 282
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8583
+  - 0.3205
+  - 0.9991
+  - 0.9527
+  frame: 11
+  global_frame: 283
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8577
+  - 0.3181
+  - 0.9994
+  - 0.9496
+  frame: 12
+  global_frame: 284
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8559
+  - 0.317
+  - 0.9992
+  - 0.9508
+  frame: 13
+  global_frame: 285
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8547
+  - 0.3164
+  - 0.9988
+  - 0.9526
+  frame: 14
+  global_frame: 286
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8542
+  - 0.3156
+  - 0.9989
+  - 0.9526
+  frame: 15
+  global_frame: 287
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8546
+  - 0.3153
+  - 0.9991
+  - 0.9516
+  frame: 16
+  global_frame: 288
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8575
+  - 0.3165
+  - 0.9993
+  - 0.9488
+  frame: 17
+  global_frame: 289
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8548
+  - 0.3158
+  - 0.999
+  - 0.9505
+  frame: 18
+  global_frame: 290
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8546
+  - 0.3168
+  - 0.9988
+  - 0.953
+  frame: 19
+  global_frame: 291
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8552
+  - 0.3167
+  - 0.9989
+  - 0.9547
+  frame: 20
+  global_frame: 292
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.859
+  - 0.3131
+  - 0.9988
+  - 0.9482
+  frame: 21
+  global_frame: 293
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8596
+  - 0.3105
+  - 0.9989
+  - 0.9487
+  frame: 22
+  global_frame: 294
+  prompt: the grey langur is walking
+- bbox_ratios:
+  - 0.8597
+  - 0.3105
+  - 0.9989
+  - 0.9487
+  frame: 23
+  global_frame: 295
+  prompt: the grey langur is walking
+motion_id: 9
+motion_iter: 0
+num_inference_steps: null
+object_name: langur
+seed: 4
+source_clip: AXSMBNPL_196_300
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

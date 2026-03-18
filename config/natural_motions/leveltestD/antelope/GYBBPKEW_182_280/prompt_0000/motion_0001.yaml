@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.7912
+  - 0.0147
+  - 1.0008
+  - 0.4708
+  frame: 0
+  global_frame: 235
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7999
+  - 0.0128
+  - 1.0023
+  - 0.4878
+  frame: 1
+  global_frame: 236
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7875
+  - 0.0169
+  - 1.0008
+  - 0.4903
+  frame: 2
+  global_frame: 237
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7875
+  - 0.0167
+  - 1.0008
+  - 0.4902
+  frame: 3
+  global_frame: 238
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7803
+  - 0.0166
+  - 1.0005
+  - 0.4911
+  frame: 4
+  global_frame: 239
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7731
+  - 0.0166
+  - 1.0002
+  - 0.492
+  frame: 5
+  global_frame: 240
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.766
+  - 0.0166
+  - 0.9999
+  - 0.493
+  frame: 6
+  global_frame: 241
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7588
+  - 0.0165
+  - 0.9996
+  - 0.4939
+  frame: 7
+  global_frame: 242
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7516
+  - 0.0165
+  - 0.9993
+  - 0.4948
+  frame: 8
+  global_frame: 243
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7444
+  - 0.0164
+  - 0.999
+  - 0.4957
+  frame: 9
+  global_frame: 244
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7372
+  - 0.0164
+  - 0.9987
+  - 0.4966
+  frame: 10
+  global_frame: 245
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7301
+  - 0.0164
+  - 0.9984
+  - 0.4975
+  frame: 11
+  global_frame: 246
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7275
+  - 0.0185
+  - 0.9985
+  - 0.4981
+  frame: 12
+  global_frame: 247
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.725
+  - 0.0207
+  - 0.9986
+  - 0.4987
+  frame: 13
+  global_frame: 248
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7225
+  - 0.0229
+  - 0.9987
+  - 0.4993
+  frame: 14
+  global_frame: 249
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.72
+  - 0.025
+  - 0.9988
+  - 0.4999
+  frame: 15
+  global_frame: 250
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7175
+  - 0.0272
+  - 0.9988
+  - 0.5005
+  frame: 16
+  global_frame: 251
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7149
+  - 0.0294
+  - 0.9989
+  - 0.501
+  frame: 17
+  global_frame: 252
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7124
+  - 0.0315
+  - 0.999
+  - 0.5016
+  frame: 18
+  global_frame: 253
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7099
+  - 0.0337
+  - 0.9991
+  - 0.5022
+  frame: 19
+  global_frame: 254
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7074
+  - 0.0359
+  - 0.9992
+  - 0.5028
+  frame: 20
+  global_frame: 255
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7049
+  - 0.038
+  - 0.9992
+  - 0.5034
+  frame: 21
+  global_frame: 256
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.7023
+  - 0.0402
+  - 0.9993
+  - 0.504
+  frame: 22
+  global_frame: 257
+  prompt: the antelope is walking
+- bbox_ratios:
+  - 0.6998
+  - 0.0424
+  - 0.9994
+  - 0.5046
+  frame: 23
+  global_frame: 258
+  prompt: the antelope is walking
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: antelope
+seed: 4
+source_clip: GYBBPKEW_182_280
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

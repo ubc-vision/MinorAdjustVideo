@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3924
+  - 0.233
+  - 0.8563
+  - 1.0
+  frame: 0
+  global_frame: 1524
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3925
+  - 0.2344
+  - 0.8562
+  - 1.0006
+  frame: 1
+  global_frame: 1525
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3926
+  - 0.2343
+  - 0.8561
+  - 1.0008
+  frame: 2
+  global_frame: 1526
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3932
+  - 0.2311
+  - 0.8558
+  - 1.0004
+  frame: 3
+  global_frame: 1527
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3933
+  - 0.2298
+  - 0.8558
+  - 1.0002
+  frame: 4
+  global_frame: 1528
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3958
+  - 0.2304
+  - 0.8566
+  - 0.9987
+  frame: 5
+  global_frame: 1529
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3948
+  - 0.2285
+  - 0.8598
+  - 1.0008
+  frame: 6
+  global_frame: 1530
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3907
+  - 0.2268
+  - 0.8603
+  - 1.0016
+  frame: 7
+  global_frame: 1531
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3957
+  - 0.23
+  - 0.8565
+  - 0.9973
+  frame: 8
+  global_frame: 1532
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3978
+  - 0.2291
+  - 0.8571
+  - 0.9978
+  frame: 9
+  global_frame: 1533
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.4011
+  - 0.2307
+  - 0.8579
+  - 0.9975
+  frame: 10
+  global_frame: 1534
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3995
+  - 0.2291
+  - 0.8579
+  - 0.9978
+  frame: 11
+  global_frame: 1535
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.4014
+  - 0.217
+  - 0.8578
+  - 0.9974
+  frame: 12
+  global_frame: 1536
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.4018
+  - 0.2166
+  - 0.8577
+  - 0.9976
+  frame: 13
+  global_frame: 1537
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.4043
+  - 0.2153
+  - 0.8569
+  - 0.9986
+  frame: 14
+  global_frame: 1538
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.4077
+  - 0.2322
+  - 0.8563
+  - 0.9986
+  frame: 15
+  global_frame: 1539
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3993
+  - 0.2328
+  - 0.8562
+  - 0.9992
+  frame: 16
+  global_frame: 1540
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3967
+  - 0.2408
+  - 0.8573
+  - 0.9988
+  frame: 17
+  global_frame: 1541
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3887
+  - 0.0093
+  - 0.8583
+  - 0.9962
+  frame: 18
+  global_frame: 1542
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3886
+  - 0.0093
+  - 0.8582
+  - 0.9962
+  frame: 19
+  global_frame: 1543
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3929
+  - 0.125
+  - 0.8623
+  - 0.9985
+  frame: 20
+  global_frame: 1544
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3938
+  - 0.0064
+  - 0.8594
+  - 0.999
+  frame: 21
+  global_frame: 1545
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3904
+  - 0.0082
+  - 0.8609
+  - 0.9991
+  frame: 22
+  global_frame: 1546
+  prompt: the sambar deer is exploring
+- bbox_ratios:
+  - 0.3841
+  - 0.0085
+  - 0.862
+  - 1.0009
+  frame: 23
+  global_frame: 1547
+  prompt: the sambar deer is exploring
+motion_id: 264
+motion_iter: 2
+num_inference_steps: null
+object_name: deer
+seed: 4
+source_clip: ESXRCFJG_1039_1610
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

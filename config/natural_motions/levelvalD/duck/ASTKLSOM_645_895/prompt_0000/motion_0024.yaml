@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0265
+  - 0.2314
+  - 0.9709
+  - 0.9161
+  frame: 0
+  global_frame: 694
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0279
+  - 0.2647
+  - 0.9918
+  - 0.9285
+  frame: 1
+  global_frame: 695
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0377
+  - 0.2806
+  - 0.9942
+  - 0.925
+  frame: 2
+  global_frame: 696
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0399
+  - 0.3332
+  - 0.9945
+  - 0.947
+  frame: 3
+  global_frame: 697
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0506
+  - 0.3461
+  - 1.0029
+  - 0.9439
+  frame: 4
+  global_frame: 698
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0615
+  - 0.3773
+  - 0.9948
+  - 0.9414
+  frame: 5
+  global_frame: 699
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0316
+  - 0.3724
+  - 1.0024
+  - 0.9298
+  frame: 6
+  global_frame: 700
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0678
+  - 0.3919
+  - 1.0105
+  - 0.9161
+  frame: 7
+  global_frame: 701
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0728
+  - 0.3928
+  - 1.0017
+  - 0.9359
+  frame: 8
+  global_frame: 702
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.075
+  - 0.4057
+  - 0.9971
+  - 0.9322
+  frame: 9
+  global_frame: 703
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0892
+  - 0.4165
+  - 0.9961
+  - 0.94
+  frame: 10
+  global_frame: 704
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0881
+  - 0.4239
+  - 0.9916
+  - 0.9324
+  frame: 11
+  global_frame: 705
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1002
+  - 0.428
+  - 0.9962
+  - 0.9181
+  frame: 12
+  global_frame: 706
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0862
+  - 0.4269
+  - 0.9918
+  - 0.9132
+  frame: 13
+  global_frame: 707
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.0939
+  - 0.4397
+  - 0.9948
+  - 0.9309
+  frame: 14
+  global_frame: 708
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1225
+  - 0.4352
+  - 0.9903
+  - 0.9331
+  frame: 15
+  global_frame: 709
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1189
+  - 0.4346
+  - 0.9906
+  - 0.9407
+  frame: 16
+  global_frame: 710
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1142
+  - 0.433
+  - 0.9916
+  - 0.9429
+  frame: 17
+  global_frame: 711
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1083
+  - 0.4314
+  - 0.9841
+  - 0.9432
+  frame: 18
+  global_frame: 712
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1306
+  - 0.4225
+  - 0.9932
+  - 0.9604
+  frame: 19
+  global_frame: 713
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1344
+  - 0.4092
+  - 0.989
+  - 0.965
+  frame: 20
+  global_frame: 714
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1392
+  - 0.3966
+  - 0.9801
+  - 0.9687
+  frame: 21
+  global_frame: 715
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1367
+  - 0.3909
+  - 0.9773
+  - 0.9618
+  frame: 22
+  global_frame: 716
+  prompt: the mallard duck is swimming
+- bbox_ratios:
+  - 0.1268
+  - 0.3819
+  - 0.9727
+  - 0.9792
+  frame: 23
+  global_frame: 717
+  prompt: the mallard duck is swimming
+motion_id: 24
+motion_iter: 2
+num_inference_steps: null
+object_name: duck
+seed: 4
+source_clip: ASTKLSOM_645_895
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

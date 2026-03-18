@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3655
+  - 0.0637
+  - 0.7492
+  - 0.8875
+  frame: 0
+  global_frame: 337
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.3437
+  - 0.06
+  - 0.751
+  - 0.8953
+  frame: 1
+  global_frame: 338
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.3281
+  - 0.0578
+  - 0.7608
+  - 0.8953
+  frame: 2
+  global_frame: 339
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.3164
+  - 0.0455
+  - 0.7695
+  - 0.8948
+  frame: 3
+  global_frame: 340
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2943
+  - 0.0435
+  - 0.7854
+  - 0.9048
+  frame: 4
+  global_frame: 341
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.287
+  - 0.0365
+  - 0.7896
+  - 0.8985
+  frame: 5
+  global_frame: 342
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2867
+  - 0.0366
+  - 0.7893
+  - 0.8997
+  frame: 6
+  global_frame: 343
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2745
+  - 0.0595
+  - 0.7963
+  - 0.9048
+  frame: 7
+  global_frame: 344
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2632
+  - 0.0618
+  - 0.8009
+  - 0.8823
+  frame: 8
+  global_frame: 345
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2498
+  - 0.0838
+  - 0.8137
+  - 0.8663
+  frame: 9
+  global_frame: 346
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2339
+  - 0.0958
+  - 0.819
+  - 0.861
+  frame: 10
+  global_frame: 347
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2245
+  - 0.0902
+  - 0.8057
+  - 0.8594
+  frame: 11
+  global_frame: 348
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2242
+  - 0.0901
+  - 0.8058
+  - 0.8678
+  frame: 12
+  global_frame: 349
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2208
+  - 0.1052
+  - 0.8107
+  - 0.8614
+  frame: 13
+  global_frame: 350
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.2006
+  - 0.0956
+  - 0.8012
+  - 0.8422
+  frame: 14
+  global_frame: 351
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1813
+  - 0.094
+  - 0.7881
+  - 0.8418
+  frame: 15
+  global_frame: 352
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1754
+  - 0.0942
+  - 0.7987
+  - 0.8435
+  frame: 16
+  global_frame: 353
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1701
+  - 0.0802
+  - 0.8039
+  - 0.8943
+  frame: 17
+  global_frame: 354
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1703
+  - 0.0805
+  - 0.8037
+  - 0.894
+  frame: 18
+  global_frame: 355
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1494
+  - 0.0789
+  - 0.8207
+  - 0.8954
+  frame: 19
+  global_frame: 356
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1386
+  - 0.0715
+  - 0.8308
+  - 0.8988
+  frame: 20
+  global_frame: 357
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1272
+  - 0.0665
+  - 0.8343
+  - 0.8488
+  frame: 21
+  global_frame: 358
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1207
+  - 0.0721
+  - 0.8524
+  - 0.8672
+  frame: 22
+  global_frame: 359
+  prompt: the zebra is walking
+- bbox_ratios:
+  - 0.1186
+  - 0.0732
+  - 0.8746
+  - 0.8841
+  frame: 23
+  global_frame: 360
+  prompt: the zebra is walking
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: zebra
+seed: 4
+source_clip: GFYRGXDO_271_364
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

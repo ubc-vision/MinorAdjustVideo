@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.5196
+  - 0.4753
+  - 0.8631
+  - 0.7349
+  frame: 0
+  global_frame: 390
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5196
+  - 0.4752
+  - 0.8643
+  - 0.7354
+  frame: 1
+  global_frame: 391
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5255
+  - 0.4635
+  - 0.8712
+  - 0.7453
+  frame: 2
+  global_frame: 392
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5236
+  - 0.4549
+  - 0.861
+  - 0.7342
+  frame: 3
+  global_frame: 393
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5269
+  - 0.4448
+  - 0.8757
+  - 0.7378
+  frame: 4
+  global_frame: 394
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5275
+  - 0.4323
+  - 0.8729
+  - 0.7261
+  frame: 5
+  global_frame: 395
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5274
+  - 0.4322
+  - 0.8723
+  - 0.7262
+  frame: 6
+  global_frame: 396
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5304
+  - 0.4343
+  - 0.8694
+  - 0.7146
+  frame: 7
+  global_frame: 397
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5312
+  - 0.4232
+  - 0.8602
+  - 0.7125
+  frame: 8
+  global_frame: 398
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5332
+  - 0.4218
+  - 0.8545
+  - 0.7063
+  frame: 9
+  global_frame: 399
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5342
+  - 0.4132
+  - 0.8742
+  - 0.7005
+  frame: 10
+  global_frame: 400
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5342
+  - 0.4132
+  - 0.8743
+  - 0.7006
+  frame: 11
+  global_frame: 401
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5335
+  - 0.4145
+  - 0.8868
+  - 0.7043
+  frame: 12
+  global_frame: 402
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.545
+  - 0.4099
+  - 0.8831
+  - 0.7102
+  frame: 13
+  global_frame: 403
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5501
+  - 0.4075
+  - 0.8962
+  - 0.7083
+  frame: 14
+  global_frame: 404
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5497
+  - 0.4083
+  - 0.9094
+  - 0.7074
+  frame: 15
+  global_frame: 405
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5497
+  - 0.4083
+  - 0.9093
+  - 0.7074
+  frame: 16
+  global_frame: 406
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5548
+  - 0.4021
+  - 0.9003
+  - 0.6974
+  frame: 17
+  global_frame: 407
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.559
+  - 0.3947
+  - 0.911
+  - 0.697
+  frame: 18
+  global_frame: 408
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5571
+  - 0.3884
+  - 0.902
+  - 0.6986
+  frame: 19
+  global_frame: 409
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5552
+  - 0.3862
+  - 0.902
+  - 0.6923
+  frame: 20
+  global_frame: 410
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5552
+  - 0.3862
+  - 0.9017
+  - 0.6924
+  frame: 21
+  global_frame: 411
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5542
+  - 0.3846
+  - 0.8998
+  - 0.6902
+  frame: 22
+  global_frame: 412
+  prompt: the leopard is walking
+- bbox_ratios:
+  - 0.5568
+  - 0.3835
+  - 0.8973
+  - 0.6859
+  frame: 23
+  global_frame: 413
+  prompt: the leopard is walking
+motion_id: 16
+motion_iter: 2
+num_inference_steps: null
+object_name: leopard
+seed: 4
+source_clip: BKMFEUDX_324_657
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

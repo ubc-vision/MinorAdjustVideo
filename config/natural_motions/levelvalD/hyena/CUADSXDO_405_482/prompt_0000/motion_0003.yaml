@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3467
+  - 0.7157
+  - 0.4587
+  - 0.8763
+  frame: 0
+  global_frame: 439
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3515
+  - 0.6958
+  - 0.4577
+  - 0.8659
+  frame: 1
+  global_frame: 440
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3562
+  - 0.676
+  - 0.4567
+  - 0.8555
+  frame: 2
+  global_frame: 441
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3597
+  - 0.625
+  - 0.4806
+  - 0.8364
+  frame: 3
+  global_frame: 442
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3632
+  - 0.574
+  - 0.5045
+  - 0.8174
+  frame: 4
+  global_frame: 443
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3602
+  - 0.5555
+  - 0.4981
+  - 0.7958
+  frame: 5
+  global_frame: 444
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3644
+  - 0.537
+  - 0.4968
+  - 0.7788
+  frame: 6
+  global_frame: 445
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3687
+  - 0.5184
+  - 0.4955
+  - 0.7617
+  frame: 7
+  global_frame: 446
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3729
+  - 0.4998
+  - 0.4943
+  - 0.7447
+  frame: 8
+  global_frame: 447
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3772
+  - 0.4813
+  - 0.493
+  - 0.7276
+  frame: 9
+  global_frame: 448
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3814
+  - 0.4627
+  - 0.4917
+  - 0.7106
+  frame: 10
+  global_frame: 449
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3858
+  - 0.4788
+  - 0.501
+  - 0.7091
+  frame: 11
+  global_frame: 450
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3902
+  - 0.4949
+  - 0.5103
+  - 0.7076
+  frame: 12
+  global_frame: 451
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3945
+  - 0.511
+  - 0.5196
+  - 0.7062
+  frame: 13
+  global_frame: 452
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.3989
+  - 0.5271
+  - 0.5289
+  - 0.7047
+  frame: 14
+  global_frame: 453
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4033
+  - 0.5432
+  - 0.5382
+  - 0.7033
+  frame: 15
+  global_frame: 454
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4076
+  - 0.5593
+  - 0.5475
+  - 0.7018
+  frame: 16
+  global_frame: 455
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4129
+  - 0.562
+  - 0.5545
+  - 0.7093
+  frame: 17
+  global_frame: 456
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4167
+  - 0.5364
+  - 0.559
+  - 0.7229
+  frame: 18
+  global_frame: 457
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4233
+  - 0.5413
+  - 0.5649
+  - 0.7311
+  frame: 19
+  global_frame: 458
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4299
+  - 0.5462
+  - 0.5709
+  - 0.7394
+  frame: 20
+  global_frame: 459
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4365
+  - 0.5511
+  - 0.5768
+  - 0.7476
+  frame: 21
+  global_frame: 460
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4431
+  - 0.556
+  - 0.5828
+  - 0.7559
+  frame: 22
+  global_frame: 461
+  prompt: the hyena is running
+- bbox_ratios:
+  - 0.4498
+  - 0.5609
+  - 0.5887
+  - 0.7641
+  frame: 23
+  global_frame: 462
+  prompt: the hyena is running
+motion_id: 3
+motion_iter: 2
+num_inference_steps: null
+object_name: hyena
+seed: 4
+source_clip: CUADSXDO_405_482
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

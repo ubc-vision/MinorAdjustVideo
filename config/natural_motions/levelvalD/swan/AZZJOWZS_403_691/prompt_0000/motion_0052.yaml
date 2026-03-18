@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3905
+  - 0.6185
+  - 0.5215
+  - 0.7242
+  frame: 0
+  global_frame: 462
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3848
+  - 0.6174
+  - 0.5157
+  - 0.7226
+  frame: 1
+  global_frame: 463
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3791
+  - 0.6162
+  - 0.5098
+  - 0.7211
+  frame: 2
+  global_frame: 464
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3735
+  - 0.6151
+  - 0.504
+  - 0.7196
+  frame: 3
+  global_frame: 465
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3678
+  - 0.6139
+  - 0.4982
+  - 0.7181
+  frame: 4
+  global_frame: 466
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3621
+  - 0.6127
+  - 0.4923
+  - 0.7166
+  frame: 5
+  global_frame: 467
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3564
+  - 0.6116
+  - 0.4865
+  - 0.715
+  frame: 6
+  global_frame: 468
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3507
+  - 0.6104
+  - 0.4806
+  - 0.7135
+  frame: 7
+  global_frame: 469
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.345
+  - 0.6092
+  - 0.4748
+  - 0.712
+  frame: 8
+  global_frame: 470
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3393
+  - 0.6081
+  - 0.4689
+  - 0.7105
+  frame: 9
+  global_frame: 471
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3336
+  - 0.6069
+  - 0.4631
+  - 0.709
+  frame: 10
+  global_frame: 472
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3279
+  - 0.6058
+  - 0.4573
+  - 0.7074
+  frame: 11
+  global_frame: 473
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3222
+  - 0.6046
+  - 0.4514
+  - 0.7059
+  frame: 12
+  global_frame: 474
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3165
+  - 0.6034
+  - 0.4456
+  - 0.7044
+  frame: 13
+  global_frame: 475
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3108
+  - 0.6023
+  - 0.4397
+  - 0.7029
+  frame: 14
+  global_frame: 476
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.3051
+  - 0.6011
+  - 0.4339
+  - 0.7014
+  frame: 15
+  global_frame: 477
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2994
+  - 0.6
+  - 0.4281
+  - 0.6998
+  frame: 16
+  global_frame: 478
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2937
+  - 0.5988
+  - 0.4222
+  - 0.6983
+  frame: 17
+  global_frame: 479
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.288
+  - 0.5976
+  - 0.4164
+  - 0.6968
+  frame: 18
+  global_frame: 480
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2823
+  - 0.5965
+  - 0.4105
+  - 0.6953
+  frame: 19
+  global_frame: 481
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2766
+  - 0.5953
+  - 0.4047
+  - 0.6938
+  frame: 20
+  global_frame: 482
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2709
+  - 0.5941
+  - 0.3989
+  - 0.6922
+  frame: 21
+  global_frame: 483
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2652
+  - 0.593
+  - 0.393
+  - 0.6907
+  frame: 22
+  global_frame: 484
+  prompt: the swan is exploring
+- bbox_ratios:
+  - 0.2595
+  - 0.5918
+  - 0.3872
+  - 0.6892
+  frame: 23
+  global_frame: 485
+  prompt: the swan is exploring
+motion_id: 52
+motion_iter: 1
+num_inference_steps: null
+object_name: swan
+seed: 4
+source_clip: AZZJOWZS_403_691
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

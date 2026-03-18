@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4459
+  - 0.2344
+  - 0.8099
+  - 0.7415
+  frame: 0
+  global_frame: 414
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4461
+  - 0.2346
+  - 0.8098
+  - 0.7419
+  frame: 1
+  global_frame: 415
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4459
+  - 0.2339
+  - 0.8095
+  - 0.7407
+  frame: 2
+  global_frame: 416
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4468
+  - 0.2347
+  - 0.8101
+  - 0.741
+  frame: 3
+  global_frame: 417
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4472
+  - 0.234
+  - 0.8103
+  - 0.7396
+  frame: 4
+  global_frame: 418
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4471
+  - 0.2337
+  - 0.8099
+  - 0.7401
+  frame: 5
+  global_frame: 419
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4474
+  - 0.2339
+  - 0.8097
+  - 0.7402
+  frame: 6
+  global_frame: 420
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4473
+  - 0.2336
+  - 0.8096
+  - 0.7403
+  frame: 7
+  global_frame: 421
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4473
+  - 0.2336
+  - 0.81
+  - 0.7407
+  frame: 8
+  global_frame: 422
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4478
+  - 0.234
+  - 0.81
+  - 0.7402
+  frame: 9
+  global_frame: 423
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4479
+  - 0.2342
+  - 0.8098
+  - 0.742
+  frame: 10
+  global_frame: 424
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4477
+  - 0.2343
+  - 0.8096
+  - 0.743
+  frame: 11
+  global_frame: 425
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4483
+  - 0.234
+  - 0.8098
+  - 0.7432
+  frame: 12
+  global_frame: 426
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4486
+  - 0.2345
+  - 0.81
+  - 0.7436
+  frame: 13
+  global_frame: 427
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4486
+  - 0.2339
+  - 0.8102
+  - 0.7437
+  frame: 14
+  global_frame: 428
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4484
+  - 0.2341
+  - 0.8098
+  - 0.7438
+  frame: 15
+  global_frame: 429
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4485
+  - 0.2337
+  - 0.8101
+  - 0.7434
+  frame: 16
+  global_frame: 430
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4486
+  - 0.2336
+  - 0.8099
+  - 0.743
+  frame: 17
+  global_frame: 431
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.447
+  - 0.2338
+  - 0.8099
+  - 0.7422
+  frame: 18
+  global_frame: 432
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.447
+  - 0.2338
+  - 0.8099
+  - 0.7417
+  frame: 19
+  global_frame: 433
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4467
+  - 0.2337
+  - 0.8098
+  - 0.7431
+  frame: 20
+  global_frame: 434
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.447
+  - 0.2336
+  - 0.8101
+  - 0.7409
+  frame: 21
+  global_frame: 435
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4471
+  - 0.234
+  - 0.8098
+  - 0.7403
+  frame: 22
+  global_frame: 436
+  prompt: the frog is moving
+- bbox_ratios:
+  - 0.4476
+  - 0.234
+  - 0.8099
+  - 0.7406
+  frame: 23
+  global_frame: 437
+  prompt: the frog is moving
+motion_id: 8
+motion_iter: 1
+num_inference_steps: null
+object_name: frog
+seed: 4
+source_clip: ACUJCVCV_403_468
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

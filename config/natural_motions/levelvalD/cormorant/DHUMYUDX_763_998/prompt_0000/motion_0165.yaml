@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0002
+  - 0.1753
+  - 0.4696
+  - 1.004
+  frame: 0
+  global_frame: 941
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0008
+  - 0.1745
+  - 0.4693
+  - 1.0038
+  frame: 1
+  global_frame: 942
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0018
+  - 0.1737
+  - 0.4689
+  - 1.0036
+  frame: 2
+  global_frame: 943
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0004
+  - 0.1686
+  - 0.4725
+  - 1.0058
+  frame: 3
+  global_frame: 944
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0013
+  - 0.165
+  - 0.4712
+  - 1.0032
+  frame: 4
+  global_frame: 945
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0023
+  - 0.1614
+  - 0.47
+  - 1.0007
+  frame: 5
+  global_frame: 946
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0032
+  - 0.1578
+  - 0.4687
+  - 0.9981
+  frame: 6
+  global_frame: 947
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0031
+  - 0.1563
+  - 0.4694
+  - 1.0009
+  frame: 7
+  global_frame: 948
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0011
+  - 0.1667
+  - 0.4673
+  - 1.0085
+  frame: 8
+  global_frame: 949
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0014
+  - 0.1652
+  - 0.4723
+  - 1.0066
+  frame: 9
+  global_frame: 950
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0013
+  - 0.1649
+  - 0.4727
+  - 1.0066
+  frame: 10
+  global_frame: 951
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0005
+  - 0.1625
+  - 0.4693
+  - 1.0062
+  frame: 11
+  global_frame: 952
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0
+  - 0.1599
+  - 0.4733
+  - 1.002
+  frame: 12
+  global_frame: 953
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0004
+  - 0.1572
+  - 0.4773
+  - 0.9978
+  frame: 13
+  global_frame: 954
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0011
+  - 0.1593
+  - 0.481
+  - 0.9984
+  frame: 14
+  global_frame: 955
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0011
+  - 0.1585
+  - 0.4817
+  - 0.9981
+  frame: 15
+  global_frame: 956
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0006
+  - 0.1621
+  - 0.4795
+  - 1.0034
+  frame: 16
+  global_frame: 957
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - -0.0008
+  - 0.1632
+  - 0.4812
+  - 1.0002
+  frame: 17
+  global_frame: 958
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0
+  - 0.1614
+  - 0.4933
+  - 1.0012
+  frame: 18
+  global_frame: 959
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0146
+  - 0.1592
+  - 0.4974
+  - 1.0012
+  frame: 19
+  global_frame: 960
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0292
+  - 0.157
+  - 0.5014
+  - 1.0011
+  frame: 20
+  global_frame: 961
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0437
+  - 0.1548
+  - 0.5055
+  - 1.0011
+  frame: 21
+  global_frame: 962
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0583
+  - 0.1526
+  - 0.5095
+  - 1.001
+  frame: 22
+  global_frame: 963
+  prompt: the socotra cormorant is walking
+- bbox_ratios:
+  - 0.0728
+  - 0.1504
+  - 0.5136
+  - 1.001
+  frame: 23
+  global_frame: 964
+  prompt: the socotra cormorant is walking
+motion_id: 165
+motion_iter: 1
+num_inference_steps: null
+object_name: cormorant
+seed: 4
+source_clip: DHUMYUDX_763_998
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

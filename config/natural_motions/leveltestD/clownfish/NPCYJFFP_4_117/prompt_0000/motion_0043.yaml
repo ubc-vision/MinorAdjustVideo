@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2517
+  - 0.2144
+  - 0.3462
+  - 0.3377
+  frame: 0
+  global_frame: 47
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2542
+  - 0.2139
+  - 0.3565
+  - 0.3386
+  frame: 1
+  global_frame: 48
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2523
+  - 0.2118
+  - 0.3607
+  - 0.3385
+  frame: 2
+  global_frame: 49
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2524
+  - 0.215
+  - 0.3613
+  - 0.3403
+  frame: 3
+  global_frame: 50
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.254
+  - 0.2191
+  - 0.3652
+  - 0.3454
+  frame: 4
+  global_frame: 51
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2539
+  - 0.2191
+  - 0.3652
+  - 0.3454
+  frame: 5
+  global_frame: 52
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2574
+  - 0.2193
+  - 0.3751
+  - 0.3523
+  frame: 6
+  global_frame: 53
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2556
+  - 0.2201
+  - 0.3931
+  - 0.3531
+  frame: 7
+  global_frame: 54
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2578
+  - 0.224
+  - 0.4104
+  - 0.3644
+  frame: 8
+  global_frame: 55
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.263
+  - 0.2315
+  - 0.414
+  - 0.3745
+  frame: 9
+  global_frame: 56
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2758
+  - 0.2314
+  - 0.4126
+  - 0.3639
+  frame: 10
+  global_frame: 57
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2759
+  - 0.2316
+  - 0.4126
+  - 0.364
+  frame: 11
+  global_frame: 58
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2777
+  - 0.2369
+  - 0.4129
+  - 0.3648
+  frame: 12
+  global_frame: 59
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2808
+  - 0.2375
+  - 0.4159
+  - 0.3607
+  frame: 13
+  global_frame: 60
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2829
+  - 0.2364
+  - 0.4178
+  - 0.3584
+  frame: 14
+  global_frame: 61
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.289
+  - 0.2366
+  - 0.4171
+  - 0.3619
+  frame: 15
+  global_frame: 62
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2904
+  - 0.2411
+  - 0.421
+  - 0.3705
+  frame: 16
+  global_frame: 63
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2904
+  - 0.2411
+  - 0.421
+  - 0.3705
+  frame: 17
+  global_frame: 64
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2944
+  - 0.2497
+  - 0.4192
+  - 0.3759
+  frame: 18
+  global_frame: 65
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2946
+  - 0.2562
+  - 0.4189
+  - 0.3811
+  frame: 19
+  global_frame: 66
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.2977
+  - 0.2591
+  - 0.4182
+  - 0.3786
+  frame: 20
+  global_frame: 67
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.3027
+  - 0.2576
+  - 0.4228
+  - 0.3776
+  frame: 21
+  global_frame: 68
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.3072
+  - 0.2592
+  - 0.4221
+  - 0.3809
+  frame: 22
+  global_frame: 69
+  prompt: the clownfish is swimming
+- bbox_ratios:
+  - 0.3073
+  - 0.2592
+  - 0.4221
+  - 0.3808
+  frame: 23
+  global_frame: 70
+  prompt: the clownfish is swimming
+motion_id: 43
+motion_iter: 1
+num_inference_steps: null
+object_name: clownfish
+seed: 4
+source_clip: NPCYJFFP_4_117
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

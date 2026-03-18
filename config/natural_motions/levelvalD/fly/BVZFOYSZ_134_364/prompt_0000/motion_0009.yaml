@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.196
+  - 0.1904
+  - 0.5336
+  - 0.89
+  frame: 0
+  global_frame: 294
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.1968
+  - 0.1951
+  - 0.5335
+  - 0.88
+  frame: 1
+  global_frame: 295
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.1978
+  - 0.0629
+  - 0.5349
+  - 0.8771
+  frame: 2
+  global_frame: 296
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.1997
+  - 0.0647
+  - 0.5384
+  - 0.8734
+  frame: 3
+  global_frame: 297
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2012
+  - 0.0746
+  - 0.5378
+  - 0.8725
+  frame: 4
+  global_frame: 298
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2015
+  - 0.0779
+  - 0.5351
+  - 0.872
+  frame: 5
+  global_frame: 299
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.205
+  - 0.0762
+  - 0.5415
+  - 0.8752
+  frame: 6
+  global_frame: 300
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.205
+  - 0.0738
+  - 0.5434
+  - 0.8769
+  frame: 7
+  global_frame: 301
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2056
+  - 0.0834
+  - 0.5396
+  - 0.8762
+  frame: 8
+  global_frame: 302
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2092
+  - 0.0849
+  - 0.5357
+  - 0.8791
+  frame: 9
+  global_frame: 303
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2109
+  - 0.0856
+  - 0.5356
+  - 0.8772
+  frame: 10
+  global_frame: 304
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2101
+  - 0.079
+  - 0.5314
+  - 0.8696
+  frame: 11
+  global_frame: 305
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.21
+  - 0.0846
+  - 0.5358
+  - 0.8722
+  frame: 12
+  global_frame: 306
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2117
+  - 0.0865
+  - 0.5382
+  - 0.8756
+  frame: 13
+  global_frame: 307
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2143
+  - 0.085
+  - 0.537
+  - 0.8706
+  frame: 14
+  global_frame: 308
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2115
+  - 0.0875
+  - 0.5423
+  - 0.8628
+  frame: 15
+  global_frame: 309
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2077
+  - 0.0987
+  - 0.5429
+  - 0.8496
+  frame: 16
+  global_frame: 310
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2122
+  - 0.1626
+  - 0.5452
+  - 0.8539
+  frame: 17
+  global_frame: 311
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2152
+  - 0.0594
+  - 0.5416
+  - 0.8594
+  frame: 18
+  global_frame: 312
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2174
+  - 0.0688
+  - 0.5408
+  - 0.8595
+  frame: 19
+  global_frame: 313
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2174
+  - 0.0743
+  - 0.5393
+  - 0.8543
+  frame: 20
+  global_frame: 314
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.217
+  - 0.0767
+  - 0.5412
+  - 0.8649
+  frame: 21
+  global_frame: 315
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2199
+  - 0.0745
+  - 0.5378
+  - 0.8626
+  frame: 22
+  global_frame: 316
+  prompt: the fruit fly is moving
+- bbox_ratios:
+  - 0.2223
+  - 0.0771
+  - 0.5885
+  - 0.8619
+  frame: 23
+  global_frame: 317
+  prompt: the fruit fly is moving
+motion_id: 9
+motion_iter: 0
+num_inference_steps: null
+object_name: fly
+seed: 4
+source_clip: BVZFOYSZ_134_364
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

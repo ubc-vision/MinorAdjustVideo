@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.527
+  - 0.3515
+  - 0.945
+  - 0.664
+  frame: 0
+  global_frame: 759
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5275
+  - 0.3513
+  - 0.9495
+  - 0.6624
+  frame: 1
+  global_frame: 760
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5235
+  - 0.3439
+  - 0.9506
+  - 0.6667
+  frame: 2
+  global_frame: 761
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5421
+  - 0.3458
+  - 0.9584
+  - 0.658
+  frame: 3
+  global_frame: 762
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5363
+  - 0.3474
+  - 0.9611
+  - 0.6625
+  frame: 4
+  global_frame: 763
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5444
+  - 0.3439
+  - 0.9645
+  - 0.662
+  frame: 5
+  global_frame: 764
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5283
+  - 0.3397
+  - 0.945
+  - 0.6727
+  frame: 6
+  global_frame: 765
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5174
+  - 0.3415
+  - 0.9505
+  - 0.6726
+  frame: 7
+  global_frame: 766
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5214
+  - 0.337
+  - 0.9452
+  - 0.6746
+  frame: 8
+  global_frame: 767
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5432
+  - 0.3449
+  - 0.9608
+  - 0.6586
+  frame: 9
+  global_frame: 768
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5295
+  - 0.3456
+  - 0.9625
+  - 0.6685
+  frame: 10
+  global_frame: 769
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5323
+  - 0.3451
+  - 0.9623
+  - 0.6719
+  frame: 11
+  global_frame: 770
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5371
+  - 0.3467
+  - 0.9634
+  - 0.6671
+  frame: 12
+  global_frame: 771
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5307
+  - 0.3442
+  - 0.9566
+  - 0.6789
+  frame: 13
+  global_frame: 772
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5462
+  - 0.3489
+  - 0.9605
+  - 0.6727
+  frame: 14
+  global_frame: 773
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5575
+  - 0.3489
+  - 0.9608
+  - 0.6673
+  frame: 15
+  global_frame: 774
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5737
+  - 0.3525
+  - 0.9572
+  - 0.6597
+  frame: 16
+  global_frame: 775
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5864
+  - 0.3561
+  - 0.9571
+  - 0.6601
+  frame: 17
+  global_frame: 776
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5816
+  - 0.3614
+  - 0.9603
+  - 0.6704
+  frame: 18
+  global_frame: 777
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5826
+  - 0.3668
+  - 0.9585
+  - 0.6623
+  frame: 19
+  global_frame: 778
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5777
+  - 0.3603
+  - 0.9625
+  - 0.6633
+  frame: 20
+  global_frame: 779
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5799
+  - 0.3568
+  - 0.9652
+  - 0.6649
+  frame: 21
+  global_frame: 780
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5857
+  - 0.359
+  - 0.9642
+  - 0.6655
+  frame: 22
+  global_frame: 781
+  prompt: the goose is swimming
+- bbox_ratios:
+  - 0.5935
+  - 0.3646
+  - 0.9627
+  - 0.6673
+  frame: 23
+  global_frame: 782
+  prompt: the goose is swimming
+motion_id: 87
+motion_iter: 2
+num_inference_steps: null
+object_name: goose
+seed: 4
+source_clip: CXAGBNCR_672_849
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

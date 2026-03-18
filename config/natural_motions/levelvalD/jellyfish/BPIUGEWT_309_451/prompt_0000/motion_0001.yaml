@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.325
+  - 0.2425
+  - 0.7287
+  - 0.8062
+  frame: 0
+  global_frame: 333
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3224
+  - 0.1034
+  - 0.7523
+  - 0.8015
+  frame: 1
+  global_frame: 334
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.2936
+  - -0.0028
+  - 0.9811
+  - 0.8085
+  frame: 2
+  global_frame: 335
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3249
+  - 0.0417
+  - 0.7504
+  - 0.808
+  frame: 3
+  global_frame: 336
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3291
+  - 0.0865
+  - 0.7242
+  - 0.8061
+  frame: 4
+  global_frame: 337
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3309
+  - 0.0606
+  - 0.731
+  - 0.8121
+  frame: 5
+  global_frame: 338
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3361
+  - 0.0732
+  - 0.7184
+  - 0.8162
+  frame: 6
+  global_frame: 339
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3397
+  - 0.0985
+  - 0.7072
+  - 0.8171
+  frame: 7
+  global_frame: 340
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3414
+  - 0.0885
+  - 0.7046
+  - 0.8168
+  frame: 8
+  global_frame: 341
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3397
+  - 0.0923
+  - 0.706
+  - 0.8221
+  frame: 9
+  global_frame: 342
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3397
+  - 0.1162
+  - 0.7035
+  - 0.8215
+  frame: 10
+  global_frame: 343
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3429
+  - 0.169
+  - 0.7064
+  - 0.823
+  frame: 11
+  global_frame: 344
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3407
+  - 0.1872
+  - 0.707
+  - 0.8255
+  frame: 12
+  global_frame: 345
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3401
+  - 0.0408
+  - 0.7157
+  - 0.8243
+  frame: 13
+  global_frame: 346
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3412
+  - 0.1338
+  - 0.7128
+  - 0.8258
+  frame: 14
+  global_frame: 347
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3407
+  - 0.1371
+  - 0.7108
+  - 0.8248
+  frame: 15
+  global_frame: 348
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3402
+  - 0.1887
+  - 0.7065
+  - 0.8248
+  frame: 16
+  global_frame: 349
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3394
+  - 0.1516
+  - 0.7163
+  - 0.8224
+  frame: 17
+  global_frame: 350
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3428
+  - 0.1886
+  - 0.7132
+  - 0.8156
+  frame: 18
+  global_frame: 351
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3435
+  - 0.1696
+  - 0.7195
+  - 0.8132
+  frame: 19
+  global_frame: 352
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3438
+  - 0.1287
+  - 0.7218
+  - 0.8147
+  frame: 20
+  global_frame: 353
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3415
+  - 0.1298
+  - 0.7235
+  - 0.8106
+  frame: 21
+  global_frame: 354
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.3412
+  - 0.1756
+  - 0.7234
+  - 0.8051
+  frame: 22
+  global_frame: 355
+  prompt: the jellyfish is swimming
+- bbox_ratios:
+  - 0.338
+  - 0.1826
+  - 0.7283
+  - 0.8026
+  frame: 23
+  global_frame: 356
+  prompt: the jellyfish is swimming
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: jellyfish
+seed: 4
+source_clip: BPIUGEWT_309_451
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

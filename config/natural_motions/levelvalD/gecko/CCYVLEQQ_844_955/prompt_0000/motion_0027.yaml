@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0037
+  - -0.0025
+  - 1.0019
+  - 0.9843
+  frame: 0
+  global_frame: 876
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0037
+  - -0.0024
+  - 1.002
+  - 0.9847
+  frame: 1
+  global_frame: 877
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0038
+  - -0.0023
+  - 1.0021
+  - 0.9851
+  frame: 2
+  global_frame: 878
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0039
+  - -0.0021
+  - 1.0022
+  - 0.9854
+  frame: 3
+  global_frame: 879
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.004
+  - -0.002
+  - 1.0023
+  - 0.9858
+  frame: 4
+  global_frame: 880
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.004
+  - -0.0019
+  - 1.0023
+  - 0.9862
+  frame: 5
+  global_frame: 881
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0041
+  - -0.0018
+  - 1.0024
+  - 0.9866
+  frame: 6
+  global_frame: 882
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0042
+  - -0.0017
+  - 1.0025
+  - 0.9869
+  frame: 7
+  global_frame: 883
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0042
+  - -0.0016
+  - 1.0026
+  - 0.9873
+  frame: 8
+  global_frame: 884
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0043
+  - -0.0015
+  - 1.0027
+  - 0.9877
+  frame: 9
+  global_frame: 885
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0044
+  - -0.0013
+  - 1.0028
+  - 0.9881
+  frame: 10
+  global_frame: 886
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0044
+  - -0.0012
+  - 1.0029
+  - 0.9884
+  frame: 11
+  global_frame: 887
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0045
+  - -0.0011
+  - 1.0029
+  - 0.9888
+  frame: 12
+  global_frame: 888
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0046
+  - -0.001
+  - 1.003
+  - 0.9892
+  frame: 13
+  global_frame: 889
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0046
+  - -0.0009
+  - 1.0031
+  - 0.9896
+  frame: 14
+  global_frame: 890
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0047
+  - -0.0008
+  - 1.0032
+  - 0.9899
+  frame: 15
+  global_frame: 891
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0048
+  - -0.0007
+  - 1.0033
+  - 0.9903
+  frame: 16
+  global_frame: 892
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0048
+  - -0.0005
+  - 1.0034
+  - 0.9907
+  frame: 17
+  global_frame: 893
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0049
+  - -0.0004
+  - 1.0035
+  - 0.9911
+  frame: 18
+  global_frame: 894
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.005
+  - -0.0003
+  - 1.0035
+  - 0.9914
+  frame: 19
+  global_frame: 895
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0063
+  - 0.0829
+  - 1.0044
+  - 0.9746
+  frame: 20
+  global_frame: 896
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0077
+  - 0.1661
+  - 1.0053
+  - 0.9577
+  frame: 21
+  global_frame: 897
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.009
+  - 0.2493
+  - 1.0061
+  - 0.9408
+  frame: 22
+  global_frame: 898
+  prompt: the leaf-tailed gecko is walking
+- bbox_ratios:
+  - 0.0103
+  - 0.3325
+  - 1.007
+  - 0.924
+  frame: 23
+  global_frame: 899
+  prompt: the leaf-tailed gecko is walking
+motion_id: 27
+motion_iter: 1
+num_inference_steps: null
+object_name: gecko
+seed: 4
+source_clip: CCYVLEQQ_844_955
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2109
+  - 0.1476
+  - 0.9983
+  - 0.9887
+  frame: 0
+  global_frame: 614
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.2105
+  - 0.1484
+  - 0.9986
+  - 0.9891
+  frame: 1
+  global_frame: 615
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.2153
+  - 0.1642
+  - 0.9941
+  - 1.0023
+  frame: 2
+  global_frame: 616
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1628
+  - 0.1565
+  - 0.997
+  - 1.004
+  frame: 3
+  global_frame: 617
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1682
+  - 0.1536
+  - 0.9838
+  - 0.9974
+  frame: 4
+  global_frame: 618
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1928
+  - 0.1455
+  - 0.8767
+  - 0.9795
+  frame: 5
+  global_frame: 619
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1891
+  - 0.1473
+  - 0.8692
+  - 0.9806
+  frame: 6
+  global_frame: 620
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1864
+  - 0.143
+  - 0.8646
+  - 0.9706
+  frame: 7
+  global_frame: 621
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1837
+  - 0.1387
+  - 0.8599
+  - 0.9606
+  frame: 8
+  global_frame: 622
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.181
+  - 0.1344
+  - 0.8553
+  - 0.9506
+  frame: 9
+  global_frame: 623
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1783
+  - 0.1301
+  - 0.8506
+  - 0.9406
+  frame: 10
+  global_frame: 624
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1755
+  - 0.1258
+  - 0.846
+  - 0.9306
+  frame: 11
+  global_frame: 625
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1728
+  - 0.1216
+  - 0.8413
+  - 0.9206
+  frame: 12
+  global_frame: 626
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1701
+  - 0.1173
+  - 0.8367
+  - 0.9106
+  frame: 13
+  global_frame: 627
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1674
+  - 0.113
+  - 0.832
+  - 0.9006
+  frame: 14
+  global_frame: 628
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1647
+  - 0.1087
+  - 0.8274
+  - 0.8906
+  frame: 15
+  global_frame: 629
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1619
+  - 0.1044
+  - 0.8227
+  - 0.8806
+  frame: 16
+  global_frame: 630
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1592
+  - 0.1001
+  - 0.8181
+  - 0.8706
+  frame: 17
+  global_frame: 631
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1565
+  - 0.0958
+  - 0.8134
+  - 0.8606
+  frame: 18
+  global_frame: 632
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1538
+  - 0.0915
+  - 0.8088
+  - 0.8506
+  frame: 19
+  global_frame: 633
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1511
+  - 0.0872
+  - 0.8041
+  - 0.8406
+  frame: 20
+  global_frame: 634
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1483
+  - 0.0829
+  - 0.7995
+  - 0.8306
+  frame: 21
+  global_frame: 635
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1456
+  - 0.0787
+  - 0.7948
+  - 0.8206
+  frame: 22
+  global_frame: 636
+  prompt: the marine iguana is walking
+- bbox_ratios:
+  - 0.1429
+  - 0.0744
+  - 0.7902
+  - 0.8106
+  frame: 23
+  global_frame: 637
+  prompt: the marine iguana is walking
+motion_id: 79
+motion_iter: 0
+num_inference_steps: null
+object_name: iguana
+seed: 4
+source_clip: CMETYCPZ_525_801
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

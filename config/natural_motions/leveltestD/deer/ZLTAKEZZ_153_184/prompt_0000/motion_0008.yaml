@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4633
+  - 0.4102
+  - 0.8213
+  - 1.0035
+  frame: 0
+  global_frame: 161
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4634
+  - 0.4103
+  - 0.8218
+  - 1.0034
+  frame: 1
+  global_frame: 162
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4615
+  - 0.4104
+  - 0.8218
+  - 1.0027
+  frame: 2
+  global_frame: 163
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4633
+  - 0.4132
+  - 0.8401
+  - 1.003
+  frame: 3
+  global_frame: 164
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4631
+  - 0.4131
+  - 0.8397
+  - 1.0029
+  frame: 4
+  global_frame: 165
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4642
+  - 0.4139
+  - 0.8397
+  - 1.0027
+  frame: 5
+  global_frame: 166
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4628
+  - 0.4204
+  - 0.8477
+  - 1.003
+  frame: 6
+  global_frame: 167
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4634
+  - 0.4204
+  - 0.8481
+  - 1.0031
+  frame: 7
+  global_frame: 168
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4639
+  - 0.4136
+  - 0.858
+  - 1.0028
+  frame: 8
+  global_frame: 169
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4639
+  - 0.414
+  - 0.8582
+  - 1.0026
+  frame: 9
+  global_frame: 170
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4613
+  - 0.4198
+  - 0.8683
+  - 1.0021
+  frame: 10
+  global_frame: 171
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4615
+  - 0.4198
+  - 0.868
+  - 1.0019
+  frame: 11
+  global_frame: 172
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4586
+  - 0.419
+  - 0.8734
+  - 1.0024
+  frame: 12
+  global_frame: 173
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4598
+  - 0.4189
+  - 0.8816
+  - 1.002
+  frame: 13
+  global_frame: 174
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4595
+  - 0.4195
+  - 0.8812
+  - 1.002
+  frame: 14
+  global_frame: 175
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4596
+  - 0.4196
+  - 0.8814
+  - 1.0019
+  frame: 15
+  global_frame: 176
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4584
+  - 0.4193
+  - 0.889
+  - 1.0015
+  frame: 16
+  global_frame: 177
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4584
+  - 0.4191
+  - 0.8889
+  - 1.0016
+  frame: 17
+  global_frame: 178
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4582
+  - 0.4171
+  - 0.8898
+  - 1.0016
+  frame: 18
+  global_frame: 179
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4583
+  - 0.4171
+  - 0.8899
+  - 1.0015
+  frame: 19
+  global_frame: 180
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4598
+  - 0.421
+  - 0.9003
+  - 1.0033
+  frame: 20
+  global_frame: 181
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4603
+  - 0.4215
+  - 0.9004
+  - 1.0035
+  frame: 21
+  global_frame: 182
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4547
+  - 0.4149
+  - 0.924
+  - 1.0011
+  frame: 22
+  global_frame: 183
+  prompt: the sambar deer is walking
+- bbox_ratios:
+  - 0.4521
+  - 0.4121
+  - 0.9321
+  - 1.0021
+  frame: 23
+  global_frame: 184
+  prompt: the sambar deer is walking
+motion_id: 8
+motion_iter: 0
+num_inference_steps: null
+object_name: deer
+seed: 4
+source_clip: ZLTAKEZZ_153_184
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

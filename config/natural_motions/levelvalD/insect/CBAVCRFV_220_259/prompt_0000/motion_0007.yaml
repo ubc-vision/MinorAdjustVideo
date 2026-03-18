@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0037
+  - 0.0739
+  - 0.9392
+  - 0.997
+  frame: 0
+  global_frame: 227
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.003
+  - 0.0765
+  - 0.9584
+  - 0.9975
+  frame: 1
+  global_frame: 228
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0059
+  - 0.073
+  - 0.8773
+  - 0.994
+  frame: 2
+  global_frame: 229
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0074
+  - 0.0711
+  - 0.8816
+  - 0.995
+  frame: 3
+  global_frame: 230
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0045
+  - 0.0824
+  - 0.8863
+  - 0.9982
+  frame: 4
+  global_frame: 231
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0064
+  - 0.0756
+  - 0.9145
+  - 0.9955
+  frame: 5
+  global_frame: 232
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0048
+  - 0.0746
+  - 0.8617
+  - 0.9927
+  frame: 6
+  global_frame: 233
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0063
+  - 0.071
+  - 0.8658
+  - 0.9946
+  frame: 7
+  global_frame: 234
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0042
+  - 0.069
+  - 0.8639
+  - 0.9958
+  frame: 8
+  global_frame: 235
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0038
+  - 0.0658
+  - 0.8673
+  - 0.9957
+  frame: 9
+  global_frame: 236
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0044
+  - 0.0675
+  - 0.8748
+  - 0.9965
+  frame: 10
+  global_frame: 237
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0062
+  - 0.0679
+  - 0.8761
+  - 0.9987
+  frame: 11
+  global_frame: 238
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0074
+  - 0.0676
+  - 0.8729
+  - 0.9994
+  frame: 12
+  global_frame: 239
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0073
+  - 0.0738
+  - 0.8668
+  - 0.9987
+  frame: 13
+  global_frame: 240
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0067
+  - 0.075
+  - 0.8456
+  - 0.9925
+  frame: 14
+  global_frame: 241
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0075
+  - 0.0699
+  - 0.8387
+  - 0.994
+  frame: 15
+  global_frame: 242
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0025
+  - 0.0666
+  - 0.8582
+  - 0.9968
+  frame: 16
+  global_frame: 243
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0018
+  - 0.0679
+  - 0.8478
+  - 0.9973
+  frame: 17
+  global_frame: 244
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0034
+  - 0.0707
+  - 0.8434
+  - 0.9963
+  frame: 18
+  global_frame: 245
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.004
+  - 0.0638
+  - 0.8542
+  - 0.995
+  frame: 19
+  global_frame: 246
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0037
+  - 0.0551
+  - 0.8549
+  - 0.9944
+  frame: 20
+  global_frame: 247
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0047
+  - 0.0497
+  - 0.8637
+  - 0.9936
+  frame: 21
+  global_frame: 248
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0045
+  - 0.059
+  - 0.8601
+  - 0.995
+  frame: 22
+  global_frame: 249
+  prompt: the insect is moving
+- bbox_ratios:
+  - 0.0038
+  - 0.0698
+  - 0.8604
+  - 1.0044
+  frame: 23
+  global_frame: 250
+  prompt: the insect is moving
+motion_id: 7
+motion_iter: 2
+num_inference_steps: null
+object_name: insect
+seed: 4
+source_clip: CBAVCRFV_220_259
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

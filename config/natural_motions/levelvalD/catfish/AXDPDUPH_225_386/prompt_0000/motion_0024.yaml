@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.4156
+  - 0.2632
+  - 0.9989
+  - 0.5468
+  frame: 0
+  global_frame: 267
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4145
+  - 0.2631
+  - 0.999
+  - 0.5442
+  frame: 1
+  global_frame: 268
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4117
+  - 0.2703
+  - 1.0005
+  - 0.5775
+  frame: 2
+  global_frame: 269
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4233
+  - 0.2533
+  - 0.9995
+  - 0.5357
+  frame: 3
+  global_frame: 270
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4192
+  - 0.2395
+  - 0.9916
+  - 0.6348
+  frame: 4
+  global_frame: 271
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4242
+  - 0.2504
+  - 0.999
+  - 0.6719
+  frame: 5
+  global_frame: 272
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4165
+  - 0.2495
+  - 1.0
+  - 0.6485
+  frame: 6
+  global_frame: 273
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4187
+  - 0.2494
+  - 1.0006
+  - 0.6496
+  frame: 7
+  global_frame: 274
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4192
+  - 0.2432
+  - 1.0005
+  - 0.5756
+  frame: 8
+  global_frame: 275
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.3955
+  - 0.2403
+  - 0.9958
+  - 0.6459
+  frame: 9
+  global_frame: 276
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.3994
+  - 0.2405
+  - 0.9946
+  - 0.4833
+  frame: 10
+  global_frame: 277
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4011
+  - 0.2306
+  - 0.9938
+  - 0.5135
+  frame: 11
+  global_frame: 278
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4093
+  - 0.2234
+  - 1.0002
+  - 0.479
+  frame: 12
+  global_frame: 279
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4108
+  - 0.2234
+  - 1.0004
+  - 0.4801
+  frame: 13
+  global_frame: 280
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4043
+  - 0.2336
+  - 0.9938
+  - 0.5767
+  frame: 14
+  global_frame: 281
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4048
+  - 0.212
+  - 0.9962
+  - 0.4838
+  frame: 15
+  global_frame: 282
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4043
+  - 0.2058
+  - 0.9941
+  - 0.4681
+  frame: 16
+  global_frame: 283
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4186
+  - 0.2081
+  - 0.9964
+  - 0.4655
+  frame: 17
+  global_frame: 284
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4144
+  - 0.201
+  - 1.0053
+  - 0.463
+  frame: 18
+  global_frame: 285
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4147
+  - 0.2022
+  - 1.0056
+  - 0.4624
+  frame: 19
+  global_frame: 286
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4156
+  - 0.1788
+  - 0.9979
+  - 0.468
+  frame: 20
+  global_frame: 287
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4128
+  - 0.1776
+  - 1.0017
+  - 0.4612
+  frame: 21
+  global_frame: 288
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4117
+  - 0.1589
+  - 1.0026
+  - 0.4514
+  frame: 22
+  global_frame: 289
+  prompt: the catfish is swimming
+- bbox_ratios:
+  - 0.4091
+  - 0.1749
+  - 1.0021
+  - 0.4544
+  frame: 23
+  global_frame: 290
+  prompt: the catfish is swimming
+motion_id: 24
+motion_iter: 1
+num_inference_steps: null
+object_name: catfish
+seed: 4
+source_clip: AXDPDUPH_225_386
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

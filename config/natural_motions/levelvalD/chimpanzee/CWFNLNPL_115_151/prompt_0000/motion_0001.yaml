@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1575
+  - 0.6765
+  - 0.3453
+  - 0.9344
+  frame: 0
+  global_frame: 116
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1578
+  - 0.6774
+  - 0.3442
+  - 0.9318
+  frame: 1
+  global_frame: 117
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1576
+  - 0.6764
+  - 0.3425
+  - 0.9253
+  frame: 2
+  global_frame: 118
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1576
+  - 0.6759
+  - 0.3433
+  - 0.9278
+  frame: 3
+  global_frame: 119
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1582
+  - 0.6774
+  - 0.3424
+  - 0.9217
+  frame: 4
+  global_frame: 120
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1582
+  - 0.6774
+  - 0.3425
+  - 0.9217
+  frame: 5
+  global_frame: 121
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1573
+  - 0.6773
+  - 0.3423
+  - 0.9226
+  frame: 6
+  global_frame: 122
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1578
+  - 0.6763
+  - 0.3407
+  - 0.9176
+  frame: 7
+  global_frame: 123
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1577
+  - 0.6772
+  - 0.3408
+  - 0.9235
+  frame: 8
+  global_frame: 124
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1577
+  - 0.6774
+  - 0.3412
+  - 0.9239
+  frame: 9
+  global_frame: 125
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1588
+  - 0.6776
+  - 0.3413
+  - 0.9204
+  frame: 10
+  global_frame: 126
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1588
+  - 0.6776
+  - 0.3414
+  - 0.9204
+  frame: 11
+  global_frame: 127
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1583
+  - 0.677
+  - 0.3424
+  - 0.9197
+  frame: 12
+  global_frame: 128
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1588
+  - 0.6774
+  - 0.3435
+  - 0.9189
+  frame: 13
+  global_frame: 129
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1567
+  - 0.6778
+  - 0.3433
+  - 0.9249
+  frame: 14
+  global_frame: 130
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1571
+  - 0.6781
+  - 0.3419
+  - 0.9225
+  frame: 15
+  global_frame: 131
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1572
+  - 0.678
+  - 0.3424
+  - 0.9248
+  frame: 16
+  global_frame: 132
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1572
+  - 0.6779
+  - 0.3424
+  - 0.9242
+  frame: 17
+  global_frame: 133
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.157
+  - 0.6801
+  - 0.3414
+  - 0.9209
+  frame: 18
+  global_frame: 134
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.158
+  - 0.6785
+  - 0.3402
+  - 0.9153
+  frame: 19
+  global_frame: 135
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1576
+  - 0.6791
+  - 0.3421
+  - 0.9204
+  frame: 20
+  global_frame: 136
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1579
+  - 0.6797
+  - 0.3427
+  - 0.9181
+  frame: 21
+  global_frame: 137
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1573
+  - 0.6803
+  - 0.345
+  - 0.9213
+  frame: 22
+  global_frame: 138
+  prompt: the chimpanzee is walking
+- bbox_ratios:
+  - 0.1572
+  - 0.6803
+  - 0.3452
+  - 0.9213
+  frame: 23
+  global_frame: 139
+  prompt: the chimpanzee is walking
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: chimpanzee
+seed: 4
+source_clip: CWFNLNPL_115_151
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

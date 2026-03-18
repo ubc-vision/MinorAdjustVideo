@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.3944
+  - 0.3345
+  - 0.5315
+  - 0.7396
+  frame: 0
+  global_frame: 445
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.394
+  - 0.3342
+  - 0.5315
+  - 0.7398
+  frame: 1
+  global_frame: 446
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3941
+  - 0.3339
+  - 0.5314
+  - 0.7395
+  frame: 2
+  global_frame: 447
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3938
+  - 0.3339
+  - 0.5314
+  - 0.7396
+  frame: 3
+  global_frame: 448
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.394
+  - 0.3338
+  - 0.5313
+  - 0.7394
+  frame: 4
+  global_frame: 449
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3936
+  - 0.3336
+  - 0.5314
+  - 0.7394
+  frame: 5
+  global_frame: 450
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3938
+  - 0.3334
+  - 0.5313
+  - 0.7396
+  frame: 6
+  global_frame: 451
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3936
+  - 0.3339
+  - 0.5317
+  - 0.7395
+  frame: 7
+  global_frame: 452
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3923
+  - 0.334
+  - 0.5353
+  - 0.7432
+  frame: 8
+  global_frame: 453
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3923
+  - 0.3341
+  - 0.5354
+  - 0.7433
+  frame: 9
+  global_frame: 454
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3337
+  - 0.5353
+  - 0.7429
+  frame: 10
+  global_frame: 455
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3923
+  - 0.3335
+  - 0.5353
+  - 0.7433
+  frame: 11
+  global_frame: 456
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3337
+  - 0.5352
+  - 0.7436
+  frame: 12
+  global_frame: 457
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3339
+  - 0.535
+  - 0.7435
+  frame: 13
+  global_frame: 458
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3341
+  - 0.5349
+  - 0.7431
+  frame: 14
+  global_frame: 459
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3341
+  - 0.5348
+  - 0.7431
+  frame: 15
+  global_frame: 460
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3927
+  - 0.3339
+  - 0.5347
+  - 0.7428
+  frame: 16
+  global_frame: 461
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3922
+  - 0.3335
+  - 0.535
+  - 0.7428
+  frame: 17
+  global_frame: 462
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3919
+  - 0.3332
+  - 0.5348
+  - 0.7427
+  frame: 18
+  global_frame: 463
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3921
+  - 0.333
+  - 0.5349
+  - 0.7426
+  frame: 19
+  global_frame: 464
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.392
+  - 0.3334
+  - 0.5349
+  - 0.7423
+  frame: 20
+  global_frame: 465
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3931
+  - 0.3337
+  - 0.5346
+  - 0.7419
+  frame: 21
+  global_frame: 466
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3925
+  - 0.3338
+  - 0.5347
+  - 0.7419
+  frame: 22
+  global_frame: 467
+  prompt: the fruit bat is flying
+- bbox_ratios:
+  - 0.3925
+  - 0.3338
+  - 0.5348
+  - 0.7424
+  frame: 23
+  global_frame: 468
+  prompt: the fruit bat is flying
+motion_id: 16
+motion_iter: 0
+num_inference_steps: null
+object_name: bat
+seed: 4
+source_clip: FBTKOBQT_429_475
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

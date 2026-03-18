@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.275
+  - 0.1534
+  - 0.5547
+  - 0.6146
+  frame: 0
+  global_frame: 286
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.275
+  - 0.1603
+  - 0.5828
+  - 0.638
+  frame: 1
+  global_frame: 287
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2746
+  - 0.1581
+  - 0.5789
+  - 0.6342
+  frame: 2
+  global_frame: 288
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.272
+  - 0.159
+  - 0.5781
+  - 0.6339
+  frame: 3
+  global_frame: 289
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2614
+  - 0.1581
+  - 0.5672
+  - 0.6269
+  frame: 4
+  global_frame: 290
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2617
+  - 0.156
+  - 0.5664
+  - 0.6316
+  frame: 5
+  global_frame: 291
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2798
+  - 0.1669
+  - 0.5675
+  - 0.6289
+  frame: 6
+  global_frame: 292
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2784
+  - 0.1679
+  - 0.5646
+  - 0.6274
+  frame: 7
+  global_frame: 293
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.277
+  - 0.1689
+  - 0.5618
+  - 0.626
+  frame: 8
+  global_frame: 294
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2756
+  - 0.1699
+  - 0.5589
+  - 0.6246
+  frame: 9
+  global_frame: 295
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2742
+  - 0.1709
+  - 0.556
+  - 0.6231
+  frame: 10
+  global_frame: 296
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2751
+  - 0.171
+  - 0.5571
+  - 0.6223
+  frame: 11
+  global_frame: 297
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.276
+  - 0.171
+  - 0.5582
+  - 0.6215
+  frame: 12
+  global_frame: 298
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2755
+  - 0.1675
+  - 0.5616
+  - 0.6247
+  frame: 13
+  global_frame: 299
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2787
+  - 0.1734
+  - 0.5606
+  - 0.6221
+  frame: 14
+  global_frame: 300
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2763
+  - 0.1734
+  - 0.561
+  - 0.6225
+  frame: 15
+  global_frame: 301
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2739
+  - 0.1761
+  - 0.5594
+  - 0.6215
+  frame: 16
+  global_frame: 302
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2758
+  - 0.1768
+  - 0.5592
+  - 0.6201
+  frame: 17
+  global_frame: 303
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2777
+  - 0.1775
+  - 0.559
+  - 0.6187
+  frame: 18
+  global_frame: 304
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2796
+  - 0.1782
+  - 0.5589
+  - 0.6172
+  frame: 19
+  global_frame: 305
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2872
+  - 0.1722
+  - 0.5833
+  - 0.619
+  frame: 20
+  global_frame: 306
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2849
+  - 0.1706
+  - 0.5938
+  - 0.6208
+  frame: 21
+  global_frame: 307
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2916
+  - 0.1754
+  - 0.5899
+  - 0.6185
+  frame: 22
+  global_frame: 308
+  prompt: the fish is swimming
+- bbox_ratios:
+  - 0.2864
+  - 0.1806
+  - 0.5632
+  - 0.6193
+  frame: 23
+  global_frame: 309
+  prompt: the fish is swimming
+motion_id: 0
+motion_iter: 0
+num_inference_steps: null
+object_name: fish
+seed: 4
+source_clip: ADCYKFFP_223_338
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2803
+  - 0.1374
+  - 0.6997
+  - 0.6059
+  frame: 0
+  global_frame: 643
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2775
+  - 0.1372
+  - 0.6992
+  - 0.608
+  frame: 1
+  global_frame: 644
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2747
+  - 0.137
+  - 0.6987
+  - 0.6101
+  frame: 2
+  global_frame: 645
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2719
+  - 0.1367
+  - 0.6983
+  - 0.6122
+  frame: 3
+  global_frame: 646
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2691
+  - 0.1365
+  - 0.6978
+  - 0.6142
+  frame: 4
+  global_frame: 647
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2664
+  - 0.1362
+  - 0.6973
+  - 0.6163
+  frame: 5
+  global_frame: 648
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2636
+  - 0.136
+  - 0.6968
+  - 0.6184
+  frame: 6
+  global_frame: 649
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2608
+  - 0.1357
+  - 0.6964
+  - 0.6205
+  frame: 7
+  global_frame: 650
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.258
+  - 0.1355
+  - 0.6959
+  - 0.6226
+  frame: 8
+  global_frame: 651
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2552
+  - 0.1352
+  - 0.6954
+  - 0.6246
+  frame: 9
+  global_frame: 652
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2524
+  - 0.135
+  - 0.6949
+  - 0.6267
+  frame: 10
+  global_frame: 653
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2496
+  - 0.1348
+  - 0.6945
+  - 0.6288
+  frame: 11
+  global_frame: 654
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2505
+  - 0.1357
+  - 0.6926
+  - 0.6288
+  frame: 12
+  global_frame: 655
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.249
+  - 0.133
+  - 0.7008
+  - 0.6208
+  frame: 13
+  global_frame: 656
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2409
+  - 0.1362
+  - 0.6993
+  - 0.6325
+  frame: 14
+  global_frame: 657
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2323
+  - 0.1343
+  - 0.7003
+  - 0.6432
+  frame: 15
+  global_frame: 658
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2391
+  - 0.1212
+  - 0.689
+  - 0.6427
+  frame: 16
+  global_frame: 659
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2371
+  - 0.1213
+  - 0.6888
+  - 0.6358
+  frame: 17
+  global_frame: 660
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2351
+  - 0.1214
+  - 0.6886
+  - 0.6289
+  frame: 18
+  global_frame: 661
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2331
+  - 0.1215
+  - 0.6884
+  - 0.622
+  frame: 19
+  global_frame: 662
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2312
+  - 0.1216
+  - 0.6883
+  - 0.6151
+  frame: 20
+  global_frame: 663
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2264
+  - 0.1183
+  - 0.6718
+  - 0.6265
+  frame: 21
+  global_frame: 664
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2231
+  - 0.1173
+  - 0.6568
+  - 0.6102
+  frame: 22
+  global_frame: 665
+  prompt: the lesser mousedeer is exploring
+- bbox_ratios:
+  - 0.2228
+  - 0.1171
+  - 0.6583
+  - 0.6053
+  frame: 23
+  global_frame: 666
+  prompt: the lesser mousedeer is exploring
+motion_id: 45
+motion_iter: 2
+num_inference_steps: null
+object_name: mousedeer
+seed: 4
+source_clip: CGDSXBQT_472_753
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

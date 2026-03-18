@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2894
+  - 0.4037
+  - 0.4531
+  - 0.6739
+  frame: 0
+  global_frame: 493
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2883
+  - 0.3842
+  - 0.4641
+  - 0.6659
+  frame: 1
+  global_frame: 494
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3013
+  - 0.373
+  - 0.4772
+  - 0.6524
+  frame: 2
+  global_frame: 495
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3143
+  - 0.3619
+  - 0.4903
+  - 0.6389
+  frame: 3
+  global_frame: 496
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2979
+  - 0.3502
+  - 0.5411
+  - 0.6685
+  frame: 4
+  global_frame: 497
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2606
+  - 0.3351
+  - 0.5302
+  - 0.6502
+  frame: 5
+  global_frame: 498
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.261
+  - 0.3353
+  - 0.5301
+  - 0.6499
+  frame: 6
+  global_frame: 499
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2865
+  - 0.3258
+  - 0.5352
+  - 0.6367
+  frame: 7
+  global_frame: 500
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2877
+  - 0.3269
+  - 0.5354
+  - 0.6372
+  frame: 8
+  global_frame: 501
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2889
+  - 0.328
+  - 0.5357
+  - 0.6376
+  frame: 9
+  global_frame: 502
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2901
+  - 0.3291
+  - 0.5359
+  - 0.638
+  frame: 10
+  global_frame: 503
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2913
+  - 0.3302
+  - 0.5361
+  - 0.6385
+  frame: 11
+  global_frame: 504
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2925
+  - 0.3312
+  - 0.5363
+  - 0.6389
+  frame: 12
+  global_frame: 505
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2937
+  - 0.3323
+  - 0.5365
+  - 0.6393
+  frame: 13
+  global_frame: 506
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2949
+  - 0.3334
+  - 0.5368
+  - 0.6398
+  frame: 14
+  global_frame: 507
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2961
+  - 0.3345
+  - 0.537
+  - 0.6402
+  frame: 15
+  global_frame: 508
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2973
+  - 0.3356
+  - 0.5372
+  - 0.6406
+  frame: 16
+  global_frame: 509
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2985
+  - 0.3366
+  - 0.5374
+  - 0.6411
+  frame: 17
+  global_frame: 510
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.2998
+  - 0.3377
+  - 0.5376
+  - 0.6415
+  frame: 18
+  global_frame: 511
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.301
+  - 0.3388
+  - 0.5378
+  - 0.6419
+  frame: 19
+  global_frame: 512
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3022
+  - 0.3399
+  - 0.5381
+  - 0.6424
+  frame: 20
+  global_frame: 513
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3034
+  - 0.341
+  - 0.5383
+  - 0.6428
+  frame: 21
+  global_frame: 514
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3046
+  - 0.342
+  - 0.5385
+  - 0.6432
+  frame: 22
+  global_frame: 515
+  prompt: the eel attacks the crab that is climbing onto a rock
+- bbox_ratios:
+  - 0.3058
+  - 0.3431
+  - 0.5387
+  - 0.6437
+  frame: 23
+  global_frame: 516
+  prompt: the eel attacks the crab that is climbing onto a rock
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: eel
+seed: 4
+source_clip: RHJDSPKL_386_604
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

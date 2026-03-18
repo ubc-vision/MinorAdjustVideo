@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1827
+  - 0.0029
+  - 0.8029
+  - 0.9951
+  frame: 0
+  global_frame: 64
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1943
+  - 0.0008
+  - 0.7885
+  - 0.9931
+  frame: 1
+  global_frame: 65
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1787
+  - 0.0014
+  - 0.7955
+  - 0.9754
+  frame: 2
+  global_frame: 66
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1774
+  - 0.0012
+  - 0.7977
+  - 0.9562
+  frame: 3
+  global_frame: 67
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1761
+  - 0.0011
+  - 0.7999
+  - 0.937
+  frame: 4
+  global_frame: 68
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1748
+  - 0.0009
+  - 0.8021
+  - 0.9178
+  frame: 5
+  global_frame: 69
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.187
+  - 0.004
+  - 0.8004
+  - 0.9383
+  frame: 6
+  global_frame: 70
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1914
+  - -0.0043
+  - 0.8051
+  - 0.936
+  frame: 7
+  global_frame: 71
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.191
+  - -0.0006
+  - 0.8142
+  - 0.928
+  frame: 8
+  global_frame: 72
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1764
+  - -0.0049
+  - 0.8087
+  - 0.8966
+  frame: 9
+  global_frame: 73
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1864
+  - 0.0017
+  - 0.8016
+  - 0.8919
+  frame: 10
+  global_frame: 74
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1859
+  - -0.0001
+  - 0.8023
+  - 0.9172
+  frame: 11
+  global_frame: 75
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1889
+  - 0.0037
+  - 0.8006
+  - 0.9107
+  frame: 12
+  global_frame: 76
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.2009
+  - 0.0009
+  - 0.8039
+  - 0.9386
+  frame: 13
+  global_frame: 77
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.2124
+  - 0.0108
+  - 0.8061
+  - 0.9212
+  frame: 14
+  global_frame: 78
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.1891
+  - -0.0034
+  - 0.8002
+  - 0.94
+  frame: 15
+  global_frame: 79
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.2681
+  - -0.0012
+  - 0.8236
+  - 0.9388
+  frame: 16
+  global_frame: 80
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.2852
+  - 0.0018
+  - 0.847
+  - 0.9264
+  frame: 17
+  global_frame: 81
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.3023
+  - 0.0048
+  - 0.8703
+  - 0.914
+  frame: 18
+  global_frame: 82
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.3195
+  - 0.0078
+  - 0.8937
+  - 0.9017
+  frame: 19
+  global_frame: 83
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.3366
+  - 0.0108
+  - 0.9171
+  - 0.8893
+  frame: 20
+  global_frame: 84
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.38
+  - 0.0065
+  - 0.859
+  - 0.8358
+  frame: 21
+  global_frame: 85
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.4234
+  - 0.0022
+  - 0.8009
+  - 0.7822
+  frame: 22
+  global_frame: 86
+  prompt: the bullfinch is flying
+- bbox_ratios:
+  - 0.4668
+  - -0.0021
+  - 0.7428
+  - 0.7287
+  frame: 23
+  global_frame: 87
+  prompt: the bullfinch is flying
+motion_id: 2
+motion_iter: 0
+num_inference_steps: null
+object_name: bullfinch
+seed: 4
+source_clip: ONNFFTKX_62_88
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.1168
+  - 0.5733
+  - 0.8542
+  - 0.8791
+  frame: 0
+  global_frame: 217
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1177
+  - 0.5751
+  - 0.8546
+  - 0.8791
+  frame: 1
+  global_frame: 218
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1176
+  - 0.5762
+  - 0.8541
+  - 0.8788
+  frame: 2
+  global_frame: 219
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1095
+  - 0.5726
+  - 0.8537
+  - 0.8772
+  frame: 3
+  global_frame: 220
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1171
+  - 0.5766
+  - 0.8526
+  - 0.8789
+  frame: 4
+  global_frame: 221
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1172
+  - 0.5745
+  - 0.854
+  - 0.8778
+  frame: 5
+  global_frame: 222
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1183
+  - 0.5751
+  - 0.8536
+  - 0.8781
+  frame: 6
+  global_frame: 223
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1102
+  - 0.5727
+  - 0.8536
+  - 0.8788
+  frame: 7
+  global_frame: 224
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1093
+  - 0.5736
+  - 0.8541
+  - 0.8786
+  frame: 8
+  global_frame: 225
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1099
+  - 0.5742
+  - 0.8526
+  - 0.8782
+  frame: 9
+  global_frame: 226
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1065
+  - 0.5732
+  - 0.8531
+  - 0.8784
+  frame: 10
+  global_frame: 227
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.107
+  - 0.5739
+  - 0.8532
+  - 0.8785
+  frame: 11
+  global_frame: 228
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1084
+  - 0.5739
+  - 0.8533
+  - 0.8775
+  frame: 12
+  global_frame: 229
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1083
+  - 0.5743
+  - 0.8532
+  - 0.8774
+  frame: 13
+  global_frame: 230
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1085
+  - 0.5736
+  - 0.8544
+  - 0.8773
+  frame: 14
+  global_frame: 231
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1087
+  - 0.5747
+  - 0.8567
+  - 0.8771
+  frame: 15
+  global_frame: 232
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1111
+  - 0.5776
+  - 0.8501
+  - 0.879
+  frame: 16
+  global_frame: 233
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1112
+  - 0.5763
+  - 0.8502
+  - 0.8783
+  frame: 17
+  global_frame: 234
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1103
+  - 0.5755
+  - 0.8505
+  - 0.8785
+  frame: 18
+  global_frame: 235
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1109
+  - 0.5762
+  - 0.8503
+  - 0.8785
+  frame: 19
+  global_frame: 236
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1108
+  - 0.5758
+  - 0.8503
+  - 0.8787
+  frame: 20
+  global_frame: 237
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1105
+  - 0.5756
+  - 0.8508
+  - 0.8789
+  frame: 21
+  global_frame: 238
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1099
+  - 0.5735
+  - 0.8554
+  - 0.8774
+  frame: 22
+  global_frame: 239
+  prompt: the crocodile is swimming
+- bbox_ratios:
+  - 0.1095
+  - 0.5742
+  - 0.8534
+  - 0.8784
+  frame: 23
+  global_frame: 240
+  prompt: the crocodile is swimming
+motion_id: 1
+motion_iter: 0
+num_inference_steps: null
+object_name: crocodile
+seed: 4
+source_clip: YXVLKOXJ_175_261
+token_inds:
+- 2
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

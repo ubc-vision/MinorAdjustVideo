@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.0022
+  - 0.2071
+  - 0.5661
+  - 0.9315
+  frame: 0
+  global_frame: 1013
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0022
+  - 0.2082
+  - 0.5603
+  - 0.9335
+  frame: 1
+  global_frame: 1014
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.005
+  - 0.2126
+  - 0.5523
+  - 0.9314
+  frame: 2
+  global_frame: 1015
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0006
+  - 0.2151
+  - 0.5643
+  - 0.9314
+  frame: 3
+  global_frame: 1016
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0
+  - 0.2153
+  - 0.5658
+  - 0.9324
+  frame: 4
+  global_frame: 1017
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0006
+  - 0.2155
+  - 0.5673
+  - 0.9334
+  frame: 5
+  global_frame: 1018
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0012
+  - 0.2158
+  - 0.5688
+  - 0.9344
+  frame: 6
+  global_frame: 1019
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0018
+  - 0.216
+  - 0.5703
+  - 0.9355
+  frame: 7
+  global_frame: 1020
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0024
+  - 0.2162
+  - 0.5718
+  - 0.9365
+  frame: 8
+  global_frame: 1021
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.003
+  - 0.2165
+  - 0.5732
+  - 0.9375
+  frame: 9
+  global_frame: 1022
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0036
+  - 0.2167
+  - 0.5747
+  - 0.9385
+  frame: 10
+  global_frame: 1023
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0015
+  - 0.2153
+  - 0.5751
+  - 0.9372
+  frame: 11
+  global_frame: 1024
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0006
+  - 0.2138
+  - 0.5754
+  - 0.9359
+  frame: 12
+  global_frame: 1025
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0027
+  - 0.2124
+  - 0.5758
+  - 0.9346
+  frame: 13
+  global_frame: 1026
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0048
+  - 0.211
+  - 0.5761
+  - 0.9333
+  frame: 14
+  global_frame: 1027
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0025
+  - 0.2088
+  - 0.5806
+  - 0.935
+  frame: 15
+  global_frame: 1028
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0002
+  - 0.2066
+  - 0.5851
+  - 0.9367
+  frame: 16
+  global_frame: 1029
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0001
+  - 0.2083
+  - 0.5859
+  - 0.9361
+  frame: 17
+  global_frame: 1030
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0004
+  - 0.21
+  - 0.5867
+  - 0.9356
+  frame: 18
+  global_frame: 1031
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.0004
+  - 0.2097
+  - 0.5863
+  - 0.9354
+  frame: 19
+  global_frame: 1032
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0019
+  - 0.2076
+  - 0.5877
+  - 0.9384
+  frame: 20
+  global_frame: 1033
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0024
+  - 0.2079
+  - 0.5861
+  - 0.939
+  frame: 21
+  global_frame: 1034
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - -0.0002
+  - 0.1907
+  - 0.5922
+  - 0.9394
+  frame: 22
+  global_frame: 1035
+  prompt: the polar bear is walking
+- bbox_ratios:
+  - 0.002
+  - 0.2011
+  - 0.5938
+  - 0.9463
+  frame: 23
+  global_frame: 1036
+  prompt: the polar bear is walking
+motion_id: 3
+motion_iter: 0
+num_inference_steps: null
+object_name: bear
+seed: 4
+source_clip: DAJRPFGA_801_1036
+token_inds:
+- 3
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320

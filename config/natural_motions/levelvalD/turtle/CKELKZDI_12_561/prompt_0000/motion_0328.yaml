@@ -1,0 +1,211 @@
+height: 320
+keyframe:
+- bbox_ratios:
+  - 0.2625
+  - 0.5159
+  - 0.6565
+  - 0.743
+  frame: 0
+  global_frame: 344
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2598
+  - 0.5117
+  - 0.6547
+  - 0.7382
+  frame: 1
+  global_frame: 345
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2571
+  - 0.5075
+  - 0.6529
+  - 0.7334
+  frame: 2
+  global_frame: 346
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2544
+  - 0.5034
+  - 0.6511
+  - 0.7286
+  frame: 3
+  global_frame: 347
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2517
+  - 0.4992
+  - 0.6494
+  - 0.7237
+  frame: 4
+  global_frame: 348
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2489
+  - 0.495
+  - 0.6476
+  - 0.7189
+  frame: 5
+  global_frame: 349
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2462
+  - 0.4909
+  - 0.6458
+  - 0.7141
+  frame: 6
+  global_frame: 350
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2435
+  - 0.4867
+  - 0.644
+  - 0.7093
+  frame: 7
+  global_frame: 351
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2408
+  - 0.4825
+  - 0.6423
+  - 0.7045
+  frame: 8
+  global_frame: 352
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2381
+  - 0.4784
+  - 0.6405
+  - 0.6996
+  frame: 9
+  global_frame: 353
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2353
+  - 0.4742
+  - 0.6387
+  - 0.6948
+  frame: 10
+  global_frame: 354
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2326
+  - 0.47
+  - 0.6369
+  - 0.69
+  frame: 11
+  global_frame: 355
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2299
+  - 0.4659
+  - 0.6352
+  - 0.6852
+  frame: 12
+  global_frame: 356
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2272
+  - 0.4617
+  - 0.6334
+  - 0.6803
+  frame: 13
+  global_frame: 357
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2245
+  - 0.4575
+  - 0.6316
+  - 0.6755
+  frame: 14
+  global_frame: 358
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2218
+  - 0.4534
+  - 0.6298
+  - 0.6707
+  frame: 15
+  global_frame: 359
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.219
+  - 0.4492
+  - 0.6281
+  - 0.6659
+  frame: 16
+  global_frame: 360
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2163
+  - 0.445
+  - 0.6263
+  - 0.6611
+  frame: 17
+  global_frame: 361
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2136
+  - 0.4409
+  - 0.6245
+  - 0.6562
+  frame: 18
+  global_frame: 362
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2397
+  - 0.4338
+  - 0.6473
+  - 0.6405
+  frame: 19
+  global_frame: 363
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2646
+  - 0.4318
+  - 0.6672
+  - 0.6365
+  frame: 20
+  global_frame: 364
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2761
+  - 0.4172
+  - 0.6886
+  - 0.6261
+  frame: 21
+  global_frame: 365
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.2983
+  - 0.4003
+  - 0.7092
+  - 0.605
+  frame: 22
+  global_frame: 366
+  prompt: the leatherback sea turtle is walking
+- bbox_ratios:
+  - 0.3252
+  - 0.3877
+  - 0.7437
+  - 0.5931
+  frame: 23
+  global_frame: 367
+  prompt: the leatherback sea turtle is walking
+motion_id: 328
+motion_iter: 2
+num_inference_steps: null
+object_name: turtle
+seed: 4
+source_clip: CKELKZDI_12_561
+token_inds:
+- 4
+trailblazer:
+  num_dd_spatial_steps: 5
+  num_dd_temporal_steps: 5
+  spatial_strengthen_scale: 0.15
+  spatial_weaken_scale: 0.001
+  temp_strengthen_scale: 0.15
+  temp_weaken_scale: 0.001
+  trailing_length: 15
+width: 320
