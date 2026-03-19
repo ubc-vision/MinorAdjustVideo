@@ -8,7 +8,7 @@
 
 ## Running evaluation
 
-Run box optimization over the leveltestD set (example; adjust `--output-path` / `--validate_dirname` as needed):
+Run box optimization over the leveltestD set using the command below (adjust `--output-path` / `--validate_dirname` as needed, or try a few samples by adding `--val_start 0 --val_stop 2`):
 
 ```bash
 optim_timestamp="2026-03-01/00-00-00"
