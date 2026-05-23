@@ -68,7 +68,7 @@ Evaluation (test set, configs, outputs) → [eval.md](docs/eval.md).
 
 - [x] Project page and video
 - [x] Code release
-- [ ] Demo and usage instructions
+- [x] Demo and usage instructions
 - [ ] Evaluation scripts and data
 
 
