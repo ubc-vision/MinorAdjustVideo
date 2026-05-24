@@ -188,6 +188,34 @@ body {
     width: 90%;
 }
 
+.venue-list {
+    margin: 0.75rem auto 1.25rem;
+}
+
+.venue-primary {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.35rem;
+    margin-top: 0;
+    width: auto;
+}
+
+.venue-secondary {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.4;
+    margin: 0 auto;
+    width: auto;
+    white-space: nowrap;
+}
+
+.venue-detail {
+    color: #777;
+    font-weight: 500;
+}
+
 .paper-links {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -226,6 +254,36 @@ body {
 .paper-button::before,
 .paper-button::after {
     content: none !important;
+}
+
+.ack-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ack-section h1 {
+    margin-bottom: 1.5rem;
+}
+
+.ack-text {
+    max-width: 80%;
+    margin: 0 auto 1.5rem;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.ack-toggle-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.ack-volunteer-list {
+    max-width: 28rem;
+    margin: 1.5rem auto 0;
+    text-align: left;
+    font-size: 0.95em;
+    line-height: 1.6;
+    padding-left: 1.5rem;
 }
 
 /* Remove EditSign icon from PDF links */
