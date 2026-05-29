@@ -1,10 +1,36 @@
 /* Nerfies-style: Google Sans + Noto Sans (loaded in index.html) */
 
+:root {
+    --font-sans: 'Noto Sans', sans-serif;
+    --font-display: 'Google Sans', sans-serif;
+
+    /* Type scale (html = 16px) */
+    --fs-xs: 0.8125rem;      /* 13px */
+    --fs-sm: 0.9375rem;      /* 15px */
+    --fs-base: 1.0625rem;    /* 17px — body */
+    --fs-md: 1.125rem;       /* 18px */
+    --fs-lg: 1.25rem;        /* 20px */
+    --fs-xl: 1.75rem;        /* 28px — section headings */
+    --fs-hero: clamp(1.75rem, 4.5vw, 2.625rem); /* 28–42px — paper title */
+
+    --fs-venue-primary: 1.25rem;
+    --fs-venue-secondary: 0.9375rem;
+    --fs-author: 1.125rem;
+    --fs-affiliation: 0.9375rem;
+    --fs-button: 1rem;
+    --fs-table: 0.9375rem;
+    --fs-table-prompt: 1rem;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
     margin: 0 auto;
     overflow-x: hidden;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+    font-family: var(--font-sans);
+    font-size: var(--fs-base);
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: -0.01em;
@@ -23,10 +49,10 @@ body {
 }
 
 .research-link {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-sans);
     color: #666;
     text-decoration: none;
-    font-size: 18px;
+    font-size: var(--fs-md);
     font-weight: 400;
     transition: color 0.2s ease;
     cursor: pointer;
@@ -60,13 +86,13 @@ body {
 }
 
 .dropdown-content a {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-sans);
     color: #333;
     padding: 14px 18px;
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 16px;
+    font-size: var(--fs-sm);
     transition: background-color 0.2s ease;
 }
 
@@ -133,6 +159,7 @@ table.tbl_video {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     background-color: #f5f5f5;
     border-radius: 12px;
     padding: 1.5rem;
@@ -145,11 +172,19 @@ table.tbl_video {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .tbl_video td {
     padding: 0.5rem;
     vertical-align: top;
+    font-size: var(--fs-table);
+    text-align: center;
+}
+
+.tbl_video td[colspan] {
+    font-size: var(--fs-table-prompt);
+    font-weight: 500;
 }
 
 .container {
@@ -168,6 +203,8 @@ table.tbl_video {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    font-size: var(--fs-base);
+    text-align: center;
 }
 
 .content-narrow--justify {
@@ -211,7 +248,6 @@ table.tbl_video {
 
 .title {
     font-family: inherit;
-    font-size: 60px;
     font-weight: 600;
     margin-top: 30px;
     width: 90%;
@@ -221,20 +257,15 @@ table.tbl_video {
 
 .venue,
 .subtitle {
-    font-family: 'Noto Sans', sans-serif;
-}
-.venue {
-    font-size: 24px;
-    margin-top: 25px;
-    width: 90%;
+    font-family: var(--font-sans);
 }
 
 .venue-list {
     margin: 0.75rem auto 1.25rem;
 }
 
-.venue-primary {
-    font-size: 28px;
+.venue-list .venue-primary {
+    font-size: var(--fs-venue-primary);
     font-weight: 700;
     color: #333;
     margin-bottom: 0.35rem;
@@ -242,8 +273,8 @@ table.tbl_video {
     width: auto;
 }
 
-.venue-secondary {
-    font-size: 20px;
+.venue-list .venue-secondary {
+    font-size: var(--fs-venue-secondary);
     font-weight: 400;
     color: #555;
     line-height: 1.4;
@@ -273,7 +304,7 @@ table.tbl_video {
     border-radius: 10px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: var(--fs-button);
     transition: background-color 0.2s ease, transform 0.1s ease;
     box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
 }
@@ -310,7 +341,7 @@ table.tbl_video {
     max-width: 80%;
     margin: 0 auto 1.5rem;
     text-align: justify;
-    font-size: 1em;
+    font-size: var(--fs-base);
 }
 
 .ack-toggle-btn {
@@ -322,7 +353,7 @@ table.tbl_video {
     max-width: 28rem;
     margin: 1.5rem auto 0;
     text-align: left;
-    font-size: 0.95em;
+    font-size: var(--fs-sm);
     line-height: 1.6;
     padding-left: 1.5rem;
 }
@@ -337,13 +368,22 @@ a[href*=".pdf"]::after {
 .author {
     width: 95%;
     max-width: 300px;
-    font-size: 20px;
+    font-size: var(--fs-author);
 }
 
 .affiliation {
-    font-size: 20px;
+    font-size: var(--fs-affiliation);
     width: 95%;
     max-width: 450px;
+}
+
+.authors {
+    font-size: var(--fs-author);
+}
+
+.affiliations {
+    font-size: var(--fs-affiliation);
+    color: #555;
 }
 
 .points-label {
@@ -383,7 +423,7 @@ a[href*=".pdf"]::after {
 }
 
 .links {
-    font-size: 22px;
+    font-size: var(--fs-md);
     width: 95%;
     max-width: 150px;
 }
@@ -425,7 +465,6 @@ a[href*=".pdf"]::after {
     
     .tbl_video td {
       padding: 0.4rem;
-      font-size: 16px;
     }
   }
   
@@ -442,11 +481,10 @@ a[href*=".pdf"]::after {
     
     .tbl_video td {
       padding: 0.25rem;
-      font-size: 14px;
     }
     
     .tbl_video td[colspan] {
-      font-size: 16px;
+      font-size: var(--fs-sm);
     }
   }
 
@@ -542,13 +580,13 @@ a[href*=".pdf"]::after {
   }
 
   .slider-note {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-sans);
     display: block;
     width: 80%;
     max-width: 1200px;
     margin: 10px auto 0;     /* centered */
     text-align: center;
-    font-size: 18px;
+    font-size: var(--fs-base);
     line-height: 1.4;
     color: rgb(0, 0, 0);
 }
@@ -561,13 +599,13 @@ a[href*=".pdf"]::after {
  }
 
  .map-res-btn {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-sans);
     border: 1px solid #bbb;
     background: #fff;
     padding: 8px 14px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--fs-sm);
  }
 
  .map-res-btn.is-active {
@@ -660,11 +698,13 @@ p {
 }
 
 h1 {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
+    font-family: var(--font-sans);
+    font-size: var(--fs-xl);
+    font-weight: 600;
     text-align: center;
     letter-spacing: -0.01em;
     line-height: 1.3;
+    margin: 2rem 0 1.25rem;
 }
 
 h2 {
@@ -722,7 +762,7 @@ pre code {
     text-align: left;
     word-wrap: normal;
     white-space: pre-wrap;
-    font-size: 14px;
+    font-size: var(--fs-xs);
 }
 
 a:link,
@@ -763,108 +803,30 @@ a:hover {
     margin-right: 45px;
 }
 
-/* Center the Bulma hero header elements without affecting other sections */
+/* Hero header typography */
 .hero .title {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Google Sans', sans-serif;
+    font-family: var(--font-display);
+    font-size: var(--fs-hero);
+    line-height: 1.2;
 }
-.hero .subtitle,
+
 .hero .authors,
 .hero .affiliations,
 .hero p {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--font-sans);
     text-align: center !important;
 }
 
-/* Increase hero heading/subtitle sizes and enlarge the Supplementary button */
-.hero .title {
-    font-size: 65px; /* larger main title */
-}
-.hero .subtitle {
-    font-size: 28px; /* venue e.g. TMLR 2026 */
-}
-.hero .button.is-link.is-light.is-small {
-    font-size: 20px;         /* bigger label */
-    padding: 12px 32px;      /* more padding */
-    min-width: 240px;        /* longer button */
-}
-
-/* Hero-specific: tight buttons */
 .hero .paper-button {
-    font-size: 18px;
+    font-size: var(--fs-button);
     padding: 8px 20px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 992px) {
-    .hero .title { font-size: 56px; }
-    .hero .subtitle { font-size: 26px; }
-}
 @media (max-width: 600px) {
-    .hero .title { font-size: 40px; }
-    .hero .subtitle { font-size: 24px; }
-    .hero .button.is-link.is-light.is-small {
-        font-size: 18px;
-        min-width: 200px;
-        padding: 10px 24px;
-    }
-}
-/* =========================
-   Global +2px font scaling
-   ========================= */
-html {
-    font-size: 18px; /* Bulma/rem-based sizes +2px from default 16px */
-}
-body {
-    font-size: 22px; /* +2px from previous 20px */
-}
-/* Override px-based components by +2px */
-.title {
-    font-size: 62px;
-}
-.venue {
-    font-size: 26px;
-}
-.author {
-    font-size: 22px;
-}
-.affiliation {
-    font-size: 22px;
-}
-.links {
-    font-size: 24px;
-}
-.paper-button {
-    font-size: 20px;
-}
-.research-link {
-    font-size: 20px;
-}
-.dropdown-arrow {
-    font-size: 14px;
-}
-.dropdown-content a {
-    font-size: 18px;
-}
-.slider-note {
-    font-size: 20px;
-}
-pre code {
-    font-size: 16px;
-}
-/* Responsive table text sizes (+2px) */
-@media (max-width: 768px) {
-    .tbl_video td {
-        font-size: 18px;
-    }
-}
-@media (max-width: 480px) {
-    .tbl_video td {
-        font-size: 16px;
-    }
-    .tbl_video td[colspan] {
-        font-size: 18px;
+    .venue-list .venue-secondary {
+        white-space: normal;
     }
 }
