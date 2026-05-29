@@ -112,12 +112,27 @@ body {
 .tbl_video td {
     font-family: 'Noto Sans', sans-serif;
 }
-.tbl_video {
+
+div.tbl_video {
     display: block;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+table.tbl_video {
+    display: table;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #f5f5f5;
     border-radius: 12px;
     padding: 1.5rem;
@@ -528,7 +543,7 @@ a[href*=".pdf"]::after {
 
   .slider-note {
     font-family: 'Noto Sans', sans-serif;
-    display: block;          /* override global `div { display: inline-block; }` */
+    display: block;
     width: 80%;
     max-width: 1200px;
     margin: 10px auto 0;     /* centered */
@@ -662,26 +677,16 @@ h3, h4, h5 {
     text-align: left;
 }
 
-div {
-    display: inline-block;
+hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
 }
 
-/* Layout blocks must stay block-level (global div rule above is for small inline widgets) */
-.container,
-.hero,
-.hero-body,
-.tbl_video,
-.ack-section,
-.slider-container,
-.slider-stage,
-.video-stage {
-    display: block;
-}
-
-/* Override global `div { display: inline-block; }` for the slider layout */
-.slider-container {
-    display: block;
-}
 .slider-layout {
     display: flex;
     margin-left: auto;
@@ -698,24 +703,6 @@ div {
     margin-right: auto;
 }
 .video-stage {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-hr {
-    display: block;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    width: 90%;
-    max-width: 1200px;
-    margin: 2rem auto;
-}
-
-table.tbl_video {
-    display: table;
-    width: 100%;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
