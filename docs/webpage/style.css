@@ -2,6 +2,7 @@
 
 body {
     margin: 0 auto;
+    overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -112,7 +113,9 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 .tbl_video {
+    display: block;
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     background-color: #f5f5f5;
@@ -140,6 +143,29 @@ body {
     max-width: 1200px;
     text-align: center;
     display: block;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content-narrow {
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-narrow--justify {
+    text-align: justify;
+}
+
+.content-figure {
+    display: block;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #visualization {
@@ -640,6 +666,18 @@ div {
     display: inline-block;
 }
 
+/* Layout blocks must stay block-level (global div rule above is for small inline widgets) */
+.container,
+.hero,
+.hero-body,
+.tbl_video,
+.ack-section,
+.slider-container,
+.slider-stage,
+.video-stage {
+    display: block;
+}
+
 /* Override global `div { display: inline-block; }` for the slider layout */
 .slider-container {
     display: block;
@@ -665,10 +703,21 @@ div {
 }
 
 hr {
+    display: block;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+table.tbl_video {
+    display: table;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 pre {
